@@ -88,7 +88,7 @@ export default function AlcoholBeveragePage() {
               <div>
                 <h2 className="font-serif text-2xl text-white mb-4">Award-Winning Farmhouse Brewery</h2>
                 <p className="text-white/60 text-[15px] leading-relaxed mb-4">
-                  Founded in 2017 in the heart of the Klickitat Valley, Dwinell Country Ales
+                  Founded in 2017, Dwinell Country Ales
                   became known for rustic saisons, barrel-aged mixed culture fruit beers, and
                   spontaneous fermentation using their own coolship.
                 </p>
