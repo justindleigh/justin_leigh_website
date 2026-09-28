@@ -182,10 +182,21 @@ async function fetchAndStoreEnrichment(supabase: any, callId: string, quoKey: st
 }
 
 async function handleMessage(supabase: any, eventType: string, msg: any) {
-  if (eventType === "message.received" && msg.direction === "incoming") {
+  // OpenPhone uses different field names across versions; check all common ones.
+  const direction = (msg.direction || "").toLowerCase();
+  const isInbound = direction === "incoming" || direction === "inbound" || direction === "received";
+
+  if (eventType === "message.received" && isInbound) {
     const fromNumber = msg.from;
+    const messageText = msg.text || msg.body || msg.content || "";
+
+    // Look up existing lead by phone (deduplicate so same caller doesn't create N leads).
     const { data: existing } = await supabase.from("contact_submissions")
-      .select("id").eq("phone", fromNumber).limit(1).single();
+      .select("id, message")
+      .eq("phone", fromNumber)
+      .order("created_at", { ascending: false })
+      .limit(1)
+      .maybeSingle();
 
     if (!existing) {
       await supabase.from("contact_submissions").insert({
@@ -193,15 +204,21 @@ async function handleMessage(supabase: any, eventType: string, msg: any) {
         email: `quo-msg-${msg.id}@message.justindleigh.com`,
         phone: fromNumber,
         subject: "Inbound Text Message",
-        message: msg.text || "",
+        message: messageText,
         how_heard: "Text Message",
         status: "new",
         lead_source: "quo",
         lead_type: "message",
       });
+    } else if (messageText && (!existing.message || existing.message.length < messageText.length)) {
+      // If existing row has empty/shorter message, append the new one.
+      const updated = existing.message
+        ? `${existing.message}\n\n---\n${messageText}`
+        : messageText;
+      await supabase.from("contact_submissions").update({ message: updated }).eq("id", existing.id);
     }
   }
-  return { event: eventType, messageId: msg.id };
+  return { event: eventType, messageId: msg.id, captured: msg.text || msg.body || msg.content ? true : false };
 }
 
 function fmtTime(s: number): string {
