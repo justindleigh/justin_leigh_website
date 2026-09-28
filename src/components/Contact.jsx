@@ -53,13 +53,17 @@ export default function Contact() {
           style={{ transitionDelay: inView ? "0.6s" : "0s" }}
         >
           {[
-            { label: "Office", value: "106 N. Grant St.\nGoldendale, WA 98620" },
-            { label: "Mailing", value: "P.O. Box 855\nGoldendale, WA 98620" },
-            { label: "Phone", value: "(509) 426-4415" },
+            { label: "Office", value: "Downtown Spokane, WA\nBy appointment only" },
+            { label: "Mailing", value: "601 W. 1st Ave., Ste. 1400\nPMB #17389612\nSpokane, WA 99201" },
+            { label: "Phone", value: "(509) 426-4415", href: "tel:5094264415" },
           ].map((item) => (
             <div key={item.label}>
               <div className="text-[11px] font-semibold tracking-[3px] uppercase text-white/25 mb-2">{item.label}</div>
-              <div className="font-serif text-lg text-white/70 whitespace-pre-line leading-snug">{item.value}</div>
+              {item.href ? (
+                <a href={item.href} className="font-serif text-lg text-white/70 hover:text-gold transition-colors leading-snug">{item.value}</a>
+              ) : (
+                <div className="font-serif text-lg text-white/70 whitespace-pre-line leading-snug">{item.value}</div>
+              )}
             </div>
           ))}
         </div>

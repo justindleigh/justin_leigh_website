@@ -60,7 +60,7 @@ export default function AlcoholBeveragePage() {
             Legal counsel from an attorney who doesn't just understand the industry, he built a business in it.
             Justin D. Leigh is the founder of{" "}
             <span className="text-gradient-gold font-semibold">Dwinell Country Ales</span>, an
-            award-winning farmhouse brewery in Goldendale, Washington.
+            award-winning farmhouse brewery in Washington.
           </p>
           <p className="text-white/50 text-sm max-w-2xl mx-auto leading-relaxed">
             From navigating federal licensing to resolving distributor disputes, Justin brings
@@ -95,7 +95,7 @@ export default function AlcoholBeveragePage() {
                 <p className="text-white/60 text-[15px] leading-relaxed mb-4">
                   In 2023, the brewery expanded its offerings to include clean lagers, homegrown
                   orchard hard cider, and locally sourced natural wine. The 3,000+ square foot
-                  facility included a tasting room, production space, and spacious patio in downtown Goldendale.
+                  facility included a tasting room, production space, and spacious patio.
                 </p>
                 <p className="text-white/60 text-[15px] leading-relaxed">
                   This real-world experience building and operating a licensed beverage business

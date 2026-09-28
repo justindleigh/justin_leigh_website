@@ -36,7 +36,7 @@ export default function Terms() {
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">6. Jurisdictions</h2>
-            <p className="mb-3">Justin D. Leigh is licensed to practice law in the State of Washington (WSBA #55307) and the State of Oregon. Justin D. Leigh's principal office is in Goldendale, Washington.</p>
+            <p className="mb-3">Justin D. Leigh is licensed to practice law in the State of Washington (WSBA #55307) and the State of Oregon. Justin D. Leigh's principal office is in downtown Spokane, Washington.</p>
             <p>This website may be considered attorney advertising under Washington and Oregon law. The hiring of a lawyer is an important decision that should not be based solely upon advertisements. This website is not intended to solicit clients for matters outside of the jurisdictions in which Justin D. Leigh is licensed.</p>
           </section>
 
@@ -80,7 +80,7 @@ export default function Terms() {
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">13. Governing Law and Venue</h2>
-            <p>These Terms of Use are governed by the laws of the State of Washington. Any disputes arising from the use of this website shall be resolved in the courts of Klickitat County, Washington, or the United States District Court for the Eastern District of Washington.</p>
+            <p>These Terms of Use are governed by the laws of the State of Washington. Any disputes arising from the use of this website shall be resolved in the courts of Spokane County, Washington, or the United States District Court for the Eastern District of Washington.</p>
           </section>
 
           <section>
@@ -98,7 +98,9 @@ export default function Terms() {
             <div className="bg-white/5 border border-white/10 rounded-lg p-5">
               <p className="text-white font-medium">Justin D. Leigh, Attorney at Law</p>
               <p>Law Office of Justin D. Leigh</p>
-              <p>Goldendale, Washington</p>
+              <p>601 W. 1st Ave., Ste. 1400</p>
+              <p>PMB #17389612</p>
+              <p>Spokane, WA 99201</p>
               <p className="mt-2">Phone: <a href="tel:5094264415" className="text-gold hover:text-gold-light transition-colors">(509) 426-4415</a></p>
               <p>Email: <a href="mailto:justindleigh@gmail.com" className="text-gold hover:text-gold-light transition-colors">justindleigh@gmail.com</a></p>
               <p className="mt-2">WSBA #55307</p>

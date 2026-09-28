@@ -167,17 +167,26 @@ export default function ContactPage() {
             {/* Office Address */}
             <div className="border border-white/10 p-6">
               <div className="text-[11px] font-semibold tracking-[3px] uppercase text-gold mb-3">Office</div>
-              <div className="font-serif text-lg text-white/80 leading-snug mb-2">
-                106 N. Grant St.
+              <div className="font-serif text-lg text-white/80 leading-snug">
+                Downtown Spokane, WA
                 <br />
-                Goldendale, WA 98620
+                By appointment only
               </div>
-              <div className="text-xs text-white/40 mb-3">
-                Corner of N. Grant St. & W. Main St.
+            </div>
+
+            {/* Mailing Address */}
+            <div className="border border-white/10 p-6">
+              <div className="text-[11px] font-semibold tracking-[3px] uppercase text-gold mb-3">Mailing</div>
+              <div className="font-serif text-lg text-white/80 leading-snug mb-3">
+                601 W. 1st Ave., Ste. 1400
+                <br />
+                PMB #17389612
+                <br />
+                Spokane, WA 99201
               </div>
               <button
                 onClick={() => {
-                  navigator.clipboard.writeText("106 N. Grant St., Goldendale, WA 98620");
+                  navigator.clipboard.writeText("601 W. 1st Ave., Ste. 1400, PMB #17389612, Spokane, WA 99201");
                   setCopied(true);
                   setTimeout(() => setCopied(false), 2000);
                 }}
@@ -206,7 +215,7 @@ export default function ContactPage() {
             <div className="relative overflow-hidden border border-white/10">
               <iframe
                 title="Office Location"
-                src="https://maps.google.com/maps?q=Law+Office+of+Justin+D.+Leigh,+106+N+Grant+St,+Goldendale,+WA+98620&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=601+W+1st+Ave,+Spokane,+WA+99201&t=&z=17&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="220"
                 style={{ border: 0, filter: "invert(90%) hue-rotate(180deg) saturate(0.3) brightness(0.8)" }}
@@ -216,19 +225,6 @@ export default function ContactPage() {
               />
             </div>
 
-            {/* Office Photo */}
-            <div className="relative overflow-hidden border border-white/10">
-              <img
-                src="/office_front.webp"
-                alt="Law Office of Justin D. Leigh - Downtown Goldendale"
-                className="w-full h-[200px] object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-black/60 to-transparent p-4 pt-10">
-                <div className="font-serif text-xs text-white/70">
-                  Downtown Goldendale Office
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

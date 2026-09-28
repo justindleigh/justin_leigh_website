@@ -13,8 +13,8 @@ const reasons = [
   },
   {
     num: "03",
-    title: "Dual-State Expertise",
-    desc: "Licensed in both Washington and Oregon, Justin provides seamless legal services across state lines throughout the Pacific Northwest.",
+    title: "Local, In-Person Counsel",
+    desc: "Meet with Justin by appointment at his downtown Spokane office, or connect by phone or video if that's easier for you.",
   },
 ];
 
@@ -65,8 +65,8 @@ export default function WhyChoose() {
         >
           {[
             "Licensed in Washington State",
-            "Licensed in Oregon",
-            "Serving the Columbia River Gorge & Beyond",
+            "Downtown Spokane Office",
+            "Serving Spokane, the Inland Northwest & Beyond",
           ].map((item) => (
             <div key={item} className="flex items-center justify-center gap-3 text-[13px] font-medium tracking-wide uppercase text-white/80 w-full sm:w-auto text-center">
               <div className="w-2 h-2 rounded-full bg-gold flex-shrink-0" />

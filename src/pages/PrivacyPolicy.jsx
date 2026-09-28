@@ -79,7 +79,7 @@ export default function PrivacyPolicy() {
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">8. Your Rights</h2>
-            <p className="mb-3">Residents of Washington, Oregon, California, and other jurisdictions may have the following rights regarding their personal information:</p>
+            <p className="mb-3">Residents of Washington, California, and other jurisdictions may have the following rights regarding their personal information:</p>
             <ul className="list-disc list-inside space-y-2 ml-4">
               <li><span className="text-white/90 font-medium">Access:</span> Request a copy of the personal information we hold about you</li>
               <li><span className="text-white/90 font-medium">Correction:</span> Request correction of inaccurate personal information</li>
@@ -126,7 +126,9 @@ export default function PrivacyPolicy() {
             <div className="bg-white/5 border border-white/10 rounded-lg p-5">
               <p className="text-white font-medium">Justin D. Leigh, Attorney at Law</p>
               <p>Law Office of Justin D. Leigh</p>
-              <p>Goldendale, Washington</p>
+              <p>601 W. 1st Ave., Ste. 1400</p>
+              <p>PMB #17389612</p>
+              <p>Spokane, WA 99201</p>
               <p className="mt-2">Phone: <a href="tel:5094264415" className="text-gold hover:text-gold-light transition-colors">(509) 426-4415</a></p>
               <p>Email: <a href="mailto:justindleigh@gmail.com" className="text-gold hover:text-gold-light transition-colors">justindleigh@gmail.com</a></p>
             </div>

@@ -2,8 +2,15 @@ import { Link } from "react-router-dom";
 import VideoPlayer from "./VideoPlayer";
 
 const badges = [
-  { label: "Washington State", icon: "WA" },
-  { label: "Oregon", icon: "OR" },
+  { label: "Spokane, WA", icon: "WA" },
+  {
+    label: "Downtown Office",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-3 h-3 sm:w-3.5 sm:h-3.5" aria-hidden="true">
+        <path d="M4 21V5a1 1 0 011-1h9a1 1 0 011 1v16M15 9h4a1 1 0 011 1v11M3 21h18M8 8h3M8 12h3M8 16h3" />
+      </svg>
+    ),
+  },
   { label: "Free Consultations", icon: "✓" },
 ];
 
@@ -66,7 +73,7 @@ export default function Hero() {
           className="text-white text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mb-8 sm:mb-10 px-2 animate-fade-up"
           style={{ animationDelay: "0.8s" }}
         >
-          Personalized legal representation across Washington and Oregon.
+          Personalized legal representation for clients in Spokane, the Inland Northwest, and throughout Washington State.{" "}
           <br className="hidden sm:block" />
           <span className="text-gradient-gold font-semibold">Tailored strategy</span>, <span className="text-gradient-gold font-semibold">compassionate counsel</span>, and <span className="text-gradient-gold font-semibold">diligent advocacy</span> for
           every client.
@@ -104,9 +111,9 @@ export default function Hero() {
           </div>
           <div className="bg-gold px-3 sm:px-4 flex items-center justify-center">
             <span className="text-[9px] sm:text-[10px] font-bold tracking-wider uppercase text-navy leading-tight text-center">
-              WA & OR
+              Spokane,
               <br />
-              Licensed
+              WA
             </span>
           </div>
         </div>

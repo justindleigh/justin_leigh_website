@@ -17,8 +17,9 @@ export default function Footer() {
             </div>
             <div className="text-[12px] text-white/30 space-y-1 ml-10">
               <p>Justin D. Leigh, Attorney at Law</p>
-              <p>Goldendale, Washington</p>
-              <p>WSBA #55307 | Licensed in WA &amp; OR</p>
+              <p>Office: Downtown Spokane, WA (by appointment only)</p>
+              <p>Mailing: 601 W. 1st Ave., Ste. 1400, PMB #17389612, Spokane, WA 99201</p>
+              <p>WSBA #55307</p>
               <p className="mt-2"><a href="tel:5094264415" className="text-gold/60 hover:text-gold transition-colors">(509) 426-4415</a></p>
             </div>
           </div>
@@ -42,6 +43,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 border-t border-white/5 text-center text-[11px] text-white/20 tracking-wide leading-relaxed">
           <p>&copy; {new Date().getFullYear()} Law Office of Justin D. Leigh. All rights reserved.</p>
+          <p className="mt-1">Licensed to practice law in Washington and Oregon.</p>
           <p className="mt-1">Attorney advertising. Prior results do not guarantee a similar outcome. The hiring of a lawyer is an important decision that should not be based solely upon advertisements.</p>
         </div>
       </div>
