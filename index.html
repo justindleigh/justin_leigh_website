@@ -19,7 +19,22 @@
     <meta name="keywords" content="attorney Spokane WA, Spokane lawyer, downtown Spokane attorney, Inland Northwest attorney, Spokane County lawyer, real estate attorney Spokane, estate planning lawyer Spokane, personal injury attorney Spokane, family law attorney Spokane, business lawyer Washington, civil litigation Washington, landlord tenant attorney, alcohol beverage law, employment lawyer Washington, brewery lawyer, craft beer attorney, TTB compliance attorney, alcohol licensing lawyer Washington, winery lawyer, distillery attorney, Dwinell Country Ales, beverage industry legal counsel" />
     <meta name="author" content="Justin D. Leigh, Attorney-at-Law" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <link rel="canonical" href="https://www.justindleigh.com/" />
+    <!--
+      NO CANONICAL TAG HERE ON PURPOSE.
+
+      This is a client-rendered SPA: every route is served this same index.html.
+      A hardcoded canonical therefore appeared on EVERY page, telling search
+      engines that /ai, /alcohol-beverage-law and /contact were all duplicates
+      of the homepage - while sitemap.xml simultaneously asked for all four to
+      be indexed. Canonical wins that argument, so the practice-area pages were
+      asking not to be ranked.
+
+      With no canonical, each URL is treated as its own page, which is correct.
+
+      Restore a canonical ONLY once the site pre-renders per-route HTML (static
+      generation or a Next.js move), at which point each page can carry one that
+      points at itself.
+    -->
 
     <!-- Geographic SEO -->
     <meta name="geo.region" content="US-WA" />
