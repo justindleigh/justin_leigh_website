@@ -92,12 +92,14 @@ export default function AIPage() {
             Your Legal Practice
           </h1>
           <p className="text-white/80 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-2">
-            Powered by <span className="text-gradient-gold font-semibold">Stalefish</span> consulting.
+            The firm runs a dedicated consulting practice for artificial intelligence, advising
+            law firms and businesses on governance, compliant workflows, and the questions that
+            come with adopting these tools.
             Transform your firm with intelligent automation, compliant AI workflows, and measurable ROI.
           </p>
           <p className="text-white/40 text-sm">
-            Call Justin directly at{" "}
-            <a href="tel:5094264415" className="text-gold hover:text-gold-light transition-colors">(509) 426-4415</a>{" "}
+            Email Justin at{" "}
+            <a href="mailto:justindleigh@gmail.com" className="text-gold hover:text-gold-light transition-colors">justindleigh@gmail.com</a>{" "}
             to discuss your firm's AI strategy.
           </p>
         </div>
@@ -127,8 +129,8 @@ export default function AIPage() {
               <span className="text-gradient-gold font-semibold">Your Practice?</span>
             </h2>
             <p className="text-white/50 text-sm">
-              Fill out the form below or call{" "}
-              <a href="tel:5094264415" className="text-gold hover:text-gold-light transition-colors">(509) 426-4415</a>
+              Fill out the form below or email{" "}
+              <a href="mailto:justindleigh@gmail.com" className="text-gold hover:text-gold-light transition-colors">justindleigh@gmail.com</a>
             </p>
           </div>
 
