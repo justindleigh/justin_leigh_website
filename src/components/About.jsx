@@ -22,7 +22,7 @@ export default function About() {
           >
             <div className="relative pb-6 pr-6">
               <img
-                src="/headshot.png"
+                src="/headshot.webp"
                 alt="Justin D. Leigh, Attorney-at-Law"
                 className="w-full h-auto object-contain grayscale-[20%] relative z-[1]"
               />
