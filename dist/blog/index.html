@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QB7N65Z8X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6QB7N65Z8X');
+    </script>
+
+    <!-- Primary SEO -->
+    <title>Notes on Washington Law | Justin D. Leigh</title>
+    <meta name="description" content="Plain explanations of the Washington law questions people call about most often: real estate, land use, probate, business, employment, and civil rights.">
+    <meta name="keywords" content="attorney Spokane WA, Spokane lawyer, downtown Spokane attorney, Inland Northwest attorney, Spokane County lawyer, real estate attorney Spokane, estate planning lawyer Spokane, personal injury attorney Spokane, family law attorney Spokane, business lawyer Washington, civil litigation Washington, landlord tenant attorney, alcohol beverage law, employment lawyer Washington, brewery lawyer, craft beer attorney, TTB compliance attorney, alcohol licensing lawyer Washington, winery lawyer, distillery attorney, Dwinell Country Ales, beverage industry legal counsel">
+    <meta name="author" content="Justin D. Leigh, Attorney-at-Law">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <!--
+      NO CANONICAL TAG HERE ON PURPOSE.
+
+      This is a client-rendered SPA: every route is served this same index.html.
+      A hardcoded canonical therefore appeared on EVERY page, telling search
+      engines that /ai, /alcohol-beverage-law and /contact were all duplicates
+      of the homepage - while sitemap.xml simultaneously asked for all four to
+      be indexed. Canonical wins that argument, so the practice-area pages were
+      asking not to be ranked.
+
+      With no canonical, each URL is treated as its own page, which is correct.
+
+      Restore a canonical ONLY once the site pre-renders per-route HTML (static
+      generation or a Next.js move), at which point each page can carry one that
+      points at itself.
+    -->
+
+    <!-- Geographic SEO -->
+    <meta name="geo.region" content="US-WA">
+    <meta name="geo.placename" content="Spokane, Washington">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.justindleigh.com/og-image.jpg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="800">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Law Office of Justin D. Leigh">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.justindleigh.com/og-image.jpg">
+
+    <!-- Structured Data: Local Business + Attorney -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LegalService",
+      "@id": "https://www.justindleigh.com/#business",
+      "name": "Law Office of Justin D. Leigh",
+      "alternateName": "Justin D. Leigh, Attorney-at-Law",
+      "url": "https://www.justindleigh.com",
+      "logo": "https://www.justindleigh.com/favicon.svg",
+      "image": "https://www.justindleigh.com/headshot.webp",
+      "description": "Justin D. Leigh is an independent attorney in downtown Spokane, WA offering real estate, business, estate planning, personal injury, family law, and litigation services. Free consultations, by appointment.",
+      "telephone": "+1-509-426-4415",
+      "email": "justindleigh@gmail.com",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "601 W. 1st Ave., Ste. 1400, PMB #17389612",
+        "addressLocality": "Spokane",
+        "addressRegion": "WA",
+        "postalCode": "99201",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "description": "By Appointment Only"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Spokane, WA",
+          "containedInPlace": { "@type": "State", "name": "Washington" }
+        },
+        { "@type": "Place", "name": "Inland Northwest" }
+      ],
+      "knowsAbout": [
+        "Real Estate Law",
+        "Land Use and Zoning",
+        "Landlord-Tenant Law",
+        "Estate Planning",
+        "Probate",
+        "Personal Injury",
+        "Criminal Defense",
+        "Civil Litigation",
+        "Business Law",
+        "Alcohol Beverage Law",
+        "Employment Law",
+        "Civil Rights"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Legal Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Real Estate & Land Use" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landlord-Tenant Law" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estate Planning & Probate" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Personal Injury" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Strategy & Formation" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Alcohol Beverage Law" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Criminal Defense" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Civil Litigation" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Employment Law (Employee-Side)" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Family Law" } }
+        ]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/justin-leigh-65706536a"
+      ]
+    }
+    </script>
+
+    <!-- Structured Data: Attorney Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Attorney",
+      "name": "Justin D. Leigh",
+      "jobTitle": "Attorney-at-Law",
+      "url": "https://www.justindleigh.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/justin-leigh-65706536a"
+      ],
+      "image": "https://www.justindleigh.com/headshot.webp",
+      "telephone": "+1-509-426-4415",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "601 W. 1st Ave., Ste. 1400, PMB #17389612",
+        "addressLocality": "Spokane",
+        "addressRegion": "WA",
+        "postalCode": "99201",
+        "addressCountry": "US"
+      },
+      "worksFor": {
+        "@type": "LegalService",
+        "name": "Law Office of Justin D. Leigh"
+      },
+      "knowsAbout": ["Washington State Law", "Real Estate", "Estate Planning", "Personal Injury", "Criminal Defense", "Business Law", "Civil Litigation", "Alcohol Beverage Law", "Employment Law"]
+    }
+    </script>
+
+    <!-- Structured Data: Website SearchAction -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://www.justindleigh.com",
+      "name": "Law Office of Justin D. Leigh",
+      "description": "Attorney in downtown Spokane, WA serving Spokane and the Inland Northwest"
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <script type="module" crossorigin="" src="/assets/index-B564XXzA.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-DtpEvysN.css">
+  <link rel="canonical" href="https://www.justindleigh.com/blog">
+  <meta property="og:url" content="https://www.justindleigh.com/blog">
+  <meta property="og:title" content="Notes on Washington Law | Justin D. Leigh">
+  <meta property="og:description" content="Plain explanations of the Washington law questions people call about most often: real estate, land use, probate, business, employment, and civil rights.">
+  <meta name="twitter:title" content="Notes on Washington Law | Justin D. Leigh">
+  <meta name="twitter:description" content="Plain explanations of the Washington law questions people call about most often: real estate, land use, probate, business, employment, and civil rights.">
+</head>
+  <body>
+    <div id="root"><a href="#main-content" class="skip-link">Skip to main content</a><nav aria-label="Main navigation" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 animate-nav-down bg-transparent"><div class="max-w-[1440px] w-full mx-auto px-6 lg:px-10 h-[72px] flex items-center justify-between"><a class="flex items-center gap-2 sm:gap-3 group flex-shrink-0" href="/" data-discover="true"><div class="w-8 h-8 border border-gold/60 flex items-center justify-center text-gold font-serif font-bold text-sm group-hover:bg-gold/10 transition-colors">JL</div><span class="font-medium tracking-tight text-white text-sm hidden sm:block">Justin D. Leigh</span></a><div class="hidden xl:flex items-center gap-1"><a class="relative px-4 py-2 text-[13px] font-medium tracking-wide transition-colors whitespace-nowrap text-white/40 hover:text-white/70" href="/#practice" data-discover="true">Practice Areas</a><a class="relative px-4 py-2 text-[13px] font-medium tracking-wide transition-colors whitespace-nowrap text-white/40 hover:text-white/70" href="/#about" data-discover="true">About</a><a class="relative px-4 py-2 text-[13px] font-medium tracking-wide transition-colors whitespace-nowrap text-white/40 hover:text-white/70" href="/#why" data-discover="true">Why Justin</a><a class="relative px-4 py-2 text-[13px] font-medium tracking-wide transition-colors whitespace-nowrap text-white/40 hover:text-white/70" href="/alcohol-beverage-law" data-discover="true">Beverage Law</a><a class="relative px-4 py-2 text-[13px] font-medium tracking-wide transition-colors whitespace-nowrap text-white/40 hover:text-white/70" href="/contact" data-discover="true">Contact</a></div><div class="hidden xl:flex items-center gap-5"><a class="relative px-4 py-2 text-[12px] font-semibold tracking-wide border border-gold/60 text-gold hover:bg-gold hover:text-navy transition-all duration-300 whitespace-nowrap" href="/ai" data-discover="true">Integrate A.I. Into Your Practice</a><a href="tel:5094264415" class="text-[13px] text-gold hover:text-gold-light transition-colors whitespace-nowrap">(509) 426-4415</a><a class="relative px-5 py-2.5 text-[12px] font-semibold text-navy bg-gold hover:bg-gold-light transition-all duration-300 tracking-wide whitespace-nowrap" href="/contact" data-discover="true">Free Consultation</a><button class="relative w-12 h-6 rounded-full bg-white/10 border border-white/10 flex items-center transition-colors duration-300 hover:bg-white/15 ml-3" aria-label="Toggle theme"><div class="absolute w-5 h-5 rounded-full transition-all duration-300 flex items-center justify-center text-[10px] left-0.5 bg-navy text-gold">🌙</div></button></div><div class="xl:hidden flex items-center gap-3"><button class="relative w-12 h-6 rounded-full bg-white/10 border border-white/10 flex items-center transition-colors duration-300 hover:bg-white/15 " aria-label="Toggle theme"><div class="absolute w-5 h-5 rounded-full transition-all duration-300 flex items-center justify-center text-[10px] left-0.5 bg-navy text-gold">🌙</div></button><button class="w-10 h-10 flex items-center justify-center relative" aria-label="Menu"><span class="absolute w-5 h-[1.5px] bg-white transition-all duration-300 top-[13px]"></span><span class="absolute w-5 h-[1.5px] bg-white transition-all duration-300 top-[19px]"></span><span class="absolute w-5 h-[1.5px] bg-white transition-all duration-300 top-[25px]"></span></button></div></div><style>
+        @keyframes navSlideDown {
+          from { opacity: 0; transform: translateY(-80px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-nav-down {
+          animation: navSlideDown 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+      </style></nav><main id="main-content"><section class="min-h-screen bg-black pt-28 pb-16 px-6"><div class="max-w-6xl mx-auto"><div class="text-center mb-20"><h1 class="font-serif text-[clamp(2.2rem,5vw,4rem)] font-light text-white mb-4 leading-tight">Notes on <span class="text-gradient-gold font-semibold">Washington Law</span></h1><p class="text-white/40 text-sm mt-5">16 articles · general information, not legal advice</p></div><div class="mb-16"><span class="text-[11px] font-semibold tracking-[4px] uppercase text-gold mb-6 block">Real Estate &amp; Property</span><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/buying-selling-property-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Buying and Selling Property in Washington: What You Are Actually Signing</h3><p class="text-white/60 text-sm leading-relaxed mb-4">You signed a purchase and sale agreement eleven days ago, the inspection came back with a page and a half of problems, and your agent says the response deadline is tomorrow. Or you…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">7 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/reading-a-title-report-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">How to Read a Title Report in Washington: Schedule B Is the Whole Document</h3><p class="text-white/60 text-sm leading-relaxed mb-4">Escrow emailed you a forty-page PDF called a Preliminary Commitment for Title Insurance, your agent said it looks clean, and your contract gives you a few days to object to anythin…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">8 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/adverse-possession-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Adverse Possession in Washington: Ten Years, Five Elements, and Why Mowing Is Not Enough</h3><p class="text-white/60 text-sm leading-relaxed mb-4">Your neighbor's fence has been eight feet onto your lot since before you bought the place, and he has just told you the strip is his because he has maintained it for fifteen years.…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">8 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/easements-boundary-disputes-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Easements and Boundary Disputes in Washington: Scope Is the Real Fight</h3><p class="text-white/60 text-sm leading-relaxed mb-4">The gravel road to your house crosses the neighbor's field, and the neighbor has just put a gate across it. Or you hold a recorded easement and the neighbor is running a utility li…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">8 min read</span></a></div></div><div class="mb-16"><span class="text-[11px] font-semibold tracking-[4px] uppercase text-gold mb-6 block">Land Use &amp; Development</span><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/dividing-developing-land-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Dividing and Developing Land in Washington: Which Process You Are Actually In</h3><p class="text-white/60 text-sm leading-relaxed mb-4">You own five acres outside town and want to carve off a piece for your daughter. Or you have a corner lot and a contractor who says you can put two small units behind the house. Or…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">8 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/washington-land-use-permitting-appeals" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Land Use Permits and Appeals in Washington: Why the Deadline Decides Most Cases</h3><p class="text-white/60 text-sm leading-relaxed mb-4">A notice appears on a pole at the edge of the lot behind your house, describing something you have to read three times to understand. Or you are on the other side of it, a year and…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">7 min read</span></a></div></div><div class="mb-16"><span class="text-[11px] font-semibold tracking-[4px] uppercase text-gold mb-6 block">Estates &amp; Probate</span><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/will-or-trust-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Do You Need a Will or a Trust in Washington?</h3><p class="text-white/60 text-sm leading-relaxed mb-4">You have been meaning to deal with this for three years. Somebody at work mentioned a living trust, and now you are not sure whether the will you signed in 2011 is worth anything o…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">8 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/probate-in-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Probate in Washington: What Actually Happens After a Parent Dies</h3><p class="text-white/60 text-sm leading-relaxed mb-4">Your mother died eleven days ago. There is a will somewhere, a house with a mortgage, a bank that will not talk to you, and a sibling who has opinions. Somebody told you probate ta…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">8 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/tedra-estate-disputes-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Will Contests, Trustee Disputes, and TEDRA in Washington</h3><p class="text-white/60 text-sm leading-relaxed mb-4">Your father signed a new will fourteen months before he died. It leaves most of what he had to the person who was driving him to appointments, and it was drafted by a lawyer nobody…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">8 min read</span></a></div></div><div class="mb-16"><span class="text-[11px] font-semibold tracking-[4px] uppercase text-gold mb-6 block">Business &amp; Licensing</span><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/washington-llc-formation-operating-agreements" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Forming a Washington LLC, and the Operating Agreement That Actually Governs It</h3><p class="text-white/60 text-sm leading-relaxed mb-4">Two people go into business together. One has money, the other has the trade and the customer list, and they agree to split things fairly. The LLC gets filed online in twenty minut…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">7 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/washington-liquor-license-lcb" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Washington Liquor Licenses and LCB Compliance: The Rules That Catch Owners Off Guard</h3><p class="text-white/60 text-sm leading-relaxed mb-4">You have a purchase and sale agreement for a neighborhood bar, a closing date, and a price allocation with a line item for the liquor license. Or you run a brewery, and a restauran…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">8 min read</span></a></div></div><div class="mb-16"><span class="text-[11px] font-semibold tracking-[4px] uppercase text-gold mb-6 block">Civil Rights &amp; Employment</span><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/civil-rights-section-1983-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Section 1983 Claims in Washington: Civil Rights Lawsuits Against Government</h3><p class="text-white/60 text-sm leading-relaxed mb-4">An officer put you on the ground during a traffic stop and you still cannot lift your arm over your head. A city council voted on a permit in a meeting nobody was told about. You a…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">7 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/employment-discrimination-washington-wlad" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Washington's Law Against Discrimination: What It Covers That Federal Law Does Not</h3><p class="text-white/60 text-sm leading-relaxed mb-4">You were told your position was eliminated three weeks after you asked about medical leave. Or a supervisor has been making comments for most of a year, you reported it, and now yo…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">7 min read</span></a></div></div><div class="mb-16"><span class="text-[11px] font-semibold tracking-[4px] uppercase text-gold mb-6 block">Family</span><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/washington-parenting-plans-fathers-rights" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Fathers’ Rights and Parenting Plans in Washington: What the Statute Actually Asks</h3><p class="text-white/60 text-sm leading-relaxed mb-4">You have been served, or you are about to file, and the question underneath every other question is whether a Washington court is going to treat you as the backup parent. Search fo…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">7 min read</span></a></div></div><div class="mb-16"><span class="text-[11px] font-semibold tracking-[4px] uppercase text-gold mb-6 block">Technology &amp; Practice</span><div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/ai-and-your-lawyer-washington" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">Can My Lawyer Use AI? What It Does, What It Cannot Do, and What to Ask</h3><p class="text-white/60 text-sm leading-relaxed mb-4">You read that a lawyer somewhere got in trouble for filing a brief citing cases that did not exist, and now you are wondering whether the person handling your matter is doing the s…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">7 min read</span></a><a class="glass block p-6 border border-white/5 hover:border-gold/30 transition-colors group" href="/blog/ai-governance-for-law-firms" data-discover="true"><h3 class="font-serif text-xl text-white mb-3 leading-snug group-hover:text-gold-light transition-colors">AI Governance for Law Firms: What to Write Down, What to Buy, and What to Build</h3><p class="text-white/60 text-sm leading-relaxed mb-4">Most firms I talk to are somewhere in the same place. Someone is already using a chatbot, nobody has written anything down, a vendor has been in touch about a platform that costs m…</p><span class="text-[11px] uppercase tracking-[3px] text-gold">6 min read</span></a></div></div><div class="max-w-3xl mx-auto text-center pt-12 border-t border-white/5"><h2 class="font-serif text-2xl font-light text-white mb-3">Have a question these do not answer?</h2><p class="text-white/50 text-sm mb-6 leading-relaxed">These articles are general information about Washington law. They are not legal advice and reading them does not make you a client.</p><a class="inline-block px-8 py-3 border border-gold/40 text-gold hover:bg-gold/10 transition-colors text-sm tracking-wide" href="/contact" data-discover="true">Get in touch</a></div></div></section></main><footer aria-label="Site footer" class="bg-black border-t border-white/5 py-10 px-6"><div class="max-w-7xl mx-auto"><div class="flex flex-col sm:flex-row items-start justify-between gap-8"><div><div class="flex items-center gap-3 mb-3"><div class="w-7 h-7 border border-gold/40 flex items-center justify-center text-gold font-serif font-bold text-xs">JL</div><span class="text-sm text-white/40">Law Office of Justin D. Leigh</span></div><div class="text-[12px] text-white/30 space-y-1 ml-10"><p>Justin D. Leigh, Attorney at Law</p><p>Office: Downtown Spokane, WA (by appointment only)</p><p>Mailing: 601 W. 1st Ave., Ste. 1400, PMB #17389612, Spokane, WA 99201</p><p>WSBA #55307</p><p class="mt-2"><a href="tel:5094264415" class="text-gold/60 hover:text-gold transition-colors">(509) 426-4415</a></p></div></div><div class="flex flex-col sm:flex-row gap-8"><div class="flex flex-col gap-2"><span class="text-[10px] font-semibold tracking-[2px] uppercase text-white/20 mb-1">Navigate</span><a href="/#about" class="text-xs text-white/30 hover:text-gold/70 transition-colors">About</a><a class="text-xs text-white/30 hover:text-gold/70 transition-colors" href="/contact" data-discover="true">Contact</a><a class="text-xs text-white/30 hover:text-gold/70 transition-colors" href="/alcohol-beverage-law" data-discover="true">Beverage Law</a></div><div class="flex flex-col gap-2"><span class="text-[10px] font-semibold tracking-[2px] uppercase text-white/20 mb-1">Legal</span><a class="text-xs text-white/30 hover:text-gold/70 transition-colors" href="/privacy" data-discover="true">Privacy Policy</a><a class="text-xs text-white/30 hover:text-gold/70 transition-colors" href="/terms" data-discover="true">Terms &amp; Disclaimer</a><a class="text-xs text-white/30 hover:text-gold/70 transition-colors" href="/accessibility" data-discover="true">Accessibility</a></div></div></div><div class="mt-8 pt-6 border-t border-white/5 text-center text-[11px] text-white/20 tracking-wide leading-relaxed"><p>© 2026 Justin D. Leigh, PLLC, d/b/a Law Office of Justin D. Leigh. All rights reserved.</p><p class="mt-1">Licensed to practice law in Washington and Oregon.</p><p class="mt-1">Attorney advertising. Prior results do not guarantee a similar outcome. The hiring of a lawyer is an important decision that should not be based solely upon advertisements.</p></div></div></footer></div>
+  
+
+</body></html>

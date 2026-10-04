@@ -8,7 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+# dist IS committed on purpose. The build prerenders every route with a
+# headless browser so crawlers get real HTML, and Vercel's build container
+# cannot launch one (it failed on commit 64eb1bc). The site is therefore built
+# and verified locally, and Vercel serves the result. See vercel.json.
 dist-ssr
 *.local
 .env
