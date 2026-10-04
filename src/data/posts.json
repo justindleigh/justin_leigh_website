@@ -2386,5 +2386,172 @@
   "words": 1448,
   "minutes": 6,
   "file": "16-ai-governance-for-law-firms.docx"
+ },
+ {
+  "slug": "alcohol-litigation-commerce-clause",
+  "title": "Alcohol Litigation and the Commerce Clause: Three Cases I Am Working On",
+  "titleTag": "Alcohol Litigation and the Commerce Clause | Justin D. Leigh",
+  "practiceArea": "Alcohol Beverage Licensing and Litigation",
+  "description": "How the dormant Commerce Clause reaches state liquor law, from Granholm to three current cases: brewery self-distribution in Oregon, distillery direct shipping in Washington, and a TTB challenge over vintage labels on cider and fruit wine.",
+  "lede": "A brewery in Washington can sell a keg to a bar across the street. The same brewery, shipping that keg across a state line, runs into a wall of rules that exist for one reason: it is from somewhere else. For twenty years a small group of lawyers has been dismantling those rules one state at a time, and in the last few years I have been working on three of those cases.",
+  "intro": [
+   "This piece is about why those rules keep losing, what the doctrine actually says, and where the three cases stand. It is written for people in the beverage industry who keep being told that something is simply not allowed."
+  ],
+  "sections": [
+   {
+    "heading": "The Twenty-first Amendment is narrower than people think",
+    "paras": [
+     {
+      "p": "Section 2 of the Twenty-first Amendment gives states authority over the transportation and importation of alcohol, and for decades it was treated as close to absolute. A state could regulate alcohol more or less however it liked, and the usual constitutional limits on protectionism were assumed not to apply."
+     },
+     {
+      "p": "The dormant Commerce Clause is the doctrine on the other side. It is the negative implication of Congress’s power to regulate interstate commerce: a state generally may not pass laws that discriminate against out-of-state businesses in order to protect its own. The question for alcohol was which of those two rules wins."
+     },
+     {
+      "p": "In 2005 the Supreme Court answered it in Granholm v. Heald. Michigan and New York let in-state wineries ship directly to consumers while barring out-of-state wineries from doing the same. The Court held that the Twenty-first Amendment restored to the states only the regulatory powers they held before Prohibition, and that those powers remain subject to the Commerce Clause. A state may regulate alcohol strictly, but it may not use that authority to favor its own producers. The decision was five to four."
+     },
+     {
+      "p": "Granholm is the hinge. Almost every case described below runs through it."
+     }
+    ]
+   },
+   {
+    "heading": "What happened after Granholm",
+    "paras": [
+     {
+      "p": "Granholm answered the question for wineries shipping to consumers. It did not answer it for retailers, for distilleries, for self-distribution, or for the dozens of other places where state alcohol codes draw an in-state versus out-of-state line. The Court returned to the subject in 2019 in Tennessee Wine and Spirits Retailers Association v. Thomas, striking down a durational residency requirement for retail liquor licenses and making clear that the nondiscrimination principle is not limited to producers."
+     },
+     {
+      "p": "The work of applying that principle, state by state and rule by rule, has largely fallen to a small number of lawyers who have been doing it since before Granholm. Robert Epstein and Alex Tanford, of Epstein Seif Porter and Beutel, brought many of the cases that produced Granholm and have continued the campaign across the country since. Their approach is incremental and deliberate: identify a state rule that treats an out-of-state business worse than an identical in-state one, find a plaintiff genuinely injured by it, and litigate the discrimination rather than the policy."
+     },
+     {
+      "p": "I have worked with them on two of the three cases below."
+     }
+    ]
+   },
+   {
+    "heading": "Garden Path and the Oregon Liquor and Cannabis Commission",
+    "paras": [
+     {
+      "p": "Oregon let in-state breweries sell their own beer directly to retailers. Out-of-state breweries had to go through a licensed wholesaler, which means giving up margin, giving up control of how the product is sold, and in practice often means not entering the market at all."
+     },
+     {
+      "p": "That is the Granholm pattern almost exactly, moved one step down the supply chain from consumers to retailers."
+     },
+     {
+      "p": "The case was brought on behalf of Garden Path Fermentation, a Washington producer. I facilitated the litigation and served as an expert witness. The state settled, and the result is that out-of-state breweries can now self-distribute in Oregon on the same terms as Oregon breweries."
+     },
+     {
+      "p": "Settlements do not make binding precedent, which is worth saying plainly. What they do is change the rule on the ground in that state and remove one more example of a regime that a later court would otherwise be told is normal and widespread."
+     }
+    ]
+   },
+   {
+    "heading": "Shady Knoll and direct shipping in Washington",
+    "paras": [
+     {
+      "p": "Washington permits direct-to-consumer shipping on terms that favor in-state operations. The Shady Knoll case was brought on behalf of out-of-state distilleries that want to ship directly to Washington consumers and cannot."
+     },
+     {
+      "p": "While summary judgment was under consideration, the Ninth Circuit decided Day v. Henry, an Arizona case. Arizona prevented retailers without in-state premises from shipping wine to Arizona consumers, and a divided panel upheld the scheme. The majority’s reasoning was that the law did not discriminate because an out-of-state retailer could establish an Arizona location and qualify for the same shipping privileges, and that out-of-state businesses had in fact done so."
+     },
+     {
+      "p": "That reasoning does not transfer to our case, and the reason is the distinction Granholm itself drew. Day was about retailers, and it turned on the availability of in-state licensure to an out-of-state retailer willing to open a physical location. Shady Knoll is about producers shipping their own product, which is the precise situation Granholm addressed. A rule that tells an out-of-state distillery it may ship only if it builds a presence in the state is not the same as a rule about retail licensing, and treating the two as interchangeable collapses a line the Supreme Court drew deliberately."
+     },
+     {
+      "p": "The trial court nonetheless applied Day to our case and granted summary judgment against us. We believe that was error, and it is the heart of the appeal. The appeal was argued over the summer."
+     },
+     {
+      "p": "The case is now deferred, and the reason it is deferred is the interesting part."
+     }
+    ]
+   },
+   {
+    "heading": "Why an ammunition case is holding up a liquor case",
+    "paras": [
+     {
+      "p": "The Ninth Circuit has deferred our case pending the en banc decision in Rhode v. Bonta. That case is not about alcohol at all. It is a challenge to California’s ammunition background check scheme, brought on Second Amendment grounds and on dormant Commerce Clause grounds."
+     },
+     {
+      "p": "The Commerce Clause half is what matters to us. The three-judge panel held that barring unlicensed out-of-state ammunition vendors from selling into California violated the dormant Commerce Clause. That is the same analytical move as our case, with a different product. The full court then took the case en banc, which wiped the panel decision, and it was argued and submitted in Pasadena in March 2026. As of this writing no en banc opinion has issued."
+     },
+     {
+      "p": "So the controlling statement of dormant Commerce Clause law in this circuit is, for the moment, unsettled, and a panel sensibly declined to decide our case before the full court decides what the test is. This is ordinary appellate practice and it is also why these cases take years."
+     },
+     {
+      "p": "It is also a useful illustration of something people in the beverage industry often miss: the doctrine that governs your shipping rules is not alcohol law. It is constitutional law that happens to be applied to alcohol, and it moves when a case about something else entirely moves."
+     }
+    ]
+   },
+   {
+    "heading": "Garden Path again, this time against the federal government",
+    "paras": [
+     {
+      "p": "The newest case is different in kind. It is not a Commerce Clause case and it is not against a state."
+     },
+     {
+      "p": "Federal regulations let a grape wine producer put the harvest year on the label. A producer of cider, mead, or fruit wine cannot, even where the statement is entirely accurate, because the vintage date rules are written around grapes. For a producer whose whole argument is that the fruit and the season matter, being forbidden to say which season is a real commercial injury."
+     },
+     {
+      "p": "The claim is that suppressing truthful, non-misleading commercial speech fails First Amendment scrutiny, and that the rule is arbitrary and capricious under the Administrative Procedure Act. The defendant is the Alcohol and Tobacco Tax and Trade Bureau."
+     },
+     {
+      "p": "The procedural posture is where it sits now. The government moved to dismiss. We amended the complaint. The government has moved to dismiss again, and we are waiting on the trial court to decide whether the case goes forward at all. Nothing about the vintage rules themselves has been decided, and none of this is unusual in a case against a federal agency: the first real fight is usually about whether you are allowed to have the fight."
+     }
+    ]
+   },
+   {
+    "heading": "What the three have in common",
+    "paras": [
+     {
+      "p": "None of them argues that a state cannot regulate alcohol. That argument loses, and it should."
+     },
+     {
+      "p": "Each argues something narrower: that a particular rule treats an identical out-of-state business worse for no reason the state can actually defend, or that a federal rule forbids a true statement for no reason the agency can actually defend. The remedy sought is equal treatment rather than deregulation."
+     },
+     {
+      "p": "That is why these cases keep winning, and it is also why they proceed one rule at a time instead of in a single national stroke."
+     }
+    ]
+   },
+   {
+    "heading": "If you are in the industry",
+    "paras": [
+     {
+      "p": "The practical lesson is that \"you are not allowed to do that\" is sometimes a statement about a rule that has not been tested rather than a statement about the law. Three-tier structures, residency requirements, in-state presence requirements, and self-distribution rules all deserve a second look when they happen to fall only on businesses from somewhere else."
+     },
+     {
+      "p": "The threshold questions are mundane. Does the rule treat an in-state business and an out-of-state business differently. Is there a plaintiff who is genuinely injured by it rather than merely annoyed. Can the state articulate a reason that survives contact with the record. If the answers line up, there is a case. If they do not, there is not, and that is worth knowing early and cheaply."
+     }
+    ]
+   },
+   {
+    "heading": "About my practice",
+    "paras": [
+     {
+      "p": "I am an independent attorney in downtown Spokane, at 601 W. 1st Ave., Suite 1400, admitted in Washington and in Oregon. Alcohol beverage work is a substantial part of what I do, on both the licensing side and the litigation side. I handle Washington liquor licensing and WSLCB compliance, formation and governance for breweries, wineries, cideries and distilleries, and constitutional and regulatory litigation of the kind described above. I previously owned a brewery and a winery, which is the reason I understand what a distribution rule does to a business rather than only what it says."
+     }
+    ]
+   },
+   {
+    "heading": "If you have a rule in your way",
+    "paras": [
+     {
+      "p": "The first conversation is short. What do you want to do, which rule stops you, and does that rule apply the same way to a competitor based in the state. That is usually enough to say whether there is something here."
+     }
+    ]
+   },
+   {
+    "heading": "Disclaimer",
+    "paras": [
+     {
+      "p": "This article is general information about alcohol beverage law and constitutional litigation, not legal advice, and reading it does not create an attorney-client relationship. The cases described are at various stages and nothing here predicts how any of them will come out. Case outcomes depend on their own facts, and prior results do not guarantee a similar outcome."
+     }
+    ]
+   }
+  ],
+  "words": 1680,
+  "minutes": 7,
+  "file": "17-alcohol-litigation-commerce-clause.docx"
  }
 ]

@@ -33,6 +33,7 @@ const GROUPS = [
     slugs: [
       "washington-llc-formation-operating-agreements",
       "washington-liquor-license-lcb",
+      "alcohol-litigation-commerce-clause",
     ],
   },
   {
