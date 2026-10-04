@@ -7,6 +7,7 @@ const navLinks = [
   { label: "About", href: "/#about", section: "about" },
   { label: "Why Justin", href: "/#why", section: "why" },
   { label: "Beverage Law", href: "/alcohol-beverage-law" },
+  { label: "Articles", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
 

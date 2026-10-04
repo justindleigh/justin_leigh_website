@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import PracticeAreas from "./components/PracticeAreas";
 import About from "./components/About";
 import WhyChoose from "./components/WhyChoose";
+import ArticlesTeaser from "./components/ArticlesTeaser";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ContactPage from "./pages/ContactPage";
@@ -23,6 +24,7 @@ function HomePage() {
       <PracticeAreas />
       <About />
       <WhyChoose />
+      <ArticlesTeaser />
       <Contact />
     </>
   );

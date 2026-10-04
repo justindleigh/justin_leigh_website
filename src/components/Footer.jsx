@@ -31,6 +31,7 @@ export default function Footer() {
               <a href="/#about" className="text-xs text-white/30 hover:text-gold/70 transition-colors">About</a>
               <Link to="/contact" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Contact</Link>
               <Link to="/alcohol-beverage-law" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Beverage Law</Link>
+              <Link to="/blog" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Articles</Link>
             </div>
             <div className="flex flex-col gap-2">
               <span className="text-[10px] font-semibold tracking-[2px] uppercase text-white/20 mb-1">Legal</span>
