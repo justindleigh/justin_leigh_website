@@ -248,7 +248,7 @@
       "p": "What it does not insure matters just as much. Exclusion 1.a. of the current forms excludes coverage for any law or governmental regulation that regulates, restricts, or prohibits the use and occupancy of the land, the character, dimensions, or location of any improvement, a subdivision of the land, or environmental remediation or protection. Zoning, building codes, setbacks, short-plat eligibility, critical-areas rules, and septic permitting are, with narrow exceptions, outside the policy. The forms reinforce this by defining Public Records as the recording system that imparts constructive notice, expressly excluding building, zoning, planning, licensing, health, public safety, and environmental protection records."
      },
      {
-      "p": "So the policy will not tell you whether you can build, or whether the existing garage was permitted. And anything listed in Schedule B is, by definition, not covered."
+      "p": "So the policy will not tell you whether you can build, or whether the existing garage was permitted. And a matter listed as an exception in Schedule B, Part II is excluded from the policy's coverage, which is a different thing from the requirements in Part I."
      }
     ]
    },
@@ -311,7 +311,7 @@
     ]
    }
   ],
-  "words": 1840,
+  "words": 1858,
   "minutes": 8,
   "file": "02-reading-a-title-report-washington.docx"
  },
@@ -333,7 +333,7 @@
       "p": "The elements come from case law rather than a single statute. To establish a claim of adverse possession, the possession must be exclusive, actual and uninterrupted, open and notorious, and hostile and under a claim of right made in good faith."
      },
      {
-      "p": "The clock comes from a statute, and not the one people expect. The period throughout which these elements must concurrently exist is ten years, under RCW 4.16.020, which sets a ten-year limitation period for actions for the recovery of real property. Chaplin, 100 Wn.2d at 857. Chapter 7.28 RCW supplies related provisions, including the shorter alternatives below, but the ordinary ten-year route runs through RCW 4.16.020."
+      "p": "The clock comes from a statute, and not the one people expect. The period throughout which these elements must concurrently exist is ten years, under RCW 4.16.020, which sets a ten-year limitation period for actions for the recovery of real property. Chapter 7.28 RCW supplies related provisions, including the shorter alternatives below, but the ordinary ten-year route runs through RCW 4.16.020."
      },
      {
       "p": "Two features matter more than the rest."
@@ -342,7 +342,7 @@
       "p": "First, the elements must exist concurrently and for the full ten years. Nine years of perfect possession followed by a year of absence does not add up. The claimant also carries the burden on every element, because the legal title holder enjoys the presumption of possession."
      },
      {
-      "p": "Second, \"hostile\" does not mean hostile. Washington abandoned any requirement of subjective bad intent decades ago. The nature of the possession is determined solely on the basis of the manner in which the possessor treats the property, and the possessor's subjective belief about who really owns the land is irrelevant. Chaplin, 100 Wn.2d at 861. A neighbor who sincerely believed the fence was the boundary is not disqualified by that belief, and one who knew better does not lose for knowing."
+      "p": "Second, \"hostile\" does not mean hostile. Washington abandoned any requirement of subjective bad intent decades ago. The nature of the possession is determined solely on the basis of the manner in which the possessor treats the property, and the possessor's subjective belief about who really owns the land is irrelevant. A neighbor who sincerely believed the fence was the boundary is not disqualified by that belief, and one who knew better does not lose for knowing."
      }
     ]
    },
@@ -364,7 +364,7 @@
     "heading": "How does permission destroy an adverse possession claim?",
     "paras": [
      {
-      "p": "Completely, and this is the most common reason a claim collapses. Permission to occupy the land, given by the true title owner to the claimant or his predecessors in interest, will still operate to negate the element of hostility. Chaplin, 100 Wn.2d at 861 to 862. Permission and adversity are mutually exclusive, so if the use began with consent, the clock never started."
+      "p": "Completely, and this is the most common reason a claim collapses. Permission to occupy the land, given by the true title owner to the claimant or his predecessors in interest, will still operate to negate the element of hostility. Permission and adversity are mutually exclusive, so if the use began with consent, the clock never started."
      },
      {
       "p": "Two consequences follow that people find counterintuitive."
@@ -449,7 +449,7 @@
     "heading": "What a lawyer does here that you cannot do yourself",
     "paras": [
      {
-      "p": "The elements are public; the work is in the evidence and the procedure. That means establishing the ten-year window with sources that survive cross-examination, which often means aerial photography, tax records, utility records, prior surveys, and the recollections of people who lived there then. It means reading the chain of title for the privity tacking requires, and for the permission that defeats the claim. It means choosing between the ten-year route and a seven-year statutory route based on what the documents actually support. And it means bringing or defending a quiet title action, because a judgment is the only thing that makes the result marketable. These cases are tried on testimony about what happened on a strip of ground twenty years ago, and the side that assembled that record first usually prevails."
+      "p": "The elements are public; the work is in the evidence and the procedure. That means establishing the ten-year window with sources that survive cross-examination, which often means aerial photography, tax records, utility records, prior surveys, and the recollections of people who lived there then. It means reading the chain of title for the privity tacking requires, and for the permission that defeats the claim. It means choosing between the ten-year route and a seven-year statutory route based on what the documents actually support. And it means bringing or defending a quiet title action, because a judgment is usually what makes the result marketable, though a recorded boundary line agreement or a deed from the neighbor can also do it. These cases are tried on testimony about what happened on a strip of ground twenty years ago, which is why contemporaneous evidence matters more than argument."
      },
      {
       "p": "That is the work I do. I am an independent attorney in downtown Spokane, and real estate is the largest part of my practice: boundary and encroachment disputes, adverse possession and prescriptive easement claims on both sides, easement and access matters, and quiet title actions, in superior courts across Washington, most often in Spokane, Klickitat, Kittitas, Benton, Franklin and Yakima counties."
@@ -473,7 +473,7 @@
     ]
    }
   ],
-  "words": 1843,
+  "words": 1839,
   "minutes": 8,
   "file": "03-adverse-possession-washington.docx"
  },
@@ -537,7 +537,7 @@
       "p": "A survey is a licensed professional's opinion locating a written legal description on the ground, and only a land surveyor may sign, stamp, or seal a map or description filed as a public record. RCW 58.09.030. It is usually the most valuable document in a boundary dispute. It is not a judgment, and it does not move a line."
      },
      {
-      "p": "Two competent surveyors can reach different conclusions from the same deeds, because the deeds contain conflicts that rules of construction have to resolve. Where a description's courses and distances conflict with natural objects, the natural objects control, on the reasoning that errors in measurement are likelier than errors about an identifiable creek or rock. State ex rel. 609 (1915). Artificial monuments such as streets and railways likewise control over measured courses and distances. So a survey tells you where a surveyor believes the line is, and if the neighbor's surveyor disagrees, only a judgment fixes it."
+      "p": "Two competent surveyors can reach different conclusions from the same deeds, because the deeds contain conflicts that rules of construction have to resolve. Where a description's courses and distances conflict with natural objects, the natural objects control, on the reasoning that errors in measurement are likelier than errors about an identifiable creek or rock. Artificial monuments such as streets and railways likewise control over measured courses and distances. So a survey tells you where a surveyor believes the line is, and if the neighbor's surveyor disagrees, the line is not settled until the neighbors agree in writing or a court decides it."
      }
     ]
    },
@@ -545,7 +545,7 @@
     "heading": "What happens when a fence or garage crosses the line?",
     "paras": [
      {
-      "p": "Being right and getting a remedy are different questions, and here the gap is widest. Washington courts have held that an encroachment can render title unmarketable even where it measured only a few inches. 561 (1931). A two-foot garage encroachment is a title problem that surfaces at the worst moment, which is when the owner tries to sell or refinance."
+      "p": "Being right and getting a remedy are different questions, and here the gap is widest. Washington courts have held that an encroachment can render title unmarketable even where it measured only a few inches. A two-foot garage encroachment is a title problem that surfaces at the worst moment, which is when the owner tries to sell or refinance."
      },
      {
       "p": "Ordinarily a mandatory injunction will issue to compel removal. But a court may withhold it as oppressive, leaving damages as the remedy, where the encroacher did not simply take a calculated risk or act in bad faith, negligently, willfully or indifferently in locating the structure; the damage to the landowner was slight and the benefit of removal equally small; there was ample remaining room for a suitable structure and no real limitation on future use; it is impractical to move the structure as built; and there is an enormous disparity in resulting hardships."
@@ -559,7 +559,7 @@
     "heading": "What can I do about the neighbor's tree?",
     "paras": [
      {
-      "p": "Overhanging branches that interfere with your use of the property can be a nuisance. Washington defines an actionable nuisance to include an obstruction to the free use of property that essentially interferes with the comfortable enjoyment of life and property. RCW 7.48.010. An owner injuriously affected may sue and, on judgment, obtain a warrant directing the sheriff to abate the nuisance, or an injunction where abatement would be inadequate. RCW 7.48.020. The older case law recognizes a landowner's right to cut offending branches encroaching over the line. 298 (1921)."
+      "p": "Overhanging branches that interfere with your use of the property can be a nuisance. Washington defines an actionable nuisance to include an obstruction to the free use of property that essentially interferes with the comfortable enjoyment of life and property. RCW 7.48.010. An owner injuriously affected may sue and, on judgment, obtain a warrant directing the sheriff to abate the nuisance, or an injunction where abatement would be inadequate. RCW 7.48.020. The older case law recognizes a landowner's right to cut offending branches encroaching over the line."
      },
      {
       "p": "Now the part that generates lawsuits. Whoever cuts down, girdles, or otherwise injures or carries off any tree, timber, or shrub on the land of another without lawful authority is liable, and judgment for the plaintiff shall be for treble the amount of damages claimed or assessed. RCW 64.12.030. Mature trees are expensive, and trebled they become very expensive. A separate statute imposes treble damages plus investigative costs and reasonable attorney fees for wrongfully causing waste or injury to another's land, though it does not apply where liability is provided under the timber trespass statute. RCW 4.24.630."
@@ -590,7 +590,7 @@
     "heading": "What a lawyer does here that you cannot do yourself",
     "paras": [
      {
-      "p": "The rules are findable. The difficulty is that nearly every question here resolves into a fact question about intent, answered from documents written by people who are long gone. That means reading the entire chain of title rather than the current deed, because the easement was usually created two or three owners back and its scope is fixed by what those parties meant. It means working with a surveyor to translate an old description into a line on the ground, and knowing which conflicts the rules of construction resolve and which they do not. It means evaluating encroachment claims against the Arnold factors honestly, including what your own side knew and when. And it means bringing or defending the actions that fix the problem, which are quiet title and ejectment under chapter 7.28 RCW, because only a judgment makes a boundary marketable. RCW 7.28.010."
+      "p": "The rules are findable. The difficulty is that nearly every question here resolves into a fact question about intent, answered from documents written by people who are long gone. That means reading the entire chain of title rather than the current deed, because the easement was usually created two or three owners back and its scope is fixed by what those parties meant. It means working with a surveyor to translate an old description into a line on the ground, and knowing which conflicts the rules of construction resolve and which they do not. It means evaluating encroachment claims against the Arnold factors honestly, including what your own side knew and when. And it means bringing or defending the actions that fix the problem, which are quiet title and ejectment under chapter 7.28 RCW, because a recorded agreement or a judgment is what makes a boundary marketable. RCW 7.28.010."
      },
      {
       "p": "That is the work I do. I am an independent attorney in downtown Spokane, and real estate is the largest part of my practice: easement and access disputes, boundary and encroachment matters, shared road disagreements, timber trespass claims, and quiet title and ejectment actions, in superior courts across Washington, most often in Spokane, Klickitat, Kittitas, Benton, Franklin and Yakima counties. Easements and boundary agreements here are recorded with the Spokane County Auditor."
@@ -614,7 +614,7 @@
     ]
    }
   ],
-  "words": 1860,
+  "words": 1867,
   "minutes": 8,
   "file": "04-easements-boundary-disputes-washington.docx"
  },
@@ -715,7 +715,7 @@
       "p": "The ex-spouse on the retirement account. RCW 11.07.010 revokes a nonprobate beneficiary designation in favor of a former spouse when a marriage ends, and many people assume that solves it. It frequently does not, because the United States Supreme Court has held that ERISA preempts that statute where the asset belongs to an ERISA-governed plan. Your employer's 401(k) and group life insurance are those plans, and the administrator pays whoever is on the form."
      },
      {
-      "p": "The online will that was never properly witnessed. The document is usually fine; the execution is what fails. In In re Estate of Ricketts, the witnesses signed only the self-proving affidavit and not the codicil, and the court held that did not satisfy RCW 11.12.020. The statute was later amended to let a witness sign either the will or a conforming affidavit, but the testator's signature still has to appear on the will itself. These mistakes surface when the signer is gone."
+      "p": "The online will that was never properly witnessed. The document is usually fine; the execution is what fails. In one case the witnesses signed only the self-proving affidavit and not the codicil, and the court held that did not satisfy RCW 11.12.020. The statute was later amended to let a witness sign either the will or a conforming affidavit, but the testator's signature still has to appear on the will itself. These mistakes surface when the signer is gone."
      },
      {
       "p": "Assuming the will controls everything. The gap between what people think their will governs and what it actually governs is where litigation is born."
@@ -771,7 +771,7 @@
     ]
    }
   ],
-  "words": 1695,
+  "words": 1692,
   "minutes": 8,
   "file": "05-will-or-trust-washington.docx"
  },
@@ -1662,7 +1662,7 @@
       "p": "Under Washington law the claim has four elements: language or conduct because of a protected characteristic, that was unwelcome, that affected the terms or conditions of employment, and that is imputed to the employer."
      },
      {
-      "p": "The third and fourth elements are where these cases are fought. Merely offensive conduct does not satisfy the third; it has to have been sufficiently severe or sufficiently pervasive, which are two separate routes, and one incident can be enough if it is extreme. On imputation, conduct is attributed to the employer directly where an owner, manager, or corporate officer personally participates, but where a supervisor or coworker created the environment the employee must show the employer authorized, knew, or should have known of the harassment and failed to take reasonably prompt and adequate corrective action. Glasgow, 103 Wn.2d at 407."
+      "p": "The third and fourth elements are where these cases are fought. Merely offensive conduct does not satisfy the third; it has to have been sufficiently severe or sufficiently pervasive, which are two separate routes, and one incident can be enough if it is extreme. On imputation, conduct is attributed to the employer directly where an owner, manager, or corporate officer personally participates, but where a supervisor or coworker created the environment the employee must show the employer authorized, knew, or should have known of the harassment and failed to take reasonably prompt and adequate corrective action."
      }
     ]
    },
@@ -1742,7 +1742,7 @@
     ]
    }
   ],
-  "words": 1661,
+  "words": 1656,
   "minutes": 7,
   "file": "12-employment-discrimination-washington-wlad.docx"
  },
