@@ -1,5 +1,8 @@
 import { Routes, Route } from "react-router-dom";
+import BlogIndex from "./pages/BlogIndex";
+import BlogPost from "./pages/BlogPost";
 import Navbar from "./components/Navbar";
+import RouteMeta from "./components/RouteMeta";
 import Hero from "./components/Hero";
 import PracticeAreas from "./components/PracticeAreas";
 import About from "./components/About";
@@ -29,6 +32,7 @@ export default function App() {
   return (
     <>
       <a href="#main-content" className="skip-link">Skip to main content</a>
+      <RouteMeta />
       <Navbar />
       <main id="main-content">
       <Routes>
@@ -36,6 +40,8 @@ export default function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/ai" element={<AIPage />} />
         <Route path="/alcohol-beverage-law" element={<AlcoholBeveragePage />} />
+        <Route path="/blog" element={<BlogIndex />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/accessibility" element={<Accessibility />} />

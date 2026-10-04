@@ -140,7 +140,7 @@ export default function AIPage() {
                 <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7"><path d="M5 13l4 4L19 7" stroke="#c9a84c" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </div>
               <h3 className="font-serif text-2xl text-white mb-3">Thank You</h3>
-              <p className="text-white/50">We'll be in touch shortly to discuss your AI consultation.</p>
+              <p className="text-white/50">I'll be in touch shortly to discuss your AI consultation.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -165,12 +165,12 @@ export default function AIPage() {
                   className="w-full bg-white/[0.04] border border-white/10 px-4 py-3.5 text-white text-sm placeholder:text-white/20 focus:outline-none focus:border-gold/50 transition-colors" />
               </div>
               <div>
-                <label className="block text-[13px] font-medium text-white/50 mb-2">Tell us about your practice <span className="text-gold">*</span></label>
+                <label className="block text-[13px] font-medium text-white/50 mb-2">Tell me about your practice <span className="text-gold">*</span></label>
                 <textarea name="message" required value={form.message} onChange={handleChange} rows={4} placeholder="What AI challenges or goals does your firm have?"
                   className="w-full bg-white/[0.04] border border-white/10 px-4 py-3.5 text-white text-sm placeholder:text-white/20 focus:outline-none focus:border-gold/50 transition-colors resize-y min-h-[100px]" />
               </div>
               <div className="bg-white/[0.03] border border-white/10 p-4 text-[11px] text-white/40 leading-relaxed">
-                <p>By submitting this form, you acknowledge that this inquiry does not create an attorney-client relationship. Please do not include confidential or sensitive information until a formal engagement has been established. Information submitted through this form is not protected by attorney-client privilege. See our <a href="/terms" className="text-gold/60 hover:text-gold underline">Terms &amp; Disclaimer</a> and <a href="/privacy" className="text-gold/60 hover:text-gold underline">Privacy Policy</a>.</p>
+                <p>By submitting this form, you acknowledge that this inquiry does not create an attorney-client relationship. Please do not include confidential or sensitive information until a formal engagement has been established. Information submitted through this form is not protected by attorney-client privilege. See my <a href="/terms" className="text-gold/60 hover:text-gold underline">Terms &amp; Disclaimer</a> and <a href="/privacy" className="text-gold/60 hover:text-gold underline">Privacy Policy</a>.</p>
               </div>
               <button type="submit" disabled={status === "sending"}
                 className="w-full sm:w-auto px-10 py-4 bg-gold text-navy text-sm font-bold tracking-wide hover:bg-gold-light transition-colors disabled:opacity-50">

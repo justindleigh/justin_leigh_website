@@ -55,7 +55,7 @@ const areas = [
   },
   {
     title: "Personal Injury",
-    desc: "Contingency-based representation for negligence claims - you don't pay unless we win.",
+    desc: "Contingency-based representation for negligence claims - you don't pay unless I win.",
     icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-6 h-6"><path d="M22 12h-4l-3 9L9 3l-3 9H2" /></svg>,
     bullets: [
       "Auto Accidents",

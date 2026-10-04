@@ -11,12 +11,12 @@ export default function Terms() {
         <div className="space-y-8 text-white/70 text-[15px] leading-relaxed">
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">1. No Attorney-Client Relationship</h2>
-            <p>Use of this website, submission of a contact form, consultation request, or any other communication through this website does not create an attorney-client relationship between you and the Law Office of Justin D. Leigh or any of its attorneys. An attorney-client relationship is established only through a signed engagement letter or retainer agreement.</p>
+            <p>Use of this website, submission of a contact form, consultation request, or any other communication through this website does not create an attorney-client relationship between you and Justin D. Leigh, PLLC, d/b/a Law Office of Justin D. Leigh. An attorney-client relationship is established only through a signed engagement letter or retainer agreement.</p>
           </section>
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">2. Prospective Client Obligations</h2>
-            <p>If you submit information through our contact forms or consultation request, you may be considered a prospective client under the applicable Rules of Professional Conduct (RPC 1.18). While this does not create a full attorney-client relationship, we will treat the information you provide with appropriate confidentiality and will not use it adversely against you. However, until a formal engagement is established, the full protections of the attorney-client relationship do not apply.</p>
+            <p>If you submit information through my contact forms or consultation request, you may be considered a prospective client under the applicable Rules of Professional Conduct (RPC 1.18). While this does not create a full attorney-client relationship, I will treat the information you provide with appropriate confidentiality and will not use it adversely against you. However, until a formal engagement is established, the full protections of the attorney-client relationship do not apply.</p>
           </section>
 
           <section>
@@ -26,7 +26,7 @@ export default function Terms() {
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">4. Confidential Information</h2>
-            <p>Please do not send any confidential or sensitive information through this website until a formal attorney-client relationship has been established through a signed engagement letter. Information submitted through contact forms, AI consultation requests, or other website features prior to engagement is not protected by attorney-client privilege. Once an attorney-client relationship is established, communications through our secure client portal are protected.</p>
+            <p>Please do not send any confidential or sensitive information through this website until a formal attorney-client relationship has been established through a signed engagement letter. Information submitted through contact forms, AI consultation requests, or other website features prior to engagement is not protected by attorney-client privilege. Once an attorney-client relationship is established, communications through my secure client portal are protected.</p>
           </section>
 
           <section>
@@ -42,40 +42,40 @@ export default function Terms() {
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">7. Google Local Service Ads</h2>
-            <p>If you found us through a Google Local Service Ad, please be aware of the following:</p>
+            <p>If you found me through a Google Local Service Ad, please be aware of the following:</p>
             <ul className="list-disc list-inside space-y-2 ml-4 mt-3">
               <li>Calls placed through Google Local Service Ads may be recorded by Google and are <span className="text-white/90 font-medium">not protected by attorney-client privilege</span></li>
               <li>Contact through a Google Local Service Ad does not establish an attorney-client relationship</li>
-              <li>Google may modify ad content; our office does not control all aspects of the LSA listing</li>
+              <li>Google may modify ad content; my office does not control all aspects of the LSA listing</li>
               <li>Google typically retains LSA call recordings for approximately 60 to 70 days under its Terms of Service</li>
-              <li>For privileged communications, please contact our office directly after a formal engagement is established</li>
+              <li>For privileged communications, please contact my office directly after a formal engagement is established</li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">8. Phone Calls and Recordings</h2>
-            <p className="mb-3">Calls to our office may be recorded for quality assurance, training, and documentation purposes. A verbal recording disclosure is provided at the beginning of each recorded call. By continuing the call after hearing the disclosure, you consent to the recording in accordance with Washington's two-party consent statute (RCW 9.73.030). This website notice supplements, but does not replace, the verbal disclosure provided during the call.</p>
-            <p>If you do not wish to be recorded, please inform us at the beginning of the call and we will accommodate your request.</p>
+            <p className="mb-3">Calls to my office may be recorded for quality assurance, training, and documentation purposes. A verbal recording disclosure is provided at the beginning of each recorded call. By continuing the call after hearing the disclosure, you consent to the recording in accordance with Washington's two-party consent statute (RCW 9.73.030). This website notice supplements, but does not replace, the verbal disclosure provided during the call.</p>
+            <p>If you do not wish to be recorded, please inform me at the beginning of the call and I will accommodate your request.</p>
           </section>
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">9. AI and Technology Services</h2>
-            <p>Our website includes AI-assisted intake and inquiry forms designed to gather preliminary information about your legal needs. These forms collect information for review by a licensed attorney. No AI system on this website provides legal advice, legal analysis, or recommendations. All substantive responses to your inquiry will come directly from a licensed attorney. The use of AI tools in our practice is supervised by Justin D. Leigh in accordance with RPC 5.3.</p>
+            <p>My website includes AI-assisted intake and inquiry forms designed to gather preliminary information about your legal needs. These forms collect information for review by a licensed attorney. No AI system on this website provides legal advice, legal analysis, or recommendations. All substantive responses to your inquiry will come directly from a licensed attorney. The use of AI tools in my practice is supervised by Justin D. Leigh in accordance with RPC 5.3.</p>
           </section>
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">10. External Links</h2>
-            <p>This website may contain links to third-party websites. We are not responsible for the content, privacy practices, or terms of use of any linked websites. Inclusion of a link does not constitute an endorsement.</p>
+            <p>This website may contain links to third-party websites. I am not responsible for the content, privacy practices, or terms of use of any linked websites. Inclusion of a link does not constitute an endorsement.</p>
           </section>
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">11. Intellectual Property</h2>
-            <p>All content on this website, including text, graphics, logos, and design elements, is the property of the Law Office of Justin D. Leigh and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from this content without prior written consent.</p>
+            <p>All content on this website, including text, graphics, logos, and design elements, is the property of Justin D. Leigh, PLLC and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from this content without prior written consent.</p>
           </section>
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">12. Limitation of Liability</h2>
-            <p>To the fullest extent permitted by law, the Law Office of Justin D. Leigh disclaims all liability for any damages arising from your use of this website or reliance on information contained herein. This website is provided "as is" without warranties of any kind.</p>
+            <p>To the fullest extent permitted by law, Justin D. Leigh, PLLC disclaims all liability for any damages arising from your use of this website or reliance on information contained herein. This website is provided "as is" without warranties of any kind.</p>
           </section>
 
           <section>
@@ -90,7 +90,7 @@ export default function Terms() {
 
           <section>
             <h2 className="text-white font-semibold text-lg mb-3">15. Changes to These Terms</h2>
-            <p>We may update these Terms from time to time. Material changes will be posted on this page with an updated effective date. Your continued use of the website after any changes constitutes acceptance of the revised Terms.</p>
+            <p>I may update these Terms from time to time. Material changes will be posted on this page with an updated effective date. Your continued use of the website after any changes constitutes acceptance of the revised Terms.</p>
           </section>
 
           <section>

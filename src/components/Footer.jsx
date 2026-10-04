@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-white/5 text-center text-[11px] text-white/20 tracking-wide leading-relaxed">
-          <p>&copy; {new Date().getFullYear()} Law Office of Justin D. Leigh. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Justin D. Leigh, PLLC, d/b/a Law Office of Justin D. Leigh. All rights reserved.</p>
           <p className="mt-1">Licensed to practice law in Washington and Oregon.</p>
           <p className="mt-1">Attorney advertising. Prior results do not guarantee a similar outcome. The hiring of a lawyer is an important decision that should not be based solely upon advertisements.</p>
         </div>

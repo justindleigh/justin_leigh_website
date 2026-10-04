@@ -1,10 +1,10 @@
 import useInView from "../hooks/useInView";
 
 const highlights = [
-  "Licensed in Washington (also admitted in Oregon)",
-  "Solo Practitioner: Direct Access",
-  "No-Cost Initial Consultations",
-  "Former Brewery & Winery Owner",
+  "Admitted in Washington and Oregon",
+  "Direct access, no associates",
+  "Free initial consultation",
+  "Former brewery and winery owner",
 ];
 
 export default function About() {
@@ -43,27 +43,26 @@ export default function About() {
               Meet Your Attorney
             </span>
             <h2 className="font-serif text-[clamp(1.8rem,3.5vw,2.8rem)] font-light text-white leading-tight mb-8">
-              A Dedicated Practitioner
+              One Lawyer,
               <br />
-              <span className="text-gradient-gold font-semibold">Fighting for You</span>
+              <span className="text-gradient-gold font-semibold">Start to Finish</span>
             </h2>
 
             <div className="space-y-5 mb-10">
               <p className="text-white/80 text-[15px] leading-relaxed">
-                Justin D. Leigh is a committed attorney based in downtown Spokane,
-                Washington. As a solo practitioner, he provides the personalized,
-                one-on-one attention that larger firms simply cannot match.
+                Justin D. Leigh practices in downtown Spokane and is admitted in both
+                Washington and Oregon. He runs the firm alone, so the person who takes
+                your call is the person who handles your matter.
               </p>
               <p className="text-white/80 text-[15px] leading-relaxed">
-                With a diverse practice spanning real estate, business law,
-                estate planning, personal injury, and criminal defense, Justin
-                brings unique depth to every case. When you hire Justin, you work
-                directly with Justin, not a paralegal or an associate.
+                He handles real estate, business law, estate planning, personal injury,
+                and criminal defense. When you hire Justin, you work directly with
+                Justin, not a paralegal or an associate.
               </p>
               <p className="text-white/80 text-[15px] leading-relaxed">
-                Justin also brings real-world business insight as a former
-                brewery and winery owner, which gives him a practical edge in
-                alcohol beverage law and business strategy.
+                Justin is also a former brewery and winery owner. Alcohol beverage
+                licensing is a substantial part of the practice, and he has held those
+                licenses himself rather than only read about them.
               </p>
             </div>
 

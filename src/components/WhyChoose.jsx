@@ -4,7 +4,7 @@ const reasons = [
   {
     num: "01",
     title: "Direct Attorney Access",
-    desc: "As a solo practitioner, Justin personally handles every aspect of your case. No hand-offs, no surprises - just direct communication with your attorney.",
+    desc: "As an independent attorney, Justin personally handles every aspect of your case. No hand-offs, no surprises, just direct communication with your attorney.",
   },
   {
     num: "02",
