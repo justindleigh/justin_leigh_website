@@ -98,6 +98,46 @@ function addHeadTags(html, route) {
   return html.replace("</head>", `  ${tags.join("\n  ")}\n</head>`);
 }
 
+// The articles went live on this date. Kept as a constant rather than "today"
+// so a rebuild does not keep moving the publication date.
+const PUBLISHED = "2026-10-04";
+
+/** BlogPosting schema per article. The site-wide Attorney/LegalService block
+ *  in index.html describes the firm; it says nothing about the article. */
+function articleSchema(post, route) {
+  const url = ORIGIN + route;
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    datePublished: PUBLISHED,
+    dateModified: new Date().toISOString().slice(0, 10),
+    wordCount: post.words,
+    inLanguage: "en-US",
+    ...(post.practiceArea ? { articleSection: post.practiceArea } : {}),
+    author: {
+      "@type": "Person",
+      name: "Justin D. Leigh",
+      jobTitle: "Attorney",
+      url: ORIGIN,
+    },
+    publisher: {
+      "@type": "LegalService",
+      name: "Law Office of Justin D. Leigh",
+      legalName: "Justin D. Leigh, PLLC",
+      url: ORIGIN,
+    },
+  };
+}
+
+function injectSchema(html, obj) {
+  const tag = `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
+  return html.replace("</head>", `  ${tag}\n</head>`);
+}
+
 function textLength(html) {
   const m = html.match(/<body[^>]*>([\s\S]*)<\/body>/);
   if (!m) return 0;
@@ -127,6 +167,7 @@ function sitemap(routes) {
 
 const posts = JSON.parse(await readFile(path.join(HERE, "src/data/posts.json"), "utf8"));
 const routes = [...STATIC_ROUTES, ...posts.map((p) => `/blog/${p.slug}`)];
+const bySlug = Object.fromEntries(posts.map((p) => [p.slug, p]));
 
 const server = await serveDist();
 const browser = await puppeteer.launch({
@@ -148,6 +189,10 @@ try {
                                { timeout: 20000 });
     let html = "<!DOCTYPE html>\n" + await page.evaluate(() => document.documentElement.outerHTML);
     html = addHeadTags(html, route);
+    const post = bySlug[route.replace("/blog/", "")];
+    if (route.startsWith("/blog/") && post) {
+      html = injectSchema(html, articleSchema(post, route));
+    }
     const len = textLength(html);
     if (len < 600) thin.push([route, len]);
     await writeRoute(route, html);
