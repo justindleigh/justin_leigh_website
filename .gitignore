@@ -26,3 +26,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local LAN preview server, not part of the site.
+_preview.mjs
+preview-lan.log
