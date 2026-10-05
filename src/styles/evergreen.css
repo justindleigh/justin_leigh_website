@@ -286,11 +286,24 @@ body.evergreen-page::-webkit-scrollbar-thumb {
 .evergreen .eg-alt {
   background: var(--eg-bg-alt);
 }
+/* Six cards, so the column count is pinned rather than left to auto-fit:
+ * auto-fit lands on four across at this max-width and strands two on a second
+ * row. Three and two divide six evenly. */
 .evergreen .eg-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-top: 48px;
+}
+@media (max-width: 900px) {
+  .evergreen .eg-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .evergreen .eg-grid {
+    grid-template-columns: 1fr;
+  }
 }
 .evergreen .eg-card {
   background: #fff;
