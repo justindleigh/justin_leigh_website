@@ -121,10 +121,10 @@ export default function Navbar() {
         {/* Desktop Right Side */}
         <div className="hidden xl:flex items-center gap-5">
           <Link
-            to="/ai"
+            to="/evergreen-legal-ai"
             className="relative px-4 py-2 text-[12px] font-semibold tracking-wide border border-gold/60 text-gold hover:bg-gold hover:text-navy transition-all duration-300 whitespace-nowrap"
           >
-            {location.pathname === "/ai" && (
+            {location.pathname === "/evergreen-legal-ai" && (
               <span className="absolute inset-x-2 -bottom-0.5 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
             )}
             Integrate A.I. Into Your Practice
@@ -175,7 +175,7 @@ export default function Navbar() {
             ))}
             <div className="h-px bg-white/5 my-1" />
             <Link
-              to="/ai"
+              to="/evergreen-legal-ai"
               onClick={() => setMobileOpen(false)}
               className="text-sm text-gold hover:text-gold-light transition-colors py-1"
             >

@@ -32,6 +32,7 @@ export default function Footer() {
               <Link to="/contact" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Contact</Link>
               <Link to="/alcohol-beverage-law" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Beverage Law</Link>
               <Link to="/blog" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Articles</Link>
+              <Link to="/evergreen-legal-ai" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Evergreen Legal AI</Link>
             </div>
             <div className="flex flex-col gap-2">
               <span className="text-[10px] font-semibold tracking-[2px] uppercase text-white/20 mb-1">Legal</span>
@@ -46,6 +47,7 @@ export default function Footer() {
           <p>&copy; {new Date().getFullYear()} Justin D. Leigh, PLLC, d/b/a Law Office of Justin D. Leigh. All rights reserved.</p>
           <p className="mt-1">Licensed to practice law in Washington and Oregon.</p>
           <p className="mt-1">Attorney advertising. Prior results do not guarantee a similar outcome. The hiring of a lawyer is an important decision that should not be based solely upon advertisements.</p>
+          <p className="mt-2 text-white/15">Building photograph by Quintin Soloviev, cropped, used under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener noreferrer" target="_blank" className="underline hover:text-gold/50">CC BY 4.0</a>.</p>
         </div>
       </div>
     </footer>

@@ -2,6 +2,9 @@
   "buildCommand": "echo 'Prebuilt: dist is committed, prerendered locally. See prerender.mjs.'",
   "installCommand": "echo 'No install needed for a prebuilt deploy.'",
   "outputDirectory": "dist",
+  "redirects": [
+    { "source": "/ai", "destination": "/evergreen-legal-ai", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]

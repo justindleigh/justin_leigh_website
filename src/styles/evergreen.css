@@ -1,0 +1,510 @@
+/* Evergreen Legal AI — page-scoped styles.
+ *
+ * Ported from _brand-source/evergreen/reference/index.html and
+ * _brand-source/evergreen/tokens/evergreen.css. Every rule is scoped under
+ * .evergreen or body.evergreen-page, so this file is inert on every other
+ * route even though Vite bundles it globally.
+ *
+ * Deliberately plain CSS rather than the site's Tailwind utilities. index.css
+ * carries an html.light-mode block that redefines about thirty utility classes
+ * (.text-white, .bg-black, .border-white/10 and the rest), so a page built from
+ * those utilities would restyle itself when the firm's theme toggle is used.
+ * Evergreen is a separate trade name and has to look the same either way.
+ */
+
+/* The firm site paints the body black in @layer base, and the wrapper alone
+ * does not cover it: the black shows through on overscroll and behind the
+ * scrollbar. EvergreenPage adds this class on mount and removes it on unmount. */
+body.evergreen-page {
+  background: #fff;
+  color: #0c2c56;
+}
+body.evergreen-page::-webkit-scrollbar-track {
+  background: #eef2f3;
+}
+body.evergreen-page::-webkit-scrollbar-thumb {
+  background: rgba(12, 44, 86, 0.3);
+}
+
+.evergreen {
+  /* Core palette */
+  --eg-navy: #0c2c56;
+  --eg-teal: #005c5c;
+  --eg-teal-mid: #00818a;
+  --eg-teal-light: #5cc6c0;
+  --eg-slate: #5a6670;
+  --eg-mist: #eef2f3;
+  --eg-silver: #c4ced4;
+  --eg-white: #ffffff;
+
+  /* Semantic */
+  --eg-bg: var(--eg-white);
+  --eg-bg-alt: var(--eg-mist);
+  --eg-bg-inverse: var(--eg-navy);
+  --eg-text: var(--eg-navy);
+  --eg-text-muted: var(--eg-slate);
+  --eg-text-inverse: #ffffff;
+  --eg-text-inverse-muted: #c9d6e3;
+  --eg-accent: var(--eg-teal);
+  --eg-accent-hover: #004747;
+  --eg-accent-on-dark: var(--eg-teal-light);
+  --eg-border: #dce3e7;
+  --eg-focus: var(--eg-teal-mid);
+
+  /* Type */
+  --eg-font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --eg-font-body: "Manrope", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --eg-tracking-label: 0.42em;
+
+  --eg-text-hero: clamp(2.75rem, 2rem + 3.5vw, 5rem);
+  --eg-text-h2: clamp(2rem, 1.6rem + 1.8vw, 3rem);
+  --eg-text-h3: 1.375rem;
+  --eg-text-body: 1.0625rem;
+  --eg-text-small: 0.875rem;
+  --eg-text-label: 0.8125rem;
+
+  /* Space, shape */
+  --eg-radius: 6px;
+  --eg-radius-lg: 12px;
+  --eg-max-width: 1120px;
+  --eg-section-pad: clamp(4rem, 3rem + 4vw, 7rem);
+
+  font-family: var(--eg-font-body);
+  font-size: var(--eg-text-body);
+  line-height: 1.65;
+  color: var(--eg-text);
+  background: var(--eg-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+.evergreen *,
+.evergreen *::before,
+.evergreen *::after {
+  box-sizing: border-box;
+}
+
+.evergreen a {
+  color: var(--eg-accent);
+}
+.evergreen a:hover {
+  color: var(--eg-accent-hover);
+}
+.evergreen :focus-visible {
+  outline: 3px solid var(--eg-focus);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+/* On navy and teal the teal focus ring is nearly invisible. */
+.evergreen .eg-hero :focus-visible,
+.evergreen .eg-cta :focus-visible,
+.evergreen .eg-footer :focus-visible,
+.evergreen .eg-skip:focus-visible {
+  outline-color: #fff;
+}
+
+.evergreen .eg-wrap {
+  max-width: var(--eg-max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.evergreen .eg-label {
+  font-size: var(--eg-text-label);
+  font-weight: 700;
+  letter-spacing: var(--eg-tracking-label);
+  text-transform: uppercase;
+  color: var(--eg-accent);
+  margin: 0 0 16px;
+}
+
+.evergreen h1,
+.evergreen h2 {
+  font-family: var(--eg-font-display);
+  font-weight: 600;
+  line-height: 1.05;
+  margin: 0;
+  letter-spacing: -0.005em;
+}
+.evergreen h1 {
+  font-size: var(--eg-text-hero);
+}
+.evergreen h2 {
+  font-size: var(--eg-text-h2);
+}
+.evergreen h3 {
+  font-family: var(--eg-font-body);
+  font-size: var(--eg-text-h3);
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+.evergreen p {
+  margin: 0 0 16px;
+}
+.evergreen .eg-muted {
+  color: var(--eg-text-muted);
+}
+
+.evergreen .eg-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 24px;
+  border-radius: var(--eg-radius);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+.evergreen .eg-btn-primary {
+  background: var(--eg-teal);
+  color: #fff;
+}
+.evergreen .eg-btn-primary:hover {
+  background: var(--eg-accent-hover);
+  color: #fff;
+}
+.evergreen .eg-btn-primary:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.evergreen .eg-btn-ghost {
+  border: 1.5px solid currentColor;
+}
+
+/* Keyboard users land here first; it is off-screen until focused. */
+.evergreen .eg-skip {
+  position: absolute;
+  left: 50%;
+  top: -100px;
+  transform: translateX(-50%);
+  z-index: 50;
+  background: var(--eg-teal);
+  color: #fff;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 0 0 8px 8px;
+  transition: top 0.15s ease;
+}
+.evergreen .eg-skip:focus {
+  top: 0;
+  color: #fff;
+}
+
+/* ---- header ---- */
+.evergreen .eg-header {
+  border-bottom: 1px solid var(--eg-border);
+  background: #fff;
+}
+.evergreen .eg-header .eg-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 76px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.evergreen .eg-header img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+.evergreen .eg-nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.evergreen .eg-nav a:not(.eg-btn) {
+  color: var(--eg-text);
+  text-decoration: none;
+}
+.evergreen .eg-nav a:not(.eg-btn):hover {
+  color: var(--eg-accent);
+}
+
+/* ---- hero ---- */
+.evergreen .eg-hero {
+  background: var(--eg-bg-inverse);
+  color: var(--eg-text-inverse);
+  padding: var(--eg-section-pad) 0;
+  position: relative;
+  overflow: hidden;
+}
+.evergreen .eg-hero .eg-wrap {
+  position: relative;
+  z-index: 1;
+}
+.evergreen .eg-hero .eg-label {
+  color: var(--eg-accent-on-dark);
+}
+.evergreen .eg-hero .eg-lede {
+  font-size: 1.25rem;
+  max-width: 40ch;
+  color: var(--eg-text-inverse-muted);
+  margin-top: 24px;
+}
+.evergreen .eg-offered {
+  font-family: var(--eg-font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--eg-accent-on-dark);
+  margin: 28px 0 36px;
+}
+.evergreen .eg-hero .eg-btn-ghost {
+  color: #fff;
+}
+.evergreen .eg-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.evergreen .eg-watermark {
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: min(520px, 55vw);
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+/* ---- sections ---- */
+.evergreen .eg-block {
+  padding: var(--eg-section-pad) 0;
+}
+.evergreen .eg-alt {
+  background: var(--eg-bg-alt);
+}
+/* Six cards, so the column count is pinned rather than left to auto-fit:
+ * auto-fit lands on four across at this max-width and strands two on a second
+ * row. Three and two divide six evenly. */
+.evergreen .eg-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+@media (max-width: 900px) {
+  .evergreen .eg-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .evergreen .eg-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.evergreen .eg-card {
+  background: #fff;
+  border: 1px solid var(--eg-border);
+  border-radius: var(--eg-radius-lg);
+  padding: 28px;
+}
+.evergreen .eg-card .eg-num {
+  font-family: var(--eg-font-display);
+  font-size: 2rem;
+  color: var(--eg-teal);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.evergreen .eg-card .eg-icon {
+  width: 28px;
+  height: 28px;
+  color: var(--eg-teal-mid);
+  margin-bottom: 14px;
+  display: block;
+}
+
+.evergreen .eg-steps {
+  counter-reset: s;
+  list-style: none;
+  padding: 0;
+  margin: 48px 0 0;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.evergreen .eg-steps li {
+  border-top: 2px solid var(--eg-teal);
+  padding-top: 20px;
+}
+
+.evergreen .eg-about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 48px;
+  align-items: center;
+}
+.evergreen .eg-photo {
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  max-width: 380px;
+  object-fit: cover;
+  object-position: center top;
+  background: var(--eg-mist);
+  border-radius: var(--eg-radius-lg);
+  display: block;
+}
+
+/* ---- contact ---- */
+.evergreen .eg-cta {
+  background: var(--eg-teal);
+  color: #fff;
+}
+.evergreen .eg-cta h2,
+.evergreen .eg-cta .eg-label {
+  color: #fff;
+}
+.evergreen .eg-cta p {
+  color: #ddefef;
+}
+.evergreen .eg-cta a {
+  color: #fff;
+  text-decoration: underline;
+}
+.evergreen .eg-cta .eg-head {
+  text-align: center;
+  max-width: 60ch;
+  margin: 0 auto 40px;
+}
+
+.evergreen .eg-form {
+  max-width: 640px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  text-align: left;
+}
+.evergreen .eg-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.evergreen .eg-field label {
+  display: block;
+  font-size: var(--eg-text-small);
+  font-weight: 600;
+  color: #ddefef;
+  margin-bottom: 8px;
+}
+.evergreen .eg-field input,
+.evergreen .eg-field textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--eg-navy);
+  background: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--eg-radius);
+  padding: 13px 14px;
+}
+.evergreen .eg-field textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.evergreen .eg-field input::placeholder,
+.evergreen .eg-field textarea::placeholder {
+  color: #7b8794;
+}
+.evergreen .eg-req {
+  color: #ddefef;
+}
+.evergreen .eg-hp {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.evergreen .eg-form-note {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: #ddefef;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: var(--eg-radius);
+  padding: 16px;
+  margin: 0;
+}
+.evergreen .eg-form-note a {
+  color: #fff;
+}
+.evergreen .eg-cta .eg-btn-submit {
+  background: #fff;
+  color: var(--eg-teal);
+  justify-self: start;
+  padding: 0 40px;
+}
+.evergreen .eg-cta .eg-btn-submit:hover {
+  background: #ddefef;
+  color: var(--eg-accent-hover);
+}
+.evergreen .eg-error {
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+.evergreen .eg-thanks {
+  text-align: center;
+  padding: 24px 0 8px;
+}
+
+/* ---- footer ---- */
+.evergreen .eg-footer {
+  background: var(--eg-navy);
+  color: var(--eg-text-inverse-muted);
+  padding: 56px 0 40px;
+  font-size: var(--eg-text-small);
+}
+.evergreen .eg-footer img {
+  height: 72px;
+  width: auto;
+  display: block;
+  margin-bottom: 24px;
+}
+.evergreen .eg-footer a {
+  color: var(--eg-accent-on-dark);
+}
+.evergreen .eg-footer a:hover {
+  color: #fff;
+}
+.evergreen .eg-disclaimer {
+  border-top: 1px solid #2a4670;
+  margin-top: 32px;
+  padding-top: 24px;
+  max-width: 80ch;
+}
+
+/* The firm site disables animation under this preference; nothing here
+ * animates except the skip link, which should still move instantly. */
+@media (prefers-reduced-motion: reduce) {
+  .evergreen .eg-skip {
+    transition: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .evergreen .eg-header .eg-wrap {
+    justify-content: center;
+  }
+  .evergreen .eg-nav {
+    gap: 16px;
+    justify-content: center;
+    width: 100%;
+  }
+  .evergreen .eg-watermark {
+    display: none;
+  }
+}

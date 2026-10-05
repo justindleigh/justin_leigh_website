@@ -28,7 +28,7 @@ const ORIGIN = "https://www.justindleigh.com";
 const PORT = 4399;
 
 const STATIC_ROUTES = [
-  "/", "/contact", "/ai", "/alcohol-beverage-law",
+  "/", "/contact", "/evergreen-legal-ai", "/alcohol-beverage-law",
   "/blog", "/privacy", "/terms", "/accessibility",
 ];
 
@@ -94,7 +94,13 @@ function addHeadTags(html, route) {
     `<meta name="twitter:title" content="${esc(title)}">`,
     `<meta name="twitter:description" content="${esc(desc)}">`,
   ];
-  if (NOINDEX.has(route)) tags.push(`<meta name="robots" content="noindex,follow">`);
+  // index.html carries a site-wide "index, follow" robots tag. Leaving it in
+  // place alongside a noindex would put two contradictory directives on the
+  // page; strip the inherited one rather than rely on crawlers resolving it.
+  if (NOINDEX.has(route)) {
+    html = html.replace(/\s*<meta name="robots"[^>]*>/g, "");
+    tags.push(`<meta name="robots" content="noindex,follow">`);
+  }
   return html.replace("</head>", `  ${tags.join("\n  ")}\n</head>`);
 }
 

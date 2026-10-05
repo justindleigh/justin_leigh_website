@@ -1,0 +1,48 @@
+/* Evergreen Legal AI — brand tokens
+   Scope these to the Evergreen page only (e.g. a wrapper with class="evergreen")
+   so they never restyle the main law-firm site. */
+
+.evergreen {
+  /* Core palette */
+  --eg-navy: #0C2C56;        /* primary text, dark surfaces */
+  --eg-teal: #005C5C;        /* primary brand teal ("Northwest green") */
+  --eg-teal-mid: #00818A;    /* mark needles, links on white, accents */
+  --eg-teal-light: #5CC6C0;  /* accents on navy only (never on white: low contrast) */
+  --eg-slate: #5A6670;       /* secondary text on white */
+  --eg-mist: #EEF2F3;        /* alt section background */
+  --eg-silver: #C4CED4;      /* hairlines, borders */
+  --eg-white: #FFFFFF;
+
+  /* Semantic */
+  --eg-bg: var(--eg-white);
+  --eg-bg-alt: var(--eg-mist);
+  --eg-bg-inverse: var(--eg-navy);
+  --eg-text: var(--eg-navy);
+  --eg-text-muted: var(--eg-slate);
+  --eg-text-inverse: #FFFFFF;
+  --eg-text-inverse-muted: #C9D6E3;
+  --eg-accent: var(--eg-teal);
+  --eg-accent-hover: #004747;
+  --eg-accent-on-dark: var(--eg-teal-light);
+  --eg-border: #DCE3E7;
+  --eg-focus: var(--eg-teal-mid);
+
+  /* Type */
+  --eg-font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;   /* 600; italic 500 for "Offered by" */
+  --eg-font-body: "Manrope", "Helvetica Neue", Helvetica, Arial, sans-serif;  /* 400 / 600 / 700 */
+  --eg-tracking-label: 0.42em;   /* LEGAL · AI style labels, uppercase */
+
+  /* Type scale (fluid) */
+  --eg-text-hero: clamp(2.75rem, 2rem + 3.5vw, 5rem);
+  --eg-text-h2: clamp(2rem, 1.6rem + 1.8vw, 3rem);
+  --eg-text-h3: 1.375rem;
+  --eg-text-body: 1.0625rem;
+  --eg-text-small: 0.875rem;
+  --eg-text-label: 0.8125rem;
+
+  /* Space, shape */
+  --eg-radius: 6px;
+  --eg-radius-lg: 12px;
+  --eg-max-width: 1120px;
+  --eg-section-pad: clamp(4rem, 3rem + 4vw, 7rem);
+}
