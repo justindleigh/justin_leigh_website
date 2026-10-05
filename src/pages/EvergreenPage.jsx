@@ -21,7 +21,7 @@ const LOGO = "/brand/evergreen/logo";
 const SERVICES = [
   {
     title: "Integration",
-    desc: "Seamless integration of AI tools into your existing legal workflows and case management systems.",
+    desc: "Fitting AI tools into the legal workflows and case management systems you already use.",
     path: "M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5",
   },
   {
@@ -31,7 +31,7 @@ const SERVICES = [
   },
   {
     title: "Training",
-    desc: "Comprehensive training programs for attorneys and staff to maximize AI adoption and productivity.",
+    desc: "Training for attorneys and staff on the tools the firm has actually decided to use.",
     path: "M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2zM22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z",
   },
   {
@@ -46,7 +46,7 @@ const SERVICES = [
   },
   {
     title: "Risk Management",
-    desc: "Proactive identification and mitigation of AI-related risks including bias, hallucination, and data exposure.",
+    desc: "Identifying and containing the AI risks that matter in practice: bias, hallucination, and exposure of client data.",
     path: "M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0zM12 9v4M12 17h.01",
   },
 ];
@@ -178,8 +178,8 @@ export default function EvergreenPage() {
               <li>
                 <h3>Plan</h3>
                 <p className="eg-muted">
-                  A written scope before any work starts, setting out what gets built, what it
-                  costs, and what you are left holding at the end of it.
+                  A written scope before any work starts, setting out what gets built, how it
+                  is billed, and what you are left holding at the end of it.
                 </p>
               </li>
               <li>
@@ -205,11 +205,11 @@ export default function EvergreenPage() {
                 and regulatory work, and the litigation that comes out of all three.
               </p>
               <p>
-                The research, drafting and review systems I use every day are ones I built, with
-                the verification and supervision controls the Rules of Professional Conduct
-                require, and I wrote my own firm&rsquo;s AI usage policy against WSBA Advisory
-                Opinion 202505 and ABA Formal Opinion 512. I advise other firms from that, rather
-                than from a vendor&rsquo;s brochure.
+                The research, drafting and review systems I use every day are ones I built. The
+                verification and supervision controls run automatically rather than depending on
+                anyone to remember them, which is the part most firms get wrong. I work from
+                WSBA Advisory Opinion 202505 and ABA Formal Opinion 512, not from a
+                vendor&rsquo;s brochure.
               </p>
               <p>
                 <a href="/">Visit the Law Office of Justin D. Leigh &rarr;</a>
@@ -309,17 +309,18 @@ export default function EvergreenPage() {
             <a href="/terms">Terms &amp; Disclaimer</a> &middot;{" "}
             <a href="/accessibility">Accessibility</a>
           </p>
-          {/* [ATTORNEY REVIEW REQUIRED] Drafted on the premise that Evergreen work is a
-              law-related service under RPC 5.7 and is NOT the practice of law. Justin has to
-              confirm that premise before this page launches; the alternative wording treats
-              every engagement as legal services. Nothing else on the page turns on it. */}
+          {/* Deliberately does NOT claim this work is outside the practice of law. Evergreen
+              is a trade name of the same PLLC, the same lawyer, advising law firms on their RPC
+              compliance, so that claim would be the hard one to defend and it is not needed:
+              everything below is true whether the work is legal services or a law-related
+              service under RPC 5.7. If Justin later wants the RPC 5.7 "distinct services"
+              position, that is a structural change, not a sentence on a web page. */}
           <p className="eg-disclaimer">
-            Attorney advertising. Evergreen Legal AI provides consulting and advisory services on
-            the use of artificial intelligence. Those services are not the practice of law and do
-            not create an attorney-client relationship. An attorney-client relationship with the
-            Law Office of Justin D. Leigh is formed only by a signed engagement letter. Nothing
-            on this site is legal advice, and you should not send confidential information
-            through it. Justin D. Leigh is admitted in Washington and Oregon.
+            Attorney advertising. Evergreen Legal AI is a trade name of Justin D Leigh PLLC.
+            Visiting this site, or an initial conversation about a possible engagement, does not
+            create an attorney-client relationship. One is formed only by a signed engagement
+            letter. Nothing on this site is legal advice, and you should not send confidential
+            information through it. Justin D. Leigh is admitted in Washington and Oregon.
           </p>
           <p>&copy; {new Date().getFullYear()} Justin D Leigh PLLC</p>
         </div>

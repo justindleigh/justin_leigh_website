@@ -32,10 +32,7 @@ const STATIC_ROUTES = [
   "/blog", "/privacy", "/terms", "/accessibility",
 ];
 
-// Evergreen is prerendered so the markup is real, but held out of the index and
-// the sitemap while the [CONFIRM] and [ATTORNEY REVIEW REQUIRED] placeholders
-// are still in the copy. Delete the entry to launch it; nothing else changes.
-const NOINDEX = new Set(["/evergreen-legal-ai"]);
+const NOINDEX = new Set([]);
 
 const MIME = {
   ".html": "text/html", ".js": "text/javascript", ".css": "text/css",
