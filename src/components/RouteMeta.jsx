@@ -15,10 +15,10 @@ const META = {
     description:
       "Request a consultation with Justin D. Leigh, an independent attorney in downtown Spokane. Free initial consultation, by appointment, admitted in Washington and Oregon.",
   },
-  "/ai": {
-    title: "Integrate AI Into Your Legal Practice | Justin D. Leigh",
+  "/evergreen-legal-ai": {
+    title: "Evergreen Legal AI | Practical AI for the practice of law",
     description:
-      "AI governance, vendor review, and system design for law firms, from a Washington attorney who builds and runs these systems in his own practice.",
+      "Evergreen Legal AI helps lawyers and law firms adopt AI responsibly: integration, tool strategy, training, compliance, auditing, and risk. Offered by Justin D Leigh PLLC.",
   },
   "/alcohol-beverage-law": {
     title: "Alcohol Beverage Law | Washington Liquor Licensing | Justin D. Leigh",
