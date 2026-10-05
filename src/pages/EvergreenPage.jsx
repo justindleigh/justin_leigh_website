@@ -4,7 +4,7 @@ import useEvergreenHead from "../hooks/useEvergreenHead";
 import "../styles/evergreen.css";
 
 /**
- * Evergreen Legal AI — a separate trade name of Justin D. Leigh, PLLC.
+ * Evergreen Legal AI, a separate trade name of Justin D. Leigh, PLLC.
  *
  * Structure, type and color follow _brand-source/evergreen/reference/index.html,
  * which is the design spec. The service copy is Justin's own, carried over from
@@ -134,9 +134,8 @@ export default function EvergreenPage() {
             <p className="eg-label">Legal &middot; AI</p>
             <h1>Practical AI for the practice of law.</h1>
             <p className="eg-lede">
-              [CONFIRM: one-sentence positioning, e.g. &ldquo;Helping lawyers and law firms put
-              AI to work in their practice, with the judgment and professional obligations the
-              work requires.&rdquo;]
+              I build and run AI systems inside my own law practice, and I help other firms do
+              the same without taking on risk they have not thought through.
             </p>
             <p className="eg-offered">Offered by Justin D Leigh PLLC</p>
             <div className="eg-actions">
@@ -170,15 +169,25 @@ export default function EvergreenPage() {
             <ol className="eg-steps">
               <li>
                 <h3>Conversation</h3>
-                <p className="eg-muted">[CONFIRM: initial call; scope and goals.]</p>
+                <p className="eg-muted">
+                  A call to work out what you are actually trying to fix. Most firms arrive with
+                  a product in mind. The more useful conversation is usually about the work the
+                  product is supposed to do.
+                </p>
               </li>
               <li>
                 <h3>Plan</h3>
-                <p className="eg-muted">[CONFIRM: written scope, deliverables, fee arrangement.]</p>
+                <p className="eg-muted">
+                  A written scope before any work starts, setting out what gets built, what it
+                  costs, and what you are left holding at the end of it.
+                </p>
               </li>
               <li>
                 <h3>Build and train</h3>
-                <p className="eg-muted">[CONFIRM: implementation, training, follow-up.]</p>
+                <p className="eg-muted">
+                  Implementation, then training for the people who have to use it, then a
+                  follow-up once it has been in real use long enough to show its edges.
+                </p>
               </li>
             </ol>
           </div>
@@ -191,7 +200,16 @@ export default function EvergreenPage() {
               <p className="eg-label">About</p>
               <h2>Justin D. Leigh</h2>
               <p style={{ marginTop: 20 }}>
-                [CONFIRM: bio. Practice background, bar admission(s), relevant AI work.]
+                I am an independent attorney in downtown Spokane, admitted in Washington and
+                Oregon. My practice is real estate and land use, estates and probate, business
+                and regulatory work, and the litigation that comes out of all three.
+              </p>
+              <p>
+                The research, drafting and review systems I use every day are ones I built, with
+                the verification and supervision controls the Rules of Professional Conduct
+                require, and I wrote my own firm&rsquo;s AI usage policy against WSBA Advisory
+                Opinion 202505 and ABA Formal Opinion 512. I advise other firms from that, rather
+                than from a vendor&rsquo;s brochure.
               </p>
               <p>
                 <a href="/">Visit the Law Office of Justin D. Leigh &rarr;</a>
@@ -205,7 +223,10 @@ export default function EvergreenPage() {
             <div className="eg-head">
               <p className="eg-label">Start a conversation</p>
               <h2>Tell me about your practice</h2>
-              <p>[CONFIRM: short invitation line.]</p>
+              <p>
+                Tell me what you are trying to do and I will tell you whether AI is the right
+                tool for it.
+              </p>
             </div>
 
             {status === "success" ? (
@@ -288,11 +309,17 @@ export default function EvergreenPage() {
             <a href="/terms">Terms &amp; Disclaimer</a> &middot;{" "}
             <a href="/accessibility">Accessibility</a>
           </p>
+          {/* [ATTORNEY REVIEW REQUIRED] Drafted on the premise that Evergreen work is a
+              law-related service under RPC 5.7 and is NOT the practice of law. Justin has to
+              confirm that premise before this page launches; the alternative wording treats
+              every engagement as legal services. Nothing else on the page turns on it. */}
           <p className="eg-disclaimer">
-            [ATTORNEY REVIEW REQUIRED: disclaimer language. Suggested topics: attorney advertising
-            notice as required; whether consulting engagements create an attorney-client
-            relationship (and that one is formed only by a signed engagement letter); no legal
-            advice via this site; jurisdictions of admission.]
+            Attorney advertising. Evergreen Legal AI provides consulting and advisory services on
+            the use of artificial intelligence. Those services are not the practice of law and do
+            not create an attorney-client relationship. An attorney-client relationship with the
+            Law Office of Justin D. Leigh is formed only by a signed engagement letter. Nothing
+            on this site is legal advice, and you should not send confidential information
+            through it. Justin D. Leigh is admitted in Washington and Oregon.
           </p>
           <p>&copy; {new Date().getFullYear()} Justin D Leigh PLLC</p>
         </div>
