@@ -47,7 +47,6 @@ export default function Footer() {
           <p>&copy; {new Date().getFullYear()} Justin D. Leigh, PLLC, d/b/a Law Office of Justin D. Leigh. All rights reserved.</p>
           <p className="mt-1">Licensed to practice law in Washington and Oregon.</p>
           <p className="mt-1">Attorney advertising. Prior results do not guarantee a similar outcome. The hiring of a lawyer is an important decision that should not be based solely upon advertisements.</p>
-          <p className="mt-2 text-white/15">Building photograph by Quintin Soloviev, cropped, used under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener noreferrer" target="_blank" className="underline hover:text-gold/50">CC BY 4.0</a>.</p>
         </div>
       </div>
     </footer>
