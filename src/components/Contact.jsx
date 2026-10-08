@@ -53,8 +53,7 @@ export default function Contact() {
           style={{ transitionDelay: inView ? "0.6s" : "0s" }}
         >
           {[
-            { label: "Office", value: "Downtown Spokane, WA\nBy appointment only" },
-            { label: "Mailing", value: "601 W. 1st Ave., Ste. 1400\nPMB #17389612\nSpokane, WA 99201" },
+            { label: "Office", value: "601 W. 1st Ave., Ste. 1400\nSpokane, WA 99201\nBy appointment only" },
             { label: "Phone", value: "(509) 426-4415", href: "tel:5094264415" },
           ].map((item) => (
             <div key={item.label}>
