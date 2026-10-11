@@ -299,7 +299,7 @@ export default function EvergreenPage() {
                alt="Evergreen Legal AI, offered by Justin D Leigh PLLC" />
           <p>
             Evergreen Legal AI is a trade name of Justin D Leigh PLLC, d/b/a Law Office of
-            Justin D. Leigh. 601 W. 1st Ave., Ste. 1400, PMB #17389612, Spokane, WA 99201
+            Justin D. Leigh. 601 W. 1st Ave., Ste. 1400, Spokane, WA 99201
             &middot; <a href="tel:5094264415">(509) 426-4415</a> &middot;{" "}
             <a href="mailto:justindleigh@gmail.com">justindleigh@gmail.com</a>
           </p>

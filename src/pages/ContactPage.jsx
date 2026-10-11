@@ -174,19 +174,17 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Mailing Address */}
+            {/* Office Address */}
             <div className="border border-white/10 p-6">
-              <div className="text-[11px] font-semibold tracking-[3px] uppercase text-gold mb-3">Mailing</div>
+              <div className="text-[11px] font-semibold tracking-[3px] uppercase text-gold mb-3">Office</div>
               <div className="font-serif text-lg text-white/80 leading-snug mb-3">
                 601 W. 1st Ave., Ste. 1400
-                <br />
-                PMB #17389612
                 <br />
                 Spokane, WA 99201
               </div>
               <button
                 onClick={() => {
-                  navigator.clipboard.writeText("601 W. 1st Ave., Ste. 1400, PMB #17389612, Spokane, WA 99201");
+                  navigator.clipboard.writeText("601 W. 1st Ave., Ste. 1400, Spokane, WA 99201");
                   setCopied(true);
                   setTimeout(() => setCopied(false), 2000);
                 }}

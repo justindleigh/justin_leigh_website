@@ -60,7 +60,6 @@ export default function Accessibility() {
               <p className="text-white font-medium">Justin D. Leigh, Attorney at Law</p>
               <p>Law Office of Justin D. Leigh</p>
               <p>601 W. 1st Ave., Ste. 1400</p>
-              <p>PMB #17389612</p>
               <p>Spokane, WA 99201</p>
               <p className="mt-2">Phone: <a href="tel:5094264415" className="text-gold hover:text-gold-light transition-colors">(509) 426-4415</a></p>
               <p>Email: <a href="mailto:justindleigh@gmail.com" className="text-gold hover:text-gold-light transition-colors">justindleigh@gmail.com</a></p>

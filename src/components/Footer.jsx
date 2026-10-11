@@ -17,8 +17,8 @@ export default function Footer() {
             </div>
             <div className="text-[12px] text-white/30 space-y-1 ml-10">
               <p>Justin D. Leigh, Attorney at Law</p>
-              <p>Office: Downtown Spokane, WA (by appointment only)</p>
-              <p>Mailing: 601 W. 1st Ave., Ste. 1400, PMB #17389612, Spokane, WA 99201</p>
+              <p>601 W. 1st Ave., Ste. 1400, Spokane, WA 99201</p>
+              <p>By appointment only</p>
               <p>WSBA #55307</p>
               <p className="mt-2"><a href="tel:5094264415" className="text-gold/60 hover:text-gold transition-colors">(509) 426-4415</a></p>
             </div>
