@@ -16,6 +16,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
 import Accessibility from "./pages/Accessibility";
 import EvergreenPage from "./pages/EvergreenPage";
+import SignPage from "./pages/SignPage";
+import NotFound from "./pages/NotFound";
 
 function HomePage() {
   return (
@@ -61,10 +63,21 @@ export default function App() {
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/accessibility" element={<Accessibility />} />
+
+          {/* Catch-all. Without it an unmatched path rendered an empty #root on
+              a black body: a blank screen, no message, and HTTP 200. Inside the
+              layout so a lost visitor keeps the nav and footer. */}
+          <Route path="*" element={<NotFound />} />
         </Route>
 
         {/* Separate trade name: its own header, footer, fonts and palette. */}
         <Route path="/evergreen-legal-ai" element={<EvergreenPage />} />
+
+        {/* Engagement agreement signing. Outside FirmLayout on purpose: someone
+            reading an agreement they are about to sign should not be one click
+            from the blog. The token is the credential; the page holds no table
+            access of its own. */}
+        <Route path="/sign/:token" element={<SignPage />} />
 
         {/* /ai was the firm-branded version of this page. vercel.json 301s it,
             which covers direct hits and crawlers; this catches in-app links. */}
