@@ -42,6 +42,8 @@ export default function SignPage() {
   const [busy, setBusy] = useState(false);
   const [problem, setProblem] = useState("");
   const [signedAt, setSignedAt] = useState(null);
+  const [waitingOn, setWaitingOn] = useState(null);
+  const [allSigned, setAllSigned] = useState(true);
   const docRef = useRef(null);
 
   useEffect(() => {
@@ -88,6 +90,8 @@ export default function SignPage() {
       const row = Array.isArray(data) ? data[0] : data;
       if (!row || !row.ok) { setProblem(row?.message || "Nothing was signed."); return; }
       setSignedAt(row.signed_at);
+      setAllSigned(row.all_signed !== false);
+      setWaitingOn(row.waiting_on || null);
       setState("signed");
     } finally {
       setBusy(false);
@@ -163,6 +167,13 @@ export default function SignPage() {
           {signedAt ? ` on ${new Date(signedAt).toLocaleString()}` : ""}.
           A copy is on its way to you, and the office has been notified.
         </p>
+        {!allSigned && (
+          <p style={{ borderLeft: `3px solid ${GOLD}`, paddingLeft: 12 }}>
+            This is a joint engagement, so it takes effect once
+            {waitingOn ? ` ${waitingOn}` : " the other client"} has also signed.
+            We will let you both know when that happens.
+          </p>
+        )}
         <p style={{ color: "#555", fontSize: 14 }}>
           Keep this page or the copy you receive for your records. If anything in it
           is not what you expected, call (509) 426-4415 before work begins.
@@ -173,9 +184,17 @@ export default function SignPage() {
   return shell(
     <>
       <p style={{ fontSize: 14, color: "#444", marginTop: 0 }}>
-        {doc.client_name}
+        {doc.signer_name}
         {doc.matter_description ? ` · ${doc.matter_description}` : ""}
       </p>
+      {doc.signer_count > 1 && (
+        <p style={{ fontSize: 13.5, color: "#444", margin: "10px 0 0" }}>
+          This agreement is between the firm and two clients
+          {doc.co_signer_name ? `, you and ${doc.co_signer_name}` : ""}. You each
+          sign your own copy of the same agreement, and it takes effect once both
+          signatures are in.
+        </p>
+      )}
       <p style={{ fontSize: 13, color: "#666", borderLeft: `3px solid ${GOLD}`,
                   paddingLeft: 12, margin: "18px 0 26px" }}>
         Please read the whole agreement before signing. If anything is unclear or is
@@ -226,7 +245,7 @@ export default function SignPage() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           autoComplete="name"
-          placeholder={doc.client_name}
+          placeholder={doc.signer_name}
           style={{ width: "100%", padding: "12px 14px", fontSize: 21,
                    fontFamily: "'Cormorant Garamond', Georgia, serif",
                    border: "1px solid #cfc7b6", background: CREAM, color: "#1a1a1a",
