@@ -28,7 +28,7 @@ const ORIGIN = "https://www.justindleigh.com";
 const PORT = 4399;
 
 const STATIC_ROUTES = [
-  "/", "/contact", "/evergreen-legal-ai", "/alcohol-beverage-law",
+  "/", "/contact", "/book", "/evergreen-legal-ai", "/alcohol-beverage-law",
   "/blog", "/privacy", "/terms", "/accessibility",
 ];
 

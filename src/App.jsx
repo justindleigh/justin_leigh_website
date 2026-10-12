@@ -11,6 +11,7 @@ import ArticlesTeaser from "./components/ArticlesTeaser";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ContactPage from "./pages/ContactPage";
+import BookPage from "./pages/BookPage";
 import AlcoholBeveragePage from "./pages/AlcoholBeveragePage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
@@ -57,6 +58,7 @@ export default function App() {
         <Route element={<FirmLayout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/book" element={<BookPage />} />
           <Route path="/alcohol-beverage-law" element={<AlcoholBeveragePage />} />
           <Route path="/blog" element={<BlogIndex />} />
           <Route path="/blog/:slug" element={<BlogPost />} />

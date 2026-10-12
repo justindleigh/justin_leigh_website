@@ -94,7 +94,10 @@ export default function ContactPage() {
             Your inquiry has been received. Justin typically responds within two
             business days. If your matter is urgent, please call directly.
           </p>
-          <a href="/" className="inline-block px-8 py-4 bg-gold text-navy text-sm font-bold tracking-wide hover:bg-gold-light transition-colors">
+          <a href="/book" className="inline-block px-8 py-4 bg-gold text-navy text-sm font-bold tracking-wide hover:bg-gold-light transition-colors mr-3 mb-3">
+            Book a call now
+          </a>
+          <a href="/" className="inline-block px-8 py-4 border border-white/20 text-white text-sm font-bold tracking-wide hover:border-gold transition-colors">
             Return Home
           </a>
         </div>

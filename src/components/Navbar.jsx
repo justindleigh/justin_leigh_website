@@ -136,10 +136,10 @@ export default function Navbar() {
             (509) 426-4415
           </a>
           <Link
-            to="/contact"
+            to="/book"
             className="relative px-5 py-2.5 text-[12px] font-semibold text-navy bg-gold hover:bg-gold-light transition-all duration-300 tracking-wide whitespace-nowrap"
           >
-            Free Consultation
+            Book a Call
           </Link>
           <ThemeToggle className="ml-3" />
         </div>
@@ -188,11 +188,11 @@ export default function Navbar() {
               (509) 426-4415
             </a>
             <Link
-              to="/contact"
+              to="/book"
               onClick={() => setMobileOpen(false)}
               className="mt-2 px-5 py-3 text-sm font-semibold text-navy bg-gold hover:bg-gold-light text-center transition-colors"
             >
-              Free Consultation
+              Book a Call
             </Link>
           </div>
         </div>

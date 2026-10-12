@@ -15,6 +15,11 @@ const META = {
     description:
       "Request a consultation with Justin D. Leigh, an independent attorney in downtown Spokane. Free initial consultation, by appointment, admitted in Washington and Oregon.",
   },
+  "/book": {
+    title: "Book a Consultation | Justin D. Leigh, Spokane Attorney",
+    description:
+      "Book a phone consultation with Justin D. Leigh, attorney in downtown Spokane, or request a meeting at the office. Most matters start with a short call.",
+  },
   "/evergreen-legal-ai": {
     title: "Evergreen Legal AI | Practical AI for the practice of law",
     description:
