@@ -156,8 +156,10 @@ export default function IntakePage() {
         <>
           <p style={{ margin: "0 0 6px", fontWeight: 600, fontSize: 17 }}>{form.areaLabel}</p>
           <p style={{ margin: 0, fontSize: 15, color: "#44506a" }}>
-            Answer what you can. If you do not know something, say so or leave it
-            blank. Nothing here is a commitment.
+            Answer what you can. If a question does not apply to you, is
+            repeating something, or you have already covered it further up, skip
+            it. If you do not know something, say so or leave it blank. Nothing
+            here is a commitment.
           </p>
           <p style={{ margin: "10px 0 0", fontSize: 15, color: "#44506a" }}>
             You can also call or text me on{" "}
