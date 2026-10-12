@@ -18,6 +18,7 @@ import Terms from "./pages/Terms";
 import Accessibility from "./pages/Accessibility";
 import EvergreenPage from "./pages/EvergreenPage";
 import SignPage from "./pages/SignPage";
+import IntakePage from "./pages/IntakePage";
 import NotFound from "./pages/NotFound";
 
 function HomePage() {
@@ -80,6 +81,7 @@ export default function App() {
             from the blog. The token is the credential; the page holds no table
             access of its own. */}
         <Route path="/sign/:token" element={<SignPage />} />
+        <Route path="/intake/:token" element={<IntakePage />} />
 
         {/* /ai was the firm-branded version of this page. vercel.json 301s it,
             which covers direct hits and crawlers; this catches in-app links. */}
