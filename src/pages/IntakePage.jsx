@@ -137,10 +137,15 @@ export default function IntakePage() {
     return shell(card(
       <>
         <p style={{ margin: "0 0 10px", fontWeight: 600 }}>Thank you, that has come through.</p>
+        <p style={{ margin: "0 0 10px" }}>
+          I will read it and follow up with you within 24 hours.
+        </p>
         <p style={{ margin: 0 }}>
-          I will read it and get back to you. If anything changes in the meantime, or you
-          remember something you left out, call me at{" "}
-          <a href="tel:+15094264415" style={{ color: NAVY }}>(509) 426-4415</a>.
+          If anything changes before then, or you remember something you left out,
+          call or text me on{" "}
+          <a href="tel:+15094264415" style={{ color: NAVY }}>(509) 426-4415</a> or email{" "}
+          <a href="mailto:justindleigh@gmail.com" style={{ color: NAVY }}>justindleigh@gmail.com</a>.
+          If anything is urgent, do not wait for me, call.
         </p>
       </>
     ));
@@ -152,8 +157,14 @@ export default function IntakePage() {
           <p style={{ margin: "0 0 6px", fontWeight: 600, fontSize: 17 }}>{form.areaLabel}</p>
           <p style={{ margin: 0, fontSize: 15, color: "#44506a" }}>
             Answer what you can. If you do not know something, say so or leave it
-            blank. Nothing here is a commitment, and you can call me instead at any
-            point on <a href="tel:+15094264415" style={{ color: NAVY }}>(509) 426-4415</a>.
+            blank. Nothing here is a commitment.
+          </p>
+          <p style={{ margin: "10px 0 0", fontSize: 15, color: "#44506a" }}>
+            You can also call or text me on{" "}
+            <a href="tel:+15094264415" style={{ color: NAVY }}>(509) 426-4415</a>, or email{" "}
+            <a href="mailto:justindleigh@gmail.com" style={{ color: NAVY }}>justindleigh@gmail.com</a>,
+            whichever is easier. If something here is hard to put in writing, say
+            "call me" and I will ring you.
           </p>
         </>
       )}
