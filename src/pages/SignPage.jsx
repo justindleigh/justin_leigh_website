@@ -189,8 +189,8 @@ export default function SignPage() {
       </p>
       {doc.signer_count > 1 && (
         <p style={{ fontSize: 13.5, color: "#444", margin: "10px 0 0" }}>
-          This agreement is between the firm and two clients
-          {doc.co_signer_name ? `, you and ${doc.co_signer_name}` : ""}. You each
+          This agreement needs two signatures
+          {doc.co_signer_name ? `, yours and ${doc.co_signer_name}'s` : ""}. You each
           sign your own copy of the same agreement, and it takes effect once both
           signatures are in.
         </p>
