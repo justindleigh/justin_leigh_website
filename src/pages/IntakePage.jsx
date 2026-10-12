@@ -30,6 +30,13 @@ export default function IntakePage() {
   const [consent, setConsent] = useState(false);
   const [busy, setBusy] = useState(false);
   const [problem, setProblem] = useState("");
+  // Nothing is "missing" until she has tried to send. A form that opens
+  // covered in red boxes reads as broken before she has typed a word.
+  const [tried, setTried] = useState(false);
+
+  useEffect(() => {
+    document.title = "Client Intake — Law Office of Justin D. Leigh";
+  }, []);
 
   useEffect(() => {
     let dead = false;
@@ -61,6 +68,7 @@ export default function IntakePage() {
 
   async function submit() {
     setProblem("");
+    setTried(true);
     if (!consent) { setProblem("Please read the notice and tick the box before sending."); return; }
     if (missing.length) {
       setProblem("A few answers are still blank. They are marked below.");
@@ -151,7 +159,7 @@ export default function IntakePage() {
       )}
 
       {form.questions.map((q) => {
-        const blank = missing.includes(q.key);
+        const blank = tried && missing.includes(q.key);
         return (
           <div key={q.key} id={"q-" + q.key} style={{
             background: CREAM, borderRadius: 14, padding: "20px 22px", marginTop: 14,
