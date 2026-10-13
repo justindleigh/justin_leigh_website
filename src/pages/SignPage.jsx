@@ -245,7 +245,7 @@ export default function SignPage() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           autoComplete="name"
-          placeholder={doc.signer_name}
+          placeholder="Type your name here"
           style={{ width: "100%", padding: "12px 14px", fontSize: 21,
                    fontFamily: "'Cormorant Garamond', Georgia, serif",
                    border: "1px solid #cfc7b6", background: CREAM, color: "#1a1a1a",
@@ -254,6 +254,14 @@ export default function SignPage() {
 
         {problem && (
           <p style={{ color: "#a01919", fontSize: 14, marginTop: 14 }}>{problem}</p>
+        )}
+
+        {!canSign && !busy && (
+          <p style={{ color: "#6b6354", fontSize: 13.5, marginTop: 14 }}>
+            {!consent || !intent
+              ? "Tick both boxes above, and type your name, to sign."
+              : "Type your full name in the box above to sign."}
+          </p>
         )}
 
         <button
