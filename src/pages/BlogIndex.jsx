@@ -4,6 +4,18 @@ import posts from "../data/posts.json";
 // Grouped so the index reads as a practice map rather than a reverse-chronological
 // feed. A prospective client arrives looking for their problem, not for the newest post.
 const GROUPS = [
+  // Injury work leads, because it is the practice area with the most search
+  // volume and, until 2026-10-13, the one with no article at all. There is a
+  // "More" bucket below for any post missing from this list, so a new article
+  // never disappears from the index, but it does land under a heading that
+  // says nothing. These three belong at the top under their own name.
+  {
+    label: "Personal Injury",
+    slugs: [
+      "personal-injury-claims-washington",
+      "dog-bite-attack-washington",
+    ],
+  },
   {
     label: "Real Estate & Property",
     slugs: [
@@ -37,9 +49,10 @@ const GROUPS = [
     ],
   },
   {
-    label: "Civil Rights & Employment",
+    label: "Civil Rights & Claims Against Government",
     slugs: [
       "civil-rights-section-1983-washington",
+      "tort-claim-against-government-washington",
       "employment-discrimination-washington-wlad",
     ],
   },
