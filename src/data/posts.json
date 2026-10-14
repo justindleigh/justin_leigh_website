@@ -1333,7 +1333,7 @@
   {
     "slug": "washington-liquor-license-lcb",
     "title": "Washington Liquor Licenses and LCB Compliance: The Rules That Catch Owners Off Guard",
-    "titleTag": "Washington Liquor License & LCB Rules | Justin D. Leigh",
+    "titleTag": "Washington Liquor License, Buying a Bar, Tied House | Justin D. Leigh",
     "practiceArea": "Alcohol Beverage Licensing and Regulatory Compliance",
     "description": "A Washington liquor license stays with the applicant, not the business, and the tied-house rules reach deals that look like ordinary marketing. What to watch.",
     "lede": "You have a purchase and sale agreement for a neighborhood bar, a closing date, and a price allocation with a line item for the liquor license. Or you run a brewery, and a restaurant has offered to build a dedicated tap wall if you help pay for the sign. Both are ordinary commercial instincts, and both run into the regulatory architecture around alcohol here. A Washington liquor license is not an asset that travels with a business, and the rules about who may give what to whom reach conduct that looks like nothing more than marketing.",
@@ -1463,7 +1463,11 @@
     ],
     "words": 1715,
     "minutes": 8,
-    "file": "10-washington-liquor-license-lcb.docx"
+    "file": "10-washington-liquor-license-lcb.docx",
+    "related": [
+      "liquor-license-lcb-enforcement-washington",
+      "alcohol-litigation-commerce-clause"
+    ]
   },
   {
     "slug": "civil-rights-section-1983-washington",
@@ -2552,7 +2556,11 @@
     ],
     "words": 1680,
     "minutes": 7,
-    "file": "17-alcohol-litigation-commerce-clause.docx"
+    "file": "17-alcohol-litigation-commerce-clause.docx",
+    "related": [
+      "washington-liquor-license-lcb",
+      "liquor-license-lcb-enforcement-washington"
+    ]
   },
   {
     "slug": "personal-injury-claims-washington",
@@ -3019,10 +3027,10 @@
   },
   {
     "slug": "liquor-license-lcb-enforcement-washington",
-    "title": "Liquor Licensing and LCB Enforcement in Washington: The Deadlines That Decide It",
-    "titleTag": "Washington Liquor License Attorney, LCB Violations | Justin D. Leigh",
+    "title": "An LCB Violation Notice in Washington: Twenty Days, Three Options, and What the Penalty Will Be",
+    "titleTag": "LCB Violation Notice in Washington, Penalties | Justin D. Leigh",
     "practiceArea": "Alcohol Beverage Licensing and Regulatory Compliance",
-    "description": "How long a Washington liquor license takes, who gets to object, and what happens after an administrative violation notice. Twenty days to answer, and silence is an answer.",
+    "description": "An administrative violation notice from the Liquor and Cannabis Board starts a twenty-day clock, and letting it run is itself an answer. What the three options mean, what the penalty will be, and when the Board does not wait.",
     "lede": "You opened the mail and there is an administrative violation notice from the Liquor and Cannabis Board, with a recommended penalty printed on it. Or you are eighteen weeks into an application for a taproom and the city has filed something. Both of those run on clocks that are shorter than they look, and in the second one the clock that matters is not yours. The licensee who does nothing for three weeks has not delayed a decision. He has made one.",
     "intro": [],
     "sections": [
@@ -3208,6 +3216,10 @@
     ],
     "file": "21-liquor-license-lcb-enforcement-washington.docx",
     "words": 2385,
-    "minutes": 11
+    "minutes": 11,
+    "related": [
+      "washington-liquor-license-lcb",
+      "alcohol-litigation-commerce-clause"
+    ]
   }
 ]

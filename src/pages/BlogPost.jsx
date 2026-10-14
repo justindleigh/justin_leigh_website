@@ -44,6 +44,15 @@ export default function BlogPost() {
   const idx = posts.findIndex((p) => p.slug === slug);
   const next = posts[(idx + 1) % posts.length];
 
+  // Articles that cover the same ground name each other in posts.json. Without
+  // this, "Read next" was whatever happened to sit beside the article in the
+  // file, and two articles on the same subject had no way to point at one
+  // another. Falls back to that neighbour when a post names nobody.
+  const related = (post.related || [])
+    .map((s) => posts.find((p) => p.slug === s))
+    .filter(Boolean);
+  const reading = related.length ? related : [next];
+
   return (
     <section className="min-h-screen bg-black pt-28 pb-16 px-6">
       <article className="max-w-3xl mx-auto">
@@ -108,14 +117,19 @@ export default function BlogPost() {
 
           <div className="glass p-6 border border-white/5">
             <span className="text-[11px] uppercase tracking-[3px] text-gold block mb-3">
-              Read next
+              {related.length ? "Related" : "Read next"}
             </span>
-            <Link
-              to={`/blog/${next.slug}`}
-              className="font-serif text-xl text-white hover:text-gold-light transition-colors leading-snug block"
-            >
-              {next.title}
-            </Link>
+            <div className="flex flex-col gap-3">
+              {reading.map((r) => (
+                <Link
+                  key={r.slug}
+                  to={`/blog/${r.slug}`}
+                  className="font-serif text-xl text-white hover:text-gold-light transition-colors leading-snug block"
+                >
+                  {r.title}
+                </Link>
+              ))}
+            </div>
           </div>
 
           <div className="text-center mt-12">
