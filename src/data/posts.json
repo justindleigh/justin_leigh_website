@@ -1760,7 +1760,10 @@
     ],
     "words": 1718,
     "minutes": 8,
-    "file": "12-employment-discrimination-washington-wlad.docx"
+    "file": "12-employment-discrimination-washington-wlad.docx",
+    "related": [
+      "userra-military-service-employment-washington"
+    ]
   },
   {
     "slug": "washington-parenting-plans-fathers-rights",
@@ -3429,5 +3432,236 @@
     "words": 2801,
     "minutes": 12,
     "file": "22-landlord-tenant-washington.docx"
+  },
+  {
+    "slug": "userra-military-service-employment-washington",
+    "title": "USERRA in Washington: Reemployment Rights After Military Service",
+    "titleTag": "USERRA Reemployment Rights in Washington | Justin D. Leigh",
+    "practiceArea": "Employment Law",
+    "published": "2026-10-15",
+    "description": "What USERRA requires when you leave a civilian job for military service, which position your employer has to put you back into, and why 38 U.S.C. 4327(b) sets no deadline to file. Plus what Washington law adds on top of it.",
+    "lede": "Fairchild Air Force Base and the Washington Army and Air National Guard mean that many people around Spokane carry a civilian job and a military obligation at the same time. The federal law protecting that job is the Uniformed Services Employment and Reemployment Rights Act, 38 U.S.C. sections 4301 through 4327. It gives a person who leaves work for service the right to go back, and names the position that has to be. Washington adds a veterans' employment chapter, and the Law Against Discrimination makes military status a protected class.",
+    "intro": [
+      "The most useful thing in the statute is the thing almost nobody knows, so it goes first. Congress wrote into 38 U.S.C. 4327(b) that there is no limit on the period for filing a USERRA complaint or claim. People talk themselves out of these cases assuming it is too late."
+    ],
+    "sections": [
+      {
+        "heading": "How long do I have to file a USERRA claim?",
+        "paras": [
+          {
+            "p": "Section 4327(b) provides that if any person seeks to file a complaint or claim with the Secretary of Labor, the Merit Systems Protection Board, or a federal or state court alleging a violation of the chapter, \"there shall be no limit on the period for filing the complaint or claim.\" Section 4327(a) adds that a federal official's missed deadline under section 4322, 4323, or 4324 gives the employer no defense, a limitations period included."
+          },
+          {
+            "p": "Nor does anything require going through the Department of Labor first, since section 4323(a)(3) permits an action where the person chose not to apply to the Secretary or was refused representation. On its own words 4327(b) governs claims under the federal chapter and says nothing about the timing of the Washington claims below. What the statute cannot do is preserve evidence. The filing period has no end, and the practical ability to prove what happened does."
+          }
+        ]
+      },
+      {
+        "heading": "Can I get my job back after a deployment?",
+        "paras": [
+          {
+            "p": "Section 4312(a) sets out the right. A person whose absence from a job is necessitated by service in the uniformed services is entitled to reemployment if advance written or verbal notice was given, the cumulative length of that absence and all earlier service absences with that employer does not exceed five years, and they report back in time. Section 4312(b) excuses notice where military necessity precludes it, or where giving it was otherwise impossible or unreasonable in the circumstances."
+          },
+          {
+            "p": "The five-year clock is narrower than it sounds. Section 4312(c) excludes service required beyond five years to finish an initial obligation, service a person could not get release orders from through no fault of their own, certain required training, and a long list of involuntary activations, declared war and national emergency among them. Someone mobilized repeatedly can have far less counted time than total time away."
+          },
+          {
+            "p": "One condition sits behind it. Section 4312(a) is expressly subject to section 4304, which ends entitlement on a dishonorable or bad conduct discharge, a separation under other than honorable conditions, or a dismissal or dropping from the rolls under 10 U.S.C. 1161. Character of service is the gate."
+          },
+          {
+            "p": "The employer's defenses are narrow. Section 4312(d)(1) excuses reemployment where its circumstances have so changed as to make it impossible or unreasonable, or where the job was for a brief, nonrecurrent period with no reasonable expectation of continuing indefinitely or for a significant period. Section 4312(d)(2) puts the burden of proving either on the employer."
+          }
+        ]
+      },
+      {
+        "heading": "Does a drill weekend count, or only a deployment?",
+        "paras": [
+          {
+            "p": "Section 4303(13) defines service in the uniformed services broadly, including active duty, active duty for training, inactive duty training, full-time National Guard duty, state active duty of fourteen days or more, a fitness examination, and funeral honors duty."
+          },
+          {
+            "p": "Section 4312(h) closes the question from the other side. The timing, frequency and duration of the service, or its nature including voluntary service, is not a basis for denying protection so long as the service stays inside the five-year limit, notice was given under subsection (a)(1), and the person reported back under subsection (e). RCW 73.16.031(12) includes state-ordered active duty, which the federal definition reaches only at fourteen days or more."
+          }
+        ]
+      },
+      {
+        "heading": "How fast do I have to report back to work?",
+        "paras": [
+          {
+            "p": "Section 4312(e)(1) sets four deadlines, and the right one depends on the service. A person whose service was under thirty-one days reports by the beginning of the first full regularly scheduled work period on the first full calendar day after it ends, once eight hours have passed for safe travel home, and a fitness examination takes the same timing. Service of more than thirty days but under one hundred eighty-one carries fourteen days to apply, and service of more than one hundred eighty days carries ninety. RCW 73.16.035(1)(c) sets the same ladder under the state chapter."
+          },
+          {
+            "p": "Illness and injury have their own rule. Section 4312(e)(2) lets a person hospitalized for or convalescing from an illness or injury incurred in or aggravated during service report at the end of the recovery period, caps that at two years, and extends it for circumstances beyond their control."
+          },
+          {
+            "p": "Missing a deadline is not fatal. Section 4312(e)(3) provides that a person who reports late does not automatically forfeit the chapter's rights, but becomes subject to the employer's ordinary discipline for absence. Section 4312(f)(4) bars an employer from defeating a reemployment obligation by demanding documentation that does not then exist. RCW 73.16.035 carries both rules."
+          }
+        ]
+      },
+      {
+        "heading": "Do they have to give me my old job, or can they put me anywhere?",
+        "paras": [
+          {
+            "p": "Section 4313 is misread most often, because it does not promise the old job. For service of more than ninety days, section 4313(a)(2) puts the person in the position they would have held had the employment not been interrupted, or one of like seniority, status and pay, if they are qualified."
+          },
+          {
+            "p": "Shorter service is governed by section 4313(a)(1), and it is narrower rather than the same. The employer owes the position the person would have held, and may fall back to the job held when the service began only if the person is not qualified for the first after reasonable efforts to qualify them. A sixty-day activation does not let the employer hand back a comparable job."
+          },
+          {
+            "sub": "The escalator"
+          },
+          {
+            "p": "That phrase, the position in which the person would have been employed, is the escalator. The statute treats the service member as though they had been on a moving staircase the whole time they were gone. If a step increase would have come due, or the classification was reorganized into a higher grade, the position the statute names is the one at the top rather than the one they stepped off, if they are qualified to perform its duties."
+          },
+          {
+            "p": "Two definitions matter. Section 4303(9) defines qualified as the ability to perform the essential tasks of the position, and section 4303(10) defines reasonable efforts as employer actions, training included, that do not impose an undue hardship on the employer. So a lack of training for the upgraded job is not on its own an answer. The employer owes those efforts, and under section 4313(a)(2)(B) may fall back to the earlier position only where the person is still not qualified afterward."
+          },
+          {
+            "p": "Where a service-related disability blocks that position even after accommodation, section 4313(a)(3) calls for the nearest equivalent to it. RCW 73.16.033 states Washington's version more plainly, requiring reemployment forthwith to the former position or one of like seniority, status and pay."
+          }
+        ]
+      },
+      {
+        "heading": "Do I lose my health insurance while I am gone?",
+        "paras": [
+          {
+            "p": "Not if the person elects to keep it. Section 4317(a) requires a health plan covering a person through the job to let that person elect to continue it during an absence for service, for the lesser of twenty-four months from the start of the absence or the day after the person fails to return under section 4312(e). The plan may charge up to 102 percent of the full premium, except that someone serving under thirty-one days pays no more than the employee share."
+          },
+          {
+            "p": "Coming back is protected separately. Section 4317(b)(1) bars any exclusion or waiting period on reinstated coverage that would not have applied had it never lapsed, and it covers the family members whose coverage returns with the employee's. Section 4317(b)(2) carves out one thing, coverage of an illness or injury the Secretary of Veterans Affairs determines was incurred in, or aggravated during, the service."
+          }
+        ]
+      },
+      {
+        "heading": "What happens to my seniority, benefits and pension while I am gone?",
+        "paras": [
+          {
+            "p": "Section 4316(b)(1) deems a person absent for service to be on furlough or leave of absence, and entitles them to the rights and benefits not determined by seniority that the employer generally provides to employees of similar seniority, status and pay who are on leave. The benchmark is what the employer does for others on leave. One exception sits in section 4316(b)(2), where a person who knowingly gives clear written notice of intent not to return loses those benefits and the employer must prove the notice was given that way. Paid leave is the employee's call: section 4316(d) lets a person use accrued vacation during the service and bars an employer from requiring it."
+          },
+          {
+            "p": "Section 4318 handles pensions by treating the gap as though it were not there. A reemployed person is treated as not having incurred a break in service, and each period of service counts with the plan's employer for vesting and accrual. The employer funds that, while benefits turning on employee contributions are owed only as the person pays them in."
+          }
+        ]
+      },
+      {
+        "heading": "Can I be fired after coming back from deployment?",
+        "paras": [
+          {
+            "p": "Only for cause, for a period after the return that depends on the service. Section 4316(c) provides that a reemployed person shall not be discharged except for cause within one year of reemployment where the prior service exceeded one hundred eighty days, or within one hundred eighty days where it ran more than thirty but under one hundred eighty-one. RCW 73.16.051 bars discharge without cause within one year of restoration. Inside that window the employer needs a reason."
+          }
+        ]
+      },
+      {
+        "heading": "They did not fire me, they just stopped promoting me",
+        "paras": [
+          {
+            "p": "Section 4311(a) prohibits an employer from denying initial employment, reemployment, retention, promotion or any benefit of employment because of a person's membership in, performance of, or obligation to perform service. Because the status includes merely having an obligation, someone never activated is covered."
+          },
+          {
+            "p": "Section 4311(c)(1) sets the causation standard. The employer has violated the section if the person's service or obligation was a motivating factor, unless the employer can prove it would have acted the same way anyway. RCW 73.16.032(1) and (3)(a) adopt the same prohibition and framework."
+          },
+          {
+            "sub": "Retaliation reaches people who never served"
+          },
+          {
+            "p": "Section 4311(b) bars an employer from taking any adverse employment action or other retaliatory action against a person because they enforced a protection under the chapter, testified in a proceeding, assisted in an investigation, or exercised a right. Its last sentence matters, because the prohibition applies whether or not the person has served. The coworker who writes a statement supporting a reservist's complaint is protected though he never wore a uniform, and RCW 73.16.032(2) carries the same rule."
+          }
+        ]
+      },
+      {
+        "heading": "My employer will not take me back after the Guard. What are my options?",
+        "paras": [
+          {
+            "p": "There are three federal routes, and the first is the gateway to the second. Section 4322 lets a person file a written complaint with the Secretary of Labor naming the employer and summarizing the allegations, and the Secretary must notify the person of their rights within five days, investigate, and finish within ninety days. Where the Secretary cannot resolve it, section 4323(a)(1) lets the person ask that it go to the Attorney General, who has sixty days under section 4323(a)(2) to decide whether to appear. That route runs through the Secretary, not around. Section 4321 separately directs the Secretary, through the Veterans' Employment and Training Service, to assist any person with the chapter's rights."
+          },
+          {
+            "p": "The third route is to sue directly under section 4323(a)(3). Section 4323(b) gives the federal district courts jurisdiction over an action against a private employer, while one against a state as employer may be brought in state court. Section 4323(i) defines private employer there to include a political subdivision of a state, which matters to city and county employees. Federal employees go to the Merit Systems Protection Board under section 4324."
+          }
+        ]
+      },
+      {
+        "heading": "What can a court actually order?",
+        "paras": [
+          {
+            "p": "Section 4323(d) lets a court order the employer to comply, compensate the person for any loss of wages or benefits, and pay interest at three percent per year. Where the court finds the employer knowingly failed to comply, section 4323(d)(1)(D) allows liquidated damages of fifty thousand dollars or the compensation and interest already awarded, whichever is greater. Fees then run in the claimant's favor, because section 4323(h)(1) bars taxing fees or costs against a claimant and section 4323(h)(2) requires an award of reasonable fees and expenses to a person who prevails in a private action."
+          }
+        ]
+      },
+      {
+        "heading": "Does Washington law give me anything federal law does not?",
+        "paras": [
+          {
+            "p": "The most practical thing in chapter 73.16 RCW is one sentence. RCW 73.16.070 declares that the federal act applies in proper cases in all the courts of this state, so a USERRA claim is not confined to federal court. RCW 73.16.035(5) puts the burden of proving impossibility, undue hardship, or a temporary position on the employer, and RCW 73.16.090 preserves any more beneficial right under another law or a contract."
+          },
+          {
+            "p": "The chapter sets conditions of its own. A person must have notified the employer of membership in the uniformed services within a reasonable time of taking the job or joining, and RCW 73.16.035(1)(a) bars retaliation for that notice. State-ordered active duty carries a limit of twelve weeks in a calendar year under RCW 73.16.035(1)(f), extendable to twelve months in a declared emergency."
+          }
+        ]
+      },
+      {
+        "heading": "Who enforces the Washington chapter?",
+        "paras": [
+          {
+            "p": "The state route is narrower and the limits sit on the face of the statute. RCW 73.16.061(1) requires the Washington attorney general to sue in superior court for compliance and lost wages, but only where the service was state duty not covered by USERRA and the adjutant general has asked the employer about it without result. RCW 73.16.061(2) then lets a person use private counsel instead."
+          },
+          {
+            "p": "RCW 73.16.100 bears reading too. It declares that the public policies articulated in chapter 133, Laws of 2001 depend on procedures established in that act, and that no civil or criminal action may be maintained on those policies without complying with the chapter's procedures."
+          }
+        ]
+      },
+      {
+        "heading": "Is military status a protected class in Washington?",
+        "paras": [
+          {
+            "p": "It is, under a different statute with its own remedies. RCW 49.60.030(1) declares freedom from discrimination because of honorably discharged veteran or military status a civil right, listing first the right to obtain and hold employment. RCW 49.60.180 makes it an unfair practice for an employer to refuse to hire, to discharge or bar from employment, or to discriminate in the terms of employment on that basis."
+          },
+          {
+            "p": "The phrase is broader than its label. RCW 49.60.040(15) defines honorably discharged veteran or military status as a person who is either a veteran as defined in RCW 41.04.007, or an active or reserve member of any branch of the armed forces, including the national guard, coast guard and reserves. A reservist never discharged from anything is in the protected class under that second prong."
+          },
+          {
+            "p": "RCW 49.60.030(2) then gives a person injured by a violation of the chapter a civil action to enjoin further violations, to recover actual damages, or both, with the cost of suit and reasonable attorneys' fees."
+          },
+          {
+            "p": "One limit matters early, and it runs the opposite way from what people assume. The Law Against Discrimination reaches only an employer of eight or more persons under RCW 49.60.040(11), so the RCW 49.60.180 route is closed against a smaller one. Chapter 73.16 RCW carries no employee-count floor at all, and for a short state activation, which RCW 73.16.031(12) covers and 4303(13) reaches only at fourteen days or more, the state chapter is the claim and the federal one is not. What narrows that route is RCW 73.16.061, not size."
+          }
+        ]
+      },
+      {
+        "heading": "My union contract gives me more than the statute. Which one controls?",
+        "paras": [
+          {
+            "p": "The more generous term controls. Section 4302(a) provides that nothing in the chapter diminishes a law, contract or policy establishing a right more beneficial than the chapter's, so a union contract with a longer reinstatement window survives USERRA untouched. Section 4302(b) runs the other way, superseding anything that reduces or eliminates a right the chapter provides."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Most of the work in a reemployment case is reconstruction rather than argument. The orders and the unit's records establish what kind of duty was performed. They also establish how much of it counts against the five-year limit once the 4312(c) exclusions are applied. Working out where the escalator would have carried somebody under section 4313 means pulling the job's promotion history and who else moved and when, which is also what makes the section 4323(d) wage calculation possible."
+          },
+          {
+            "p": "On the employer side the first question is usually whether section 4312(d) applies at all. After that it is what cause means inside the section 4316(c) window, and how far a documentation request can go under section 4312(f)."
+          },
+          {
+            "p": "I handle USERRA and military-status employment matters from my office in downtown Spokane, for service members and for employers working out what the statute requires before the person reports back. I am admitted in Washington and Oregon, WSBA #55307 and OSB #242384."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about federal and Washington law, current as of publication. Provisions on both sides were amended recently, the federal ones by Public Law 118-210 in January 2025 and chapter 73.16 RCW by the Laws of 2026, and the law keeps moving. Nothing here is legal advice, and reading it does not create an attorney-client relationship. Whether it applies depends on facts this article does not know. Speak with a lawyer about your own circumstances."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "employment-discrimination-washington-wlad"
+    ],
+    "words": 2962,
+    "minutes": 13,
+    "file": "23-userra-military-service-employment-washington.docx"
   }
 ]
