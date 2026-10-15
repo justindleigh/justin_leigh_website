@@ -3242,5 +3242,192 @@
       "washington-liquor-license-lcb",
       "alcohol-litigation-commerce-clause"
     ]
+  },
+  {
+    "slug": "landlord-tenant-washington",
+    "title": "What Washington's rent increase cap actually says",
+    "titleTag": "Washington Rent Increase Cap and Landlord-Tenant Law | Justin D. Leigh",
+    "practiceArea": "Landlord-Tenant",
+    "published": "2026-10-15",
+    "description": "Washington caps residential rent increases under RCW 59.18.700 and requires cause to end most tenancies. The deposit and lockout sections shift attorneys' fees. A Spokane attorney on what the statute says, for landlords and for tenants.",
+    "lede": "Washington caps how much a landlord can raise the rent, and the cap is newer than a lot of the leases still in circulation. I represent landlords and tenants, and the same two misreadings arrive from both directions: owners who think the cap is a flat percentage they can look up once, and renters who think an over-cap increase is something they can simply refuse to pay. Neither is right.",
+    "intro": [
+      "The cap sits inside chapter 59.18 RCW, the Residential Landlord-Tenant Act, which already governed most of what the two sides actually fight about. Reading the new rent sections without the rest of the chapter is how an owner ends up right on the percentage and defective on the notice."
+    ],
+    "sections": [
+      {
+        "heading": "Can my landlord raise my rent?",
+        "paras": [
+          {
+            "p": "Yes, within limits, and the first limit is timing, not amount. Under RCW 59.18.700(1)(a)(i) a landlord may not increase the rent during the first 12 months after the tenancy begins, whatever the lease type, and the only way around that is an exemption under RCW 59.18.710. After the first year, the ceiling for any 12-month period is seven percent plus the consumer price index, or 10 percent, whichever of the two is less."
+          },
+          {
+            "p": "I am deliberately not printing a percentage here. RCW 59.18.700(1)(c) ties the index to the June 12-month percent change in the consumer price index for the Seattle area, and has the Department of Commerce calculate and publish the maximum increase for the following calendar year each year. An owner who builds a notice on last year's number has used the wrong figure, and where last year's number is the higher one, the increase is over the cap."
+          },
+          {
+            "p": "RCW 59.18.700(1)(b) then provides that the cap does not prohibit adjusting the rent by any amount once the tenant has vacated and the tenancy has ended, so the limit travels with the tenancy rather than the unit. These rent provisions also expire July 1, 2040."
+          }
+        ]
+      },
+      {
+        "heading": "How much notice to raise rent in Washington?",
+        "paras": [
+          {
+            "p": "The day count is in RCW 59.18.140, not in an old form packet. Subsection (3)(a) requires a minimum of 90 days' prior written notice of a rent increase, and no increase may take effect before the end of the term of the rental agreement. Subsection (3)(b) cuts that to 30 days for a subsidized tenancy where the rent is based on the tenant's income or circumstances specific to the subsidized household."
+          },
+          {
+            "p": "RCW 59.18.720 also requires the notice to be on a form substantially the same as the one printed in that section, and service has to be in accordance with RCW 59.12.040. The right percentage on the wrong timeline is still defective."
+          },
+          {
+            "p": "Where an increase exceeds the cap on a claimed exemption, RCW 59.18.700(2) requires the supporting facts to appear in the notice itself. For a tenant holding a notice that claims an exemption and recites no facts, the statute put the obligation to state them on the landlord."
+          }
+        ]
+      },
+      {
+        "heading": "What happens if the increase is over the cap?",
+        "paras": [
+          {
+            "p": "RCW 59.18.700(3) puts one step on the tenant and separately gives the tenant a way out. The step is the demand to cure: where a landlord raises the rent above the limit without an exemption, the tenant must offer the landlord an opportunity to cure by providing a written demand to reduce the increase to a complying amount."
+          },
+          {
+            "p": "Separately, and in the statute's words in addition to any other remedy available under the chapter or other law, the tenant may terminate the rental agreement any time before the effective date of the increase on at least 20 days' written notice. A tenant who leaves that way owes rent for the full month in which the tenant vacates, and the landlord may not charge any fines or fees for terminating. Nothing in the subsection conditions that exit, the full-month rent rule, or the bar on fines and fees on the demand having gone out first."
+          },
+          {
+            "sub": "Why withholding the increase is still the weaker move"
+          },
+          {
+            "p": "What the subsection does not give a tenant is the right to stay and pay less. It writes the cure demand as an obligation on the tenant, and RCW 59.18.700(5)(b) lets the attorney general sue without one while saying nothing of the kind about a tenant's own suit, so whether a tenant who skipped the demand keeps the damages remedy is not answered in the text. Continuing in possession after a default in the payment of rent is also cause to end a tenancy under RCW 59.18.650(2)(a), reached through the pay-or-vacate notice at RCW 59.18.057."
+          },
+          {
+            "p": "A renter can therefore be right about the increase and still end up litigating possession on the landlord's timetable. An owner who receives a demand is usually looking at the cheapest moment the dispute will offer, since curing down to the lawful number costs only the difference."
+          },
+          {
+            "p": "Declining to cure costs more. Under RCW 59.18.700(5)(a), where a court finds a violation of RCW 59.18.700, 59.18.710, 59.18.720 or 59.18.140, it shall award the tenant any excess rent, fees or other costs paid, up to three months of any unlawful rent, fees or other costs charged, and reasonable attorneys' fees and costs. The attorney general may sue without any cure offer at all, and may recover civil penalties of up to $7,500 per violation."
+          }
+        ]
+      },
+      {
+        "heading": "Does the rent cap apply to my building?",
+        "paras": [
+          {
+            "p": "The exemptions in RCW 59.18.710 are categorical, not discretionary. The broadest is age of construction, because the cap does not limit increases for a unit whose first certificate of occupancy was issued 12 or fewer years before the date of the increase notice. Others turn on ownership, covering public housing and public development authority units, and nonprofit-owned or tax-credit units where maximum rents are already regulated."
+          },
+          {
+            "p": "The small-landlord exemptions get contested most. RCW 59.18.710(1)(e) through (g) cover a unit where the tenant shares a bathroom or kitchen with a resident owner, an owner-occupied single-family residence where the owner rents no more than two units or bedrooms, and a duplex, triplex or fourplex where the owner occupied a unit as a principal residence when the tenancy began and still does."
+          },
+          {
+            "p": "Subsection (2) then withdraws all three where the owner is a real estate investment trust, a corporation, or a limited liability company in which at least one member is a corporation. The member test is the whole of it. A duplex held in an LLC owned only by individuals keeps the exemption, and the same duplex held in an LLC with a corporate member does not."
+          }
+        ]
+      },
+      {
+        "heading": "Can a landlord evict without cause in Washington?",
+        "paras": [
+          {
+            "p": "Generally, no. RCW 59.18.650(1)(a) provides that a landlord may not evict a tenant, refuse to continue a tenancy, or end a periodic tenancy except for the causes enumerated in subsection (2), so ending a tenancy starts with identifying the cause, and each cause carries its own notice period. Nonpayment requires written notice to pay or surrender the premises for the period set in RCW 59.12.030(3). A substantial breach of a material lease term requires notice specifying the acts or omissions with a cure date at least 10 days out, and waste or nuisance supports a three-day notice to quit."
+          },
+          {
+            "p": "Two causes concern the owner's own plans, both on 90 days. A landlord may in good faith seek possession so the owner or immediate family can occupy the unit as a principal residence, but only where no substantially equivalent unit is vacant in the same building, and a bad-faith presumption arises if that person fails to occupy it for at least 60 consecutive days in the 90 days after the tenant left. An owner electing to sell a single-family residence may also end the tenancy on 90 days' notice, though the statute defines electing to sell by reference to listing within 30 days of the vacancy."
+          },
+          {
+            "p": "The two narrow routes to end a tenancy without cause are settled by how the lease was written at the outset. Under RCW 59.18.650(1)(b) a landlord may end a rollover tenancy at the end of the initial period only where the original agreement ran between six and 12 months, with at least 60 days' advance written notice. RCW 59.18.650(1)(c) covers a fixed term that does not roll over, and there the agreement has to have run 12 months or more, or successive agreements of six months or more continuously from the start, with the same 60 days' notice and no periodic interval at any point since the tenancy began. A nine-month fixed term satisfies neither route, so the ability is bought at signing."
+          }
+        ]
+      },
+      {
+        "heading": "Can my landlord lock me out?",
+        "paras": [
+          {
+            "p": "No, and this is one of the few places where the chapter is blunt. RCW 59.18.290(1) makes it unlawful for a landlord to remove or exclude a tenant except under a court order, and a tenant removed in violation of it may recover possession or terminate the rental agreement, and in either case recover actual damages, with costs and reasonable attorneys' fees to the prevailing party. Changing the locks commonly turns a case the owner was positioned to win into one the owner is defending, with the tenant choosing the remedy."
+          },
+          {
+            "p": "The section is not one-directional. Holding over or excluding the landlord after the agreement terminates without a court order is unlawful too, though subsection (3) bars a fee award to the landlord where the judgment followed the tenant's failure to respond, and again where the rent awarded is no more than two months of contract rent or $1,200, whichever is greater. Cutting off utilities is the other version of this move, and RCW 59.18.060(11)(a) bars terminating electric or water service for nonpayment on a day the national weather service has issued, or announced it will issue, a heat-related alert."
+          }
+        ]
+      },
+      {
+        "heading": "My landlord won't return my deposit",
+        "paras": [
+          {
+            "p": "RCW 59.18.280(1) gives the landlord 30 days from termination of the agreement and the tenant's vacating, and what is sent matters as much as when. The landlord must give a full and specific statement of the basis for retaining any of the deposit, with estimates or invoices substantiating the damage charges, plus any refund owed. Nothing may be withheld for wear from ordinary use, for carpet cleaning absent documented wear beyond ordinary use, or for fixtures, appliances and furnishings whose condition was never recorded in the checklist RCW 59.18.260 requires."
+          },
+          {
+            "p": "Missing that window is expensive. Under RCW 59.18.280(2) the landlord becomes liable for the full amount of the deposit and is barred from asserting any claim or defense for retaining it, absent circumstances beyond the landlord's control or an abandonment. Those are the provisions that give a deposit dispute its shape: the deposit itself is on the table, the court may add up to twice its amount where it finds the refusal was intentional, and the cost of suit and a reasonable attorneys' fee go to the prevailing party, which can be either side."
+          },
+          {
+            "p": "The section is not all one way. RCW 59.18.280(3)(a) preserves the landlord's right to proceed against a tenant for sums exceeding the deposit where the tenant is responsible for the damage, together with reasonable attorneys' fees, and RCW 59.18.280(4) exempts a deposit withheld for reasons unrelated to damage, such as rent owing, from the checklist and documentation requirements."
+          }
+        ]
+      },
+      {
+        "heading": "What is a deposit waiver fee, and what does agreeing to one change?",
+        "paras": [
+          {
+            "p": "RCW 59.18.670 lets a landlord waive the security deposit and take a monthly fee instead, used to buy insurance against the landlord's losses. It may be entirely or partially nonrefundable, so long as the lease discloses that and the tenant separately acknowledges it, and it must be strictly optional and offered to every approved applicant."
+          },
+          {
+            "p": "The capitalized part of the statutory disclosure is the part to read twice, because the tenant is neither an insured party nor a beneficiary under the policy and stays obligated for rent and for damage beyond ordinary wear. Cutting the other way, the fee is not rent, so failing to pay it is not cause for eviction under RCW 59.18.650, although the landlord may still sue to collect it."
+          }
+        ]
+      },
+      {
+        "heading": "Can my landlord raise the rent because I complained?",
+        "paras": [
+          {
+            "p": "RCW 59.18.240 provides that so long as the tenant is in compliance with the chapter, a landlord may not take or threaten reprisals for the tenant's good faith and lawful complaints to a governmental authority about a maintenance code failure that may endanger health or safety, or for a good faith and lawful assertion of rights under the chapter. Eviction, raising the rent, reducing services and increasing the tenant's obligations all count where intended primarily to retaliate, and RCW 59.18.250 adds that doing any of them within 90 days after the tenant's protected act creates a rebuttable presumption of retaliation."
+          },
+          {
+            "p": "The same section gives the landlord three ways back. No presumption arises on a rent increase where the notice specifies reasonable grounds for it, which may include a substantial increase in market value due to remedial action under the chapter, so an owner raising rent near a complaint has a reason to state those grounds. The presumption runs the other way where the tenant was in arrears or in breach when the termination notice went out. And where the court finds the tenant complained within 90 days after notice of a proposed increase or other good faith action by the landlord, a rebuttable presumption runs that the complaint itself was not in good faith."
+          },
+          {
+            "p": "For a tenant, the mirror image is documenting both dates, since the 90 days moves the burden rather than deciding the case."
+          }
+        ]
+      },
+      {
+        "heading": "Who has to fix what?",
+        "paras": [
+          {
+            "p": "RCW 59.18.060 requires the landlord to keep the premises fit for human habitation throughout the tenancy, and its particulars run to code compliance where a condition endangers health or safety, structural components in reasonably good repair, and facilities adequate to supply heat and water and hot water. Pest control is two duties, a reasonable program at the start of the tenancy and, outside a single-family residence, control during it except where the tenant caused it."
+          },
+          {
+            "p": "RCW 59.18.130 sets the tenant's side, from paying rent as agreed to keeping the occupied portion clean and restoring the premises on vacating except for wear from ordinary use. A complaint about an item on the landlord's list is a complaint about a statutory duty, which is what can start the 90-day clock above."
+          }
+        ]
+      },
+      {
+        "heading": "How does an eviction actually work in court?",
+        "paras": [
+          {
+            "p": "An unlawful detainer action is a lawsuit, and what produces a lockout at the end of it is a writ of restitution. Under RCW 59.18.370 the plaintiff applies to the superior court for an order directing the defendant to appear and show cause why a writ should not issue, and the hearing the judge sets must be not less than seven nor more than 30 days from the date that order is served. For a tenant that hearing is often where the case is decided, and for an owner the same short timetable is why a defective notice is costly."
+          },
+          {
+            "p": "RCW 59.18.283 reverses what many leases assume: the landlord must apply any payment a tenant makes toward rent before late payments, damages or legal costs, and may not condition the right to possession on paying any amount other than rent, except as RCW 59.18.410 allows."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Most of what decides these matters is documentary and happens before anyone files. Two different notices carry two different content rules. A rent increase notice takes the form in RCW 59.18.720, with the exemption facts stated where an exemption is claimed. A notice ending a tenancy has to name a cause from RCW 59.18.650 and, under RCW 59.18.650(6)(b), identify the facts and circumstances supporting it with enough specificity for the tenant to prepare a defense. Both are served under RCW 59.12.040, and the renter's work is reading whichever notice arrived against the rule it had to meet."
+          },
+          {
+            "p": "Fee-shifting is the other reason to get a read early. RCW 59.18.250, RCW 59.18.280 and RCW 59.18.290 shift costs and reasonable attorneys' fees either way, while RCW 59.18.700 shifts them one way only, to the tenant or the attorney general. I handle these matters from Spokane, for owners and for renters, though never for both sides of the same dispute. If you are holding a notice you do not understand, or about to send one, the time to have it looked at is before the clock inside it runs out."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law and is current as of the date it was published. It is not legal advice, and reading it does not create an attorney-client relationship. The Residential Landlord-Tenant Act changes, the maximum rent increase percentage published under RCW 59.18.700 is recalculated every year, and how any of this applies to a particular tenancy depends on facts an article cannot know. Speak with a lawyer about your own situation before acting on anything here."
+          }
+        ]
+      }
+    ],
+    "words": 2801,
+    "minutes": 12,
+    "file": "22-landlord-tenant-washington.docx"
   }
 ]
