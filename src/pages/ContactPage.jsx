@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { supabase } from "../lib/supabase";
 
 const initialForm = {
@@ -16,7 +17,20 @@ const initialForm = {
 };
 
 export default function ContactPage() {
-  const [form, setForm] = useState(initialForm);
+  // An article's "tell me about your situation" link arrives as
+  // /contact?from=<slug>&area=<practice area>. Both are prefilled rather than
+  // hidden, so the reader can see and change what the form is about, and the
+  // referring article lands in how_heard, which the CRM already shows. No new
+  // column, because the CRM reads these fields by exact name.
+  const [params] = useSearchParams();
+  const fromSlug = params.get("from") || "";
+  const fromArea = params.get("area") || "";
+
+  const [form, setForm] = useState(() => ({
+    ...initialForm,
+    subject: fromArea,
+    how_heard: fromSlug ? "Read the article: " + fromSlug : "",
+  }));
   const [status, setStatus] = useState("idle");
   const [errorMsg, setErrorMsg] = useState("");
   const [copied, setCopied] = useState(false);

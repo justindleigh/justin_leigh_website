@@ -7,6 +7,48 @@ function figuresAfter(slug, index) {
   return (FIGURES[slug] || []).filter((f) => f.after === index);
 }
 
+// The invitation to get in touch, dropped into the middle of the article and
+// repeated at the end. Mid-article because most readers never reach the
+// bottom of a two thousand word page, and the moment someone recognizes their
+// own problem in a section is the moment they are willing to ask about it.
+//
+// The link carries the article slug and practice area so the contact form can
+// say what the enquiry is about without the reader typing it, and so Justin
+// can tell which article produced the lead. Neither value is personal data.
+function AskLink({ post, variant }) {
+  const to = `/contact?from=${encodeURIComponent(post.slug)}` +
+    (post.practiceArea ? `&area=${encodeURIComponent(post.practiceArea)}` : "");
+
+  if (variant === "inline") {
+    return (
+      <div className="my-14 glass border border-gold/20 p-6 sm:p-7">
+        <p className="text-white/80 text-base leading-relaxed mb-5">
+          If this is describing your situation, tell me what is going on. I read
+          what comes in myself, and I will tell you whether it is something I can
+          help with.
+        </p>
+        <Link
+          to={to}
+          className="inline-block px-6 py-2.5 border border-gold/40 text-gold hover:bg-gold/10 transition-colors text-sm tracking-wide"
+        >
+          Tell me about your situation
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div className="text-center mt-12">
+      <Link
+        to={to}
+        className="inline-block px-8 py-3 border border-gold/40 text-gold hover:bg-gold/10 transition-colors text-sm tracking-wide"
+      >
+        Tell me about your situation
+      </Link>
+    </div>
+  );
+}
+
 export default function BlogPost() {
   const { slug } = useParams();
   const post = posts.find((p) => p.slug === slug);
@@ -40,6 +82,14 @@ export default function BlogPost() {
       </section>
     );
   }
+
+  // Roughly two fifths in, and never inside the closing material: the last
+  // three sections of every article are "what a lawyer does", "about my
+  // practice" and the disclaimer, and an invitation sitting on top of those
+  // reads as a sales page rather than an offer to help. Articles too short to
+  // have a middle get the one at the end only.
+  const body = post.sections.length - 3;
+  const askAfter = body >= 4 ? Math.floor(body * 0.4) : -1;
 
   const idx = posts.findIndex((p) => p.slug === slug);
   const next = posts[(idx + 1) % posts.length];
@@ -104,6 +154,7 @@ export default function BlogPost() {
             {figuresAfter(slug, i).map((spec, k) => (
               <Figure key={k} spec={spec} />
             ))}
+            {i === askAfter && <AskLink post={post} variant="inline" />}
           </div>
         ))}
 
@@ -132,14 +183,7 @@ export default function BlogPost() {
             </div>
           </div>
 
-          <div className="text-center mt-12">
-            <Link
-              to="/contact"
-              className="inline-block px-8 py-3 border border-gold/40 text-gold hover:bg-gold/10 transition-colors text-sm tracking-wide"
-            >
-              Discuss your situation
-            </Link>
-          </div>
+          <AskLink post={post} />
         </div>
       </article>
     </section>
