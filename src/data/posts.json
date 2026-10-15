@@ -2221,10 +2221,10 @@
   },
   {
     "slug": "ai-governance-for-law-firms",
-    "title": "AI Governance for Law Firms: What to Write Down, What to Buy, and What to Build",
-    "titleTag": "AI Governance for Law Firms | Justin D. Leigh",
+    "title": "AI Governance for Law Firms: Client Confidentiality, Vendor Terms, and What to Write Down",
+    "titleTag": "AI Governance for Law Firms, Client Confidentiality | Justin D. Leigh",
     "practiceArea": "About the Practice",
-    "description": "Practical AI governance for Washington law firms: what to put in a written policy, how to evaluate vendors against RPC 1.6, when to build versus buy, and how to read the product market without being sold to.",
+    "description": "Whether a legal AI tool can hold client confidences under RPC 1.6, which vendor terms decide it, what belongs in a written policy, and how verification becomes a workflow instead of an instruction.",
     "lede": "Most firms I talk to are somewhere in the same place. Someone is already using a chatbot, nobody has written anything down, a vendor has been in touch about a platform that costs more than the firm spends on research, and the managing partner has a vague sense that this should have been addressed six months ago. That is not a technology problem. It is a governance problem, and it is tractable.",
     "intro": [
       "This piece is for lawyers and firm administrators rather than clients. I have written separately about what clients should ask their lawyer about AI use. What follows is the other side of that conversation: what a firm actually has to decide, in what order, and what the decisions cost."
@@ -2259,7 +2259,7 @@
         ]
       },
       {
-        "heading": "The vendor question, which is a confidentiality question",
+        "heading": "Can an AI vendor hold client confidences? The terms that decide it",
         "paras": [
           {
             "p": "When a firm evaluates an AI product, most of the meaningful diligence is contractual rather than technical. The questions that matter are where the data goes, who can see it, whether it trains anything, how long it is retained, what happens on termination, where it is hosted, and what the vendor is permitted to do with it in the gaps."
@@ -2387,8 +2387,8 @@
         ]
       }
     ],
-    "words": 1448,
-    "minutes": 6,
+    "words": 1574,
+    "minutes": 7,
     "file": "16-ai-governance-for-law-firms.docx"
   },
   {

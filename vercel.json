@@ -3,9 +3,26 @@
   "installCommand": "echo 'No install needed for a prebuilt deploy.'",
   "outputDirectory": "dist",
   "redirects": [
-    { "source": "/ai", "destination": "/evergreen-legal-ai", "permanent": true }
+    {
+      "source": "/ai",
+      "destination": "/evergreen-legal-ai",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "destination": "/",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
