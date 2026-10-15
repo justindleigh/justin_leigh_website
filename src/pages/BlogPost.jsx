@@ -117,10 +117,26 @@ export default function BlogPost() {
           {post.title}
         </h1>
 
-        <div className="flex items-center gap-4 text-white/40 text-xs mb-10 pb-10 border-b border-white/5">
-          <span>{post.minutes} min read</span>
-          <span className="text-white/20">·</span>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-white/40 text-xs mb-10 pb-10 border-b border-white/5">
           <span>Justin D. Leigh, Attorney-at-Law</span>
+          <span className="text-white/20">·</span>
+          <span>{post.minutes} min read</span>
+          {post.published && (
+            <>
+              <span className="text-white/20">·</span>
+              {/* The closing disclaimer on every article says the law is
+                  current "as of publication". Until now no article printed a
+                  publication date, so that sentence pointed at nothing. The
+                  ethics review on the landlord-tenant piece caught it.
+                  Parsed as a plain date, not a timestamp, so it renders the
+                  same in every timezone. */}
+              <time dateTime={post.published}>
+                {new Date(post.published + "T12:00:00").toLocaleDateString("en-US", {
+                  year: "numeric", month: "long", day: "numeric",
+                })}
+              </time>
+            </>
+          )}
         </div>
 
         <p className="text-white/85 text-lg leading-relaxed mb-6">{post.lede}</p>
