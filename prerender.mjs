@@ -157,6 +157,43 @@ async function writeRoute(route, html) {
   await writeFile(path.join(dir, "index.html"), html, "utf8");
 }
 
+/** The page Vercel serves, with a real 404 status, for anything unrecognized.
+ *
+ *  Until 2026-10-15 there was no such file and vercel.json rewrote EVERY
+ *  unmatched path to /index.html. Because index.html is the prerendered home
+ *  page, https://www.justindleigh.com/services and /about and any typo at all
+ *  returned the full home page with HTTP 200 and a canonical pointing at "/".
+ *  Search Console read that exactly as it looks: /services was filed as a soft
+ *  404 and /about as a duplicate of the home page. A visitor saw the real
+ *  not-found page only after React booted and replaced the markup; a crawler
+ *  never did.
+ *
+ *  Rendered by asking the local server for a path that cannot match a route,
+ *  which is the same way the live site will reach it. No canonical, because a
+ *  404 is not a version of another page, and noindex so a crawler that follows
+ *  a stale link does not keep the address alive.
+ */
+async function write404(page) {
+  await page.goto(`http://127.0.0.1:${PORT}/__prerender-not-found`, {
+    waitUntil: "networkidle0", timeout: 45000,
+  });
+  await page.waitForFunction("document.querySelector('#root').children.length > 0",
+                             { timeout: 20000 });
+  let html = "<!DOCTYPE html>\n" + await page.evaluate(() => document.documentElement.outerHTML);
+  html = html
+    .replace(/\s*<link rel="canonical"[^>]*>/g, "")
+    .replace(/\s*<meta property="og:url"[^>]*>/g, "")
+    .replace(/\s*<meta name="robots"[^>]*>/g, "")
+    .replace(/<title>[^<]*<\/title>/,
+             "<title>Page not found | Law Office of Justin D. Leigh</title>")
+    .replace("</head>", `  <meta name="robots" content="noindex">\n</head>`);
+  await writeFile(path.join(DIST, "404.html"), html, "utf8");
+  if (!/That page does not exist/.test(html)) {
+    throw new Error("404.html did not render the NotFound page; check the route catch-all");
+  }
+  return html;
+}
+
 function sitemap(routes) {
   const today = new Date().toISOString().slice(0, 10);
   const priority = (r) =>
@@ -204,6 +241,9 @@ try {
     await writeRoute(route, html);
     console.log(`    ${route.padEnd(50)} ${String(len).padStart(6)} chars`);
   }
+  const notFound = await write404(page);
+  console.log(`    ${"/404.html".padEnd(50)} ${String(textLength(notFound)).padStart(6)} chars`);
+
   await writeFile(path.join(DIST, "sitemap.xml"), sitemap(routes), "utf8");
   console.log(`\n  sitemap.xml: ${routes.length} URLs`);
 } finally {

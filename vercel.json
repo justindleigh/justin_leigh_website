@@ -21,7 +21,11 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/sign/:token",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/intake/:token",
       "destination": "/index.html"
     }
   ]
