@@ -60,6 +60,15 @@ export default function About() {
                 Justin, not a paralegal or an associate.
               </p>
               <p className="text-white/80 text-[15px] leading-relaxed">
+                Justin also builds and runs the AI systems inside his own practice.
+                They carry the work a larger office would hand to staff: a sweep
+                every morning that tracks deadlines on every open matter, and a
+                check that every case citation in a filing matches the source it
+                came from. No AI system advises you or decides anything in your
+                matter. Justin reviews what they produce, and the legal judgment
+                is his.
+              </p>
+              <p className="text-white/80 text-[15px] leading-relaxed">
                 Justin is also a former brewery and winery owner. Alcohol beverage
                 licensing is a substantial part of the practice, and he has held those
                 licenses himself rather than only read about them.

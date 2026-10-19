@@ -16,6 +16,11 @@ const reasons = [
     title: "Local, In-Person Counsel",
     desc: "Meet with Justin by appointment at his downtown Spokane office, or connect by phone or video if that's easier for you.",
   },
+  {
+    num: "04",
+    title: "In-House AI Systems",
+    desc: "Justin builds and runs the AI systems his practice uses. They track deadlines on every open matter and check the case citations in his filings. No AI system advises you or decides anything in your matter; the legal judgment is Justin's.",
+  },
 ];
 
 export default function WhyChoose() {
@@ -39,11 +44,11 @@ export default function WhyChoose() {
           <div className="w-16 h-px bg-gold/40 mx-auto mt-6" />
         </div>
 
-        <div className="grid md:grid-cols-3 gap-px">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px">
           {reasons.map((r, i) => (
             <div
               key={r.num}
-              className={`group bg-black p-10 text-center hover:bg-white/[0.02] transition-all duration-700 border border-transparent hover:border-gold/10 ${
+              className={`group bg-black p-10 lg:p-8 text-center hover:bg-white/[0.02] transition-all duration-700 border border-transparent hover:border-gold/10 ${
                 inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
               }`}
               style={{ transitionDelay: inView ? `${0.2 + i * 0.12}s` : "0s" }}
@@ -64,7 +69,7 @@ export default function WhyChoose() {
           style={{ transitionDelay: inView ? "0.8s" : "0s" }}
         >
           {[
-            "Licensed in Washington State",
+            "Licensed in Washington and Oregon",
             "Downtown Spokane Office",
             "Serving Spokane, the Inland Northwest & Beyond",
           ].map((item) => (

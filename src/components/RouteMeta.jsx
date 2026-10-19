@@ -8,7 +8,7 @@ const META = {
   "/": {
     title: "Justin D. Leigh | Attorney in Spokane, WA | Downtown Spokane Lawyer",
     description:
-      "Justin D. Leigh is an independent attorney in downtown Spokane, WA offering real estate, business, estate planning, personal injury, family law, and litigation services. Free consultations, by appointment.",
+      "Justin D. Leigh is an independent attorney in downtown Spokane, WA offering real estate, business, estate planning, personal injury, family law, and litigation services. He builds and runs the AI systems his own practice uses. Free consultations, by appointment.",
   },
   "/contact": {
     title: "Schedule a Consultation | Justin D. Leigh, Spokane Attorney",
