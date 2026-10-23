@@ -51,6 +51,93 @@ const SERVICES = [
   },
 ];
 
+// A working day in a practice that runs on this kind of system. Rebuilt as
+// page content rather than dropped in as a picture: the source Justin sent was
+// a raster mock-up carrying his firm name, invented matter numbers and made-up
+// case captions in the screenshots, none of which should go on a public page.
+// Written in the second person, because the point of the section is what a
+// reader's own practice could do, not what his does.
+const WORKDAY = [
+  {
+    title: "Capture and triage",
+    desc: "A message, a voice note, a photograph of a letter or a PDF reaches the assistant from wherever you are. It reads the thing, pulls out the names and the dates, opens the matter or the task, and tells you what it did.",
+    path: "M12 19a7 7 0 007-7M12 19a7 7 0 01-7-7M12 19v3M9 22h6M12 2a3 3 0 013 3v7a3 3 0 01-6 0V5a3 3 0 013-3z",
+  },
+  {
+    title: "Research and drafting",
+    desc: "Research, authority checking and first drafts, beside the mail client and the word processor you already use. Citations are verified against a public source before they reach a document.",
+    path: "M4 19.5A2.5 2.5 0 016.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2zM9 7h7M9 11h5",
+  },
+  {
+    title: "Matters and deadlines",
+    desc: "Deadlines calculated and tracked, work ordered by what is actually due next, and the correspondence with clients and opposing counsel kept where the matter is.",
+    path: "M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2zM9 15l2 2 4-4",
+  },
+  {
+    title: "Filing that happens by itself",
+    desc: "Documents arriving by message, by email or through a client portal are read, named, summarized and filed to the right matter, without anyone dragging a file anywhere.",
+    path: "M3 7a2 2 0 012-2h4l2 3h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2zM8 13h8",
+  },
+  {
+    title: "The same system everywhere",
+    desc: "A phone in a courthouse hallway, a laptop on the road, a desktop in the office. On a system built this way the phone is the primary interface rather than the fallback.",
+    path: "M7 2h10a1 1 0 011 1v18a1 1 0 01-1 1H7a1 1 0 01-1-1V3a1 1 0 011-1zM11 18h2",
+  },
+  {
+    title: "Maintained, not abandoned",
+    desc: "Version controlled, logged, tested and backed up, and looked after the way software is looked after. Most firm AI projects die in the year after the pilot, for want of exactly this.",
+    path: "M12 20h9M3 20h4M5 20V9a2 2 0 012-2h10a2 2 0 012 2v11M9 11h6M9 15h6",
+  },
+];
+
+// The same system in outline. Named by WHAT EACH PIECE DOES, never by vendor.
+// Two reasons, and the second is the one that matters. The first is that the
+// right tools depend on the firm, so a vendor list would date the page and read
+// as an endorsement. The second is that the source diagram named his live
+// stack, host by host, down to the sync tool and the private repositories.
+// A public map of the infrastructure holding client files is not a brochure.
+const STACK = [
+  {
+    layer: "Where you talk to it",
+    items: ["An assistant in a chat app on your phone", "A web dashboard", "A client portal"],
+  },
+  {
+    layer: "What it is made of",
+    items: [
+      "An orchestrator that routes the request",
+      "Specialists for research, drafting and matter work",
+      "An assistant for calendar, mail and the day's queue",
+    ],
+  },
+  {
+    layer: "What it can reach",
+    items: [
+      "Practice management",
+      "Mail, calendar and documents",
+      "Public case law and dockets",
+      "The phone and text line",
+    ],
+  },
+  {
+    layer: "What comes back",
+    items: [
+      "Triaged mail and flagged action items",
+      "Calendar entries and deadline chains",
+      "Drafts, research memos and summaries",
+      "Intake records and client communication",
+    ],
+  },
+  {
+    layer: "What holds it up",
+    items: [
+      "A database and document storage",
+      "Backups and redundant copies",
+      "Version control and an audit trail",
+      "Access control over every key",
+    ],
+  },
+];
+
 function Icon({ d }) {
   return (
     <svg className="eg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -162,7 +249,47 @@ export default function EvergreenPage() {
           </div>
         </section>
 
-        <section className="eg-block eg-alt" id="approach">
+        <section className="eg-block eg-alt" id="in-practice">
+          <div className="eg-wrap">
+            <p className="eg-label">In practice</p>
+            <h2>What this looks like on a Tuesday</h2>
+            <p className="eg-lede eg-muted">
+              I built one of these for my own practice, and I run on it. Here is the shape of
+              it, described by what each part does rather than by which product it is, because
+              the products that suit your firm are a question for your firm.
+            </p>
+
+            <div className="eg-grid">
+              {WORKDAY.map((s, i) => (
+                <article className="eg-card" key={s.title}>
+                  <div className="eg-num">{String(i + 1).padStart(2, "0")}</div>
+                  <Icon d={s.path} />
+                  <h3>{s.title}</h3>
+                  <p className="eg-muted">{s.desc}</p>
+                </article>
+              ))}
+            </div>
+
+            <h3 className="eg-stack-title">The same thing in outline</h3>
+            <ol className="eg-stack">
+              {STACK.map((row) => (
+                <li className="eg-stack-row" key={row.layer}>
+                  <h4>{row.layer}</h4>
+                  <ul>
+                    {row.items.map((it) => <li key={it}>{it}</li>)}
+                  </ul>
+                </li>
+              ))}
+            </ol>
+            <p className="eg-note eg-muted">
+              None of this has to be built at once, and most firms should not try. The usual
+              first piece is the one that removes a daily annoyance, and it is usually smaller
+              than people expect.
+            </p>
+          </div>
+        </section>
+
+        <section className="eg-block" id="approach">
           <div className="eg-wrap">
             <p className="eg-label">Approach</p>
             <h2>How an engagement works</h2>
@@ -193,7 +320,7 @@ export default function EvergreenPage() {
           </div>
         </section>
 
-        <section className="eg-block" id="about">
+        <section className="eg-block eg-alt" id="about">
           <div className="eg-wrap eg-about">
             <img className="eg-photo" src="/headshot.webp" alt="Justin D. Leigh" width="380" height="475" />
             <div>
@@ -224,8 +351,8 @@ export default function EvergreenPage() {
               <p className="eg-label">Start a conversation</p>
               <h2>Tell me about your practice</h2>
               <p>
-                Tell me what you are trying to do and I will tell you whether AI is the right
-                tool for it.
+                Describe what you are trying to do, and I will tell you whether AI is the
+                right tool.
               </p>
             </div>
 

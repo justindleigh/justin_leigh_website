@@ -508,3 +508,71 @@ body.evergreen-page::-webkit-scrollbar-thumb {
     display: none;
   }
 }
+
+/* ---- in practice ----
+ * The workday cards reuse .eg-grid and .eg-card unchanged. Only the lede, the
+ * outline list and the closing note are new.
+ */
+.evergreen .eg-lede {
+  max-width: 62ch;
+  margin-top: 20px;
+  font-size: 1.125rem;
+}
+.evergreen .eg-stack-title {
+  font-family: var(--eg-font-display);
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: var(--eg-navy);
+  margin: 64px 0 0;
+}
+.evergreen .eg-stack {
+  list-style: none;
+  counter-reset: layer;
+  padding: 0;
+  margin: 28px 0 0;
+  border-top: 1px solid var(--eg-border);
+}
+.evergreen .eg-stack-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 260px) 1fr;
+  gap: 24px 40px;
+  align-items: start;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--eg-border);
+}
+.evergreen .eg-stack-row h4 {
+  margin: 0;
+  font-family: var(--eg-font-body);
+  font-size: var(--eg-text-label);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--eg-teal);
+}
+.evergreen .eg-stack-row ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.evergreen .eg-stack-row ul li {
+  background: #fff;
+  border: 1px solid var(--eg-border);
+  border-radius: var(--eg-radius);
+  padding: 8px 14px;
+  font-size: var(--eg-text-small);
+  color: var(--eg-navy);
+}
+.evergreen .eg-note {
+  max-width: 62ch;
+  margin-top: 32px;
+}
+/* The label column is a luxury, not a layout. On a phone it stacks. */
+@media (max-width: 720px) {
+  .evergreen .eg-stack-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
