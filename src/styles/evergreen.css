@@ -510,8 +510,10 @@ body.evergreen-page::-webkit-scrollbar-thumb {
 }
 
 /* ---- in practice ----
- * The workday cards reuse .eg-grid and .eg-card unchanged. Only the lede, the
- * outline list and the closing note are new.
+ * The workday cards reuse .eg-grid and .eg-card unchanged. The flow below
+ * them is new, and it is laid out in CSS rather than drawn as an SVG so the
+ * lanes reflow at phone width. A flow chart nobody can read on a phone is the
+ * problem the diagram was meant to solve.
  */
 .evergreen .eg-lede {
   max-width: 62ch;
@@ -525,31 +527,118 @@ body.evergreen-page::-webkit-scrollbar-thumb {
   color: var(--eg-navy);
   margin: 64px 0 0;
 }
-.evergreen .eg-stack {
+.evergreen .eg-note {
+  max-width: 62ch;
+  margin-top: 32px;
+}
+
+.evergreen .eg-note-tight {
+  margin-top: 12px;
+}
+
+/* ---- the flow ---- */
+.evergreen .eg-flow {
   list-style: none;
-  counter-reset: layer;
   padding: 0;
-  margin: 28px 0 0;
-  border-top: 1px solid var(--eg-border);
+  margin: 36px 0 0;
 }
-.evergreen .eg-stack-row {
+.evergreen .eg-flow-lane {
+  position: relative;
   display: grid;
-  grid-template-columns: minmax(180px, 260px) 1fr;
-  gap: 24px 40px;
+  grid-template-columns: minmax(200px, 270px) 1fr;
+  gap: 10px 40px;
   align-items: start;
-  padding: 22px 0;
-  border-bottom: 1px solid var(--eg-border);
+  padding: 26px 28px;
+  background: #fff;
+  border: 1px solid var(--eg-border);
+  border-radius: var(--eg-radius-lg);
 }
-.evergreen .eg-stack-row h4 {
+.evergreen .eg-flow-head h4 {
+  margin: 6px 0 4px;
+  font-family: var(--eg-font-display);
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.2;
+  color: var(--eg-navy);
+}
+.evergreen .eg-flow-head p {
+  margin: 0;
+  font-size: var(--eg-text-small);
+}
+.evergreen .eg-flow-step {
+  font-family: var(--eg-font-body);
+  font-size: var(--eg-text-label);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--eg-teal-mid);
+}
+.evergreen .eg-flow-nodes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-self: center;
+}
+.evergreen .eg-flow-nodes li {
+  background: var(--eg-mist);
+  border: 1px solid var(--eg-border);
+  border-radius: var(--eg-radius);
+  padding: 10px 16px;
+  font-size: var(--eg-text-small);
+  color: var(--eg-navy);
+}
+/* The one box everything passes through, so it is the one box that is filled. */
+.evergreen .eg-flow-hero {
+  align-self: center;
+  background: var(--eg-teal);
+  color: #fff;
+  border-radius: var(--eg-radius);
+  padding: 18px 22px;
+  font-size: var(--eg-text-body);
+  line-height: 1.45;
+}
+/* The arrow hangs in the gap BELOW its lane, so the lanes stay a plain list
+ * and nothing has to know how tall its neighbour is. */
+.evergreen .eg-flow-lane + .eg-flow-lane {
+  margin-top: 54px;
+}
+.evergreen .eg-flow-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: -52px;
+  width: 24px;
+  height: 44px;
+  transform: translateX(-50%);
+  color: var(--eg-silver);
+}
+.evergreen .eg-flow-arrow svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.evergreen .eg-foundation {
+  margin-top: 54px;
+  padding: 24px 28px;
+  border: 1px dashed var(--eg-silver);
+  border-radius: var(--eg-radius-lg);
+  display: grid;
+  grid-template-columns: minmax(200px, 270px) 1fr;
+  gap: 10px 40px;
+  align-items: center;
+}
+.evergreen .eg-foundation h4 {
   margin: 0;
   font-family: var(--eg-font-body);
   font-size: var(--eg-text-label);
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--eg-teal);
+  color: var(--eg-slate);
 }
-.evergreen .eg-stack-row ul {
+.evergreen .eg-foundation ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -557,22 +646,50 @@ body.evergreen-page::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   gap: 10px;
 }
-.evergreen .eg-stack-row ul li {
+.evergreen .eg-foundation ul li {
+  font-size: var(--eg-text-small);
+  color: var(--eg-slate);
   background: #fff;
   border: 1px solid var(--eg-border);
   border-radius: var(--eg-radius);
   padding: 8px 14px;
-  font-size: var(--eg-text-small);
-  color: var(--eg-navy);
 }
-.evergreen .eg-note {
-  max-width: 62ch;
-  margin-top: 32px;
-}
-/* The label column is a luxury, not a layout. On a phone it stacks. */
-@media (max-width: 720px) {
-  .evergreen .eg-stack-row {
+
+/* Under 820px the label column stops being a column. The arrow stays centred
+ * because it is positioned against the lane, not against the column. */
+@media (max-width: 820px) {
+  .evergreen .eg-flow-lane,
+  .evergreen .eg-foundation {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 16px;
   }
+  .evergreen .eg-flow-lane {
+    padding: 22px 20px;
+  }
+}
+
+/* ---- no stranded last lines ----
+ * Justin, 2026-10-22, standing rule for builds: "I hate these danglers. If the
+ * final line does not take up half the [width] of the block it needs
+ * reformatting." He is right, and rewriting copy until it happens to break
+ * well is the wrong way to get it. A paragraph has one lever, its length, and
+ * two constraints at once, the desktop column and the phone column, so tuning
+ * for one strands the other. It is a treadmill, and it starts again the next
+ * time anyone touches a word.
+ *
+ * text-wrap: pretty makes the browser do it, at every width, forever. It costs
+ * a little layout time on long text, which is why it is scoped to this page's
+ * prose rather than set globally, and a browser that does not know it simply
+ * wraps as before.
+ */
+.evergreen p,
+.evergreen li,
+.evergreen figcaption {
+  text-wrap: pretty;
+}
+.evergreen h1,
+.evergreen h2,
+.evergreen h3,
+.evergreen h4 {
+  text-wrap: balance;
 }

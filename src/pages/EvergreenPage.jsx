@@ -60,12 +60,12 @@ const SERVICES = [
 const WORKDAY = [
   {
     title: "Capture and triage",
-    desc: "A message, a voice note, a photograph of a letter or a PDF reaches the assistant from wherever you are. It reads the thing, pulls out the names and the dates, opens the matter or the task, and tells you what it did.",
+    desc: "A message, a voice note, a photograph of a letter or a PDF reaches the assistant from wherever you are. It reads the thing, pulls out the names and the dates, opens the matter or the task, and tells you what it has done.",
     path: "M12 19a7 7 0 007-7M12 19a7 7 0 01-7-7M12 19v3M9 22h6M12 2a3 3 0 013 3v7a3 3 0 01-6 0V5a3 3 0 013-3z",
   },
   {
     title: "Research and drafting",
-    desc: "Research, authority checking and first drafts, beside the mail client and the word processor you already use. Citations are verified against a public source before they reach a document.",
+    desc: "Research, authority checking and first drafts, beside the mail client and the word processor you already use. Citations are verified against a public source before they reach a draft.",
     path: "M4 19.5A2.5 2.5 0 016.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2zM9 7h7M9 11h5",
   },
   {
@@ -80,7 +80,7 @@ const WORKDAY = [
   },
   {
     title: "The same system everywhere",
-    desc: "A phone in a courthouse hallway, a laptop on the road, a desktop in the office. On a system built this way the phone is the primary interface rather than the fallback.",
+    desc: "A phone in a courthouse hallway, a laptop on the road, a desktop in the office. On a system built this way the phone is the primary interface, not the fallback.",
     path: "M7 2h10a1 1 0 011 1v18a1 1 0 01-1 1H7a1 1 0 01-1-1V3a1 1 0 011-1zM11 18h2",
   },
   {
@@ -96,22 +96,45 @@ const WORKDAY = [
 // as an endorsement. The second is that the source diagram named his live
 // stack, host by host, down to the sync tool and the private repositories.
 // A public map of the infrastructure holding client files is not a brochure.
-const STACK = [
+// One request, followed from the moment it arrives to the moment something
+// comes back. Read top to bottom, which is also how it stacks on a phone, so
+// the diagram does not need a second mobile version and never needs pinching.
+//
+// A fixed-size SVG would have been quicker and would have failed at 400px,
+// which was half of what was wrong with the raster original. This is laid out
+// in CSS, so the lanes reflow and the arrows stay between them at every width.
+const FLOW = [
   {
-    layer: "Where you talk to it",
-    items: ["An assistant in a chat app on your phone", "A web dashboard", "A client portal"],
-  },
-  {
-    layer: "What it is made of",
-    items: [
-      "An orchestrator that routes the request",
-      "Specialists for research, drafting and matter work",
-      "An assistant for calendar, mail and the day's queue",
+    lane: "It arrives",
+    note: "However it turned up",
+    nodes: [
+      "A message",
+      "A voice note",
+      "A photograph of a letter",
+      "An email",
+      "A client upload",
     ],
   },
   {
-    layer: "What it can reach",
-    items: [
+    lane: "It is read",
+    note: "One place decides what it is",
+    hero: "The assistant reads it, names the parties, finds the dates, works out what it is, and routes it",
+  },
+  {
+    lane: "It is worked",
+    note: "By the part built for that work",
+    nodes: [
+      "Research",
+      "Drafting",
+      "Matters and deadlines",
+      "Filing",
+      "Calendar and mail",
+    ],
+  },
+  {
+    lane: "Against the record",
+    note: "Where your practice keeps things",
+    nodes: [
       "Practice management",
       "Mail, calendar and documents",
       "Public case law and dockets",
@@ -119,23 +142,24 @@ const STACK = [
     ],
   },
   {
-    layer: "What comes back",
-    items: [
-      "Triaged mail and flagged action items",
-      "Calendar entries and deadline chains",
-      "Drafts, research memos and summaries",
-      "Intake records and client communication",
+    lane: "It comes back",
+    note: "Nothing leaves without your decision",
+    nodes: [
+      "A draft to review",
+      "A deadline in the diary",
+      "A document in the right folder",
+      "A flagged action item",
+      "An intake record",
     ],
   },
-  {
-    layer: "What holds it up",
-    items: [
-      "A database and document storage",
-      "Backups and redundant copies",
-      "Version control and an audit trail",
-      "Access control over every key",
-    ],
-  },
+];
+
+// Under all of it, and the reason the rest is allowed near client files.
+const FOUNDATION = [
+  "A database and document storage",
+  "Backups and redundant copies",
+  "Version control and an audit trail",
+  "Access control over every key",
 ];
 
 function Icon({ d }) {
@@ -254,9 +278,9 @@ export default function EvergreenPage() {
             <p className="eg-label">In practice</p>
             <h2>What this looks like on a Tuesday</h2>
             <p className="eg-lede eg-muted">
-              I built one of these for my own practice, and I run on it. Here is the shape of
-              it, described by what each part does rather than by which product it is, because
-              the products that suit your firm are a question for your firm.
+              I built one of these for my own practice and I run on it. Here is the shape,
+              described by what each part does rather than by which product it is. The
+              products that suit your firm are a question for your firm, not for me.
             </p>
 
             <div className="eg-grid">
@@ -270,21 +294,52 @@ export default function EvergreenPage() {
               ))}
             </div>
 
-            <h3 className="eg-stack-title">The same thing in outline</h3>
-            <ol className="eg-stack">
-              {STACK.map((row) => (
-                <li className="eg-stack-row" key={row.layer}>
-                  <h4>{row.layer}</h4>
-                  <ul>
-                    {row.items.map((it) => <li key={it}>{it}</li>)}
-                  </ul>
+            <h3 className="eg-stack-title">One request, end to end</h3>
+            <p className="eg-note eg-muted eg-note-tight">
+              Follow a single piece of work from the moment it arrives. Read it top to
+              bottom.
+            </p>
+
+            <ol className="eg-flow">
+              {FLOW.map((row, i) => (
+                <li className="eg-flow-lane" key={row.lane}>
+                  <div className="eg-flow-head">
+                    <span className="eg-flow-step">{String(i + 1).padStart(2, "0")}</span>
+                    <h4>{row.lane}</h4>
+                    <p className="eg-muted">{row.note}</p>
+                  </div>
+
+                  {row.hero ? (
+                    <div className="eg-flow-hero">{row.hero}</div>
+                  ) : (
+                    <ul className="eg-flow-nodes">
+                      {row.nodes.map((n) => <li key={n}>{n}</li>)}
+                    </ul>
+                  )}
+
+                  {i < FLOW.length - 1 && (
+                    <div className="eg-flow-arrow" aria-hidden="true">
+                      <svg viewBox="0 0 24 44" fill="none" stroke="currentColor"
+                           strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 2v34M6 30l6 6 6-6" />
+                      </svg>
+                    </div>
+                  )}
                 </li>
               ))}
             </ol>
+
+            <div className="eg-foundation">
+              <h4>Underneath all of it</h4>
+              <ul>
+                {FOUNDATION.map((f) => <li key={f}>{f}</li>)}
+              </ul>
+            </div>
+
             <p className="eg-note eg-muted">
               None of this has to be built at once, and most firms should not try. The usual
-              first piece is the one that removes a daily annoyance, and it is usually smaller
-              than people expect.
+              first piece is the one that removes a daily annoyance, and it is almost always
+              smaller than anyone expects.
             </p>
           </div>
         </section>
@@ -306,7 +361,7 @@ export default function EvergreenPage() {
                 <h3>Plan</h3>
                 <p className="eg-muted">
                   A written scope before any work starts, setting out what gets built, how it
-                  is billed, and what you are left holding at the end of it.
+                  is billed, and what you are left holding at the end.
                 </p>
               </li>
               <li>
