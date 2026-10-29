@@ -32,6 +32,8 @@ const GROUPS = [
       "reading-a-title-report-washington",
       "adverse-possession-washington",
       "easements-boundary-disputes-washington",
+    
+      "seller-financing-owner-carry-washington",
     ],
   },
   {
@@ -56,6 +58,12 @@ const GROUPS = [
       "washington-liquor-license-lcb",
       "liquor-license-lcb-enforcement-washington",
       "alcohol-litigation-commerce-clause",
+    
+      "collecting-a-judgment-washington",
+    
+      "lcb-tied-house-undue-influence-washington",
+    
+      "brewery-winery-distillery-licensing-ttb-lcb",
     ],
   },
   {

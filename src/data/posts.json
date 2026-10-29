@@ -1381,7 +1381,7 @@
         "heading": "Applying: the local authority notice and the objection window",
         "paras": [
           {
-            "p": "Every license issues in the name of the applicant, and the holder may not allow anyone else to use it. RCW 66.24.010(1). The Board may inspect the premises, inquire into all matters connected with its construction and operation, and consider prior criminal conduct and violation history. RCW 66.24.010(2). A sole proprietor applicant must have lived in Washington at least a month, and a corporation or LLC must be formed here or hold a certificate of authority. RCW 66.24.010(1)(a), (d). No applicant may exercise any privilege until the Board approves the application. WAC 314-07-015(3)."
+            "p": "Every license issues in the name of the applicant, and the holder may not allow anyone else to use it. RCW 66.24.010(1). The Board may inspect the premises, inquire into all matters connected with its construction and operation, and consider prior criminal conduct and violation history. RCW 66.24.010(2). The same subsection requires a month's Washington residency of a sole proprietor, and formation here or a certificate of authority of a corporation or LLC. Both are written as restrictions on retail licenses, introduced by the phrase \"No retail license of any kind may be issued to,\" so a manufacturer applicant should not assume they reach its own application. RCW 66.24.010(2)(a), (d). No applicant may exercise any privilege until the Board approves the application. WAC 314-07-015(3)."
           },
           {
             "p": "Applicants underestimate the objection track. The city or town, or the county legislative authority, may file written objections with the Board against the applicant or the premises within twenty days after the notice of application is transmitted. RCW 66.24.010(8)(c). The Board must also notify churches, schools, and designated public institutions within five hundred feet, and it may not license previously unlicensed premises within five hundred feet of a tax-supported public elementary or secondary school, measured between entrances, if the school objects in writing within twenty days. RCW 66.24.010(9)(a). A lease signed before anyone measured that distance is a lease on space that may not be licensable."
@@ -4629,5 +4629,922 @@
     "file": "29-drunk-driver-injury-washington.docx",
     "words": 1840,
     "minutes": 8
+  },
+  {
+    "slug": "collecting-a-judgment-washington",
+    "title": "Collecting a Judgment in Washington: The Ten-Year Clock and the Ninety-Day Window",
+    "titleTag": "Collecting a Judgment in Washington | Justin D. Leigh",
+    "practiceArea": "Judgment Collection and Enforcement",
+    "published": "2026-10-29",
+    "description": "How long a Washington judgment stays enforceable, the ninety-day window for extending it, where it becomes a lien on the debtor real estate, and how to file a judgment from another state under chapter 6.36 RCW.",
+    "lede": "You won, and then nothing happened. The judgment has sat in the court file for six or seven years because the defendant had no money and you had no appetite for chasing him. Now you hear he has bought a house. Or the judgment is an Oregon judgment and the debtor has since moved to Spokane. Either way the first question is not how to collect. It is whether the judgment is still good.",
+    "intro": [
+      "A judgment is not money. It is permission to go and get money, and the permission expires. Most of what goes wrong in collection is not a failed levy or a clever debtor. It is a creditor who waited, and then found out that what he was holding had stopped being enforceable.",
+      "Washington keeps the rules in three places. RCW 6.17.020 sets how long you have and how to get longer. Chapter 4.56 RCW says when and where the judgment becomes a lien on land. Chapter 6.36 RCW is the route for a judgment entered in another state."
+    ],
+    "sections": [
+      {
+        "heading": "How long does a Washington judgment last?",
+        "paras": [
+          {
+            "p": "Ten years. You have that long to issue an execution, a garnishment, or other legal process to collect or enforce, counted from entry of the judgment or from the filing of the judgment in this state. RCW 6.17.020(1)."
+          },
+          {
+            "p": "Then it stops. Ten years after the date of entry the judgment ceases to be a lien or charge against the estate or person of the judgment debtor, and no suit, action or other proceeding may ever extend the lien past that, except as the statute itself provides. RCW 4.56.210(1). Judgments for accrued child support and for obligations imposed in a criminal sentence run on their own clocks. RCW 6.17.020(2), (4)."
+          }
+        ]
+      },
+      {
+        "heading": "What has to be done before the ten years runs out?",
+        "paras": [
+          {
+            "p": "This is the one thing on this page worth a calendar reminder. Within 90 days before the original ten-year period expires, the judgment holder may apply to the court that rendered the judgment, or to the court where it was filed as a foreign judgment, for an order granting an additional 10 years in which process may issue. RCW 6.17.020(3)."
+          },
+          {
+            "p": "It is a window, not a deadline. The statute describes it in one direction, as the ninety days before the original period expires, and timeliness is one of the few things the court reviews. After the ten years there is nothing left to extend, because RCW 4.56.210(1) has already ended the lien and barred any proceeding to continue it."
+          },
+          {
+            "p": "The debtor has little to say about the application. It is granted as a matter of right, subject to review only for timeliness, full or partial satisfaction, or errors in the judgment summary amounts. RCW 6.17.020(3). It is not an occasion to relitigate the case. The order carries an updated judgment summary, and the filing fee is a recoverable cost."
+          },
+          {
+            "sub": "The lien follows, and the trigger date can move"
+          },
+          {
+            "p": "Extend the judgment and the lien continues for another ten years. RCW 4.56.210(3). Perfection and priority are not altered and nothing has to be rerecorded, though a judgment transcribed to other counties stays perfected there only if a certified copy of the extension order is filed with each of those clerks. RCW 6.17.020(6)."
+          },
+          {
+            "p": "A district court judgment transcribed to superior court is the trap. The original district court judgment is not extended, and the petition goes to the superior court within 90 days before the ten years expires, measured from the date the transcript was filed there rather than from the district court judgment. RCW 6.17.020(3)."
+          },
+          {
+            "p": "There is also an outside limit, and one extension reaches it. Subject to the exceptions the statute names, no judgment is enforceable for more than 20 years from entry in the originating court. RCW 6.17.020(7)."
+          }
+        ]
+      },
+      {
+        "heading": "Does the judgment accrue interest while I wait?",
+        "paras": [
+          {
+            "p": "Yes, and the rate depends on what kind of judgment it is. RCW 4.56.110 sets out categories rather than one number, so the first question is which category yours falls in."
+          },
+          {
+            "p": "A judgment founded on a written contract that provides for the payment of interest until paid at a specified rate bears interest at the contract rate, but only if that rate is set forth in the judgment. RCW 4.56.110(1). That proviso is worth checking against the face of your own judgment before assuming the contract rate is running."
+          },
+          {
+            "p": "Two categories are flat: twelve percent on unpaid child support, RCW 4.56.110(2), and nine percent from entry on a judgment for unpaid consumer debt as that term is defined in RCW 6.01.060. RCW 4.56.110(5)."
+          },
+          {
+            "p": "Two are formulas against a published index. A judgment founded on the tortious conduct of individuals or other entities, and a judgment for unpaid private student loan debt, each bear interest from entry at two percentage points above the prime rate published by the Board of Governors of the Federal Reserve System on the first business day of the month preceding entry. RCW 4.56.110(3)(b), (4). Where the tortious conduct is that of a public agency the formula is instead two points above the equivalent coupon issue yield on twenty-six week treasury bills, taken from the first bill market auction in the month preceding entry. RCW 4.56.110(3)(a)."
+          },
+          {
+            "p": "Everything else takes the residual rule, which is a pointer and not a number: the maximum rate permitted under RCW 19.52.020 on the date of entry. RCW 4.56.110(6). And where a verdict was reinstated or affirmed on review, interest dates back to the date of the verdict rather than the date of entry. RCW 4.56.110(3), (6)."
+          }
+        ]
+      },
+      {
+        "heading": "How does a judgment become a lien on the debtor's real property, and where?",
+        "paras": [
+          {
+            "p": "The debtor's real estate, including land the debtor acquires later, is bound to satisfy a judgment of a Washington superior court, district court, Court of Appeals or Supreme Court, or of a federal district court sitting in this state, unless the land is exempt by law. The judgment is a lien on it for up to ten years from entry. RCW 4.56.190."
+          },
+          {
+            "p": "Where the lien attaches is what creditors get wrong. A superior court judgment is a lien on the debtor's land in that same county from the time the county clerk files it on the execution docket. RCW 4.56.200(2). For land in a different county, and for judgments of the Court of Appeals, the Supreme Court, or a federal court sitting elsewhere, the lien runs only from the filing of a duly certified abstract of the judgment with the county clerk where the land is. RCW 4.56.200(3). A district court judgment gets there by its own route. RCW 4.56.200(4), (5)."
+          },
+          {
+            "p": "So a judgment entered in Spokane County does nothing at all to the debtor's forty acres in Klickitat County until an abstract is filed with the Klickitat County clerk. If the debtor owns land in three counties, perfecting the lien is a three-county errand."
+          },
+          {
+            "sub": "What the lien does not reach"
+          },
+          {
+            "p": "Personal property is not covered. It is held only from the time it is actually levied upon. RCW 4.56.190. And where the debtor owns land jointly or in common with someone else, the lien reaches the debtor's interest only, and only that interest can be levied on and sold. RCW 4.56.190; RCW 6.17.170."
+          }
+        ]
+      },
+      {
+        "heading": "What does filing a judgment from another state actually do?",
+        "paras": [
+          {
+            "p": "It puts the judgment on a Washington docket and makes it enforceable here as though a Washington court had entered it. An authenticated copy of the judgment may be filed with the clerk of any superior court in any county of this state, and the clerk treats it in the same manner as a judgment of a Washington superior court. RCW 6.36.025(1). A foreign judgment, for this purpose, is any judgment, decree or order of a court of the United States or of any state or territory that is entitled to full faith and credit here. RCW 6.36.010(1)."
+          },
+          {
+            "p": "The equivalence is close to complete. A judgment so filed has the same effect as a Washington superior court judgment, carries the same defenses and the same proceedings for reopening, vacating, staying or extending, and may be enforced, extended or satisfied the same way. RCW 6.36.025(1). There is also a district court route, RCW 6.36.025(2), and either way the lien is governed by chapter 4.56 RCW and RCW 6.17.020, RCW 6.36.025(3), so the ten years and the ninety-day window apply to it too."
+          },
+          {
+            "p": "You are not required to use the chapter. It carries a section headed \"Optional procedure,\" which leaves unimpaired the creditor's right to bring an action to enforce the judgment instead of proceeding under the chapter. RCW 6.36.160. Filing is the quick route, not the only one."
+          },
+          {
+            "p": "Interest on a filed foreign judgment follows the law of the state where it was rendered, not the Washington schedule below, and the court adds the cost of the authenticated copy and Washington court costs. RCW 6.36.140."
+          }
+        ]
+      },
+      {
+        "heading": "What has to be filed with it, and what can the debtor do about it?",
+        "paras": [
+          {
+            "p": "Two documents and a short wait stand between the filing and any enforcement. At the time of filing, the creditor or the creditor's lawyer files an affidavit with the clerk giving the name and last known post office address of the debtor and of the creditor, and the filing and expiration date of the judgment in the originating jurisdiction. RCW 6.36.035(1)."
+          },
+          {
+            "p": "Promptly after that, the creditor mails the debtor notice of the filing at the address given, with the creditor's name and address and that of the creditor's lawyer in this state if there is one, and files proof of mailing with the clerk. RCW 6.36.035(2). No process issues until a period measured from the proof of mailing has run, which is ten days in superior court and fourteen in district court. RCW 6.36.035(3)(a), (b). Until the affidavit and the mailing are done and on file, the period that has to elapse before you can enforce has not begun."
+          },
+          {
+            "p": "Filing here also does not buy time the judgment no longer has at home. Nothing in that section extends the expiration date of a foreign judgment beyond its expiration date under the law of the jurisdiction where it originated. RCW 6.36.035(3)(c). The affidavit is where the court reads that date, which is why the statute asks for it."
+          },
+          {
+            "sub": "What the debtor can raise"
+          },
+          {
+            "p": "Because the filed judgment carries the same defenses and the same proceedings for reopening, vacating or staying as a Washington judgment, RCW 6.36.025(1), the filing opens a Washington case. If the debtor shows an appeal is pending or will be taken, or that a stay of execution was granted, the court shall stay enforcement until the appeal ends or the stay lapses, on proof the debtor has furnished the security the rendering state required. RCW 6.36.045(1)(a). The debtor may also show any ground on which a Washington judgment would be stayed, and get a stay on the same security required here. RCW 6.36.045(1)(b)."
+          }
+        ]
+      },
+      {
+        "heading": "What is execution, and how does it issue?",
+        "paras": [
+          {
+            "p": "Execution is the process that turns a judgment into a seizure. Within the ten years the holder may have an execution, a garnishment, or other legal process issued to collect or enforce the judgment. RCW 6.17.020(1). Execution produces a writ, the writ goes to the sheriff, and the sheriff is required to execute it without delay. RCW 6.17.160."
+          },
+          {
+            "p": "How the sheriff levies depends on what is being taken, and the statute prescribes a method for each kind of property. Real property is levied on by recording a copy of the writ, with a description of the property, with the recording officer of the county where the land is. RCW 6.17.160(1). Personal property capable of manual delivery is levied on by taking it into custody, and where it may be concealed in a building the sheriff may publicly demand delivery and, if the order of execution so directs, cause the building to be broken open. RCW 6.17.160(2)."
+          },
+          {
+            "p": "Money held in court and intangible property each have their own method again. RCW 6.17.160(4), (7). A writ pointed at the wrong category is the usual waste. On a judgment filed under chapter 6.36 RCW, sale under the levy may be held any time after final judgment and not earlier, apart from perishable goods. RCW 6.36.130."
+          },
+          {
+            "p": "Garnishment of wages or of a bank account is the other common way a judgment gets enforced. It runs on its own statute, chapter 6.27 RCW, and how a writ of garnishment is obtained, served and answered is a subject in itself that this page does not take on."
+          }
+        ]
+      },
+      {
+        "heading": "How do I find out what the debtor owns?",
+        "paras": [
+          {
+            "p": "Chapter 6.32 RCW is the part of this most judgment holders have never heard of, and it is usually worth more than a speculative writ. At any time within ten years after entry of a judgment of twenty-five dollars or more, unless the time has been extended under RCW 6.17.020(3), the court may on the creditor's application order the debtor to appear before the judge, or a referee the judge appoints, and answer concerning the judgment. RCW 6.32.010(1). The tool lives inside the same ten years as everything else here, and rides the same extension."
+          },
+          {
+            "p": "There is a cheaper paper version. The court may instead order the debtor to answer written interrogatories under oath in a form the court approves, and taking that route waives nothing, because a creditor who uses it keeps the right to an examination in person. RCW 6.32.015."
+          },
+          {
+            "p": "It reaches past the debtor, which is the provision worth the most. Once an execution has issued and come back wholly or partly unsatisfied, any person or corporation can be ordered in and examined on proof that they hold personal property of the debtor worth twenty-five dollars or more, owe him that much, hold title to real estate for him, or simply have knowledge concerning his property interests. RCW 6.32.030. That last clause is wide, and it is how a creditor gets to question a bank, an employer, a bookkeeper or a business partner under oath."
+          },
+          {
+            "p": "The judge can also stop the property moving while this happens. An injunction order may restrain any person or corporation, party to the proceeding or not, from transferring, disposing of or interfering with the debtor's property, or with the particular property or debt someone has been called to be examined about, and it can issue at the same time as the examination order. RCW 6.32.120."
+          },
+          {
+            "p": "What you learn can be turned into money in the same proceeding. On affidavit proof that someone owes the judgment debtor, the judge may permit that person to pay the sheriff on account of the debt, up to the amount that will satisfy the execution, and may then direct the sheriff to apply it on an execution in the creditor's favor. RCW 6.32.070; RCW 6.32.100."
+          },
+          {
+            "p": "Appearing is not optional. A person who refuses, or without sufficient excuse neglects, to obey an order of the judge or referee or to attend on a subpoena may be punished as for contempt. RCW 6.32.180. A creditor who has served these proceedings is entitled to costs of service, notary fees and a twenty-five dollar appearance fee, plus reasonable attorney fees if the debtor fails to answer or appear. It runs both ways, and a creditor who starts the proceeding and then does not show up owes the appearing debtor the same. RCW 6.32.010(3)."
+          },
+          {
+            "p": "What the chapter does not do is widen what you can take. It does not authorize seizure of, or interference with, property expressly exempt by law from levy and sale, property held in trust for the debtor where the trust was created by or funded from somebody other than the debtor, or the debtor's earnings for personal services to the extent they would be exempt against a garnishment of the employer. RCW 6.32.250."
+          }
+        ]
+      },
+      {
+        "heading": "What does the debtor get to keep?",
+        "paras": [
+          {
+            "p": "A good deal, and a creditor who has not worked this out before paying a sheriff is budgeting on a number that does not exist. The lien statute binds only real estate that is not exempt by law, and Washington exempts a lot."
+          },
+          {
+            "sub": "The homestead"
+          },
+          {
+            "p": "The homestead is the real or personal property the owner, or a dependent of the owner, uses as a residence, and it has to be actually intended or used as the principal home. RCW 6.13.010(1). A mobile home can qualify whether or not it is affixed to the land and whether or not the lot belongs to the owner."
+          },
+          {
+            "p": "The exempt amount is not a flat number, and this is the part worth reading slowly. The homestead exemption amount is the greater of $125,000 or the county median sale price of a single-family home in the preceding calendar year. RCW 6.13.030(1). In a county where that median is above $125,000, the median is the exemption. A court determining it uses data from the Washington Center for Real Estate Research, or from a successor entity designated by the Office of Financial Management. RCW 6.13.030(2). There is also one narrow case with no dollar limit at all, involving another state's judgment for unpaid income tax on retirement benefits received while the person lived in Washington. RCW 6.13.030(1)(c)."
+          },
+          {
+            "p": "Up to that amount, and except in the cases below, the homestead is exempt from attachment and from execution or forced sale for the owner's debts, and it is presumed valid to the extent of everything claimed until a creditor contests it. RCW 6.13.070(1), (4)."
+          },
+          {
+            "p": "So the lien on a residence works differently from the lien described earlier. A judgment against the owner of a homestead becomes a lien on the value of the homestead property in excess of the homestead exemption, and it does so from the time the judgment creditor records the judgment with the recording officer of the county where the property is located. RCW 6.13.090. Equity below the exemption is not reachable, and the recording is what starts the lien on what is above it."
+          },
+          {
+            "p": "The exemption does not apply at all against judgments on certain debts, which is where a creditor sometimes has more room than it expected. Among them are construction, labor, material supplier and vendor liens against that same property, debts secured by a mortgage or deed of trust on it, child support and maintenance obligations, and association liens. RCW 6.13.080."
+          },
+          {
+            "sub": "Personal property"
+          },
+          {
+            "p": "Chapter 6.15 RCW exempts a list of personal property from execution, attachment and garnishment. RCW 6.15.010(1). The items that matter in most collections are household goods, appliances, furniture and home and yard equipment up to $6,500, a motor vehicle up to $15,000, and the tools, instruments, materials and supplies of a trade up to $15,000. Wearing apparel is exempt outright, with a $3,500 ceiling on furs, jewelry and personal ornaments."
+          },
+          {
+            "p": "Then there is a general allowance for other personal property, outside bankruptcy, of up to $3,000, and the cash inside it is capped much lower. Of that $3,000, bank accounts, savings and loan accounts, stocks, bonds and other securities are limited to $500 for most debts, $2,000 where the debt is consumer debt, and $2,500 where it is private student loan debt. RCW 6.15.010(1)(d)(iii)(A). Part of each of those is automatically protected, which means a levy or a garnishment does not reach it even if the debtor claims nothing. Beginning July 1, 2027, those figures are adjusted and published every three years by the Department of Revenue to track the consumer price index for all urban consumers, rounded to the nearest $25. RCW 6.15.010(1)(d)(iii)(B)."
+          },
+          {
+            "p": "Retirement money is close to untouchable. A pension from the federal government, and the right to a pension, annuity, retirement allowance, disability allowance or death benefit under an employee benefit plan, along with any fund created by such a plan, are exempt from execution, attachment, garnishment or seizure under any legal process whatever. RCW 6.15.020(2), (3). An employee benefit plan is treated as a spendthrift trust regardless of whether the debtor could withdraw from it. RCW 6.15.020(5). The exceptions are child support collection actions and certain state tax collection."
+          },
+          {
+            "p": "Two definitions do real work here. Value means the reasonable market value of the debtor's interest, exclusive of liens and encumbrances, so a financed car counts only for the equity in it. And each spouse is entitled to the exemptions separately, which means the figures above can double. RCW 6.15.010(2), (3)."
+          },
+          {
+            "sub": "How the claim gets made, and how a creditor tests it"
+          },
+          {
+            "p": "The debtor selects the exempt property, not the sheriff and not the creditor. RCW 6.15.060(1). A debtor claiming personal property exempt against an execution delivers to the levying officer, before sale, an itemized list of the property claimed exempt together with an itemized list of everything he owns, verified by affidavit, and the officer tells the creditor. RCW 6.15.060(3)(a)."
+          },
+          {
+            "p": "The creditor then has seven days. A creditor who wants to object must give notice of the objection to the officer no later than seven days after the officer gave notice of the claim, or may instead demand an appraisement of the property. If those seven days pass with neither, the officer releases the claimed property to the debtor. RCW 6.15.060(4)."
+          },
+          {
+            "p": "Against a garnishment the claim runs on a different track and a tighter clock. RCW 6.15.060(3)(b). The debtor may claim the exemption in the manner the statute creating it specifies, or by delivering or mailing a claim of exemption to the clerk of the court that issued the writ and mailing a copy to the creditor, no later than twenty-eight days after the date stated on the writ. RCW 6.27.160(1). A creditor wanting to object then has seven days from receiving the claim to serve a declaration of the facts behind the objection together with notice of a hearing, and that hearing must be noted for a date no later than fourteen days after the claim arrived. RCW 6.27.160(2)."
+          },
+          {
+            "p": "That hearing carries a cost risk in both directions. The court shall award costs to the prevailing party and may award an attorney fee if it concludes that the exemption claim, or the objection to it, was not made in good faith, and the debtor carries the burden of proving the exemption, including documenting the source and amount of the funds. RCW 6.27.160(2). A creditor who decides not to object has ten days from receiving the claim to obtain and deliver a release to the garnishee, and failing to do that exposes it to fifty dollars on top of the debtor's actual damages. RCW 6.27.160(3)."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The judgment runs out of time while nobody is counting. This is the big one. The file goes in a drawer because the debtor has nothing worth chasing, and the ninety-day window opens and closes years later with nobody looking at it. No court sends a reminder. The creditor who calls in year eleven because the debtor finally bought a house is calling about a judgment that is no longer a lien or charge against him."
+          },
+          {
+            "p": "A sister-state judgment is filed with nothing beside it. The authenticated copy goes to the clerk and that is treated as the whole job, with no affidavit, no notice mailed to the debtor and no proof of mailing. Since no process issues until ten days after the proof of mailing is filed, a bare filing is a judgment sitting on the docket that cannot be enforced, usually discovered when the writ is refused."
+          },
+          {
+            "p": "The extension goes to the wrong court, or is measured from the wrong date. For a district court judgment transcribed to superior court the petition belongs in the superior court and runs from the transcript date. A wrong trigger date costs the same as having filed nothing."
+          },
+          {
+            "p": "The lien is assumed to cover land wherever the debtor owns it. It does not, until a certified abstract is filed with the county clerk where that land is."
+          },
+          {
+            "p": "The house is treated as equity worth chasing before anyone has done the homestead arithmetic. The judgment reaches only the value above the exemption, and in a county where the median sale price is high there may be nothing above it at all."
+          },
+          {
+            "p": "Nobody finds out what the debtor owns. Every method of levy presupposes that you know which asset you are pointing the sheriff at, and chapter 6.32 RCW exists so that a creditor does not have to guess at it. A judgment, a willing sheriff and no asset information produce a bill and nothing else."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Most of it is dates and filings in the right order, and the dates are not where people assume. The ten years runs from entry for a judgment rendered here, and from the filing date for one filed here out of another state. A district court judgment moved up to superior court runs from the transcript date instead. Getting the trigger right is what makes the ninety-day window findable, and the window gets docketed years before anyone would otherwise open the file."
+          },
+          {
+            "p": "On the foreign judgment side the order of operations is the work: the authenticated copy, the affidavit carrying the originating dates, the mailed notice, the proof of mailing, then the wait counted from the right document. On the enforcement side it is working out which asset is actually reachable and by which method, and valuing the judgment as it stands today rather than as entered, since partial satisfaction is one of the few things a court looks at on an extension."
+          },
+          {
+            "p": "I am an independent attorney in downtown Spokane, at 601 W. 1st Ave., Suite 1400. My practice is civil litigation, real estate, land use, and business and regulatory work, and judgment collection and enforcement is handled alongside it, in Washington superior and district courts, most often in Spokane, Klickitat, Kittitas, Benton, Franklin and Yakima counties. I am admitted in Washington, WSBA #55307, and in Oregon, OSB #242384, which is directly relevant here, because judgments cross that state line in both directions."
+          }
+        ]
+      },
+      {
+        "heading": "If you are holding a judgment that has not been collected",
+        "paras": [
+          {
+            "p": "If you are holding a Washington judgment and do not know how much time is left on it, or you have a judgment from another state against someone who is now here, my office offers a free initial consultation by appointment in downtown Spokane. Bring the judgment itself, or the county and the cause number, and the date it was entered, because that date is where every other answer starts."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "words": 4435,
+    "minutes": 20,
+    "file": "30-collecting-a-judgment-washington.docx"
+  },
+  {
+    "slug": "lcb-tied-house-undue-influence-washington",
+    "title": "A Tied House Notice from the LCB: When the Board Says Your Ownership Is the Violation",
+    "titleTag": "LCB Tied House and Undue Influence in Washington | Justin D. Leigh",
+    "practiceArea": "Alcohol Beverage Licensing and Regulatory Compliance",
+    "published": "2026-10-29",
+    "description": "What Washington's cross-tier ownership statutes make unlawful, how RCW 66.28.285(6) defines undue influence, and how a published 2019 decision invalidated a Board rule that reached past that definition.",
+    "lede": "The envelope has the Liquor and Cannabis Board's return address on it, and inside is either an administrative violation notice or a notice of intent to deny. The subject is not a sale to a minor or a late report. It is who owns a piece of what. Somebody at the Board has read your cap table, your lease or an investor's other holdings, and concluded that an interest reaching across two tiers amounts to undue influence.",
+    "intro": [
+      "That letter lands differently from most enforcement mail, because what it describes is not something anybody did last Saturday night. It is a structure, and it was in place and disclosed long before anyone mentioned it. The instinct is to start explaining why the arrangement is harmless.",
+      "Read the statute first. The legislature defined undue influence itself rather than leaving it to the Board, and it defined it around influence over purchasing, marketing and sales decisions. In 2019 Division One invalidated a rule of this Board for applying that same definition past the setting the legislature put it in. This article is about the case where the Board's theory is your ownership structure rather than any coerced purchasing or sales. For the deadline, the options and the penalty schedule, see An LCB Violation Notice in Washington."
+    ],
+    "sections": [
+      {
+        "heading": "Why does a notice about ownership read differently from an ordinary violation?",
+        "paras": [
+          {
+            "p": "Because a different section produces it. RCW 66.28.300 lets any industry member, retailer, or other person ask the Board whether a financial interest has resulted or is more likely than not to result in undue influence, or in an adverse impact on public health and safety. If the Board's investigation finds either, it may issue an administrative violation notice or a notice of intent to deny."
+          },
+          {
+            "p": "So the letter often began as somebody's complaint, and not necessarily yours. A competitor, a distributor you dropped, a landlord in a dispute: the statute does not limit who may ask."
+          },
+          {
+            "p": "One sentence there deserves attention. Where the interest came from a transaction that had already closed, the Board may require that it be rescinded or otherwise undone. RCW 66.28.300. The exposure is not only the license. It can be the deal."
+          }
+        ]
+      },
+      {
+        "heading": "What do the ownership sections actually make unlawful?",
+        "paras": [
+          {
+            "p": "Start with the legislature's own finding, because it is unusually direct. RCW 66.28.280 says the legislature \"recognizes that the historical total prohibition on ownership of an interest in one tier by a person with an ownership interest in another tier, as well as the historical restriction on financial incentives and business relationships between tiers, is unduly restrictive.\" That language arrived with 2009 c 506, and Initiative 1183 carried it forward in 2012."
+          },
+          {
+            "p": "Then the operative rule. RCW 66.28.290(1) provides that \"notwithstanding any prohibitions and restrictions contained in this title, it shall be lawful for an industry member or affiliate to have a direct or indirect financial interest in another industry member or a retailer ... unless such interest has resulted or is more likely than not to result in undue influence over the retailer or the industry member or has resulted or is more likely than not to result in an adverse impact on public health and safety.\" Lawful comes first, and the exception is written as an exception."
+          },
+          {
+            "p": "Read the exception closely, though, because it is wider than a licensee hopes. The Board can act on an interest that \"is more likely than not to result in\" undue influence. It needs no consummated harm, and an argument built on the premise that nothing bad has happened yet answers a standard the statute does not use."
+          },
+          {
+            "p": "Two structural limits sit alongside all of this. RCW 66.28.290(2) governs when a licensee may hold an interest in a separate entity holding a given license, and RCW 66.28.295 lists sixteen arrangements RCW 66.28.290 does not prohibit at all, including a brewery licensed as a retailer on its own premises. These sections are about cross-tier ownership, and about the business practices of owners holding a stake in more than one tier."
+          }
+        ]
+      },
+      {
+        "heading": "What does \"undue influence\" mean, and is bare ownership the violation?",
+        "paras": [
+          {
+            "p": "The legislature defined it, which is the single most useful fact here. RCW 66.28.285(6) says undue influence means one retailer or industry member \"directly or indirectly influencing the purchasing, marketing, or sales decisions of another retailer or industry member by any agreement written or unwritten or any other business practices or arrangements such as but not limited to the following,\" and then gives ten illustrations."
+          },
+          {
+            "p": "Those last five words govern everything after them. The ten are expressly not a closed list, so an arrangement is not lawful merely because it is absent from them, and anybody who tells you the statute holds an exhaustive catalog of violations is reading past \"but not limited to.\""
+          },
+          {
+            "p": "What does the work is the phrase before the list. The defined conduct is influence over another member's purchasing, marketing, or sales decisions, and every one of the ten illustrations is of that kind: coercion by threats of physical or economic harm, a retailer involuntarily buying less of a competitor's product, tie-in purchases, minimum quantity commitments, forced quotas, continuing obligations to purchase, display or sell, a commitment not to terminate, day-to-day operational involvement, discriminatory pricing. Interference with commercial decisions, not a list of ownership percentages."
+          },
+          {
+            "p": "So the question to put to a notice is not whether it matches an item on the list. It is which purchasing, marketing or sales decisions the Board says were influenced, and by what. A notice that recites a cap table and a lease and stops has not answered that. It is a question a licensee is entitled to press, not a conclusion about who wins."
+          }
+        ]
+      },
+      {
+        "heading": "Can a rule reach further than the statute it borrows its words from?",
+        "paras": [
+          {
+            "p": "On this one there is a published Washington decision, it is about alcohol, and it is about this Board. In Washington Restaurant Association v. Washington State Liquor and Cannabis Board, No. 79644-5-I, 448 P.3d 140 (Wash. Ct. App. 2019), Division One reviewed rules the Board adopted on wine and spirits pricing after Initiative 1183. The Board defended one of them by explaining that it had copied the language out of the undue influence definition at RCW 66.28.285(6)(j)."
+          },
+          {
+            "p": "That did not save it. The court held that \"RCW 66.28.170 precludes extending the application of RCW 66.28.285(6)(j) to any context beyond cross-tier ownership. Thus, WAC 314-23-065 conflicts with RCW 66.28.170, exceeds the authority of the Board, and is invalid.\" The reasoning turned on the scope clause at the top of the definitions section: those definitions \"apply throughout RCW 66.28.280 through 66.28.315 unless the context clearly requires otherwise,\" and because RCW 66.28.170 is not codified in that range, \"the subsection (j) definition plainly does not apply.\" When the Board argued that the context required otherwise, the court said it \"offers no support for this contention.\""
+          },
+          {
+            "p": "Understand what that gives and what it does not. It is a worked example, in alcohol, of this Board taking a defined statutory term, applying it past the setting the legislature put it in, and having the rule invalidated for exceeding its authority. It is not an authorization for a broader reading of anything, and it is not an adjudication of how WAC 314-12-140(1) applies to any particular arrangement."
+          },
+          {
+            "p": "That scope clause cuts in an awkward direction too. WAC 314-12-140 is a rule, not a section codified between RCW 66.28.280 and RCW 66.28.315, so the Board may argue the legislature's definition does not govern its rule at all. The argument costs the Board something, because a rule using \"undue influence\" while disclaiming the statutory definition is a rule whose central term is undefined, and an undefined term is what sank the Board's position in the cannabis case below."
+          },
+          {
+            "p": "Two things about challenging a rule run against the licensee. An agency rule carries a presumption of validity, the burden of overcoming it rests on the challenger, and review asks whether the rule is reasonably consistent with the statute being implemented. And breadth alone is not enough: in the same case the court held that \"the mere breadth of a rule is insufficient to demonstrate invalidity,\" rejecting a challenge where the objection was only that a rule might apply broadly."
+          }
+        ]
+      },
+      {
+        "heading": "Is a letter from the Board the law?",
+        "paras": [
+          {
+            "p": "This is where the cannabis case belongs, and what it is matters. Yaron v. Conley, 488 P.3d 855 (Wash. Ct. App. 2021), construed WAC 314-55-018, the cannabis tied-house rule, not the alcohol sections above."
+          },
+          {
+            "p": "It held three things. The Board's preenforcement letter earned no deference, because the party relying on it had not shown the Board had adopted and applied that interpretation as a matter of agency policy, a requirement from Cowiche Canyon Conservancy v. Bosley, 118 Wn.2d 801, 815, 828 P.2d 549 (1992). The cannabis rule was ambiguous, because \"LCB's regulations do not define 'undue influence.'\" And the interest there was too tenuous to result in undue influence."
+          },
+          {
+            "p": "How that first point was lost is worth knowing. Asked whether the Board would so find in that case, the enforcement captain answered that it would, which is evidence of what one officer thought rather than that responsible policymakers had adopted an interpretation."
+          },
+          {
+            "p": "What the case did not do matters as much. It did not hold the tied-house rules void, invalid or unenforceable. On public policy the court went the Board's way, holding that the rule does supply public policy and does promote the public good."
+          },
+          {
+            "p": "Two things carry over to alcohol. The usable half: an interpretation appearing for the first time in a letter addressed to you is not automatically the governing rule, and the Board has to be shown to have adopted it as policy. The other half runs against the licensee, because that court found ambiguity where the Board had never defined its term, and the alcohol statute does define it. Here the fight is about what the definition covers, not whether one exists."
+          }
+        ]
+      },
+      {
+        "heading": "How much of this is actually settled?",
+        "paras": [
+          {
+            "p": "More than usual, and less than a licensee would like. The statutory text is not in doubt. A published decision has invalidated a rule of this Board for extending RCW 66.28.285(6)(j) past cross-tier ownership. And no alcohol specific interpretive statement, policy statement, declaratory order, enforcement bulletin or adjudicative decision construing the disputed edge of undue influence was located in the accessible published materials."
+          },
+          {
+            "p": "That is a search result and not a proof. It means the Board has not been shown to have adopted such an interpretation. It does not mean the Board has none. Unpublished final orders, licensing determinations and internal enforcement guidance are not all publicly indexed, and if one of them contains the interpretation, the deference argument weakens a great deal."
+          },
+          {
+            "p": "What has not been decided is the application. No decision construing WAC 314-12-140(1), or applying the undue influence definition to a notice resting on an ownership structure, was located. The reading that a notice has to identify influence over purchasing, marketing or sales decisions is an argument available to a licensee rather than a holding. Two features of the statute cut against it: the ten illustrations are expressly nonexclusive, and the Board may act on a predictive finding."
+          },
+          {
+            "p": "So the fair summary is that the text and one published case give a licensee facing an ownership-based notice real material to work with, and that no article can tell you what your notice is worth."
+          }
+        ]
+      },
+      {
+        "heading": "What can I do about it, and can I ask the Board before I close?",
+        "paras": [
+          {
+            "p": "You have a hearing, if you ask for it. RCW 66.28.300 gives the recipient of an administrative violation notice or a notice of intent to deny the right to request a hearing under chapter 34.05 RCW, the Administrative Procedure Act. The right exists on request, so it is something you do, not something that happens to you."
+          },
+          {
+            "p": "The same section works in the other direction, before anybody is in trouble. Any industry member, retailer or other person may ask the Board to determine whether a proposed financial interest would result in undue influence. Given the Board's authority to unwind a closed transaction, that is worth weighing against closing and hoping."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The licensee answers the Board's theory instead of reading the statute. Explaining why your ownership is harmless accepts the premise that ownership is the violation, and RCW 66.28.290(1) starts from the opposite premise."
+          },
+          {
+            "p": "Somebody treats the ten illustrations in RCW 66.28.285(6) as a closed list. They are expressly not, and an argument that depends on an arrangement being absent from them is an argument the statute's own words answer."
+          },
+          {
+            "p": "Somebody argues that nothing has gone wrong yet. The standard reaches an interest more likely than not to result in undue influence, so a prediction is enough and the absence of proven harm is not a defense by itself."
+          },
+          {
+            "p": "Being a true party of interest gets mistaken for undue influence. WAC 314-07-035 reaches LLC members over ten percent, managers and officers, stockholders over ten percent, and anyone entitled to more than ten percent of gross or net sales. That rule decides who goes on the license. RCW 66.28.285(6) defines conduct."
+          },
+          {
+            "p": "Somebody works from an old copy of the rule. WAC 314-12-140 was amended by WSR 26-18-093, effective October 3, 2026, so a printout older than this month is superseded."
+          },
+          {
+            "p": "The notice turns out to be about a different subsection. WAC 314-12-140(2) prohibits an industry member advancing, and a retailer receiving, money or money's worth, listing gifts, discounts, loans, premiums, rebates and free liquor, except as permitted under RCW 66.28.310. A gift problem and an ownership problem read alike in a letter and are not the same case."
+          },
+          {
+            "p": "An argument from a website, this one included, gets read as a prediction."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "The early work is mostly reading, in a particular order. Getting the hearing requested. Working out which provision the notice rests on, because subsection (1) and subsection (2) of WAC 314-12-140 are different cases. Testing the structure against RCW 66.28.290(2) and RCW 66.28.295, where the arrangement may simply be permitted. Then pinning down what the Board says was influenced, which decisions, and on what evidence."
+          },
+          {
+            "p": "After that it is the two questions the cases turn on. Whether the Board has ever adopted the interpretation it is applying to you, as policy rather than in a letter, which is a records question before it is an argument. And whether the rule as applied reaches past the statute it implements, against a presumption that rules are valid."
+          },
+          {
+            "p": "I handle Washington liquor licensing and LCB enforcement work from my office in downtown Spokane, for breweries, wineries, distilleries, distributors, bars and taprooms, alongside the entity and contract questions that come with an ownership dispute. I am admitted in Washington, WSBA #55307, and Oregon, OSB #242384. I previously owned a brewery and a winery, which is the reason I read a cross-tier rule for what it does to a business and not only for what it says."
+          },
+          {
+            "p": "If the Board's theory is your ownership structure, I offer a free consultation by appointment at my Spokane office, 601 W. 1st Ave., Suite 1400. Bring the notice, the envelope, your operating agreement or bylaws, any lease or management agreement the Board mentioned, and the closing documents if the interest came from a closed transaction."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. No court has applied the statutes or the decisions described here to a notice like the one you may be holding, so nothing here predicts any outcome. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "words": 2619,
+    "minutes": 12,
+    "file": "31-lcb-tied-house-undue-influence-washington.docx"
+  },
+  {
+    "slug": "brewery-winery-distillery-licensing-ttb-lcb",
+    "title": "Licensing a Brewery, Winery or Distillery in Washington: The Federal Track and the State Track",
+    "titleTag": "Brewery, Winery and Distillery Licensing in Washington | Justin D. Leigh",
+    "practiceArea": "Alcohol Beverage Licensing and Regulatory Compliance",
+    "published": "2026-10-29",
+    "description": "Opening a brewery, winery or distillery in Washington takes a federal TTB approval and a separate state LCB license. They are different applications to different agencies, and neither one waits for the other.",
+    "lede": "You signed the lease in March, the tanks are on a boat, and somebody asked you last week which federal form you had filed. You have not filed one. You have not filed the state application either, because you understood the state license to be the license. Opening a brewery, winery or distillery in Washington takes approval from two governments, on separate applications to separate agencies, and neither one waits for the other.",
+    "intro": [
+      "That is a common place to be, and it is a sequencing problem more than a paperwork problem. The federal approval comes from the Alcohol and Tobacco Tax and Trade Bureau, which qualifies the premises and the people before production happens. The state license comes from the Washington State Liquor and Cannabis Board under Title 66 RCW. Each has its own forms, its own account of who owns the business, and its own rule about what you may not do until it issues. What follows is the producer's path. If you are buying a bar instead, Washington Liquor Licenses and LCB Compliance on this site covers why a license does not convey with the business, and An LCB Violation Notice in Washington covers enforcement."
+    ],
+    "sections": [
+      {
+        "heading": "Why two applications and not one?",
+        "paras": [
+          {
+            "p": "The two regimes are not alternatives, and neither follows the other. Each bars you from operating before its own approval issues. For spirits, \"A person may not operate a distilled spirits plant unless a notice of registration has been approved by TTB.\" 27 CFR 19.80. The brewery and winery provisions read the same way. 27 CFR 25.61(a); 27 CFR 24.105."
+          },
+          {
+            "p": "The state license is a separate approval, from a separate agency, under a separate chapter, issued in the name of the applicant. RCW 66.24.010(1). The answer to which one you need is both. The question worth paying for is the order."
+          }
+        ]
+      },
+      {
+        "heading": "Which federal filing do you make, and how many?",
+        "paras": [
+          {
+            "p": "The number of federal approvals differs by product, and that is the most useful thing on this page."
+          },
+          {
+            "sub": "A brewery: one"
+          },
+          {
+            "p": "The Brewer's Notice, on TTB F 5130.10, executed under penalties of perjury, and the brewery may not commence business until TTB approves it. 27 CFR 25.61(a); 27 CFR 25.63. It carries the form of business organization and the persons interested in it, a description of the brewery, trade names, the owner and any mortgagee of the land or buildings, and whether a bond is required. 27 CFR 25.62(a)."
+          },
+          {
+            "sub": "A winery: two"
+          },
+          {
+            "p": "The application goes on TTB F 5120.25, also under penalties of perjury. 27 CFR 24.105. Then comes a second approval that applicants routinely collapse into the first: a basic permit under the Federal Alcohol Administration Act is required to produce wine, and operations needing one may not begin until it is approved. 27 CFR 1.21; 27 CFR 24.106. A bonded wine cellar used only to store untaxpaid wine is the exception. 27 CFR 24.106."
+          },
+          {
+            "sub": "A distillery: three"
+          },
+          {
+            "p": "Registration of the plant on TTB F 5110.41, without which the plant may not operate. 27 CFR 19.72(b)(1); 27 CFR 19.80. An operating permit, which 27 CFR 19.91 requires for operations not required to be covered by a basic permit. And a basic permit, because a person engaged in the business of distilling distilled spirits needs one. 27 CFR 1.21."
+          },
+          {
+            "sub": "Why the count differs"
+          },
+          {
+            "p": "Each operative section of 27 CFR part 1, subpart C, is built on the same lead-in: \"No person, except pursuant to a basic permit issued under the Act, shall:\". Section 1.21 then reaches the business of \"distilling distilled spirits, producing wine, rectifying or blending distilled spirits or wine,\" along with bottling, or warehousing and bottling, distilled spirits. Brewing is not on that list. Malt beverages appear in part 1 only at 27 CFR 1.20, importing, and 27 CFR 1.22, purchasing for resale at wholesale, so a brewer is not among the domestic producers the subpart names."
+          },
+          {
+            "p": "So a distiller faces an approval nobody mentions, under a statute separate from the one the registration sits under."
+          }
+        ]
+      },
+      {
+        "heading": "Which Washington license, and what does it ask?",
+        "paras": [
+          {
+            "p": "The license sections run by product and size. A domestic brewery at 60,000 barrels of malt liquor a year or more is RCW 66.24.240, at $2,100; a microbrewery under that figure is RCW 66.24.244, at $150. A domestic winery is RCW 66.24.170, with the fee computed only on liters manufactured. A distiller is RCW 66.24.140, with craft distillery privileges at RCW 66.24.145. One fee line shows how tightly the tracks are wired together: stills already licensed as fruit or wine distilleries by the federal government are licensed by the Board at $300 a year. RCW 66.24.140(1)(d)."
+          },
+          {
+            "p": "On the application, the Board may inspect the premises, inquire into all matters connected with their construction and operation, consider prior criminal conduct and violation history, and require fingerprinting. RCW 66.24.010(2)."
+          },
+          {
+            "p": "The same subsection carries four further restrictions, written as limits on retail licenses rather than manufacturer licenses, under a sentence reading \"No retail license of any kind may be issued to.\" They cover a sole proprietor without a month's residency in the state, a copartnership whose members are not all qualified, a business conducted by a manager or agent lacking the licensee's qualifications, and a corporation or LLC neither created under Washington law nor holding a certificate of authority here. RCW 66.24.010(2)(a) through (d). That reaches most producers anyway, because a brewery or winery pouring on site holds retail licenses too."
+          },
+          {
+            "p": "One provision is worth knowing before you sign anything. An applicant qualified in every way except for an executed lease or purchase agreement gets conditional approval, and once the lease or purchase is executed the Board must immediately grant final approval. RCW 66.24.010(5)(b)."
+          }
+        ]
+      },
+      {
+        "heading": "Who counts as an owner?",
+        "paras": [
+          {
+            "p": "This is the part that catches investors, and the state's idea of an owner is wider than the cap table. A liquor license must be issued in the name or names of the true parties of interest. WAC 314-07-035, citing RCW 66.24.010(1)."
+          },
+          {
+            "p": "Who that takes in depends on the entity. In an LLC, all members over 10 percent and their spouses, plus all managers and their spouses at any percentage. In a privately held corporation, all officers and spouses, plus stockholders over 10 percent of the issued or outstanding stock and their spouses. WAC 314-07-035(1)."
+          },
+          {
+            "p": "Then the clause that is not about ownership at all. For any entity, a true party of interest includes anyone in receipt of, or with the right to receive, more than 10 percent of the gross or net sales of the licensed business during any full or partial calendar or fiscal year. WAC 314-07-035(1). A revenue share negotiated by people who were careful not to give away equity can put its holder on the license. The exclusions carry a common condition: a lessor taking reasonable rent under a bona fide lease, a party contracting to sell the property, and a franchisor taking franchise fees are each excluded unless that person exercises control over or participates in management. WAC 314-07-035(2)."
+          },
+          {
+            "p": "One provision reaches past the documents. Where an entity other than the owner runs day-to-day operations under an agreement, that operating party becomes a true party of interest, must meet all the qualifications, and if approved must be the licensee. WAC 314-07-035(4)."
+          },
+          {
+            "p": "The federal side asks a narrower version of the same question. A Brewer's Notice requires officer and director lists and statements of interest, and persons holding 10 percent or more must be identified. 27 CFR 25.66; 27 CFR 24.110; 27 CFR 19.93."
+          }
+        ]
+      },
+      {
+        "heading": "Where can the building be, and what can you do in it?",
+        "paras": [
+          {
+            "p": "The Board may not license previously unlicensed premises for on-premises or off-premises consumption within five hundred feet of a tax-supported public elementary or secondary school, measured along the most direct public route between entrances, where the school objects in writing within twenty days of the Board's notice. RCW 66.24.010(9)(a). If your plan has a tasting room in it, that is a question for before the lease. The federal filings attach to a described physical space as well, down to each tract of land and each building. 27 CFR 25.68; 27 CFR 24.111; 27 CFR 19.74."
+          },
+          {
+            "p": "Each manufacturer license also carries its own retail privileges, and those retail licenses are separate licenses. A domestic brewery may distribute and retail beer of its own production, may sell another brewery's beer within 25 percent of its on-tap offering of its own, and may hold up to four retail licenses for a tavern or restaurant. RCW 66.24.240(2) through (4); RCW 66.24.244(2) through (5). A domestic winery may retail and distribute its own production and may sell and sample at up to four additional Board-approved locations. RCW 66.24.170(3), (4)(a). Both brewery sections were amended twice in 2025, so if you are reading an older printout, check it against the current text."
+          }
+        ]
+      },
+      {
+        "heading": "Do you need a bond?",
+        "paras": [
+          {
+            "p": "All three types share one architecture. A bond is required, there is an exemption for small producers who pay tax on a deferred basis, that exemption reaches only nonindustrial or beverage use, and there is no exemption at all for industrial use. 27 CFR 25.91(e); 27 CFR 24.146(d); 27 CFR 19.151(d). Mixed operations count as industrial unless the product is designated solely nonindustrial when produced or received and is not later mixed. 27 CFR 24.146(d)(2); 27 CFR 19.151(d)(2)."
+          },
+          {
+            "sub": "A brewery"
+          },
+          {
+            "p": "The bond goes in on Form 5130.22 with the original Brewer's Notice, and a continuing brewer files a new bond or a continuation certificate once every four years. 27 CFR 25.91(a), (b). A brewer paying tax on a deferred basis is excused during any part of a calendar year in which it is eligible for an annual or quarterly return period. 27 CFR 25.91(e)."
+          },
+          {
+            "p": "Those return periods are defined at 27 CFR 25.164(c), in an order worth noting: the annual period is (c)(2) and the quarterly is (c)(3). The annual period needs a reasonable expectation of not more than $1,000 in beer tax for the current calendar year and not more than $1,000 owed for the preceding one. The quarterly period needs that you were not liable for more than $50,000 in the preceding year and reasonably expect not more than $50,000 in the current one. Eligibility ends on the first date the year's aggregate tax passes the figure. 27 CFR 25.164(c)(2), (c)(3)."
+          },
+          {
+            "p": "The thresholds are beer excise tax liability, not revenue, so a brewery with well over $50,000 in sales can still sit inside the quarterly period. And reasonably expecting is defined rather than left to optimism: there must be no existing or anticipated circumstance known to you, an increase in production capacity among them, that would carry liability over the limit. 27 CFR 25.164(c)(4)(ii)."
+          },
+          {
+            "sub": "A winery"
+          },
+          {
+            "p": "The proprietor gives bond on TTB F 5120.36 to cover liability for excise taxes, and wine removed after tax determination but before payment requires a tax deferral bond as well. 27 CFR 24.146(a), (b). Operations coverage runs from a $1,000 minimum to a $50,000 maximum, and $100,000 where the liability exceeds $250,000; tax deferral coverage runs from $500 to $250,000. 27 CFR 24.148. The exemption turns on eligibility for an annual or quarterly return period under 27 CFR 24.271, and an existing exempt proprietor must furnish a bond once the year's aggregate tax passes the threshold in the rule. 27 CFR 24.146(d)(1); 27 CFR 24.154(b)."
+          },
+          {
+            "sub": "A distillery"
+          },
+          {
+            "p": "Bonds go in on TTB F 5110.56, the types and penal sums depending on the size and kind of operations, and TTB will not approve a registration until the applicant has provided them. 27 CFR 19.151(a). The bond obligates compliance with the law and the regulations and payment of all taxes imposed by 26 U.S.C. chapter 51, with penalties and fines. 27 CFR 19.151(b). Its exemption turns on eligibility for an annual or quarterly return period under 27 CFR 19.235. 27 CFR 19.151(d)(1)."
+          },
+          {
+            "p": "Sections 24.271 and 19.235 set their own figures, and the brewery numbers above do not carry across to them."
+          }
+        ]
+      },
+      {
+        "heading": "What happens when something changes?",
+        "paras": [
+          {
+            "sub": "The thirty-day habit"
+          },
+          {
+            "p": "This is the part nobody plans for, and it matters most once you already hold both approvals. The federal rules run on amended filings, and the recurring deadline is thirty days: a change generally, officers and directors, and a change in control or management, even though the stockholder list itself goes in annually. 27 CFR 25.71; 27 CFR 25.74; 27 CFR 25.75. A change in location takes an amended notice plus a new bond or consent of surety, and an extension of the premises takes an amended notice, with the added facilities unusable until approved. 27 CFR 25.77; 27 CFR 25.78. The wine side runs the same way. 27 CFR 24.120; 27 CFR 24.123; 27 CFR 24.124."
+          },
+          {
+            "p": "Two of the wine rules are not deadlines at all, and the difference is the whole point. Operations under a new name may not be conducted, and operations may not be commenced at a new location, before the amended application is approved. 27 CFR 24.122; 27 CFR 24.129. Some of these filings you satisfy by filing. Others you have to wait on. Treating the second kind as the first is how a winery ends up trading under a name that was never approved."
+          },
+          {
+            "sub": "Selling, or taking on a partner"
+          },
+          {
+            "p": "A change in proprietorship is not an assignment of anything. The outgoing brewer files the notice of permanent discontinuance, and the successor qualifies as the proprietor of a new brewery, filing a new notice and bond in his or her own name. 27 CFR 25.72(a); 27 CFR 25.85. A wine successor must, before commencing operations, apply for and obtain any required permits. 27 CFR 24.125(a). Nothing in either regime is inherited, and the buyer of a producing business is an applicant rather than an assignee."
+          },
+          {
+            "p": "Partnerships are the trap inside the trap. Adding or withdrawing a partner is itself a change in proprietorship, and a partner's death, bankruptcy or insolvency dissolves the partnership unless the surviving partners meet the conditions in the rule. 27 CFR 25.73. A surviving wine partner may continue on a consent of surety. 27 CFR 24.128."
+          }
+        ]
+      },
+      {
+        "heading": "Which one do you file first?",
+        "paras": [
+          {
+            "p": "What matters for planning is where each side's hard stops sit, and the bonds are most of them. A brewer may not begin or continue before the bond is approved, no wine operation may commence or continue until the bonds and consents of surety are approved, and TTB will not approve a distillery's registration until its bonds are in. 27 CFR 25.91(d); 27 CFR 24.145; 27 CFR 19.151(a)."
+          },
+          {
+            "p": "The state has a mechanism for the gap applicants worry about most. Conditional approval exists for the applicant who is qualified except for an executed lease. RCW 66.24.010(5)(b). The instinct is to sign the lease first so there is an address for the form. The statute contemplates the application going in before the lease does."
+          },
+          {
+            "p": "That should drive the calendar. Both governments attach approval to a described premises, and both require a filing when the description changes, so the building decision sits upstream of both applications. In most openings it is made first, for reasons that have nothing to do with either of them: the space is available and the landlord has another prospect. Then the licensing questions get asked about a building that is already costing rent."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "An investor comes in on a revenue share instead of equity and everybody checks the cap table. More than 10 percent of gross or net sales makes the recipient a true party of interest whether or not they own anything. WAC 314-07-035(1)."
+          },
+          {
+            "p": "A management agreement is signed for operational convenience. The operating party becomes a true party of interest and, if approved, must be the licensee. WAC 314-07-035(4)."
+          },
+          {
+            "p": "A partner is added or bought out with a document that assigns an interest. Federally that is a change in proprietorship, and the successor qualifies as new. 27 CFR 25.73; 27 CFR 24.125."
+          },
+          {
+            "p": "A distillery budgets for registration and the operating permit and hears about the basic permit later. Distilling needs one and brewing does not, which is why advice from a brewer does not transfer. 27 CFR 1.21."
+          },
+          {
+            "p": "A brewery grows past the return-period threshold mid-year and nobody connects that to the bond it was exempt from. Eligibility ends the first date the year's aggregate tax passes the figure. 27 CFR 25.164(c)."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Most of the value is spent before anything is filed. Working out whether your operation faces one federal approval, two or three. Reading the ownership and the financing against the true party of interest rule before the Board does, which means reading the operating agreement, the investor documents and the lease as one problem. Sequencing the applications against the lease, the build-out and the equipment delivery. And putting the amendment obligations somewhere they will still be found in four years, because they outlast the people who remember the opening."
+          },
+          {
+            "p": "I handle Washington alcohol beverage licensing and Liquor and Cannabis Board work from my office in downtown Spokane, for breweries, wineries and distilleries, along with the entity and lease questions that come with them. I am admitted in Washington, WSBA #55307, and in Oregon, OSB #242384, which matters in the Columbia corridor, where producers do business on both sides of the river."
+          }
+        ]
+      },
+      {
+        "heading": "If you are opening, or already mid-application",
+        "paras": [
+          {
+            "p": "If you are planning a brewery, winery or distillery, mid-application on either side, bringing in an investor, buying out a partner, moving, expanding the premises, or buying a producer that already holds both approvals, my office offers a free initial consultation by appointment in downtown Spokane, at 601 W. 1st Ave., Suite 1400. Bring whatever has been filed so far, the lease or purchase agreement, and the ownership documents."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington and federal law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "words": 2995,
+    "minutes": 13,
+    "file": "32-brewery-winery-distillery-licensing-ttb-lcb.docx"
+  },
+  {
+    "slug": "seller-financing-owner-carry-washington",
+    "title": "Seller Financing in Washington: The Instrument You Took Decides What You Get When the Payments Stop",
+    "titleTag": "Seller Financing and Owner Carry in Washington | Justin D. Leigh",
+    "practiceArea": "Real Estate Transactions and Litigation",
+    "published": "2026-10-29",
+    "description": "An owner-carry seller's remedy depends on whether the deal was a real estate contract or a note and deed of trust. Forfeiture under chapter 61.30 RCW and foreclosure under chapter 61.24 RCW lead to very different outcomes.",
+    "lede": "The payment did not arrive and you told yourself it was a bank mix-up. Then the next one did not arrive either, and the buyer stopped answering the phone. You sold the place two years ago and carried the financing yourself, and now you are holding paper on a house somebody else lives in. What you can do about it depends on which document you signed at closing.",
+    "intro": [
+      "Owner-carry deals get done on two very different instruments, and at the signing table they look like the same deal. One is a real estate contract, where you keep legal title until you are paid. The other is a note secured by a deed of trust, where you hand over the deed at closing and take back a lien. Washington gives the two different remedies, on different timetables, with different consequences for whether you ever see the rest of your money. Most sellers sign without knowing which one they picked.",
+      "This article starts where the deal closed and the payments stopped. The buyer's side is here too, because a forfeiture done wrong is a live problem for both parties."
+    ],
+    "sections": [
+      {
+        "heading": "What did you actually sign, a real estate contract or a note and a deed of trust?",
+        "paras": [
+          {
+            "p": "A real estate contract, for purposes of the forfeiture statute, is any written agreement for the sale of real property in which legal title is retained by the seller as security for payment of the purchase price. RCW 61.30.010(1). The buyer takes possession and the obligation to pay. You keep the deed."
+          },
+          {
+            "p": "On a note and deed of trust you do the opposite. You convey the property at closing and take back a lien. A deed of trust is subject to the laws relating to mortgages on real property except as its own chapter provides, and it may be foreclosed by trustee's sale. RCW 61.24.020."
+          },
+          {
+            "p": "Nothing in the monthly payment tells you which you have. Look at whether a deed went into the buyer's name at closing. If it did, your remedy is foreclosure. If not, it is forfeiture."
+          }
+        ]
+      },
+      {
+        "heading": "What does forfeiture under chapter 61.30 RCW do to each side?",
+        "paras": [
+          {
+            "p": "Forfeiture cancels the buyer's rights under the contract and terminates all right, title, and interest in the property of the buyer and everyone claiming through the buyer. RCW 61.30.010(4). It is not a lawsuit. It is done by giving and recording the notices the chapter specifies, and a buyer's rights cannot be forfeited any other way. RCW 61.30.020(1)."
+          },
+          {
+            "sub": "What the seller gets"
+          },
+          {
+            "p": "The buyer, and everyone properly noticed who claims through him, loses all rights in the contract and the property, with no right of redemption. Every dollar already paid is retained by the seller, and the buyer's improvements and unharvested crops and timber are forfeited to the seller. RCW 61.30.100(2). Possession follows ten days after the declaration of forfeiture is recorded. RCW 61.30.100(3)."
+          },
+          {
+            "sub": "What the seller gives up"
+          },
+          {
+            "p": "After the declaration is recorded, the seller has no claim against the buyer for any unpaid part of the price or any other breach. RCW 61.30.100(4). The exception is waste, and only where it leaves fair market value on the recording date below the unpaid obligations plus every senior lien. So forfeiture is a trade: the house, the improvements and every dollar paid, against the rest of the price."
+          }
+        ]
+      },
+      {
+        "heading": "Who has to be notified, and what happens when somebody is not?",
+        "paras": [
+          {
+            "p": "Two notices do the work. A notice of intent to forfeit starts the clock; a declaration of forfeiture finishes it, and that one must be signed and sworn to by the seller. RCW 61.30.050(1). The cure date in the notice of intent cannot be less than ninety days after it is recorded, and RCW 61.30.070(1) requires eleven other items with it, among them an itemized statement of everything needed to cure and notice of the right to sue, before the declaration is recorded, to contest the forfeiture or ask for a court-ordered sale instead."
+          },
+          {
+            "p": "Both notices go to each buyer last known to the seller and to the last holder of record of a buyer's interest, and failure to comply in any material respect renders any purported forfeiture void. RCW 61.30.040(1). Not voidable. Void. They also go to record holders of interests and liens claiming through the buyer and to every occupant whose identity is reasonably discoverable, and the forfeiture is void as to anyone in those groups who is missed. RCW 61.30.040(2). A tenant in the basement and a contractor with a recorded lien both belong on that list."
+          },
+          {
+            "sub": "When it was done wrong"
+          },
+          {
+            "p": "A recorded, sworn declaration is prima facie evidence of compliance and conclusive in favor of good faith purchasers for value, except as to those notice failures. RCW 61.30.100(1). So a defective forfeiture can still pass good title to a stranger, and a buyer who was never properly noticed cannot sit on it. A seller who catches his own defect in time can supersede the bad notice and start over. RCW 61.30.080. One who records a declaration knowing of a material failure to comply can owe damages and fees. RCW 61.30.150(2)."
+          }
+        ]
+      },
+      {
+        "heading": "If a notice of intent has arrived and you are the buyer, what can you do?",
+        "paras": [
+          {
+            "p": "Cure first. Everyone entitled to the notices, whether or not they received them, plus any guarantor or surety, may cure the default at any time before the time for cure expires, and a timely tender reinstates the contract. RCW 61.30.090(2) and (4). Acceleration does not raise the price: the seller cannot demand accelerated payments as the condition of curing, beyond what would have come due anyway. RCW 61.30.090(1)."
+          },
+          {
+            "sub": "Stopping it in court"
+          },
+          {
+            "p": "A person entitled to cure may sue to restrain the forfeiture, but the summons and complaint must be filed and served before the declaration is recorded, and filing does not by itself extend the time for cure. RCW 61.30.110(2). A permanent injunction requires proof that there is no default as claimed, or that the buyer has a claim excusing it, including by offset, or that there is any material noncompliance with the chapter. RCW 61.30.110(3)."
+          },
+          {
+            "sub": "A sale instead of a forfeiture"
+          },
+          {
+            "p": "This is the answer to a forfeiture that would hand the seller a windfall. Any person entitled to cure may ask the court, again before the declaration is recorded, to order a public sale instead, and only on finding that the property's then fair market value substantially exceeds the obligations the contract secures and any senior liens. RCW 61.30.120(1) through (3). The surplus over the costs of sale and what the court awards the seller goes to the clerk. RCW 61.30.120(6). The buyer's equity, which a forfeiture would have extinguished, comes out the other end."
+          },
+          {
+            "sub": "After the declaration is recorded"
+          },
+          {
+            "p": "What is left is an action to set the forfeiture aside, open only to a person entitled to the notices and only if filed and served within sixty days. RCW 61.30.140(2). It fails unless good faith purchasers for value would be unaffected and the buyer establishes that the seller was not entitled to forfeit, or did not materially comply. RCW 61.30.140(4)."
+          }
+        ]
+      },
+      {
+        "heading": "What happens on a note and a deed of trust, and can you collect the shortfall?",
+        "paras": [
+          {
+            "p": "A nonjudicial foreclosure is a different animal on a longer fuse. It opens with a written notice of default, sent to the borrower and grantor at least thirty days before the notice of sale is recorded, itemizing the arrears and stating the total needed to reinstate. RCW 61.24.030(8). The notice of trustee's sale is then recorded, mailed and published at least ninety days before the sale. The borrower can reinstate up to eleven days before the sale date, and no sale may happen less than a hundred and ninety days from the date of default. RCW 61.24.040."
+          },
+          {
+            "sub": "The hinge"
+          },
+          {
+            "p": "Except as that section permits for deeds of trust securing commercial loans, a deficiency judgment shall not be obtained on the obligations secured by a deed of trust against any borrower, grantor, or guarantor after a trustee's sale. RCW 61.24.100(1). A commercial loan is one not made primarily for personal, family, or household purposes, RCW 61.24.005(6), and paper you carried on somebody's house is not that. Foreclose nonjudicially on a home for less than the balance and the shortfall is gone."
+          },
+          {
+            "p": "The bar attaches to the nonjudicial route, not to the instrument: the chapter does not preclude foreclosing a deed of trust in the same manner as a real property mortgage, and the deficiency section expressly does not apply to that. RCW 61.24.100(8). What a judicial foreclosure involves belongs to a different chapter and is outside this article."
+          },
+          {
+            "p": "Forfeiture ends in the same place, with no claim for the unpaid price once the declaration is recorded, RCW 61.30.100(4), and a court-ordered sale in lieu ends it too, regardless of what the property brings. RCW 61.30.120(9). But a contract seller is not confined to forfeiture: at his option the contract may be foreclosed in the manner applicable to a mortgage, which is not a forfeiture under the chapter at all. RCW 61.30.020(1) and RCW 61.30.010(4). What he cannot do is run both at once. RCW 61.30.020(2)."
+          },
+          {
+            "sub": "So which should a seller want?"
+          },
+          {
+            "p": "That depends on facts no article can supply, so ask before closing rather than after a default. How much is being paid down, against what the property is worth now? Does the buyer have other assets worth a judgment? Will it be the buyer's home, which closes off the commercial-loan exceptions entirely? And does the contract carry a forfeiture clause, and will it be recorded, since RCW 61.30.030 requires both?"
+          }
+        ]
+      },
+      {
+        "heading": "Does carrying paper on a house make you a lender?",
+        "paras": [
+          {
+            "p": "There is a federal layer here and a Washington layer, and the Washington one is where sellers get caught. The intuition almost everyone arrives with, that an occasional private sale is obviously outside lending regulation, is not what the licensing text says."
+          },
+          {
+            "sub": "The federal layer"
+          },
+          {
+            "p": "Regulation Z defines a loan originator to include a person who, for compensation or other monetary gain, offers, arranges, negotiates, or otherwise obtains or makes consumer credit for another person. 12 CFR 1026.36(a)(1)(i). It excludes seller financers meeting either of two narrow tests: 12 CFR 1026.36(a)(4), for three or fewer properties in any twelve-month period, each owned by the person and securing the financing, open to any person; and 12 CFR 1026.36(a)(5), for one property, open only to a natural person, an estate, or a trust."
+          },
+          {
+            "p": "Each is a checklist rather than a category, and the conditions are about the paper: whether and how the loan amortizes, whether the rate is fixed or adjusts, whether a good faith ability-to-repay determination is required, and whether the seller built the residence. The two lists are not identical, and they differ exactly where a seller would assume they do not. Treat that as a map and not as the regulation, and check it word by word before anyone signs."
+          },
+          {
+            "sub": "Washington has no general seller-financing exemption"
+          },
+          {
+            "p": "The chapter that does the work is the Consumer Loan Act, chapter 31.04 RCW, and it starts from the opposite end: no person may engage in any activity subject to the chapter without first obtaining and maintaining a license. RCW 31.04.035(1). The implementing rule requires one, absent an exemption, to lend money or extend credit to Washington residents, and carries no general exclusion for a one-off or occasional lender. WAC 208-620-230(1). The Mortgage Broker Practices Act reaches the same conduct through its loan-originator definition rather than its broker one, covering an individual who, for direct or indirect compensation or gain, offers or negotiates terms of a residential mortgage loan. RCW 19.146.010(11)(a). A seller who proposes the rate and the repayment schedule is doing that."
+          },
+          {
+            "p": "What decides whether any of it is engaged is the buyer's purpose rather than the collateral. A residential mortgage loan is one primarily for personal, family, or household use secured by a dwelling or residential real estate. RCW 31.04.015(24). Financing an investment purchase is not automatically a residential mortgage loan just because the security is a house."
+          },
+          {
+            "sub": "The exemptions that exist are about where you lived"
+          },
+          {
+            "p": "Two matter to a seller, and they are worded differently. At the company level the rule exempts individuals who extend credit on the sale of their primary dwelling. WAC 208-620-104(7). At the individual level it covers one who offers or negotiates terms of a loan secured by a dwelling that served as the individual's residence, and the Mortgage Broker Practices Act rule uses the same words. WAC 208-620-105(3); WAC 208-660-008(2)(b). A primary dwelling and a dwelling that served as the individual's residence are not the same phrase, and not interchangeable."
+          },
+          {
+            "p": "Which is why the rental is the hard case. Carrying paper on a house you own and have never lived in answers to neither description on its face, and the licensing text supplies no separate exemption for it. That is the deal a great many owner-carry sellers are doing."
+          },
+          {
+            "sub": "The five-or-fewer rule is two different things"
+          },
+          {
+            "p": "Most sellers have heard that a few loans are fine. Two provisions sit behind that and neither says what people think. The statutory exemption for five or fewer transactions in a calendar year applies to financing the sale of property you own that does not contain a dwelling, and is unavailable to anyone subject to the federal SAFE Act or in the business of building residences. RCW 31.04.025(4)(f). The residential version is a waiver rather than an exemption, for five or fewer residential mortgage loans in a year without a company-level license, and it must be applied for and obtained for each transaction. WAC 208-620-232."
+          },
+          {
+            "p": "Choosing a real estate contract instead of a note and deed of trust is not a verified way around this. The definition reaches a consensual security interest on a dwelling, RCW 31.04.015(24), while the chapter separately defines a loan as money lent at interest or for a fee and making a loan as advancing or committing to advance funds, RCW 31.04.015(14) and (16), leaving a seller who retains title room to argue the deal is a deferred purchase price. No controlling Washington appellate decision on the current licensing provisions was located, on that question or generally."
+          },
+          {
+            "p": "None of this tells you that you are exempt, or that you need a license. That turns on your own facts, and the burden of proving an exemption sits on the person claiming it. RCW 31.04.025(6). An unlicensed and unexempt person also cannot sue to collect compensation in connection with a residential mortgage loan. RCW 19.146.200(2). It is a question to settle before you carry paper, not after."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The contract was never recorded. Recording it, or a memorandum, in each county the property sits in is a condition to forfeiture. RCW 61.30.030(1). A seller who skipped that at closing does not have the remedy the instrument was chosen for."
+          },
+          {
+            "p": "The notice went to the buyer and nobody else. Occupants and lienholders of record claiming through the buyer are entitled to it, and the forfeiture is void as to anyone missed. RCW 61.30.040(2)."
+          },
+          {
+            "p": "The buyer waited for the declaration. An action to restrain a forfeiture must be filed and served before the declaration is recorded; after that the only route is the sixty-day action to set it aside. RCW 61.30.110(2) and RCW 61.30.140."
+          },
+          {
+            "p": "The seller forfeited a property worth far more than the debt. That is the fact pattern RCW 61.30.120 exists for, and a buyer who sees it in time can convert the forfeiture into a sale."
+          },
+          {
+            "p": "The seller foreclosed nonjudicially and then went looking for the shortfall. On residential paper, RCW 61.24.100(1) closes that door the moment the trustee's sale completes."
+          },
+          {
+            "p": "Nobody asked the licensing question until the second or third carryback. The residence-based exemptions turn on a house the seller lived in, and a rental is a different case. WAC 208-620-104(7); WAC 208-620-105(3)."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Most of this is reading, counting and sequencing. Which instrument is actually of record. Whether the conditions in RCW 61.30.030 are met before a notice goes out. Who is entitled to the notices, which means a title search rather than a recollection of who was at closing. Whether the cure date runs ninety days from recording rather than from mailing. On the deed of trust side, whether the notice of default, the notice of sale and the hundred and ninety days from default line up on one calendar. From the buyer's side it is the same calendar in reverse, plus the valuation question that decides whether the answer is a cure, an injunction, a sale in lieu, or an action to set a completed forfeiture aside. Before a deal closes it is the licensing question, cheap to look at then and expensive later."
+          },
+          {
+            "p": "I take both sides of these, and a forfeiture done badly is a problem for the seller who conducted it as much as for the buyer who received it. Real estate is the largest part of my practice. I am an independent attorney in downtown Spokane, admitted in Washington, WSBA #55307, and Oregon, OSB #242384, handling contract forfeitures and foreclosures, owner-carry disputes, title review and quiet title litigation across Washington. If your question is still the purchase and sale agreement rather than the paper that came after, I wrote separately about what you are actually signing in Buying and Selling Property in Washington."
+          }
+        ]
+      },
+      {
+        "heading": "If you carried the paper and the payments stopped",
+        "paras": [
+          {
+            "p": "The dates are the case, which is why an early conversation is worth more than a thorough one later. I offer a free initial consultation by appointment at my downtown Spokane office, 601 W. 1st Ave., Suite 1400. Bring the contract or the note and deed of trust, a payment history, and any notice that has gone out or arrived."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "words": 3005,
+    "minutes": 13,
+    "file": "33-seller-financing-owner-carry-washington.docx"
   }
 ]
