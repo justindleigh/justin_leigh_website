@@ -60,7 +60,12 @@ export default function BlogPost() {
   useEffect(() => {
     if (!post) return;
     const prevTitle = document.title;
-    document.title = `${post.title} | Justin D. Leigh`;
+    // titleTag is the short, keyword-first title written for the search
+    // result; title is the long headline written for the reader. Every post
+    // has carried a titleTag since the first three went up and nothing ever
+    // read it, so every article shipped a 90 to 110 character <title> that
+    // Google truncates. Fall back to the headline if a post lacks one.
+    document.title = post.titleTag || `${post.title} | Justin D. Leigh`;
     const d = document.querySelector('meta[name="description"]');
     const prevDesc = d ? d.getAttribute("content") : null;
     if (d) d.setAttribute("content", post.description);
@@ -105,7 +110,7 @@ export default function BlogPost() {
 
   return (
     <section className="min-h-screen bg-black pt-28 pb-16 px-6">
-      <article className="max-w-3xl mx-auto">
+      <article className="article-prose max-w-3xl mx-auto">
         <Link
           to="/blog"
           className="text-[11px] uppercase tracking-[3px] text-gold hover:text-gold-light transition-colors"

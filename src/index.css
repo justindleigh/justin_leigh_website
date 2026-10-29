@@ -229,3 +229,22 @@ html.light-mode .bg-gold\/15 {
 .skip-link:focus {
   top: 0;
 }
+
+/* ---- no stranded last lines, in an article ----
+ * Justin's standing rule of 2026-10-22, the same one evergreen.css already
+ * carries: a last line that does not take up half the block needs fixing, and
+ * the fix belongs in CSS rather than in a rewrite of the copy. The rules there
+ * are scoped to .evergreen, so the blog never had them. Scoped here to the
+ * article rather than set globally for the same reason given in that file:
+ * text-wrap: pretty costs a little layout time on long text, and these pages
+ * are the long text.
+ */
+.article-prose p,
+.article-prose li {
+  text-wrap: pretty;
+}
+.article-prose h1,
+.article-prose h2,
+.article-prose h3 {
+  text-wrap: balance;
+}

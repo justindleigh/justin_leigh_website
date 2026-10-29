@@ -2724,7 +2724,16 @@
     ],
     "file": "20-personal-injury-claims-washington.docx",
     "words": 1854,
-    "minutes": 8
+    "minutes": 8,
+    "related": [
+      "motorcycle-accident-washington",
+      "pedestrian-accident-washington",
+      "bicycle-accident-washington",
+      "drunk-driver-injury-washington",
+      "slip-and-fall-washington",
+      "wrongful-death-washington",
+      "dog-bite-attack-washington"
+    ]
   },
   {
     "slug": "dog-bite-attack-washington",
@@ -2882,7 +2891,11 @@
     ],
     "file": "18-dog-bite-attack-washington.docx",
     "words": 1940,
-    "minutes": 9
+    "minutes": 9,
+    "related": [
+      "personal-injury-claims-washington",
+      "tort-claim-against-government-washington"
+    ]
   },
   {
     "slug": "tort-claim-against-government-washington",
@@ -3046,7 +3059,11 @@
     ],
     "file": "19-tort-claim-against-government-washington.docx",
     "words": 1972,
-    "minutes": 9
+    "minutes": 9,
+    "related": [
+      "personal-injury-claims-washington",
+      "slip-and-fall-washington"
+    ]
   },
   {
     "slug": "liquor-license-lcb-enforcement-washington",
@@ -3663,5 +3680,954 @@
     "words": 2962,
     "minutes": 13,
     "file": "23-userra-military-service-employment-washington.docx"
+  },
+  {
+    "slug": "motorcycle-accident-washington",
+    "title": "Motorcycle Accidents in Washington: The Lane, the Helmet Argument, and the Coverage Nobody Told You to Buy",
+    "titleTag": "Motorcycle Accident Lawyer in Spokane, WA | Justin D. Leigh",
+    "practiceArea": "Personal Injury",
+    "published": "2026-10-27",
+    "description": "Washington gives a motorcycle the whole lane, bans lane splitting, and leaves riders out of the underinsured motorist coverage every car policy has to carry. What that means for your claim.",
+    "lede": "A driver turned left across your lane on Division and told the officer the same thing every one of them says, which is that they never saw you. You are out of the hospital with hardware in your leg, the bike is a total loss, and somebody from the driver's insurance company has already asked whether you were wearing a helmet and how fast you were going. There are two fights in a motorcycle case. One is about what happened in the intersection, and the other is about whether anybody will pay for it, and the second one turns on a line in the insurance code that most riders have never been shown.",
+    "intro": [],
+    "sections": [
+      {
+        "heading": "A motorcycle is entitled to the whole lane, and that is a statute",
+        "paras": [
+          {
+            "p": "Drivers treat a motorcycle as half a vehicle. The law does not. RCW 46.61.608(1) says all motorcycles are entitled to full use of a lane and that no motor vehicle shall be driven in such a manner as to deprive any motorcycle of the full use of a lane. The one exception written into the subsection is two motorcycles riding abreast in a single lane, which the statute permits and then caps at two by RCW 46.61.608(4)."
+          },
+          {
+            "p": "That matters at the moment a driver drifts over to share your lane, squeezes past you at a merge, or crowds you to the fog line because you were only taking up a few feet of it. None of that is a courtesy question. It is a right of way the Legislature gave you in writing."
+          },
+          {
+            "p": "The passing rules carry the same judgment. RCW 46.61.110(1)(b) says that when the vehicle being overtaken is a motorcycle, a driver who fails to pass at a safe distance is assessed an additional fine on top of the base penalty, and that the fine may not be waived, reduced, or suspended unless the court finds the driver indigent. A traffic fine is not civil liability and no infraction decides your claim. What it tells you is how seriously the statute treats the risk a passing car creates for the person on the bike."
+          }
+        ]
+      },
+      {
+        "heading": "Is lane splitting legal in Washington?",
+        "paras": [
+          {
+            "p": "No. RCW 46.61.608(3) says no person shall operate a motorcycle between lanes of traffic or between adjacent lines or rows of vehicles. RCW 46.61.608(2) separately forbids overtaking and passing in the same lane as the vehicle being overtaken, with a narrow carve-out for passing a pedestrian or a bicyclist at a safe distance of at least three feet. Subsection (5) exempts police officers on duty, and nobody else."
+          },
+          {
+            "p": "Riders ask this because they have been told that splitting between stopped cars is safer than sitting in the middle of them, and because it is lawful in other states. In Washington it is not, and a crash that happens while you are between two lines of cars is a harder case."
+          },
+          {
+            "p": "Harder is not hopeless, and the reason is worth understanding. RCW 5.40.050 provides that breaking a statute, ordinance, or administrative rule is not negligence per se but may be considered by the trier of fact as evidence of negligence. The section lists four exceptions that still are negligence per se, and the traffic one is driving under the influence. Lane splitting is not on that list. So the violation is evidence a jury weighs against everything else in the case, not an automatic verdict."
+          }
+        ]
+      },
+      {
+        "heading": "Do I lose my case if I was not wearing a helmet?",
+        "paras": [
+          {
+            "p": "Washington requires one. RCW 46.37.530(1)(c) makes it unlawful to operate or ride on a motorcycle on a state highway, county road, or city street without a motorcycle helmet, with the neck or chin strap fastened securely while the motorcycle is in motion. RCW 46.37.530(3) defines the helmet by federal standard: a hard outer shell, padding, a retention system, and the manufacturer's certification under 49 C.F.R. 571.218 that it meets the United States Department of Transportation standard. A novelty shell is not a helmet under that definition."
+          },
+          {
+            "p": "Now the part the adjuster is counting on you not knowing. Washington's seat belt statute, RCW 46.61.688(6), says in so many words that failing to wear a safety belt does not constitute negligence and may not be admissible as evidence of negligence in any civil action. The helmet statute contains no provision like it. That silence is why the argument gets made, and it is why the answer is not a clean one in either direction."
+          },
+          {
+            "p": "What can be said accurately is this. Not wearing a helmet does not bar a claim, because Washington is a comparative fault state and fault reduces an award rather than ending it. Under RCW 5.40.050 a breach of the helmet statute would be evidence of negligence rather than negligence per se. And whether that evidence has anything to do with the injuries actually in dispute is a separate question, because a helmet has no bearing on a shattered femur. Expect the argument. Do not accept it as the end of the conversation, and do not let a recorded statement on day one be where it gets decided."
+          }
+        ]
+      },
+      {
+        "heading": "Being partly at fault does not end your claim",
+        "paras": [
+          {
+            "p": "RCW 4.22.005 is the rule the whole system runs on: contributory fault chargeable to the claimant diminishes the award proportionately, but does not bar recovery. If a jury finds you twenty percent responsible, your award is reduced by twenty percent. It is not zero, and Washington has no threshold at which it becomes zero."
+          },
+          {
+            "p": "Fault is defined broadly by RCW 4.22.015, reaching negligent and reckless acts and omissions, unreasonable assumption of risk, and the unreasonable failure to avoid an injury or to mitigate damages. The same section says a comparison of fault considers both the nature of the conduct and the extent of its causal relation to the damages, which is the sentence that answers a defense built on speed or gear rather than on what caused the collision."
+          },
+          {
+            "p": "RCW 4.22.070 then has the jury assign a percentage to every entity that caused the damages, including you, and makes each defendant liable for its own share only. There is one exception that matters to riders: under RCW 4.22.070(1)(b), if the trier of fact finds the injured person was not at fault, the defendants are jointly and severally liable for the sum of their shares. That is why a case in which the rider bears no fault is in a different posture from the same injuries with a fault argument attached, and not only because of the percentage."
+          }
+        ]
+      },
+      {
+        "heading": "The coverage nobody told you to buy",
+        "paras": [
+          {
+            "p": "This is the part of a motorcycle case that surprises people, and it is a single clause. RCW 48.22.030(2) requires every auto policy issued in Washington to carry underinsured motorist coverage, which is the coverage that pays when the at-fault driver has no insurance or not enough of it. Then it writes an exception into the middle of the sentence: except while operating or occupying a motorcycle or motor-driven cycle."
+          },
+          {
+            "p": "So the protection a car owner gets automatically unless they reject it in writing does not follow a rider onto the bike. The Legislature's answer was disclosure rather than coverage. RCW 48.22.030(9) requires an insurer that writes motorcycle insurance in this state to provide information to prospective insureds about the coverage, and RCW 48.22.030(10) requires it to give a named insured who bought motorcycle liability coverage an opportunity to reject underinsured coverage for that motorcycle in writing."
+          },
+          {
+            "p": "Personal injury protection runs the same way. RCW 48.22.085(1) requires PIP to be offered as an optional coverage on an automobile liability policy, and RCW 48.22.005(1) defines automobile as a passenger car under RCW 46.04.382. A motorcycle is not a passenger car. So do not assume the medical coverage that a car policy carries is sitting behind your bike."
+          },
+          {
+            "p": "The practical consequence is blunt. Washington's minimum liability limits are frequently not enough for a serious orthopedic injury, and when the driver who turned in front of you carries the minimum, underinsured motorist coverage on your own motorcycle policy is frequently the only money in the case. Pull the declarations page before you decide anything. If the coverage is there, there is somewhere else to look for payment. If you rejected it, you want to know that in week one rather than in month nine."
+          }
+        ]
+      },
+      {
+        "heading": "The car that never touched you",
+        "paras": [
+          {
+            "p": "A great many motorcycle crashes involve no contact at all. A car crosses the line, you lay it down avoiding the car, the car keeps going, and there is no paint transfer and no plate number. Washington has a name for that vehicle and a route to coverage for it."
+          },
+          {
+            "p": "RCW 48.22.030(8) defines a phantom vehicle as a motor vehicle that causes bodily injury, death, or property damage to an insured without physical contact with the insured or the vehicle the insured was occupying, and then attaches two conditions. The facts of the accident must be corroborated by competent evidence other than the testimony of the insured or anyone else with an underinsured motorist claim from the same accident. And the accident must be reported to the appropriate law enforcement agency within seventy-two hours."
+          },
+          {
+            "p": "Seventy-two hours is a real deadline and it runs while you are in a hospital bed. If nobody files a report, the phantom vehicle claim is in trouble no matter how true the account is. The corroboration requirement is the other half of it, which is why the names of the people who stopped at the scene are worth more than almost anything else you can collect that day."
+          }
+        ]
+      },
+      {
+        "heading": "How long do I have to bring a motorcycle accident claim in Washington?",
+        "paras": [
+          {
+            "p": "Three years. RCW 4.16.080(2) sets a three-year limit for any other injury to the person or rights of another, and a motorcycle injury claim runs under it from the date of the crash."
+          },
+          {
+            "p": "RCW 4.16.190 takes the time a claimant was under eighteen out of the limitation period, so a passenger who was a minor is on a different clock than the rider. That is a reason to check rather than a reason to wait."
+          },
+          {
+            "p": "If the other vehicle belonged to a city, a county, a transit agency, or the state, there is a separate claim you have to present before you can file suit at all, and the deadline for it is much shorter than three years. That one is covered in the article on claims against government entities."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The recorded statement in the first week, taken while you are on pain medication, in which the questions are about speed, gear, and how long you have been riding rather than about the left turn."
+          },
+          {
+            "p": "Nobody reports the phantom vehicle inside seventy-two hours, and the only evidence that it existed is the rider's own account, which RCW 48.22.030(8)(a) says is not enough on its own."
+          },
+          {
+            "p": "The bike gets released to salvage before anyone photographs it or downloads anything from it. The motorcycle is evidence of the impact and of how the crash happened, and a tow yard will dispose of it on its own schedule."
+          },
+          {
+            "p": "No one ever looks at the rider's own declarations page, so a case settles against a minimum limits liability policy while underinsured motorist coverage sits unused on the motorcycle policy."
+          },
+          {
+            "p": "Gear gets thrown away. The helmet, the jacket, the boots and the abrasions on all three are the physical record of what the body absorbed, and they photograph in a way that a chart note does not."
+          },
+          {
+            "p": "Settling before the orthopedic picture is finished. Hardware gets removed, nonunions declare themselves, and the long-term cost of a crushed ankle is not knowable at eight weeks."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Most of the useful work happens early. Getting the collision report and the names of the witnesses while they are still reachable. Putting a hold on the motorcycle before the yard crushes it. Reading every policy in reach, yours included, because the carve-out in RCW 48.22.030(2) means the answer to who pays is often found on your own declarations page rather than the other driver's. Keeping you off the phone with an adjuster whose first three questions are about your helmet. And making the liability case out of the physical evidence instead of out of a contest between two drivers' memories, because the version of events that gets written down in the first month tends to be the version everybody argues about for the next two years."
+          },
+          {
+            "p": "I handle motorcycle injury claims from my office in downtown Spokane, in Spokane County and across eastern Washington, and in the Columbia Gorge counties where I still appear regularly. I am admitted in Washington, WSBA #55307, and Oregon, OSB #242384."
+          },
+          {
+            "p": "If you were hurt on a bike, I offer a free consultation by appointment at my Spokane office, 601 W. 1st Ave., Suite 1400. Bring the collision report number, the declarations pages for every policy in the household, and photographs of the bike and your gear if you have them."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "personal-injury-claims-washington",
+      "tort-claim-against-government-washington"
+    ],
+    "file": "24-motorcycle-accident-washington.docx",
+    "words": 2185,
+    "minutes": 10
+  },
+  {
+    "slug": "pedestrian-accident-washington",
+    "title": "Hit While Walking in Washington: The Crosswalk You Did Not Know You Were Standing In",
+    "titleTag": "Pedestrian Accident Lawyer in Spokane, WA | Justin D. Leigh",
+    "practiceArea": "Personal Injury",
+    "published": "2026-10-27",
+    "description": "Washington law puts a crosswalk at nearly every intersection whether or not anybody painted one, and tells drivers to stop and stay stopped. What that means if a car hit you, and where the money comes from.",
+    "lede": "You were crossing at the corner where you always cross, the one with no painted lines, and a car turning right never slowed down. Now you are at Sacred Heart with a tibial plateau fracture, the officer's report says you were not in a crosswalk, and an adjuster has already used the word jaywalking. That report may be wrong about the law. Washington puts a crosswalk at nearly every intersection in the state whether or not anybody ever painted one.",
+    "intro": [],
+    "sections": [
+      {
+        "heading": "An unmarked crosswalk is still a crosswalk",
+        "paras": [
+          {
+            "p": "RCW 46.04.160 defines crosswalk as the portion of the roadway between the intersection area and a prolongation or connection of the farthest sidewalk line, and then adds the part people never hear: if there are no sidewalks, the crosswalk is the portion between the intersection area and a line ten feet from it. A marked crosswalk modifies that, but it does not create it."
+          },
+          {
+            "p": "Read plainly, that means the invisible continuation of the sidewalk across the street is a legal crosswalk. So is a ten-foot band at an intersection with no sidewalks at all. The paint is a convenience for drivers, not the thing that gives a person on foot the right of way."
+          },
+          {
+            "p": "This single definition decides a surprising number of cases, because the word jaywalking appears in a collision report whenever a pedestrian was not standing between two painted lines. Where the person was actually standing, measured against RCW 46.04.160, is a question of fact that nobody usually asks on the night it happens."
+          }
+        ]
+      },
+      {
+        "heading": "What the driver was required to do",
+        "paras": [
+          {
+            "p": "RCW 46.61.235(1) says the operator of an approaching vehicle shall stop and remain stopped to allow a pedestrian to cross the roadway within an unmarked or marked crosswalk when the pedestrian is upon or within one lane of the half of the roadway the vehicle is traveling on, or onto which it is turning. The statute defines half of the roadway as all lanes carrying traffic in one direction, and the entire width of a one-way street."
+          },
+          {
+            "p": "Two phrases there do work. Stop and remain stopped is not yield. And within one lane of sets the trigger distance, which is why a driver who claims the pedestrian came out of nowhere is often describing a duty that had already attached a lane earlier."
+          },
+          {
+            "p": "RCW 46.61.235(4) adds the rule that catches the second car. When any vehicle is stopped at a crosswalk to let a pedestrian cross, a driver approaching from behind may not overtake and pass that stopped vehicle. The car that stops is also the car that hides you from the one behind it."
+          },
+          {
+            "p": "On the sidewalk the rule is simpler still. RCW 46.61.261(1) says the driver of a vehicle shall yield the right of way to any pedestrian on a sidewalk, which is the provision that governs the car coming out of a parking garage or across a driveway apron."
+          }
+        ]
+      },
+      {
+        "heading": "When the pedestrian is the one who has to yield",
+        "paras": [
+          {
+            "p": "Honest answer: there are real limits, and an adjuster who knows them will use them."
+          },
+          {
+            "p": "RCW 46.61.240(1) says a pedestrian crossing a roadway at any point other than within a marked crosswalk, or within an unmarked crosswalk at an intersection, shall yield the right of way to all vehicles on the roadway. Mid-block crossings are where that bites. RCW 46.61.240(4) goes further between adjacent intersections where traffic-control signals are in operation, and requires crossing only in a marked crosswalk. RCW 46.61.240(3) requires yielding where a pedestrian tunnel or overhead crossing exists, and (5) and (6) address diagonal crossing and crossings where a sign prohibits it."
+          },
+          {
+            "p": "RCW 46.61.235(2) is the other one. A pedestrian shall not suddenly leave a curb or other place of safety and move into the path of a vehicle that is so close it is impossible for the driver to stop. Note the actual standard, which is impossible rather than inconvenient or surprising."
+          },
+          {
+            "p": "There is also a provision written for people the rest of the chapter tends to forget. Under RCW 46.61.240(2), where curb ramps exist at or adjacent to intersections or at marked crosswalks elsewhere, persons with disabilities may enter the roadway from the curb ramps and cross within or as closely as practicable to the crosswalk."
+          }
+        ]
+      },
+      {
+        "heading": "Being partly in the wrong does not end your claim",
+        "paras": [
+          {
+            "p": "Even where one of those provisions applies, the consequence is not what people assume. RCW 4.22.005 says contributory fault diminishes the award proportionately but does not bar recovery. There is no percentage at which a Washington claim switches off."
+          },
+          {
+            "p": "And a breach of a traffic statute is not the end of the analysis either. RCW 5.40.050 provides that breaking a statute, ordinance, or administrative rule is not negligence per se but may be considered as evidence of negligence, with four listed exceptions, the traffic one being driving under the influence. So crossing outside a crosswalk is evidence a jury weighs. It is not a verdict."
+          },
+          {
+            "p": "RCW 4.22.015 tells the jury to weigh both the nature of the conduct and the extent of its causal relation to the damages. A driver doing forty-five in a thirty while looking at a phone and a person crossing twenty feet from the corner are not the same kind of fault, and the statute says so."
+          }
+        ]
+      },
+      {
+        "heading": "Where the money comes from when you were on foot",
+        "paras": [
+          {
+            "p": "A pedestrian has no vehicle damage claim and often assumes that means the only insurance in the case is the driver's. Frequently that is wrong, and the mistake is expensive."
+          },
+          {
+            "p": "Personal injury protection on an automobile policy is medical coverage that pays regardless of fault, and it commonly reaches the named insured and family members who are struck as pedestrians. RCW 48.22.085(1) requires PIP to be offered as an optional coverage on every automobile liability policy issued or renewed in this state, and RCW 48.22.085(2) says a named insured may reject it in writing. Whether it reaches you as a pedestrian is a question of the policy language, so the declarations page and the policy itself are worth pulling even if your own car was parked at home."
+          },
+          {
+            "p": "Underinsured motorist coverage is the other one, and it matters most when the driver who hit you carries Washington's minimum limits. RCW 48.22.030(2) requires that coverage on auto policies issued here, with an exception for a person operating or occupying a motorcycle and an exception for a vehicle owned by the household and not insured on the policy. A pedestrian is in neither exception."
+          },
+          {
+            "p": "If the driver left, RCW 48.22.030(2) reaches hit-and-run vehicles as well. And if no car ever touched you, RCW 48.22.030(8) defines a phantom vehicle and sets two conditions: the facts must be corroborated by competent evidence other than your own testimony, and the accident must be reported to the appropriate law enforcement agency within seventy-two hours."
+          }
+        ]
+      },
+      {
+        "heading": "How long do I have to sue after being hit by a car as a pedestrian?",
+        "paras": [
+          {
+            "p": "Three years. RCW 4.16.080(2) sets a three-year limit for any other injury to the person or rights of another, running from the date you were hit."
+          },
+          {
+            "p": "RCW 4.16.190 takes the time a claimant was under eighteen out of the limitation period, which matters because a large share of pedestrian injuries happen to children walking to school."
+          },
+          {
+            "p": "If the vehicle was a city bus, a county truck, a school district van, or a state vehicle, there is a claim you must present before you are allowed to file suit, and that deadline is far shorter. The article on claims against government entities covers it. RCW 46.61.235(5) is worth knowing too: an infraction committed in a school, playground, or crosswalk speed zone carries double the usual monetary penalty, and the penalty may not be waived, reduced, or suspended."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The collision report says the pedestrian was not in a crosswalk, nobody measures the location against RCW 46.04.160, and the word jaywalking survives into the claim file as if it were a finding."
+          },
+          {
+            "p": "No photographs of the intersection. Whether there is a sidewalk, where its lines would continue, how far the curb ramp sits from the corner, and what a turning driver could actually see are all answerable from the scene and almost unanswerable later."
+          },
+          {
+            "p": "The pedestrian gives a recorded statement describing where they thought they were, in a parking lot they have crossed a thousand times, without ever having looked at the statute that defines where they actually were."
+          },
+          {
+            "p": "Nobody pulls the household auto policies, so a claim is valued against a minimum limits liability policy while PIP and underinsured motorist coverage sit unexamined."
+          },
+          {
+            "p": "The no-contact case is never reported to police inside seventy-two hours, and RCW 48.22.030(8) then supplies the reason the carrier denies it."
+          },
+          {
+            "p": "Settling before the orthopedic outcome is known. Pedestrians struck by cars take lower-leg and pelvic injuries that look one way at six weeks and another way after a second surgery."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "The early work is mostly about the intersection and the policies. Getting out to the scene and documenting where the sidewalk lines run, where the curb ramps are, and what the sight line was for a turning driver. Pulling any camera that looks at the corner, because business and transit video is routinely overwritten inside a month. Finding every policy that might reach you, including the ones on cars you were not in. Reading the collision report against the statutes instead of accepting its conclusions, since an officer's narrative is evidence and not a ruling. And telling you honestly where RCW 46.61.240 is a genuine problem in your case, because that answer changes what the claim is worth and you should hear it from your own lawyer first."
+          },
+          {
+            "p": "I handle pedestrian injury claims from my office in downtown Spokane, in Spokane County and across eastern Washington, and in the Columbia Gorge counties where I still appear regularly. I am admitted in Washington, WSBA #55307, and Oregon, OSB #242384."
+          },
+          {
+            "p": "If a car hit you while you were walking, I offer a free consultation by appointment at my Spokane office, 601 W. 1st Ave., Suite 1400. Bring the collision report number, the declarations pages for every auto policy in your household, and the names of anyone who stopped."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "personal-injury-claims-washington",
+      "bicycle-accident-washington"
+    ],
+    "file": "25-pedestrian-accident-washington.docx",
+    "words": 1743,
+    "minutes": 8
+  },
+  {
+    "slug": "bicycle-accident-washington",
+    "title": "Bicycle Accidents in Washington: Where You Are Allowed to Ride, the Passing Rule, and Who Pays",
+    "titleTag": "Bicycle Accident Lawyer in Spokane, WA | Justin D. Leigh",
+    "practiceArea": "Personal Injury",
+    "published": "2026-10-27",
+    "description": "Washington gives a cyclist the rights and duties of a driver, lets you leave the right edge for four listed reasons, and in 2025 rewrote how a car must pass you. What that means after a crash.",
+    "lede": "A driver came past you close enough to move the air, then turned right across your front wheel, and told the responding officer that you came out of nowhere and that bikes belong on the sidewalk. You are at the emergency department with a broken collarbone and a frame that is now scrap. Almost everything a driver believes about where a bicycle is allowed to be is written down in Washington, and most of it is the opposite of what they told the officer.",
+    "intro": [],
+    "sections": [
+      {
+        "heading": "A bicycle on the roadway has the rights and the duties of a vehicle",
+        "paras": [
+          {
+            "p": "RCW 46.61.755(1) says every person riding a bicycle upon a roadway shall be granted all of the rights and shall be subject to all of the duties applicable to the driver of a vehicle, except for the special bicycle regulations in RCW 46.61.750 through 46.61.780 and except for provisions that by their nature cannot apply."
+          },
+          {
+            "p": "That is the whole frame of a bicycle case. You are not a guest in the lane. The driver owed you what they owed any other vehicle, and the right-of-way rules that would govern a car turning across your path govern that same turn across a bicycle."
+          },
+          {
+            "p": "RCW 46.61.755(2) handles the other half. A person riding on a sidewalk or crosswalk is granted all the rights and subject to all the duties of a pedestrian. So the cyclist on a sidewalk is not an outlaw, and RCW 46.61.261(1) requires drivers to yield to a bicycle on a sidewalk, while requiring the rider to yield to pedestrians there."
+          }
+        ]
+      },
+      {
+        "heading": "How far right do I actually have to ride?",
+        "paras": [
+          {
+            "p": "This is the argument in most of these cases, and RCW 46.61.770(1) answers it. A cyclist moving slower than the normal flow of traffic rides as near to the right side of the right through lane as is safe, with four exceptions written into the statute."
+          },
+          {
+            "p": "You may leave the right edge while preparing to turn or turning. You may use a dedicated right turn lane when approaching an intersection where right turns are permitted, even if you do not intend to turn right. You may move left while overtaking another bicycle or vehicle. And under subsection (1)(d), you may move when reasonably necessary to avoid unsafe conditions, which the statute defines to include fixed or moving objects, parked or moving vehicles, bicyclists, pedestrians, animals, and surface hazards."
+          },
+          {
+            "p": "That fourth exception is broad and it is what a door zone, a storm grate, broken pavement, or a row of parked cars falls under. RCW 46.61.770(3) separately permits use of the shoulder or any designated bicycle lane, and RCW 46.61.770(4) tells a rider in a single narrow lane to move far enough right to facilitate an overtaking vehicle unless conditions make that unsafe. RCW 46.61.770(5) allows riding two abreast, and no more than two, except on paths set aside for bicycles."
+          }
+        ]
+      },
+      {
+        "heading": "The three-foot rule, and what the Legislature changed in 2025",
+        "paras": [
+          {
+            "p": "RCW 46.61.110(2) governs a driver overtaking a person on a bicycle in the right lane, on the right shoulder, or in a bicycle lane, and it was amended most recently in 2025."
+          },
+          {
+            "p": "On a roadway with two or more lanes going the driver's direction, the driver must move completely into a lane to the left of the right lane before passing, and stay there until safely clear. That is not a suggestion to give room. It is a lane change."
+          },
+          {
+            "p": "On a road with only one lane in the direction of travel, the driver must reduce to a speed that is safe for passing relative to the cyclist's speed and pass at a safe distance, where practicable of at least three feet, to clearly avoid contact. If there is not enough room on the left to do that, the driver must move completely into the oncoming lane when it is safe and lawful to do so."
+          },
+          {
+            "p": "RCW 46.61.110(2)(b) adds a fine equal to the base penalty on top of it, unwaivable except on a finding of indigency, and (c) sends it to the vulnerable roadway user education account. A traffic fine is not civil liability and no infraction decides a claim, but the standard of care in that subsection is written in unusually concrete terms, and concrete is what a liability case runs on."
+          }
+        ]
+      },
+      {
+        "heading": "What about the helmet, the lights, and the sidewalk?",
+        "paras": [
+          {
+            "p": "Expect all three to be raised and none of them to be what the insurer suggests."
+          },
+          {
+            "p": "Washington's helmet statute, RCW 46.37.530, is written for motorcycles, mopeds, and motor-driven cycles. Where it mentions bicycles it does so by pointing outward, directing riders of electric-assisted bicycles and motorized foot scooters to comply with laws and regulations related to the use of bicycle helmets. Whether a helmet was required where you were riding is therefore a local ordinance question that differs by city and county, and it is worth checking against the actual ordinance rather than against what anybody assumes."
+          },
+          {
+            "p": "Equipment and sidewalk rules work the same way as every other traffic statute here. Under RCW 5.40.050, breaking a statute, ordinance, or administrative rule is not negligence per se but may be considered as evidence of negligence, and the four exceptions that remain negligence per se do not include anything about bicycles. So riding without a light after dark is evidence a jury weighs against the rest of the case."
+          },
+          {
+            "p": "And under RCW 4.22.005, contributory fault reduces an award proportionately and does not bar it. A rider found twenty percent at fault recovers eighty percent. RCW 4.22.015 directs the comparison to consider both the nature of the conduct and how much it actually caused, which is the answer to a defense built on a missing taillight in a daylight collision."
+          }
+        ]
+      },
+      {
+        "heading": "Who pays when a car hits a bicycle",
+        "paras": [
+          {
+            "p": "The driver's liability policy is the obvious one and it is frequently not enough. Washington's minimum limits are often well short of what a surgically repaired clavicle, a head injury, or three months away from work actually costs."
+          },
+          {
+            "p": "So look at your own auto policy even though you were on a bicycle. RCW 48.22.030(2) requires underinsured motorist coverage on auto policies issued in this state, reaching underinsured vehicles, hit-and-run vehicles, and phantom vehicles. The statute writes in an exception for a person operating or occupying a motorcycle or motor-driven cycle. A bicycle is neither, so that carve-out does not reach a cyclist."
+          },
+          {
+            "p": "Personal injury protection is the medical side of the same page. RCW 48.22.085(1) requires it to be offered as an optional coverage on every automobile liability policy issued or renewed here, and RCW 48.22.085(2) lets a named insured reject it in writing. Whether it reaches you while you are on a bicycle depends on the policy language, which is a reason to read the policy rather than guess at it."
+          },
+          {
+            "p": "If the car never touched you, which is common when a driver forces a rider into a curb or a ditch, RCW 48.22.030(8) is the provision to know. A phantom vehicle claim requires that the facts be corroborated by competent evidence other than your own testimony, and that the accident be reported to the appropriate law enforcement agency within seventy-two hours. Both conditions are easy to fail while you are still in a hospital."
+          }
+        ]
+      },
+      {
+        "heading": "How long do I have to bring a bicycle accident claim in Washington?",
+        "paras": [
+          {
+            "p": "Three years, under RCW 4.16.080(2), which sets a three-year limit for any other injury to the person or rights of another and runs from the date of the crash."
+          },
+          {
+            "p": "RCW 4.16.190 excludes from the limitation period the time a claimant was under eighteen. A great many bicycle injuries are to children, and their clock is not their parents' clock."
+          },
+          {
+            "p": "A claim against a city, county, transit agency, or the state has a separate step before suit and a much shorter deadline for it, which the article on claims against government entities covers. That is the ordinary posture for a crash caused by road surface or by a trail or bike lane design."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The bicycle is thrown away. The frame, the wheel, and the damaged components record the direction and force of the impact, and they are evidence long after the bruises are gone."
+          },
+          {
+            "p": "Nobody preserves the data. A bike computer, a phone, or a watch often holds speed and position in the seconds before the crash, and that record is usually the only neutral witness."
+          },
+          {
+            "p": "The collision report repeats the driver's belief that bikes are not allowed in the lane, nobody checks it against RCW 46.61.755 and RCW 46.61.770, and that belief becomes the frame of the claim."
+          },
+          {
+            "p": "The no-contact case goes unreported for more than seventy-two hours, which is exactly what RCW 48.22.030(8)(b) requires."
+          },
+          {
+            "p": "A head injury is treated as resolved because the CT was clean. Post-concussive symptoms declare themselves over months and belong in the medical record as they do."
+          },
+          {
+            "p": "No one reads the rider's own auto policy, and the case settles against the driver's minimum limits while underinsured motorist coverage sits unused."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Early work decides most of these. Getting the bicycle and the gear into storage before anybody discards them. Pulling device data while it exists. Finding the business or transit camera that sees the intersection, which is normally overwritten inside a month. Reading the collision report against RCW 46.61.755 and RCW 46.61.770 rather than accepting its conclusions, because an officer's narrative is evidence and not a ruling on the law. Locating every policy that reaches you, including those on cars you were not riding in. And giving you a straight answer about where your own conduct is a real problem in the case rather than a bluff, since that is what the claim is actually worth."
+          },
+          {
+            "p": "I handle bicycle injury claims from my office in downtown Spokane, in Spokane County and across eastern Washington, and in the Columbia Gorge counties where I still appear regularly. I am admitted in Washington, WSBA #55307, and Oregon, OSB #242384."
+          },
+          {
+            "p": "If a driver hit you while you were riding, I offer a free consultation by appointment at my Spokane office, 601 W. 1st Ave., Suite 1400. Bring the collision report number, the bicycle if you still have it, and the declarations pages for every auto policy in your household."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "pedestrian-accident-washington",
+      "personal-injury-claims-washington"
+    ],
+    "file": "26-bicycle-accident-washington.docx",
+    "words": 1745,
+    "minutes": 8
+  },
+  {
+    "slug": "slip-and-fall-washington",
+    "title": "Slip and Fall in Washington: Notice, Obvious Dangers, and the Ice in the Parking Lot",
+    "titleTag": "Slip and Fall Lawyer in Spokane, WA | Justin D. Leigh",
+    "practiceArea": "Personal Injury",
+    "published": "2026-10-27",
+    "description": "A Washington slip and fall usually turns on notice: whether the owner knew or should have known. The exceptions, the rule about obvious hazards, and why Washington refused to adopt the snow and ice defense.",
+    "lede": "You went down on black ice in a parking lot that had been plowed and never sanded, or on something clear and wet in an aisle at the grocery store, and you got up embarrassed rather than angry. Three weeks later you are facing surgery on a wrist that will not heal straight, and the store has written to say its records show no notice of any hazardous condition. That phrase is not a throwaway. Notice is the hinge nearly every Washington slip and fall case turns on, and there are two well-established ways around it.",
+    "intro": [],
+    "sections": [
+      {
+        "heading": "What a property owner owes you depends on why you were there",
+        "paras": [
+          {
+            "p": "Washington sorts people on land into invitees, licensees, and trespassers, and the duty changes with the category. A customer in a store, a tenant in a common area, and a member of the public in a building open for business are invitees, which is the category that gets the most protection."
+          },
+          {
+            "p": "For invitees the state follows the Restatement (Second) of Torts. In Iwai v. State, 129 Wn.2d 84 (1996), the Supreme Court set out section 343 and section 343A and cited Tincani v. Inland Empire Zoological Society, 124 Wn.2d 121 (1994), as having adopted them. Under section 343 a possessor of land is liable for harm from a condition if the possessor knows of it or by reasonable care would discover it, should realize it involves an unreasonable risk to invitees, should expect that invitees will not discover or realize the danger or will fail to protect themselves against it, and fails to exercise reasonable care to protect them."
+          },
+          {
+            "p": "That is a chain with four links, and a defense lawyer attacks whichever one is weakest. The first link is the one that becomes the notice fight."
+          }
+        ]
+      },
+      {
+        "heading": "Notice: what the owner knew, or should have known",
+        "paras": [
+          {
+            "p": "Iwai states the working rule plainly. In applying the knowledge requirement to premises liability actions, Washington law requires a plaintiff to show the landowner had actual or constructive notice of the unsafe condition, citing Ingersoll v. DeBartolo, Inc., 123 Wn.2d 649 (1994)."
+          },
+          {
+            "p": "Actual notice means somebody knew. Constructive notice is the harder and more common theory, and the Iwai court described the plaintiff's burden as showing that the specific unsafe condition had existed for long enough that the defendant, exercising ordinary care, would have had sufficient opportunity to discover it."
+          },
+          {
+            "p": "So in a grocery store case the fight is about how long the spill was on the floor, and the evidence that answers it is almost never the plaintiff's memory. It is the sweep log, the inspection schedule, the camera that points at the aisle, and the testimony of whoever walked past it last. All of that is in the store's hands and most of it is overwritten or discarded on a schedule measured in weeks."
+          }
+        ]
+      },
+      {
+        "heading": "The exception that removes the notice requirement entirely",
+        "paras": [
+          {
+            "p": "In Pimentel v. Roundup Co., 100 Wn.2d 39 (1983), a paint can fell from a shelf onto a customer's foot in a self-service store. The Supreme Court held that where the operating procedures of any store are such that unreasonably dangerous conditions are continuous or reasonably foreseeable, there is no need to prove actual or constructive notice of such conditions in order to establish liability for injuries they cause."
+          },
+          {
+            "p": "The reasoning is that a business which chooses a mode of operation creating a foreseeable hazard already has notice of the hazard its own system produces. It does not get to require proof of notice of each particular instance of a risk it built in."
+          },
+          {
+            "p": "Iwai describes the same idea as the exception under which, if a specific unsafe condition is foreseeably inherent in the nature of the business or mode of operation, the plaintiff need not prove notice. In practice this is the theory that fits a self-service produce department, a drink station, a garden center, or an entryway that funnels wet feet onto hard floor every time it rains, and the way to make it is by showing the system rather than the spill."
+          }
+        ]
+      },
+      {
+        "heading": "Does an obvious hazard end the case?",
+        "paras": [
+          {
+            "p": "Not automatically, and this is the second provision most people have never heard of."
+          },
+          {
+            "p": "Restatement section 343A(1), quoted in Iwai, says a possessor of land is not liable to invitees for physical harm caused by a condition whose danger is known or obvious to them, unless the possessor should anticipate the harm despite such knowledge or obviousness. The Iwai court applied that directly, observing that the plaintiff may well have known about the ice in the parking lot, and framing the question as whether the defendant could and should have anticipated that she would encounter it anyway."
+          },
+          {
+            "p": "That is the real-world situation. A person who needs to get into the building, or into their own car, does not have the option of refusing the only route. Obviousness is an argument the defense will make. It is not the end of the inquiry, and the statute of comparative fault handles whatever is left of it."
+          }
+        ]
+      },
+      {
+        "heading": "Snow and ice: Washington declined to adopt the natural accumulation rule",
+        "paras": [
+          {
+            "p": "Iwai itself was a Spokane case. Over seven inches of snow fell on November 27, 1984, a contractor plowed the parking lot of a state office that day, apparently no sand was applied afterward, the temperature moved above and below freezing for two days, and the plaintiff fell on an inclined section of the lot."
+          },
+          {
+            "p": "The defendants asked the Supreme Court to adopt the natural accumulation rule for commercial parking lots, which in states that follow it precludes liability for injuries caused by naturally accumulated snow or ice. The court did not adopt it. It affirmed the Court of Appeals, which had reversed summary judgment and sent the case back for trial."
+          },
+          {
+            "p": "For anyone who falls on a winter surface in eastern Washington, that is the first thing to know. There is no automatic snow and ice defense here. Whether a given lot was maintained reasonably is a question the owner has to answer with evidence about plowing, sanding, inspection, and what the weather had been doing."
+          }
+        ]
+      },
+      {
+        "heading": "Being partly at fault, and the three years",
+        "paras": [
+          {
+            "p": "RCW 4.22.005 says contributory fault diminishes the award proportionately and does not bar recovery, so a finding that you should have been watching reduces a claim rather than ending it. RCW 4.22.015 directs the comparison to weigh both the nature of the conduct and how much it actually caused the damages."
+          },
+          {
+            "p": "The deadline is three years. RCW 4.16.080(2) sets a three-year limit for any other injury to the person or rights of another, running from the fall."
+          },
+          {
+            "p": "If you fell on property owned by a city, a county, a school district, a housing authority, or the state, there is a claim you have to present before you may file suit, and that deadline is much shorter than three years. The article on claims against government entities covers that step."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "Nobody writes to the property owner to preserve the video, and the system overwrites itself. The single most valuable piece of evidence in a store case usually has a lifespan of two to four weeks."
+          },
+          {
+            "p": "No incident report. Managers will often take one at the time, and a person who is embarrassed and in a hurry leaves without asking for it, which turns the fact of the fall itself into something that has to be proved."
+          },
+          {
+            "p": "No photographs of the surface. What the floor looked like, whether there was a mat, whether a cone was out, and where the lighting fell are all gone within the hour."
+          },
+          {
+            "p": "The case is built on the condition and never on the system. Notice is hard to prove one spill at a time and much easier to prove through sweep logs, staffing, and the design of the department, which is what Pimentel is for."
+          },
+          {
+            "p": "The fall is described in the medical chart as a mechanical fall with no mention of ice, water, or a floor condition, leaving no document that ties the injury to the premises."
+          },
+          {
+            "p": "Waiting. Weather data, maintenance contractor records, staffing records and video all age out, and in a snow and ice case the weather in the forty-eight hours before the fall is frequently the whole argument."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "The work that decides a premises case happens in the first few weeks and most of it is paperwork. Sending a preservation letter before the video is gone. Getting the incident report, the sweep and inspection logs, the maintenance contract and the snow removal invoices. Pulling the weather record for the days before the fall. Identifying whether the case is a notice case or a mode of operation case under Pimentel, because they are proved with different evidence and the choice is made early or not at all. Reading the lease where an owner and a tenant each say the other was responsible for the lot. And saying plainly whether the obviousness argument is a real one here, because under section 343A it sometimes is."
+          },
+          {
+            "p": "I handle premises injury claims from my office in downtown Spokane, in Spokane County and across eastern Washington, and in the Columbia Gorge counties where I still appear regularly. I am admitted in Washington, WSBA #55307, and Oregon, OSB #242384."
+          },
+          {
+            "p": "If you were hurt in a fall on someone else's property, I offer a free consultation by appointment at my Spokane office, 601 W. 1st Ave., Suite 1400. Bring any photographs you took, the incident report if you were given one, and the names of anyone who helped you up."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "personal-injury-claims-washington",
+      "tort-claim-against-government-washington"
+    ],
+    "file": "27-slip-and-fall-washington.docx",
+    "words": 1635,
+    "minutes": 7
+  },
+  {
+    "slug": "wrongful-death-washington",
+    "title": "Wrongful Death in Washington: Who Can Bring It, What 2019 Changed, and the Second Claim That Runs Beside It",
+    "titleTag": "Wrongful Death Lawyer in Washington | Justin D. Leigh",
+    "practiceArea": "Personal Injury",
+    "published": "2026-10-27",
+    "description": "Washington's wrongful death statutes were rewritten in 2019 and made retroactive. Who the beneficiaries are now, why the personal representative has to bring it, and how the survival claim differs.",
+    "lede": "Your brother was killed by a driver who ran a light, and in the first week the questions coming at you are about a funeral and a vehicle and a police report. Somewhere behind those is a legal question nobody has put to you yet, which is who in the family is actually allowed to bring a claim at all. Washington answers that by statute rather than by common sense, and the answer changed in 2019 in a way that opened the door for a great many families who would have been shut out before.",
+    "intro": [],
+    "sections": [
+      {
+        "heading": "The claim belongs to the estate, not to the family directly",
+        "paras": [
+          {
+            "p": "RCW 4.20.010(1) provides that when the death of a person is caused by the wrongful act, neglect, or default of another, his or her personal representative may maintain an action against the person causing the death for the economic and noneconomic damages sustained by the beneficiaries listed in RCW 4.20.020, in such amounts as the trier of fact finds just under all the circumstances."
+          },
+          {
+            "p": "Read that carefully, because the first practical consequence is procedural. The person who brings the case is the personal representative. That means someone has to be appointed, which means the estate has to be opened, which takes time that nobody in the first month of a death is thinking about. A grieving spouse who hires a lawyer is not yet the plaintiff."
+          },
+          {
+            "p": "RCW 4.20.010(2) adds that the section applies whether or not the death was caused under circumstances amounting in law to a felony. A criminal case is a separate proceeding on a separate schedule, and whether it is charged, dismissed, or pleaded out does not control the civil claim."
+          }
+        ]
+      },
+      {
+        "heading": "Who the beneficiaries are",
+        "paras": [
+          {
+            "p": "RCW 4.20.020 sets the list in two tiers. The action is for the benefit of the spouse, state registered domestic partner, and child or children of the deceased, including stepchildren. If there is no spouse, state registered domestic partner, or child, the action may be maintained for the benefit of the parents or siblings of the deceased."
+          },
+          {
+            "p": "Two things in that sentence are worth stopping on. Stepchildren are named in the statute, which is not true in every state. And parents and siblings are a second tier rather than a parallel one, so the existence of a surviving spouse or child changes who the claim is for."
+          },
+          {
+            "p": "The same section closes by saying the trier of fact may give such damages as, under all the circumstances of the case, may to them seem just. Washington does not reduce the loss of a person to a formula, and the open language is deliberate."
+          }
+        ]
+      },
+      {
+        "heading": "What the 2019 amendments changed, and why they reached back",
+        "paras": [
+          {
+            "p": "RCW 4.20.010, RCW 4.20.020, RCW 4.20.046, and RCW 4.20.060 were all amended by the same act, 2019 c 159. Before it, Washington's second tier carried restrictions that kept many families out of court, and the amendment rewrote the beneficiary provision into the form quoted above."
+          },
+          {
+            "p": "The Legislature also wrote a retroactivity note into the act, which appears in the RCW following each amended section: this act is remedial and retroactive and applies to all claims that are not time barred, as well as any claims pending in any court on July 28, 2019."
+          },
+          {
+            "p": "That note is the reason to read older advice about Washington wrongful death with suspicion. A family told some years ago that they had no claim may have been told correctly at the time and may be wrong now, subject to the limitation period, which has not been suspended by anything."
+          }
+        ]
+      },
+      {
+        "heading": "The survival claim, which is a different claim about a different loss",
+        "paras": [
+          {
+            "p": "A wrongful death claim compensates what the beneficiaries lost. A survival claim compensates what the person who died lost, and in most serious cases the two run together."
+          },
+          {
+            "p": "RCW 4.20.046(1) provides that all causes of action survive to and against personal representatives. Subsection (2) is where the money is: in addition to recovering economic losses on behalf of the estate, the personal representative is entitled to recover noneconomic damages for pain and suffering, anxiety, emotional distress, or humiliation personal to and suffered by the deceased, on behalf of the beneficiaries enumerated in RCW 4.20.020. The subsection expressly says those damages are recoverable regardless of whether the death was occasioned by the injury that is the basis for the action."
+          },
+          {
+            "p": "RCW 4.20.060 is the special survival statute for a personal injury that occasions death. It provides that the action does not abate, names the same family tiers, and in subsection (3) allows recovery of the decedent's economic losses together with damages for the decedent's pain and suffering, anxiety, emotional distress, or humiliation."
+          },
+          {
+            "p": "The practical difference shows up in evidence. The survival claim turns on what the person experienced between the injury and the death, which is proved from medical records, responder narratives, and witnesses. Where that interval was minutes, it is still a claim, and where it was weeks it is a substantial one."
+          }
+        ]
+      },
+      {
+        "heading": "What is recoverable, and why Washington will not give you a number",
+        "paras": [
+          {
+            "p": "People ask what a wrongful death case is worth, and the honest answer begins with the fact that the statutes deliberately decline to say. RCW 4.20.010(1) allows economic and noneconomic damages sustained by the beneficiaries in such amounts as determined by a trier of fact to be just under all the circumstances of the case. RCW 4.20.020 closes with the same thought in older language: the trier of fact may give such damages as, under all circumstances of the case, may to them seem just."
+          },
+          {
+            "p": "Economic loss is the part that can be calculated. What the person earned and would have earned, the benefits that went with it, the value of what they did at home that now has to be paid for or go undone, and the costs the death itself created. That work is done by assembling records rather than by argument."
+          },
+          {
+            "p": "Noneconomic loss is the rest of it, and the statutes name the categories rather than scale them. On the survival side, RCW 4.20.046(2) and RCW 4.20.060(3) specify pain and suffering, anxiety, emotional distress, and humiliation suffered by the person who died. On the wrongful death side the loss belongs to the beneficiaries and is a different thing from the decedent's own suffering, which is why the two claims are pleaded together and proved separately."
+          },
+          {
+            "p": "Anyone who gives you a figure in the first month is guessing, because the economic analysis has not been done and the survival claim has not been developed. The number also has an outer limit that has nothing to do with the loss, which is how much insurance exists. That is a question to answer early rather than at the end."
+          }
+        ]
+      },
+      {
+        "heading": "How long does a wrongful death claim take to bring in Washington?",
+        "paras": [
+          {
+            "p": "The limitation period is three years. RCW 4.16.080(2) sets a three-year limit for any other injury to the person or rights of another, and a wrongful death claim runs under it."
+          },
+          {
+            "p": "Three years sounds generous until the first requirement is factored in. A personal representative has to be appointed before the action can be brought in the name the statute requires, and opening an estate is not instantaneous, particularly where there is no will or where the family does not agree about who should serve."
+          },
+          {
+            "p": "If the death involved a city, a county, a transit agency, a school district, or the state, a claim has to be presented before suit is permitted at all, on a much shorter clock. That is covered in the article on claims against government entities, and it is the single most common way a strong wrongful death case is lost."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "No estate is opened, and then nothing can be filed in the name RCW 4.20.010 requires while the three years run out."
+          },
+          {
+            "p": "The family treats the criminal case as the case. Restitution in a criminal sentence is narrower than civil damages by statute, and a prosecutor represents the state rather than the family."
+          },
+          {
+            "p": "Everyone focuses on the wrongful death claim and nobody develops the survival claim, so the record of what the person actually went through before they died is never assembled while the witnesses are reachable."
+          },
+          {
+            "p": "A beneficiary dispute inside the family goes unaddressed until there is money to argue about. The statute's tiers decide who is in and who is out, and knowing that early is kinder than discovering it at the end."
+          },
+          {
+            "p": "An insurer offers policy limits quickly, which can be the right answer, and nobody first checks whether there are other policies, other defendants, or an employer in the chain."
+          },
+          {
+            "p": "The government claim deadline passes while the family is still arranging a funeral."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "In the first month the work is mostly getting the right person appointed and preserving evidence that disappears. Opening the estate so there is a plaintiff. Identifying every beneficiary the statute names before anyone's expectations harden. Finding the vehicles, the scene, the employer, and the policies before any of them move. Preserving the medical and responder record that the survival claim depends on. Checking whether a government entity is in the case, because that deadline arrives while everything else is still being arranged. And handling the part that is not legal work at all, which is keeping a family from having to make decisions about litigation in the worst weeks of their lives."
+          },
+          {
+            "p": "I handle wrongful death claims from my office in downtown Spokane, in Spokane County and across eastern Washington, and in the Columbia Gorge counties where I still appear regularly. I am admitted in Washington, WSBA #55307, and Oregon, OSB #242384."
+          },
+          {
+            "p": "If your family has lost someone, I offer a free consultation by appointment at my Spokane office, 601 W. 1st Ave., Suite 1400. There is no rush in that conversation, and it costs nothing to find out where the deadlines are."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "personal-injury-claims-washington",
+      "probate-in-washington"
+    ],
+    "file": "28-wrongful-death-washington.docx",
+    "words": 1696,
+    "minutes": 8
+  },
+  {
+    "slug": "drunk-driver-injury-washington",
+    "title": "Hit by a Drunk Driver in Washington: Negligence Per Se, the Bar That Served Him, and What Restitution Will Not Cover",
+    "titleTag": "Drunk Driving Injury Lawyer in Spokane | Justin D. Leigh",
+    "practiceArea": "Personal Injury",
+    "published": "2026-10-27",
+    "description": "Driving under the influence is one of the few violations Washington still treats as negligence per se. What that proves, when the bar is liable, why social hosts usually are not, and what criminal restitution leaves out.",
+    "lede": "A driver crossed the center line and hit you head on, blew well over the limit at the scene, and is now facing charges. The prosecutor's office has been in touch about a hearing and somebody has mentioned restitution, and it sounds as though the system is handling it. It is handling the part of it that belongs to the state. The part that belongs to you is a separate case with different rules, a different deadline, and a category of loss that a restitution order is forbidden by statute to include.",
+    "intro": [],
+    "sections": [
+      {
+        "heading": "Drunk driving is one of the few things Washington still calls negligence per se",
+        "paras": [
+          {
+            "p": "In most injury cases, breaking a traffic law is evidence rather than proof. RCW 5.40.050 says a breach of a duty imposed by statute, ordinance, or administrative rule shall not be considered negligence per se, but may be considered by the trier of fact as evidence of negligence."
+          },
+          {
+            "p": "Then it lists four exceptions that remain negligence per se, and the fourth is a breach of a duty relating to driving while under the influence of intoxicating liquor or any drug."
+          },
+          {
+            "p": "So in a case against a drunk driver, the negligence element is not the fight. That is unusual, and it changes what the case is about. The contest moves to causation, to damages, and above all to whether there is enough insurance anywhere to pay for what happened, which is why the next two sections matter more than people expect."
+          }
+        ]
+      },
+      {
+        "heading": "When the bar or restaurant is liable",
+        "paras": [
+          {
+            "p": "RCW 66.44.200(1) is one sentence: no person shall sell any liquor to any person apparently under the influence of liquor."
+          },
+          {
+            "p": "In Barrett v. Lucky Seven Saloon, Inc., 152 Wn.2d 259 (2004), the Washington Supreme Court took review on the single question whether RCW 66.44.200(1) establishes a standard of civil liability for damages caused by intoxicated drivers, and answered it in the affirmative. The trial court in that case had required the plaintiff to show the tavern sold alcohol to the driver when he was obviously intoxicated, which was the older common law phrase, rather than simply apparently under the influence, which is the statute's phrase. The court held that was error, reversed the Court of Appeals, and remanded for a new trial."
+          },
+          {
+            "p": "The difference between those two phrases is the difference between many of these cases being viable and not. Apparently under the influence is a lower threshold than obviously intoxicated, and it is the standard the statute wrote."
+          },
+          {
+            "p": "Proving it is evidentiary work done early. Receipts and point of sale records show how much was served and over how long. Server and bartender identities need to be fixed before turnover. Camera footage in a bar is overwritten in weeks. And the people who were drinking with the driver are the witnesses who can say what he looked like at 11:40, which is a thing nobody will remember in a year."
+          }
+        ]
+      },
+      {
+        "heading": "The private party is different, and usually not liable",
+        "paras": [
+          {
+            "p": "People assume that if a bar can be liable, the host of a party can be too. In Washington that is generally not so where the drinker was an adult."
+          },
+          {
+            "p": "In Burkhart v. Harrod, 110 Wn.2d 381 (1988), the Supreme Court was asked to extend to social hosts the principle that commercial furnishers who serve obviously intoxicated customers can be liable for damages caused by that intoxication. It declined. The court said that if social host liability is to be imposed in Washington it should be done through the Legislature, which has the greater ability to explore the competing interests, and held only that the judiciary is ill equipped to impose such a remedy. The trial court's summary judgment for the hosts was affirmed."
+          },
+          {
+            "p": "Two boundaries on that are worth stating rather than guessing at. Burkhart was about furnishing alcohol to an adult. Furnishing to someone under twenty-one is separately unlawful under RCW 66.44.270(1), which makes it a gross misdemeanor to sell, give, or otherwise supply liquor to a person under twenty-one or to permit a person under that age to consume liquor on premises under your control, and the statute defines premises to include real property, houses, buildings, motor vehicles, and watercraft. Whether and how that statute bears on a civil claim is a different question than the one Burkhart answered, and it is one to work through on the facts rather than to assume in either direction."
+          }
+        ]
+      },
+      {
+        "heading": "If you had been drinking too",
+        "paras": [
+          {
+            "p": "RCW 5.40.060 is the provision to understand, because it is harsher than ordinary comparative fault and because it contains a carve-out that most people never reach."
+          },
+          {
+            "p": "Subsection (1) makes it a complete defense that the injured person was under the influence at the time, that the condition was a proximate cause of the injury, and that the trier of fact finds that person more than fifty percent at fault. The standard for being under the influence is the criminal standard in RCW 46.61.502, and the statute says evidence meeting that standard is conclusive proof of the condition."
+          },
+          {
+            "p": "Subsection (2) is the carve-out, and it is squarely about this situation. In an action against the driver of a motor vehicle who was under the influence and whose condition was a proximate cause of the injury or death, subsection (1) does not create a defense even though the injured person was also under the influence, so long as that person's condition was not a proximate cause of the occurrence."
+          },
+          {
+            "p": "Read together: a passenger who had been drinking, in a car hit by a drunk driver, is not stripped of a claim by subsection (1) unless their own condition helped cause the crash. That is a narrower rule than the one adjusters describe."
+          }
+        ]
+      },
+      {
+        "heading": "Restitution is not compensation, and the statute says so",
+        "paras": [
+          {
+            "p": "This is where families are most often misled, and it is not a matter of interpretation. RCW 9.94A.753(3)(a) says restitution ordered on a criminal conviction shall be based on easily ascertainable damages for injury to or loss of property, actual expenses incurred for treatment for injury to persons, and lost wages resulting from injury. It then says restitution shall not include reimbursement for damages for mental anguish, pain and suffering, or other intangible losses, though it may include the cost of counseling reasonably related to the offense. The same subsection caps the amount at no more than double the offender's gain or the victim's loss."
+          },
+          {
+            "p": "So the category that is usually the largest part of a serious injury claim is excluded from restitution by the text of the statute, and the ceiling is set by the offender's gain or your loss rather than by what you actually need."
+          },
+          {
+            "p": "RCW 9.94A.753(9) is the other half of it: the section does not limit civil remedies or defenses available to the victim, the survivors of the victim, or the offender. The criminal case and the civil claim run alongside each other. Participating in one does not spend the other, and a restitution order is not a settlement."
+          }
+        ]
+      },
+      {
+        "heading": "Whether anybody can pay, which is the real question",
+        "paras": [
+          {
+            "p": "Drivers who cause these crashes are frequently uninsured, carrying minimum limits, or driving a car that belongs to someone else. A liability policy may also contain exclusions the owner has never read."
+          },
+          {
+            "p": "That is why the first document to find is your own declarations page. RCW 48.22.030(2) requires underinsured motorist coverage on auto policies issued in Washington, covering underinsured vehicles, hit-and-run vehicles, and phantom vehicles, and it is frequently the only coverage adequate to a serious injury. RCW 48.22.085(1) requires personal injury protection to be offered as an optional coverage on every automobile liability policy issued or renewed here, and RCW 48.22.085(2) permits a named insured to reject it in writing."
+          },
+          {
+            "p": "If the driver was working, or driving a company vehicle, or leaving a work function, there may be a commercial policy behind the personal one. Those questions get answered by investigation in the first weeks, not by waiting to see what the liability carrier offers."
+          }
+        ]
+      },
+      {
+        "heading": "How long do I have?",
+        "paras": [
+          {
+            "p": "Three years. RCW 4.16.080(2) sets a three-year limit for any other injury to the person or rights of another, running from the date of the crash, and it runs on its own schedule regardless of how long the criminal case takes."
+          },
+          {
+            "p": "RCW 4.16.190 takes out of the limitation period the time a claimant was under eighteen, which matters where children were in the car."
+          },
+          {
+            "p": "A claim for the death of a family member runs under the wrongful death statutes and requires a personal representative, which takes time to arrange. That is covered in the article on wrongful death."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The family waits for the criminal case to finish, assuming restitution will handle it, and discovers at sentencing what RCW 9.94A.753(3)(a) excludes."
+          },
+          {
+            "p": "Nobody investigates where the driver was drinking. Receipts, server identities, and bar video age out inside the first few months, and by the time anyone asks, the Barrett theory is unprovable even where it was true."
+          },
+          {
+            "p": "An adjuster tells a passenger who had also been drinking that RCW 5.40.060 ends the claim, without mentioning subsection (2)."
+          },
+          {
+            "p": "Nobody looks for a second policy. An employer, a vehicle owner, or an umbrella policy is often where the actual coverage is, and none of them volunteer."
+          },
+          {
+            "p": "A quick settlement with the liability carrier is signed before anyone asks whether it releases the underinsured motorist claim or whether consent to settle was required under that policy."
+          },
+          {
+            "p": "Treatment stops because of the cost, which both harms the person and hands the defense an argument about the injury having resolved."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "The liability case against the driver is usually the easy part, and that is exactly why the work goes elsewhere. Getting the breath or blood results and the criminal file. Finding where the driver was served, and getting receipts, point of sale data, server names and video before any of it is gone. Running down every policy that might reach the crash, including the ones on your own refrigerator door. Keeping your participation in the criminal case from damaging the civil one. And making sure nobody in the family signs a release in month two that costs them the underinsured motorist claim in month nine."
+          },
+          {
+            "p": "I handle drunk driving injury claims from my office in downtown Spokane, in Spokane County and across eastern Washington, and in the Columbia Gorge counties where I still appear regularly. I am admitted in Washington, WSBA #55307, and Oregon, OSB #242384."
+          },
+          {
+            "p": "If a drunk driver hurt you or someone in your family, I offer a free consultation by appointment at my Spokane office, 601 W. 1st Ave., Suite 1400. Bring the collision report number, the criminal cause number if charges have been filed, and the declarations pages for every auto policy in the household."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "related": [
+      "personal-injury-claims-washington",
+      "wrongful-death-washington"
+    ],
+    "file": "29-drunk-driver-injury-washington.docx",
+    "words": 1840,
+    "minutes": 8
   }
 ]

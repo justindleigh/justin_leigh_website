@@ -12,7 +12,16 @@ const GROUPS = [
   {
     label: "Personal Injury",
     slugs: [
+      // The broad piece stays first: it is the hub, and the ones under it go a
+      // level down into a single kind of injury. Added 2026-10-27 to cover the
+      // services the firm already lists on its Google Business Profile.
       "personal-injury-claims-washington",
+      "motorcycle-accident-washington",
+      "pedestrian-accident-washington",
+      "bicycle-accident-washington",
+      "drunk-driver-injury-washington",
+      "slip-and-fall-washington",
+      "wrongful-death-washington",
       "dog-bite-attack-washington",
     ],
   },
