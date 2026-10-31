@@ -2,6 +2,21 @@ import "@supabase/functions-js/edge-runtime.d.ts";
 
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
 
+// A mail header cannot exceed 998 octets (RFC 5322), and the subject built
+// below is whatever the visitor typed plus their name. On 2026-10-30 somebody
+// pasted an entire letter into the Subject box, the header came to roughly
+// 3,575 characters, the send was rejected, and nobody was told: the row saved,
+// the visitor got a Thank You page, and the lead reached no inbox. Clip what
+// goes in the header. Nothing is lost, because the untruncated field is
+// rendered in the body table below.
+const SUBJECT_FIELD_MAX = 120;
+const SUBJECT_LINE_MAX = 200;
+
+function clip(value: unknown, max: number): string {
+  const s = String(value ?? "").replace(/\s+/g, " ").trim();
+  return s.length > max ? s.slice(0, max - 1).trimEnd() + "…" : s;
+}
+
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers":
@@ -38,7 +53,7 @@ Deno.serve(async (req) => {
         )
         .join("");
 
-      emailSubject = `A.I. Consultation Submission - ${form.name}`;
+      emailSubject = `A.I. Consultation Submission - ${clip(form.name, 80)}`;
       heading = "New A.I. Consultation Inquiry";
       footerNote = "Submitted via Stalefish A.I. Consultation form";
     } else {
@@ -63,7 +78,7 @@ Deno.serve(async (req) => {
         )
         .join("");
 
-      emailSubject = `New Legal Inquiry: ${form.subject} - ${form.name}`;
+      emailSubject = `New Legal Inquiry: ${clip(form.subject, SUBJECT_FIELD_MAX)} - ${clip(form.name, 80)}`;
       heading = "New Contact Form Submission";
       footerNote = "Submitted via justindleigh.com contact form";
     }
@@ -81,32 +96,47 @@ Deno.serve(async (req) => {
       </div>
     `;
 
-    const res = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${RESEND_API_KEY}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from: isAI
-          ? "Stalefish A.I. <contactrequest@justindleigh.com>"
-          : "Law Office Contact <contactrequest@justindleigh.com>",
-        to: ["justindleigh@gmail.com"],
-        subject: emailSubject,
-        html,
-      }),
-    });
+    const from = isAI
+      ? "Stalefish A.I. <contactrequest@justindleigh.com>"
+      : "Law Office Contact <contactrequest@justindleigh.com>";
 
-    const data = await res.json();
+    async function send(subject: string) {
+      const r = await fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${RESEND_API_KEY}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          from,
+          to: ["justindleigh@gmail.com"],
+          subject: subject.slice(0, SUBJECT_LINE_MAX),
+          html,
+        }),
+      });
+      return { ok: r.ok, data: await r.json() };
+    }
+
+    let res = await send(emailSubject);
+
+    // A lead that reaches no inbox is the failure that matters, so if the
+    // composed subject is refused for any reason, say it plainly and try once
+    // more with a subject that cannot be refused. The body is unchanged.
+    if (!res.ok) {
+      const bare = isAI ? "A.I. Consultation Submission" : "New Legal Inquiry";
+      console.error("first send rejected, retrying with a bare subject", res.data);
+      res = await send(bare);
+    }
 
     if (!res.ok) {
-      return new Response(JSON.stringify({ error: data }), {
+      console.error("contact notification FAILED, no email was delivered", res.data);
+      return new Response(JSON.stringify({ error: res.data }), {
         status: 400,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
 
-    return new Response(JSON.stringify({ success: true, id: data.id }), {
+    return new Response(JSON.stringify({ success: true, id: res.data.id }), {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   } catch (err) {

@@ -16,6 +16,32 @@ const initialForm = {
   other_attorney: "",
 };
 
+// The row we just saved keeps every character the visitor typed. The
+// notification email does not get to: its subject line becomes a mail header,
+// and a header over 998 octets is refused outright. On 2026-10-30 a visitor
+// pasted a whole letter into the Subject box and the lead notification was
+// rejected in silence, so the office never learned the lead existed. Clip the
+// subject for the notifier and carry the full text through in the body.
+const NOTIFY_SUBJECT_MAX = 120;
+
+function notifiable(form) {
+  const subject = (form.subject || "").trim();
+  if (subject.length <= NOTIFY_SUBJECT_MAX) return form;
+  const short = subject.slice(0, NOTIFY_SUBJECT_MAX - 1).trimEnd() + "…";
+  const message = (form.message || "").trim();
+  return {
+    ...form,
+    subject: short,
+    message:
+      message === subject
+        ? subject
+        : `${message}
+
+--- Full subject as submitted ---
+${subject}`,
+  };
+}
+
 export default function ContactPage() {
   // An article's "tell me about your situation" link arrives as
   // /contact?from=<slug>&area=<practice area>. Both are prefilled rather than
@@ -73,14 +99,21 @@ export default function ContactPage() {
       try {
         const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
         const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
-        await fetch(`${supabaseUrl}/functions/v1/send-contact-email`, {
+        const res = await fetch(`${supabaseUrl}/functions/v1/send-contact-email`, {
           method: "POST",
           headers: {
             Authorization: `Bearer ${supabaseKey}`,
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(form),
+          body: JSON.stringify(notifiable(form)),
         });
+        if (!res.ok) {
+          console.error(
+            "Email notification rejected, but the form was saved.",
+            res.status,
+            await res.text()
+          );
+        }
       } catch {
         console.warn("Email notification failed, but form was saved.");
       }
