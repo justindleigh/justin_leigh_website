@@ -32,6 +32,33 @@ Deno.serve(async (req) => {
     const form = await req.json();
     const isAI = form.type === "ai_inquiry";
 
+    // A visitor who names a day and time is asking to be called. That signal
+    // was collected by the form, inserted into contact_submissions, and then
+    // left out of the field list below -- so the assistant agent, which reads
+    // the row, could see it, and the inbox, which reads this email, could not.
+    // Justin, 2026-10-31: "I didn't see that come in through the email from
+    // the form from the website ... I need to figure out to fix that so that I
+    // can see whether they're requesting a call or not, regardless of what the
+    // assistant agent tells me."
+    //
+    // It goes in two places on purpose. The body row is the record. The
+    // subject marker is what he actually reads, because a lead is triaged from
+    // a phone notification before anybody opens the message.
+    const wantsCall = clip(form.preferred_datetime, 80);
+    const callFlag = wantsCall ? "[CALL REQUESTED] " : "";
+
+    // "Do you have documents to share?" is a free-text box, so the answer
+    // arrives as whatever the person typed. Treat anything that is not a
+    // clear no as a yes, and mark the subject.
+    //
+    // The asymmetry is deliberate. A false positive costs one unnecessary
+    // offer of an upload link. A false negative is a client who has the
+    // document that decides their case and never gets asked for it. "None"
+    // and "not sure" both start with n and read as no, which is right.
+    const docsAnswer = clip(form.has_documents, 60);
+    const saysNo = /^n/i.test(docsAnswer);
+    const docsFlag = docsAnswer && !saysNo ? "[DOCS] " : "";
+
     let rows: string;
     let emailSubject: string;
     let heading: string;
@@ -62,13 +89,17 @@ Deno.serve(async (req) => {
         ["Name", form.name],
         ["Email", form.email],
         ["Phone", form.phone],
+        ["Preferred Day/Time", form.preferred_datetime],
         ["Subject", form.subject],
         ["Message", form.message],
         ["Opposing Party", form.opposing_party],
+        ["Opposing Counsel", form.opposing_counsel],
+        ["Court Case", form.court_case],
+        ["Cause Number", form.case_number],
+        ["Their Own Attorney", form.other_attorney],
+        ["Has Documents", form.has_documents],
         ["How They Heard", form.how_heard],
         ["Real Estate Inquiry", form.real_estate_inquiry],
-        ["Court Case", form.court_case],
-        ["Other Attorney", form.other_attorney],
       ].filter(([, v]) => v);
 
       rows = fields
@@ -78,7 +109,7 @@ Deno.serve(async (req) => {
         )
         .join("");
 
-      emailSubject = `New Legal Inquiry: ${clip(form.subject, SUBJECT_FIELD_MAX)} - ${clip(form.name, 80)}`;
+      emailSubject = `${callFlag}${docsFlag}New Legal Inquiry: ${clip(form.subject, SUBJECT_FIELD_MAX)} - ${clip(form.name, 80)}`;
       heading = "New Contact Form Submission";
       footerNote = "Submitted via justindleigh.com contact form";
     }
@@ -123,7 +154,12 @@ Deno.serve(async (req) => {
     // composed subject is refused for any reason, say it plainly and try once
     // more with a subject that cannot be refused. The body is unchanged.
     if (!res.ok) {
-      const bare = isAI ? "A.I. Consultation Submission" : "New Legal Inquiry";
+      // The marker survives the fallback. This path fires exactly when
+      // something has already gone wrong with the composed subject, which is
+      // the worst moment to drop the one word that decides how fast he calls.
+      const bare = isAI
+        ? "A.I. Consultation Submission"
+        : `${callFlag}${docsFlag}New Legal Inquiry`;
       console.error("first send rejected, retrying with a bare subject", res.data);
       res = await send(bare);
     }

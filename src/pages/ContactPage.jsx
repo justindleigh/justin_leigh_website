@@ -13,7 +13,10 @@ const initialForm = {
   how_heard: "",
   real_estate_inquiry: "",
   court_case: "",
+  case_number: "",
+  opposing_counsel: "",
   other_attorney: "",
+  has_documents: "",
 };
 
 // The row we just saved keeps every character the visitor typed. The
@@ -91,7 +94,10 @@ export default function ContactPage() {
           how_heard: form.how_heard || null,
           real_estate_inquiry: form.real_estate_inquiry || null,
           court_case: form.court_case || null,
+          case_number: form.case_number || null,
+          opposing_counsel: form.opposing_counsel || null,
           other_attorney: form.other_attorney || null,
+          has_documents: form.has_documents || null,
         }]);
 
       if (dbError) throw dbError;
@@ -190,10 +196,13 @@ export default function ContactPage() {
               <FormField label="Preferred Day/Time for Consultation" name="preferred_datetime" value={form.preferred_datetime} onChange={handleChange} placeholder="e.g. Weekday mornings, Tuesday after 2pm, etc." />
               <FormField label="How can I help you?" name="message" textarea required value={form.message} onChange={handleChange} placeholder="Please describe your legal matter..." />
               <FormField label="Name of Opposing Party/Parties" name="opposing_party" textarea value={form.opposing_party} onChange={handleChange} placeholder="For conflict review purposes (optional)" />
+              <FormField label="Opposing counsel, if you know them" name="opposing_counsel" value={form.opposing_counsel} onChange={handleChange} placeholder="The other side's lawyer or firm (optional)" />
               <FormField label="How did you hear about me?" name="how_heard" value={form.how_heard} onChange={handleChange} placeholder="(optional)" />
               <FormField label="Is your inquiry pertaining to real estate?" name="real_estate_inquiry" value={form.real_estate_inquiry} onChange={handleChange} placeholder="If yes, please include address or parcel number (optional)" />
-              <FormField label="Is your matter related to an existing court case?" name="court_case" value={form.court_case} onChange={handleChange} placeholder="If yes, please provide case details (optional)" />
-              <FormField label="Is there another attorney involved?" name="other_attorney" value={form.other_attorney} onChange={handleChange} placeholder="If yes, please provide their name (optional)" />
+              <FormField label="Is your matter related to an existing court case?" name="court_case" value={form.court_case} onChange={handleChange} placeholder="If yes, which court and what is it about (optional)" />
+              <FormField label="Cause or case number" name="case_number" value={form.case_number} onChange={handleChange} placeholder="e.g. 25-2-00026-20, if you have it (optional)" />
+              <FormField label="Have you worked with another attorney on this matter?" name="other_attorney" value={form.other_attorney} onChange={handleChange} placeholder="Your own current or former lawyer, if any (optional)" />
+              <FormField label="Do you have documents to share?" name="has_documents" value={form.has_documents} onChange={handleChange} placeholder="Yes or no. If yes, I will send you a secure upload link (optional)" />
 
               {status === "error" && (
                 <div role="alert" aria-live="assertive" className="bg-red-500/10 border border-red-500/20 px-5 py-4 text-red-400 text-sm">{errorMsg}</div>
