@@ -5546,5 +5546,459 @@
     "words": 3005,
     "minutes": 13,
     "file": "33-seller-financing-owner-carry-washington.docx"
+  },
+  {
+    "slug": "upepa-anti-slapp-washington",
+    "title": "UPEPA in Washington: The Anti-SLAPP Motion That Freezes the Case and Shifts the Fees",
+    "titleTag": "Anti-SLAPP and UPEPA Attorney, Spokane WA | Justin D. Leigh",
+    "practiceArea": "Anti-SLAPP and Free Speech Defense",
+    "published": "2026-11-01",
+    "description": "Washington's Uniform Public Expression Protection Act, chapter 4.105 RCW: the fourteen day notice, the sixty day deadline, the stay that stops everything, and the long list of claims it does not reach.",
+    "lede": "You left a review, spoke at a council meeting, complained to an agency, or posted something about a contractor, and now you have been served. The complaint says defamation, or tortious interference, or emotional distress, and the damages number has no obvious relationship to anything you actually said. A suit like that is sometimes not built to be won. It is built to make answering it expensive enough that you stop talking.",
+    "intro": [
+      "Washington has a statute aimed squarely at that. Chapter 4.105 RCW is the Uniform Public Expression Protection Act, and most lawyers still call a motion under it an anti-SLAPP motion. It lets you file one motion that freezes the whole case, puts the burden of proof on the person who sued you, and makes a fee award mandatory if you win.",
+      "It is also easy to forfeit. There is a notice you have to serve before you file, a sixty day window to file in, and a list of claims the chapter simply does not reach. Those three things decide most UPEPA questions, so this covers all three before anything else.",
+      "Everything below is the statute as it reads today. The chapter came in at 2021 c 259 and applies to a civil action filed, or a cause of action asserted, on or after July 25, 2021. RCW 4.105.903."
+    ],
+    "sections": [
+      {
+        "heading": "What does a UPEPA motion actually do?",
+        "paras": [
+          {
+            "p": "It is called a special motion for expedited relief, and it asks the court to dismiss the cause of action, or part of it, early. RCW 4.105.020(2)."
+          },
+          {
+            "p": "Three things make it different from an ordinary motion to dismiss. The case stops moving the moment you start the process. The person suing you has to come forward with actual proof rather than allegations. And if you win, dismissal is with prejudice and the court shall award your costs and fees related to the motion. RCW 4.105.030, 4.105.060(1), 4.105.090(1)."
+          },
+          {
+            "p": "The chapter may be cited as the uniform public expression protection act. RCW 4.105.900."
+          }
+        ]
+      },
+      {
+        "heading": "The fourteen day notice almost nobody knows about",
+        "paras": [
+          {
+            "p": "Before filing the motion, the moving party shall provide written notice to the responding party of its intent to file the motion at least 14 days prior to filing. RCW 4.105.020(1)."
+          },
+          {
+            "p": "During those fourteen days the other side may withdraw or amend the pleading under the ordinary court rules, but is otherwise bound by the stay obligations in RCW 4.105.030. So the freeze starts at the notice, not at the filing."
+          },
+          {
+            "p": "Skipping the notice does not destroy the motion. It destroys the fees. The statute says the failure shall not affect the moving party's right to relief under the chapter, but the moving party shall not be entitled to recover reasonable attorneys' fees under RCW 4.105.090. That is the single most expensive procedural mistake available in this chapter, and it is made by filing fast."
+          }
+        ]
+      },
+      {
+        "heading": "How long do I have to file it?",
+        "paras": [
+          {
+            "p": "Not later than sixty days after you are served with the complaint, cross-claim, counterclaim, third-party claim, or other pleading asserting the claim, or at a later time on a showing of good cause. RCW 4.105.020(2)."
+          },
+          {
+            "p": "Read that together with the notice requirement. If the notice has to go out fourteen days before the motion, and the motion has to be filed within sixty days of service, then the real deadline for deciding whether to bring a UPEPA motion is closer to day forty-five."
+          }
+        ]
+      },
+      {
+        "heading": "What happens to the rest of the case?",
+        "paras": [
+          {
+            "p": "It stops. On the earlier of giving the notice or filing the motion, all other proceedings between the moving party and the responding party are stayed, including discovery and any pending hearing or motion. RCW 4.105.030(1)(a)."
+          },
+          {
+            "p": "The stay can be extended sideways. On motion by the moving party the court may stay a hearing, a motion, or discovery involving another party, if ruling on it would adjudicate, or the discovery would relate to, an issue material to the UPEPA motion. RCW 4.105.030(1)(b)."
+          },
+          {
+            "p": "It lasts until the court rules and the time to appeal has run. RCW 4.105.030(2). If a party appeals the order ruling on the motion, all proceedings between all parties are stayed until the appeal concludes. RCW 4.105.030(3)."
+          },
+          {
+            "sub": "What the stay does not stop"
+          },
+          {
+            "p": "A motion for costs, fees and expenses under RCW 4.105.090 is not subject to the stay. RCW 4.105.030(5)."
+          },
+          {
+            "p": "A party can still voluntarily dismiss a claim or move to sever one. RCW 4.105.030(6)."
+          },
+          {
+            "p": "For good cause the court may still hear a motion unrelated to the UPEPA motion, and a motion for a special or preliminary injunction to protect against an imminent threat to public health or safety. RCW 4.105.030(7)."
+          }
+        ]
+      },
+      {
+        "heading": "Can the other side take discovery while it is pending?",
+        "paras": [
+          {
+            "p": "Only narrowly. During the stay the court may allow limited discovery if a party shows that specific information is necessary to establish whether a party has satisfied or failed to satisfy a burden under RCW 4.105.060(1), and that the information is not reasonably available unless discovery is allowed. RCW 4.105.030(4)."
+          },
+          {
+            "p": "That is a real limit. It is not general discovery into the claim, it is discovery aimed at the motion's own burdens, and the party asking has to show the information cannot be had any other way."
+          }
+        ]
+      },
+      {
+        "heading": "What record does the court decide it on?",
+        "paras": [
+          {
+            "p": "The pleadings, the motion, any response or reply, and any evidence that could be considered in ruling on a summary judgment motion under civil rule 56. RCW 4.105.050."
+          },
+          {
+            "p": "In practice that means declarations and exhibits. A UPEPA motion is not decided on the face of the complaint alone, which is why a response that rests on the allegations tends to lose."
+          }
+        ]
+      },
+      {
+        "heading": "What is the test?",
+        "paras": [
+          {
+            "p": "The court shall dismiss with prejudice if three things line up. RCW 4.105.060(1)."
+          },
+          {
+            "p": "First, the moving party establishes under RCW 4.105.010(2) that the chapter applies."
+          },
+          {
+            "p": "Second, the responding party fails to establish under RCW 4.105.010(3) that the chapter does not apply."
+          },
+          {
+            "p": "Third, either the responding party fails to establish a prima facie case as to each essential element of the cause of action, or the moving party establishes that the responding party failed to state a cause of action upon which relief can be granted, or that there is no genuine issue of material fact and the moving party is entitled to judgment as a matter of law."
+          },
+          {
+            "p": "Note where the burdens sit. Coverage is the movant's to establish; the exclusions are the respondent's to establish; and then the respondent has to put on a prima facie case element by element."
+          }
+        ]
+      },
+      {
+        "heading": "Which speech does the chapter cover?",
+        "paras": [
+          {
+            "p": "Three categories, in RCW 4.105.010(2). A communication in a legislative, executive, judicial, administrative or other governmental proceeding. A communication on an issue under consideration or review in such a proceeding. And the exercise of the right of freedom of speech or of the press, the right to assemble or petition, or the right of association, guaranteed by the United States Constitution or the Washington Constitution, on a matter of public concern."
+          },
+          {
+            "p": "The first two do not require a matter of public concern. The third does. That distinction decides a surprising number of these motions."
+          }
+        ]
+      },
+      {
+        "heading": "What UPEPA does not reach",
+        "paras": [
+          {
+            "p": "This is the part worth reading before anything else, because the exclusion list in RCW 4.105.010(3)(a) is long, and a claim inside it is outside the chapter no matter how much speech the case involves. The chapter does not apply to a cause of action asserted:"
+          },
+          {
+            "p": "Against a governmental unit, or an employee or agent of one acting or purporting to act in an official capacity."
+          },
+          {
+            "p": "By a governmental unit or its employee or agent acting in an official capacity to enforce a law protecting against an imminent threat to public health or safety."
+          },
+          {
+            "p": "Against a person primarily engaged in the business of selling or leasing goods or services, where the claim arises out of a communication related to that sale or lease."
+          },
+          {
+            "p": "Against a person named in a civil suit brought by a victim of a crime against a perpetrator."
+          },
+          {
+            "p": "Against a person named in a civil suit brought to establish or declare real property possessory rights, use of real property, recovery of real property, quiet title, or related real property claims."
+          },
+          {
+            "p": "Seeking recovery for bodily injury, wrongful death, or survival, or as to statements made regarding that legal action, unless the claims involve damage to reputation."
+          },
+          {
+            "p": "Brought under the insurance code or arising out of an insurance contract."
+          },
+          {
+            "p": "Based on a common law fraud claim."
+          },
+          {
+            "p": "Brought under Title 26 RCW; counterclaims based on a criminal no-contact order under chapter 10.99 RCW; or for or based on an antiharassment order, a sexual assault protection order, or a vulnerable adult protection order."
+          },
+          {
+            "p": "Brought under Title 49 RCW, along with negligent supervision, retention or infliction of emotional distress unless the claims involve damage to reputation, wrongful discharge in violation of public policy, whistleblowing, and enforcement of employee rights under civil service, collective bargaining, or handbooks and policies."
+          },
+          {
+            "p": "Brought under the Consumer Protection Act, chapter 19.86 RCW."
+          },
+          {
+            "p": "Any claim brought under federal law."
+          },
+          {
+            "sub": "The carve-back, which matters if you are a publisher or a reviewer"
+          },
+          {
+            "p": "Three of those exclusions come back in. The goods-or-services exclusion, the common law fraud exclusion and the Consumer Protection Act exclusion do not apply when the action arises from an act related to gathering, receiving, posting or processing information for communication to the public, or for the creation, dissemination, exhibition or promotion of a dramatic, literary, musical, political, journalistic or otherwise artistic work, whether or not the information was actually communicated. RCW 4.105.010(3)(b)(i)."
+          },
+          {
+            "p": "They also come back in for an action related to communicating, gathering, receiving, posting or processing consumer opinions or commentary, evaluations of consumer complaints, or reviews or ratings of businesses. RCW 4.105.010(3)(b)(ii)."
+          },
+          {
+            "p": "So a review left about a business sits inside the chapter even though claims against sellers of goods and services are generally outside it. And for the record, goods or services does not include the creation, dissemination, exhibition or promotion of a dramatic, literary, musical, political, journalistic or artistic work. RCW 4.105.010(1)(a)."
+          }
+        ]
+      },
+      {
+        "heading": "How fast does it move?",
+        "paras": [
+          {
+            "p": "The court shall hear the motion not later than sixty days after it is filed, unless it orders a later hearing to allow the limited discovery, or for other good cause. RCW 4.105.040(1)."
+          },
+          {
+            "p": "If limited discovery is allowed, the hearing goes not later than sixty days after the order allowing it. RCW 4.105.040(2)."
+          },
+          {
+            "p": "The court shall rule not later than sixty days after the hearing. RCW 4.105.070."
+          }
+        ]
+      },
+      {
+        "heading": "Who pays the fees?",
+        "paras": [
+          {
+            "p": "On a UPEPA motion the court shall award court costs, reasonable attorneys' fees and reasonable litigation expenses related to the motion to the moving party if the moving party prevails. RCW 4.105.090(1). Shall, not may."
+          },
+          {
+            "p": "Going the other way is harder. A responding party gets fees only if it prevails on the motion and the court finds the motion was not substantially justified or was filed solely with intent to delay the proceeding. RCW 4.105.090(2)."
+          },
+          {
+            "sub": "Dismissing the claim does not get the plaintiff out of the fees"
+          },
+          {
+            "p": "A voluntary dismissal without prejudice of the claim that is the subject of the motion does not affect the moving party's right to get a ruling on the motion and to seek fees. RCW 4.105.060(2)."
+          },
+          {
+            "p": "A voluntary dismissal with prejudice establishes, for fee purposes, that the moving party prevailed. RCW 4.105.060(3)."
+          },
+          {
+            "p": "That closes the obvious escape hatch. Once the notice is served, withdrawing the claim does not undo the fee exposure."
+          }
+        ]
+      },
+      {
+        "heading": "What if the court denies the motion?",
+        "paras": [
+          {
+            "p": "The moving party may appeal as a matter of right from an order denying the motion in whole or in part, and the appeal must be filed not later than twenty-one days after entry of the order. RCW 4.105.080."
+          },
+          {
+            "p": "Twenty-one days is short, and the appeal is the moving party's right alone. While it is pending, all proceedings between all parties are stayed. RCW 4.105.030(3)."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "The first job is coverage, and it is mostly a reading job. Walk the claim through RCW 4.105.010(2) to see whether the chapter reaches the speech, then through the exclusion list in 4.105.010(3) to see whether it is carved back out. A motion filed on a claim the chapter does not reach loses on coverage, and if the court also finds the motion was not substantially justified it carries a fee award against your own client."
+          },
+          {
+            "p": "The second job is the calendar. Notice fourteen days out, motion inside sixty days of service, appeal inside twenty-one days of a denial."
+          },
+          {
+            "p": "The third job is evidence. Because the court decides on a summary judgment record, the motion is built with declarations and documents, and the response has to be met the same way."
+          }
+        ]
+      },
+      {
+        "heading": "If you have been sued over something you said",
+        "paras": [
+          {
+            "p": "If you have been served with a complaint over a review, a public comment, a report to an agency, or anything else you said, my office offers a free initial consultation by appointment in downtown Spokane. Bring the complaint and the date you were served, because the sixty day window runs from service and the notice has to go out fourteen days before the motion."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "words": 2265,
+    "minutes": 10
+  },
+  {
+    "slug": "spite-structure-claims-washington",
+    "title": "Spite Structures in Washington: The Statute That Can Order a Fence Torn Down",
+    "titleTag": "Spite Fence and Spite Structure Attorney, Spokane WA | Justin D. Leigh",
+    "practiceArea": "Neighbor Disputes and Spite Structures",
+    "published": "2026-11-01",
+    "description": "RCW 7.40.030 lets a Washington court order a structure built to spite a neighbor abated and removed. The three elements, what counts as a structure, and the element that defeats most of these claims.",
+    "lede": "Your neighbor built something. A fence taller than it needs to be, right on the line, finished side facing his own yard. A wall of arborvitae across the one view you had. A shed sited where nothing needed to be sited. Nothing about it serves him. Everything about it lands on you, and the timing, right after the argument, is not a coincidence.",
+    "intro": [
+      "Washington has a statute for this, and it is older than the state. RCW 7.40.030 is captioned Malicious erection of structure may be enjoined, and it traces to 1881. It is rarely pleaded. It is worth knowing about because of the remedy: not damages, but a court order to tear the thing down.",
+      "It is also a hard claim, and the hard part is predictable. This covers what the statute says, what counts as a structure, the three elements a Washington court applies, and the element that defeats most of these cases."
+    ],
+    "sections": [
+      {
+        "heading": "What does the statute say?",
+        "paras": [
+          {
+            "p": "All of it, because it is two sentences:"
+          },
+          {
+            "p": "An injunction may be granted to restrain the malicious erection, by any owner or lessee of land, of any structure intended to spite, injure or annoy an adjoining proprietor. And where any owner or lessee of land has maliciously erected such a structure with such intent, a mandatory injunction will lie to compel its abatement and removal. RCW 7.40.030."
+          },
+          {
+            "p": "Two remedies sit in those sentences. Before it goes up, an injunction to restrain the building. After it goes up, a mandatory injunction to compel abatement and removal. The second one is the reason to care: a Washington court can order an existing structure taken down."
+          }
+        ]
+      },
+      {
+        "heading": "Is this new law?",
+        "paras": [
+          {
+            "p": "No, and anyone describing it as novel is half right for the wrong reason. The section notes run back to 1883 and Code 1881. What is unusual is not that the statute is new, it is that Washington has one at all, and that it is so rarely used that the remedy is easy to miss."
+          },
+          {
+            "p": "The case law is correspondingly thin. Its leading constructions span 115 years, from 1900 to 2015."
+          }
+        ]
+      },
+      {
+        "heading": "What counts as a structure?",
+        "paras": [
+          {
+            "p": "A fence does. The Washington Supreme Court held in 1900 that a fence is a structure within the meaning of the statute, and upheld the statute as a valid exercise of the state's police power. Karasek v. Peier, 22 Wash. 419, 61 P. 33 (1900)."
+          },
+          {
+            "p": "So can a tree, which is where this gets interesting. In 2015 the Court of Appeals held that because a large planted tree may, in some circumstances, be a spite structure prohibited by RCW 7.40.030, dismissal of the statutory claim was reversed. A single tree artificially located and planted with spiteful intent may, depending on the circumstances, be a structure under the statute. MJD Props., LLC v. Haley, 189 Wn. App. 963, 358 P.3d 476 (2015)."
+          },
+          {
+            "p": "Note the limit in that holding. MJD turned on the affirmative act of artificially locating and planting the tree, evaluated at the time of planting. It is not authority that anything which grows and blocks a view is a structure."
+          }
+        ]
+      },
+      {
+        "heading": "What are the elements?",
+        "paras": [
+          {
+            "p": "Washington applies a three part test, taken from Baillargeon v. A. G. Press, 11 Wn. App. 59, 521 P.2d 746 (1974) and applied in MJD:"
+          },
+          {
+            "p": "First, that the structure damages the adjoining landowner's enjoyment of his property in some significant degree."
+          },
+          {
+            "p": "Second, that the structure is designed as the result of malice or spitefulness primarily or solely to injure and annoy the adjoining landowner."
+          },
+          {
+            "p": "Third, that the structure serves no really useful or reasonable purpose."
+          },
+          {
+            "p": "All three. They are conjunctive, and the third one is where these claims usually end."
+          }
+        ]
+      },
+      {
+        "heading": "How much malice is enough?",
+        "paras": [
+          {
+            "p": "Malevolence has to be the dominating motive. Karasek said so in 1900 and nothing since has softened it. Irritation is not enough, and neither is a neighbor who is simply inconsiderate."
+          },
+          {
+            "p": "There is a useful way of putting the question that Washington borrowed from a Connecticut case: the structure must strike an ordinary beholder as manifestly erected with a leading purpose to annoy the adjoining owner or occupant in the use of his premises. MJD Props., quoting Karasek and quoting Gallagher v. Dodge, 48 Conn. 387 (1880)."
+          },
+          {
+            "p": "That is an objective test about appearances, which helps. You do not have to prove what your neighbor was thinking if the thing he built announces it."
+          }
+        ]
+      },
+      {
+        "heading": "The element that defeats most of these claims",
+        "paras": [
+          {
+            "p": "A structure that serves a genuine purpose is very hard to reach, because element three asks that it serve no really useful or reasonable purpose, and that element is independent. A fence that actually keeps a dog in, a shed that actually stores equipment, a hedge that actually screens a road: each of those has facial utility, and facial utility is a defense."
+          },
+          {
+            "p": "There is a framing that pushes back on it. The test is whether malice was the dominating motive, and the inquiry in MJD was directed at the time of erection, judged by an ordinary beholder. That supports an argument about siting: not whether the structure has any conceivable use, but what the leading purpose was when it went up where it went up."
+          },
+          {
+            "p": "Being straight about it, though, Washington law does not clearly hold that a genuinely useful structure can still be a spite structure on hostile siting alone. MJD sent its case back for trial on all three elements. It did not hold utility immaterial. If your neighbor's structure does something real, this is the element that will decide your case, and it is the reason the claim is usually pleaded alongside others rather than by itself."
+          }
+        ]
+      },
+      {
+        "heading": "What else gets pleaded with it?",
+        "paras": [
+          {
+            "p": "Nuisance, most often. Washington's actionable nuisance statute reaches whatever is injurious to health or indecent or offensive to the senses, or an obstruction to the free use of property, so as to essentially interfere with the comfortable enjoyment of the life and property. RCW 7.48.010."
+          },
+          {
+            "p": "Standing is broad. The action may be brought by any person whose property is, or whose patrons or employees are, injuriously affected, or whose personal enjoyment is lessened by the nuisance. RCW 7.48.020."
+          },
+          {
+            "p": "The nuisance remedy is also substantial. On judgment for the plaintiff a motion for a warrant to the sheriff to abate the nuisance, and to deter or prevent its resumption, shall be allowed unless the nuisance has ceased or that remedy would be inadequate; where it would be inadequate the plaintiff may have the defendant enjoined instead. RCW 7.48.020."
+          },
+          {
+            "p": "The practical point is that nuisance does not require proving the structure is useless. It asks about the interference. So the two claims fail in different places, which is why they belong together."
+          }
+        ]
+      },
+      {
+        "heading": "What happens if he ignores the order?",
+        "paras": [
+          {
+            "p": "The injunction has teeth. Where it appears to the court that a person has willfully disobeyed a restraining order or an injunction after notice of it, the court shall award an attachment for contempt against the party charged, or an order to show cause why it should not issue. RCW 7.40.150."
+          }
+        ]
+      },
+      {
+        "heading": "Does the statute get me money?",
+        "paras": [
+          {
+            "p": "Not on its own terms. RCW 7.40.030 speaks in injunctions: restrain the erection, or compel abatement and removal. It does not create a damages remedy."
+          },
+          {
+            "p": "The nuisance statute does. An actionable nuisance is the subject of an action for damages and other and further relief. RCW 7.48.010. That is another reason the two claims travel together: one of them takes the structure down and the other one can pay for what it cost you while it stood."
+          }
+        ]
+      },
+      {
+        "heading": "If I sue him, can he file an anti-SLAPP motion against me?",
+        "paras": [
+          {
+            "p": "It is a fair worry, because Washington's anti-SLAPP statute shifts fees against a losing claimant and a neighbor dispute can involve a lot of speech. Chapter 4.105 RCW, the Uniform Public Expression Protection Act, is the statute he would use."
+          },
+          {
+            "p": "That chapter carves real property out. It does not apply to a cause of action asserted against a person named in a civil suit brought to establish or declare real property possessory rights, use of real property, recovery of real property, quiet title to real property, or related claims relating to real property. RCW 4.105.010(3)(a)(v)."
+          },
+          {
+            "p": "A suit to make a neighbor remove a structure is a claim about the use of real property, and the exclusion reads broadly enough to reach it, though no Washington decision has yet applied it to one. Worth raising early if the threat comes, and worth reading the chapter itself before relying on it, because the exclusion list is long and the fee exposure in that statute runs both directions."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "The first job is an honest read on element three, before anything is filed. What does the structure do, what did it plausibly do on the day it went up, and were there obvious alternative locations. That assessment decides whether this is a real claim or an expensive one."
+          },
+          {
+            "p": "The second job is evidence of the sequence. These cases are proved with dates and documents: when the dispute started, when the structure appeared, what was said, what the site looked like before. Photographs with dates on them are worth more here than almost anything a witness will say later."
+          },
+          {
+            "p": "The third job is pleading it with company. The spite structure claim carries the removal remedy, nuisance carries a lower bar on utility, and depending on the facts there may be others. Pleaded together, they do not share a single point of failure."
+          }
+        ]
+      },
+      {
+        "heading": "If a neighbor has built something against you",
+        "paras": [
+          {
+            "p": "If a neighbor has put up a fence, a wall, a hedge or a structure that you believe went up to get at you, my office offers a free initial consultation by appointment in downtown Spokane. Bring photographs, the dates if you have them, and anything in writing between you and the neighbor, because the timing and the sequence do most of the work in these cases."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "words": 1703,
+    "minutes": 8
   }
 ]
