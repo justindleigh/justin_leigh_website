@@ -6,7 +6,7 @@ export default function Terms() {
       <div className="max-w-3xl mx-auto">
         <Link to="/" className="text-gold text-sm hover:text-gold-light transition-colors">&larr; Back to Home</Link>
         <h1 className="font-serif text-4xl text-white mt-6 mb-2">Terms of Use &amp; Disclaimer</h1>
-        <p className="text-white/40 text-sm mb-12">Last Updated: April 13, 2026</p>
+        <p className="text-white/40 text-sm mb-12">Last Updated: November 2, 2026</p>
 
         <div className="space-y-8 text-white/70 text-[15px] leading-relaxed">
           <section>
@@ -64,37 +64,45 @@ export default function Terms() {
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-lg mb-3">10. External Links</h2>
+            <h2 className="text-white font-semibold text-lg mb-3">10. Evergreen Legal AI Consulting</h2>
+            <p className="mb-3">Evergreen Legal AI is a trade name of Justin D. Leigh, PLLC. Its consulting work — AI tool selection, workflow integration, training, compliance review, auditing and risk management for law firms and legal departments — is performed by the same lawyer and the same firm that provides legal services, and is offered through this same website.</p>
+            <p className="mb-3">Those services are law-related services within the meaning of RPC 5.7. Because they are not provided in circumstances distinct from the provision of legal services, the Washington Rules of Professional Conduct apply to them in full. No exemption from those Rules is claimed, and nothing on this website should be read as a representation that a consulting engagement falls outside them.</p>
+            <p className="mb-3">In practical terms: every prospective consulting engagement is run through the same conflicts check as a legal matter, and an engagement may be declined on that basis. Information you provide before an engagement is handled under Section 2 above. Promotion of these services is attorney advertising and is subject to RPC 7.1 through 7.3.</p>
+            <p>A consulting engagement is created only by a signed written agreement. Submitting the consultation request form on the Evergreen Legal AI page does not create one.</p>
+          </section>
+
+          <section>
+            <h2 className="text-white font-semibold text-lg mb-3">11. External Links</h2>
             <p>This website may contain links to third-party websites. I am not responsible for the content, privacy practices, or terms of use of any linked websites. Inclusion of a link does not constitute an endorsement.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-lg mb-3">11. Intellectual Property</h2>
+            <h2 className="text-white font-semibold text-lg mb-3">12. Intellectual Property</h2>
             <p>All content on this website, including text, graphics, logos, and design elements, is the property of Justin D. Leigh, PLLC and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from this content without prior written consent.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-lg mb-3">12. Limitation of Liability</h2>
+            <h2 className="text-white font-semibold text-lg mb-3">13. Limitation of Liability</h2>
             <p>To the fullest extent permitted by law, Justin D. Leigh, PLLC disclaims all liability for any damages arising from your use of this website or reliance on information contained herein. This website is provided "as is" without warranties of any kind.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-lg mb-3">13. Governing Law and Venue</h2>
+            <h2 className="text-white font-semibold text-lg mb-3">14. Governing Law and Venue</h2>
             <p>These Terms of Use are governed by the laws of the State of Washington. Any disputes arising from the use of this website shall be resolved in the courts of Spokane County, Washington, or the United States District Court for the Eastern District of Washington.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-lg mb-3">14. Severability</h2>
+            <h2 className="text-white font-semibold text-lg mb-3">15. Severability</h2>
             <p>If any provision of these Terms is found to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions shall continue in full force and effect.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-lg mb-3">15. Changes to These Terms</h2>
+            <h2 className="text-white font-semibold text-lg mb-3">16. Changes to These Terms</h2>
             <p>I may update these Terms from time to time. Material changes will be posted on this page with an updated effective date. Your continued use of the website after any changes constitutes acceptance of the revised Terms.</p>
           </section>
 
           <section>
-            <h2 className="text-white font-semibold text-lg mb-3">16. Contact</h2>
+            <h2 className="text-white font-semibold text-lg mb-3">17. Contact</h2>
             <div className="bg-white/5 border border-white/10 rounded-lg p-5">
               <p className="text-white font-medium">Justin D. Leigh, Attorney at Law</p>
               <p>Law Office of Justin D. Leigh</p>

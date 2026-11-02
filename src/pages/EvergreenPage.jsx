@@ -496,9 +496,20 @@ export default function EvergreenPage() {
               compliance, so that claim would be the hard one to defend and it is not needed:
               everything below is true whether the work is legal services or a law-related
               service under RPC 5.7. If Justin later wants the RPC 5.7 "distinct services"
-              position, that is a structural change, not a sentence on a web page. */}
+              position, that is a structural change, not a sentence on a web page.
+
+              2026-11-02: Justin chose to keep Evergreen on this domain and split it off later
+              if the line grows, so the structural change is NOT being made and RPC 5.7(a)(1)
+              governs: the services are not distinct from the legal practice, so the Rules apply
+              to them in full. The sentence added below says that affirmatively instead of
+              leaving it to inference. It claims no exemption, which is the only position this
+              structure can defend, and the conflicts half is the part a firm buyer actually
+              wants to read. Full rule in the Library at (2) Library/Ethics/WA RPC 5.7. */}
           <p className="eg-disclaimer">
             Attorney advertising. Evergreen Legal AI is a trade name of Justin D Leigh PLLC.
+            Consulting work is performed by the same lawyer and the same firm as the legal
+            practice, so the Washington Rules of Professional Conduct govern it, and every
+            engagement is run through a conflicts check before it is accepted.
             Visiting this site, or an initial conversation about a possible engagement, does not
             create an attorney-client relationship. One is formed only by a signed engagement
             letter. Nothing on this site is legal advice, and you should not send confidential
