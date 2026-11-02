@@ -5576,6 +5576,35 @@
         ]
       },
       {
+        "heading": "What happened to Washington's 2010 anti-SLAPP statute?",
+        "paras": [
+          {
+            "p": "It was struck down, all of it. Washington passed a special motion to strike in 2010, RCW 4.24.525, and the Washington Supreme Court invalidated the entire section in Davis v. Cox, 183 Wn.2d 269, 351 P.3d 862 (2015). Chapter 4.105 RCW, the statute this article is about, is the replacement."
+          },
+          {
+            "p": "The 2010 statute worked differently in one decisive respect. Once the defendant showed the claim was based on an action involving public participation and petition, the burden moved to the plaintiff to prove by clear and convincing evidence a probability of prevailing on the claim. A plaintiff who could not carry that lost the claim and paid the defendant's fees, costs and $10,000 in statutory damages."
+          },
+          {
+            "p": "That is what sank it. Requiring the plaintiff to prove a probability of prevailing made the trial judge weigh the evidence, and the court held that because the provision required a trial judge to adjudicate factual questions in nonfrivolous claims without a trial, the statute violated the right of trial by jury under article I, section 21 of the Washington Constitution."
+          },
+          {
+            "p": "The defect could not be confined to that one subsection. The court called it the law's mainspring, because every provision in the statute had meaning and effect only in connection with the filing of the special motion to strike, and held it nonseverable. The result was that RCW 4.24.525 was invalidated as a whole."
+          },
+          {
+            "p": "Washington then went six years with no special motion to strike. What survived Davis, and is still law, is the 1989 immunity statute. RCW 4.24.510 gives immunity from civil liability to a person who communicates a complaint or information to a branch or agency of government on any matter reasonably of concern to that agency, and a person who prevails on that defense recovers expenses and reasonable attorneys' fees plus $10,000 in statutory damages, which the court may deny if it finds the communication was made in bad faith. It reaches only communications to government and it creates no method for early dismissal, which is why the legislature kept legislating."
+          },
+          {
+            "p": "The Uniform Public Expression Protection Act arrived in 2021, Laws of 2021, chapter 259, which repealed RCW 4.24.525 and created chapter 4.105 RCW. By its own terms the new chapter applies to a civil action filed or cause of action asserted in a civil action on or after July 25, 2021. RCW 4.105.903. The Supreme Court has since read that provision strictly: chapter 4.105 does not apply to claims filed before its effective date, and amended claims relating back to those claims are not subject to it either. Thurman v. Cowles Co. (2025)."
+          },
+          {
+            "p": "The redesign is visible on the face of the statute, and it is worth seeing when you read the test. UPEPA never asks a plaintiff to prove a probability of prevailing. It asks whether the responding party can establish a prima facie case as to each essential element, or whether the moving party can show a failure to state a claim, or no genuine issue of material fact and judgment as a matter of law. RCW 4.105.060(1)(c). And the court decides on the record it could consider on a summary judgment motion under civil rule 56. RCW 4.105.050."
+          },
+          {
+            "p": "Whether that is enough has not been decided. Davis itself said summary judgment proceedings do not infringe the jury trial right, which is the ground the new chapter is built on, but no Washington appellate decision has yet ruled on chapter 4.105 under article I, section 21. One court was asked and did not reach it: in M.G. v. Bainbridge Island School District the jury trial challenge was raised for the first time on appeal and held waived. Division Three did reject as applied constitutional challenges to the chapter in Thurman v. Cowles Co., 29 Wn. App. 2d 230, 541 P.3d 403 (2024), and the Supreme Court then reversed that decision on statutory grounds and expressly declined to reach the constitutional arguments."
+          }
+        ]
+      },
+      {
         "heading": "The fourteen day notice almost nobody knows about",
         "paras": [
           {
@@ -5784,6 +5813,35 @@
         ]
       },
       {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The notice gets skipped to move fast. Failure to give it does not affect the moving party's right to relief, but the moving party shall not be entitled to recover reasonable attorneys' fees. RCW 4.105.020(1). The forfeiture reaches the fees, not the court costs and litigation expenses, and the fees are most of the reason to bring the motion. That is a lot to trade for fourteen days."
+          },
+          {
+            "p": "The sixty days is counted from the wrong document. It runs from service of the complaint, cross-claim, counterclaim, third-party claim or other pleading that asserts the cause of action, or from a later date the court allows on a showing of good cause. RCW 4.105.020(2). With a fourteen day notice inside that window, the decision has to be made nearer day forty-five than day sixty."
+          },
+          {
+            "p": "The exclusion list is read last instead of first. Coverage under RCW 4.105.010(2) is the moving party's to establish and the exclusions in 4.105.010(3) are the responding party's, so a motion aimed at an excluded claim fails at the next step, once the responding party establishes the exclusion. And if the court finds the motion was not substantially justified, or filed solely with intent to delay the proceeding, RCW 4.105.090(2) sends the fees the other way."
+          },
+          {
+            "p": "The response is written as though this were a motion to dismiss. The court considers any evidence it could consider under civil rule 56, RCW 4.105.050, and where the motion is brought on the responding party's proof, that party has to establish a prima facie case as to each essential element, RCW 4.105.060(1)(c)(i). A response that rests on the allegations in the complaint has not answered the motion that was filed."
+          },
+          {
+            "p": "The third speech category gets used without a matter of public concern. Communications in a governmental proceeding, and on an issue under review in one, do not require it. The free speech, press, assembly, petition and association category does. RCW 4.105.010(2)."
+          },
+          {
+            "p": "The claim gets dismissed on the assumption that the fee exposure goes with it. A voluntary dismissal without prejudice does not affect the moving party's right to obtain a ruling on the motion and to seek costs, attorneys' fees and expenses, and a dismissal with prejudice establishes, for the purpose of the fee section, that the moving party prevailed. RCW 4.105.060(2), (3)."
+          },
+          {
+            "p": "Twenty-one days runs out on a denial. RCW 4.105.080 gives the appeal as a matter of right to the moving party and sets the deadline at twenty-one days after entry of the order, which is shorter than the appeal period most litigators are working from."
+          },
+          {
+            "p": "An article from a website, this one included, gets read as a prediction about a particular case."
+          }
+        ]
+      },
+      {
         "heading": "What a lawyer does here",
         "paras": [
           {
@@ -5814,8 +5872,8 @@
         ]
       }
     ],
-    "words": 2265,
-    "minutes": 10
+    "words": 3389,
+    "minutes": 15
   },
   {
     "slug": "spite-structure-claims-washington",
@@ -5968,6 +6026,32 @@
         ]
       },
       {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The claim is built on the first two elements and nobody stress-tested the third. The test is conjunctive, and a structure that serves a really useful or reasonable purpose defeats it however ugly the motive behind it. That assessment belongs before the complaint, not after the answer."
+          },
+          {
+            "p": "The complaint describes a tree that grew into a problem. MJD turned on the affirmative act of artificially locating and planting the tree, evaluated at the time of planting. A tree that was already there and got larger is a different case, and nothing in that decision reaches it."
+          },
+          {
+            "p": "Spite is argued from what the neighbor said rather than from what he built. The question Washington borrowed in Karasek from the Connecticut case Gallagher v. Dodge asks what an ordinary beholder would make of the structure. Testimony about an argument three years ago supports that; it does not replace it, and a structure that looks unremarkable is a hard sell no matter what was said."
+          },
+          {
+            "p": "There are no photographs from before. These cases are proved with sequence, and the before condition is the part nobody documents, because at the time there was nothing to document. County assessor photographs, street level map imagery and old listing photographs are often the only record of what the line looked like, and they are worth chasing early. Treat their dates as approximate until somebody lays a foundation for them, because a street level image gets re-dated when it is refreshed and an assessor photograph often carries a reassessment date rather than the day the shutter closed."
+          },
+          {
+            "p": "The claim is pleaded by itself. Pleaded alone, the spite claim leaves the damages behind, because RCW 7.40.030 speaks only in injunctions. Nuisance carries damages and, under RCW 7.48.020, an abatement warrant to the sheriff or an injunction where the warrant would be inadequate. What the spite statute adds is the sentence saying a mandatory injunction will lie to compel abatement and removal on its own three elements."
+          },
+          {
+            "p": "The order is won and nothing happens. Willful disobedience of an injunction after notice of it gets an attachment for contempt, or an order to show cause why one should not issue. RCW 7.40.150. Somebody has to go back to court and ask for it."
+          },
+          {
+            "p": "An article from a website, this one included, gets read as a prediction about a particular case."
+          }
+        ]
+      },
+      {
         "heading": "What a lawyer does here",
         "paras": [
           {
@@ -5998,7 +6082,7 @@
         ]
       }
     ],
-    "words": 1703,
-    "minutes": 8
+    "words": 2096,
+    "minutes": 9
   }
 ]
