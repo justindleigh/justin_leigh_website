@@ -79,6 +79,14 @@ const GROUPS = [
     slugs: ["washington-parenting-plans-fathers-rights"],
   },
   {
+    // Added 2026-11-06. The business-facing AI work is its own practice area
+    // and reads as one, so it gets its own heading rather than sitting under
+    // "Technology & Practice" with the client-facing and law-firm-facing
+    // pieces. The hub goes first; the sub-articles go a level down under it.
+    label: "AI Governance & Risk",
+    slugs: ["ai-law-washington-business", "company-ai-policy-washington"],
+  },
+  {
     label: "Technology & Practice",
     slugs: ["ai-and-your-lawyer-washington", "ai-governance-for-law-firms"],
   },

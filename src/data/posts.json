@@ -6084,5 +6084,488 @@
     ],
     "words": 2096,
     "minutes": 9
+  },
+  {
+    "slug": "ai-law-washington-business",
+    "title": "Washington's New AI Laws and Your Business: What Takes Effect in 2027, and What Already Applies Today",
+    "titleTag": "Washington AI Law for Businesses | Justin D. Leigh",
+    "practiceArea": "AI Governance and Risk",
+    "published": "2026-11-06",
+    "description": "Washington enacted two AI statutes in 2026, both effective in 2027. Which businesses they actually reach, why most are not covered, and the law that already governs how your company uses AI today.",
+    "lede": "Your operations manager put a chatbot on the company website in the spring. Your HR platform added an AI screening feature to the applicant portal and nobody signed anything new for it. Someone in accounting has been pasting invoices into a free chatbot to summarize them. None of that was decided in a meeting, and none of it is unusual. Two Washington AI statutes were signed in March and take effect in 2027, and the useful question is narrower than the headlines suggest: most businesses will not be covered by either one, which leaves the law that was already on the books to govern all three of those things today.",
+    "intro": [
+      "This piece is for business owners, executives and in-house counsel rather than for lawyers advising other lawyers. I have written separately about what a law firm has to decide about its own AI use. What follows is the client-side version: what Washington actually enacted, who it reaches, and what to do about the AI already running inside your company."
+    ],
+    "sections": [
+      {
+        "heading": "What did Washington actually pass in 2026?",
+        "paras": [
+          {
+            "p": "Two bills, both signed by Governor Ferguson on March 24, 2026, and neither in effect until 2027."
+          },
+          {
+            "p": "Engrossed Substitute House Bill 2225, chapter 168 of the 2026 Laws, regulates AI companion chatbots. It adds a new chapter to Title 19 RCW and takes effect January 1, 2027."
+          },
+          {
+            "p": "Engrossed Second Substitute House Bill 1170, chapter 167 of the 2026 Laws, requires provenance data in AI-generated images, audio and video, and separately requires public agencies to disclose when a consumer is interacting with an AI system. It takes effect February 1, 2027."
+          },
+          {
+            "p": "What matters more than either title is what the two statutes are not. Neither is a general AI law. Neither tells a Washington employer how to use AI in hiring, neither tells a clinic how to use an AI scribe, and neither sets out what a company owes anyone when a model gets something wrong. They are narrow statutes aimed at two specific products. Knowing that they are narrow is the first useful thing a business owner can learn here, because a good deal of what is being sold right now as AI compliance is sized for laws that Washington did not enact."
+          }
+        ]
+      },
+      {
+        "heading": "Does the companion chatbot law apply to my business?",
+        "paras": [
+          {
+            "p": "Probably not, but the exemption is narrower than it first reads, and it is worth checking rather than assuming."
+          },
+          {
+            "p": "The statute reaches an \"operator,\" defined as any person, partnership, corporation or entity that makes available or controls access to an AI companion chatbot for users in this state. There is no revenue threshold and no user-count threshold. A small company is an operator on the same terms as a large one."
+          },
+          {
+            "p": "The work is all done by the definition of the product. An AI companion chatbot is an AI system with a natural language interface that gives adaptive, human-like responses, including by exhibiting anthropomorphic features, and that is able to sustain a relationship across multiple interactions."
+          },
+          {
+            "sub": "The business carve-out, and the sentence nobody has construed yet"
+          },
+          {
+            "p": "The definition then excludes a bot used only for a business's operational purposes, productivity and analysis related to source information, internal research, technical assistance, or customer service, if that bot \"does not sustain a relationship across multiple interactions and generate outputs that are likely to elicit emotional responses in the user.\""
+          },
+          {
+            "p": "Read that conditional closely, because it is doing a lot of work and it is ambiguous. It can be read as requiring both things before the exemption is lost, so that a bot which remembers a returning customer but says nothing emotionally resonant stays exempt. It can also be read as requiring a bot to do neither. No Washington court had construed it when this was written, and the statute does not take effect until January 1, 2027. If your customer service bot is deliberately designed to feel like a continuing relationship, which is what a good many of them are now marketed as, that sentence is the one that decides your exposure, and reading it the generous way is a choice rather than a conclusion."
+          },
+          {
+            "p": "There is a reason to think the ambiguity is real rather than invented. Two exclusions further down the same subsection use the identical pair of conditions, and the one covering a stand-alone voice assistant joins them with \"or\" rather than \"and.\" The same drafter wrote both, in the same list, about the same two things."
+          },
+          {
+            "p": "Three other exclusions sit beside the business one, for a bot confined to a video game, a stand-alone voice assistant, and a narrowly tailored educational tool used in a school setting."
+          },
+          {
+            "sub": "What an operator has to do"
+          },
+          {
+            "p": "Give a clear and conspicuous disclosure that the chatbot is artificially generated and not human, at the beginning of the interaction and then at least every three hours of continued interaction. Take reasonable measures to stop the bot from claiming to be human, including when a user asks it directly, and from generating output that contradicts the disclosure."
+          },
+          {
+            "p": "An operator also may not make a companion chatbot available or deploy it at all unless it maintains and implements a protocol for detecting and addressing suicidal ideation and expressions of self-harm, including eating disorders. The protocol has to refer users to crisis resources such as a suicide hotline or crisis text line, and take reasonable measures against output encouraging or describing how to commit self-harm. Its details have to be published on the operator's website and inside the application, together with the number of crisis referral notifications issued in the preceding calendar year. That last one is a public reporting obligation, it applies to every operator rather than only to those with minor users, and it is the duty most likely to be missed."
+          },
+          {
+            "p": "Where the operator knows the user is a minor, or the chatbot is directed to minors, the duties go further. The notice interval drops from three hours to one. Sexually explicit and suggestive content has to be prevented. And the statute lists eight manipulative engagement techniques that have to be prohibited, running from mimicking a romantic bond to simulating distress when a user says they want to end the conversation."
+          }
+        ]
+      },
+      {
+        "heading": "Does the AI content provenance law apply to my business?",
+        "paras": [
+          {
+            "p": "Almost certainly not, and there are two independent reasons rather than one."
+          },
+          {
+            "p": "The first is the threshold. HB 1170 reaches a \"covered provider,\" which the statute defines as a person or entity that creates, codes, or otherwise produces a generative AI system that has over 1,000,000 monthly users and is publicly accessible within this state to consumers for personal use. That is written for the model developers, not for the companies that buy their products. The definition also excludes state, local and tribal governments outright."
+          },
+          {
+            "p": "The one place to look twice is the phrase \"creates, codes, or otherwise produces.\" Nobody has construed \"otherwise produces,\" and a company that fine-tunes or white-labels somebody else's model sits closer to that phrase than a company that simply buys a subscription."
+          },
+          {
+            "p": "The second reason does not depend on size at all. The act says nothing in the chapter may be construed to apply to business-to-business uses, sales, licensing or distribution of generative AI systems. A company selling an AI product to other companies stays outside the chapter however large it gets. The act separately excludes products providing exclusively video game or interactive experiences."
+          },
+          {
+            "sub": "What the act does not cover at all"
+          },
+          {
+            "p": "Two limits on subject matter matter as much as the threshold. The act defines generative artificial intelligence as technology used to generate images, audio or video, and the provenance duty runs to video, image and audio content. AI-written text is outside this chapter altogether. The chatbot on your website and the model summarizing your invoices are not what this statute is about."
+          },
+          {
+            "sub": "Public agencies are in a different section, and a different title"
+          },
+          {
+            "p": "A city, a county or a public agency should not stop at the covered-provider analysis, because that definition never reached it. A separate section of the same act, placed in a new chapter of Title 42 RCW rather than the Title 19 chapter that holds the rest, imposes an unrelated duty. A government agency that makes available an AI system intended to interact with consumers has to tell each consumer, before or at the time of the interaction, that they are dealing with an AI system. The disclosure has to be clear, conspicuously posted, in plain language, and free of dark patterns, and subsection (3) requires it whether or not a reasonable consumer would have worked it out anyway."
+          }
+        ]
+      },
+      {
+        "heading": "Why the difference in how the two laws are enforced is the part to notice",
+        "paras": [
+          {
+            "p": "This is the detail that most summaries skip, and for a Washington business it is the one with teeth."
+          },
+          {
+            "p": "HB 1170 says expressly that only the attorney general can bring an action under the Consumer Protection Act pursuant to its enforcement section, and it gives the attorney general authority to sue in the name of the state or as parens patriae. The act creates no private right of action, so a private plaintiff has no route in under this chapter."
+          },
+          {
+            "p": "HB 2225 contains no such limit. It declares that the practices it covers vitally affect the public interest and that a violation is an unfair or deceptive act in trade or commerce and an unfair method of competition for purposes of chapter 19.86 RCW, and then stops. Chapter 19.86 is the Consumer Protection Act. RCW 19.86.090 gives a person injured in business or property by a violation of RCW 19.86.020, 19.86.030, 19.86.040, 19.86.050 or 19.86.060 a civil action in superior court to enjoin further violations, to recover actual damages, or both, together with the costs of suit including a reasonable attorney's fee. The court may in its discretion increase the award up to three times actual damages, and for a violation of RCW 19.86.020 that increased award may not exceed twenty-five thousand dollars."
+          },
+          {
+            "p": "So one statute is enforced by the attorney general alone and the other appears to leave a private action open. I say appears because the declaration supplies some of a Consumer Protection Act claim and not the whole of it. On its own words it establishes that the practices affect the public interest, that a violation is unfair or deceptive, that it occurs in trade or commerce, and that it is not reasonable in relation to the development and preservation of business. What it does not supply is injury to the plaintiff's own business or property, or causation, and those remain the plaintiff's to prove. But the practical shape is clear enough, and the fee provision rather than the damages cap is what makes a small claim worth bringing."
+          }
+        ]
+      },
+      {
+        "heading": "What law already governs how my company uses AI?",
+        "paras": [
+          {
+            "p": "All of it. This is the point that gets lost whenever a new statute is announced."
+          },
+          {
+            "p": "The Consumer Protection Act already reaches a deceptive statement about your product whether a person or a model wrote it. Your contracts already allocate who is responsible for an error, and most of them were signed before anyone involved was thinking about AI. Negligence law does not have a software exception. The confidentiality obligations you owe under customer agreements, under sector rules, and under your own privacy policy apply to the data your staff paste into a chatbot, and they applied the day before anyone pasted anything."
+          },
+          {
+            "p": "Nothing about using a new tool suspends an existing duty. The exposure in most companies right now is not a 2027 statute. It is a 2023 contract and an undocumented habit."
+          }
+        ]
+      },
+      {
+        "heading": "AI in hiring is an employment problem before it is an AI problem",
+        "paras": [
+          {
+            "p": "Washington's Law Against Discrimination, chapter 49.60 RCW, governs employment decisions in this state, and it does not care what tool produced the decision. If a screening tool filters out applicants in a way that correlates with a protected characteristic, the employer made that decision. The vendor built the filter. The employer applied it."
+          },
+          {
+            "p": "Two practical consequences follow. The first is that you need to know what the tool actually scores, and a surprising number of employers do not, because the vendor treats it as proprietary and nobody asked before signing. The second is that you need to be able to reconstruct what happened to a particular applicant months later, which is a records question that most AI hiring deployments do not answer on their own."
+          },
+          {
+            "p": "If you hire in more than one state, the analysis widens. Other jurisdictions have begun regulating automated employment decisions directly, and the rules that reach you may turn on where the applicant sits rather than on where your office is. Neither question has a general answer, and both are worth checking against the specific states you hire in rather than assuming."
+          }
+        ]
+      },
+      {
+        "heading": "What should be in the contract with an AI vendor?",
+        "paras": [
+          {
+            "p": "The sales page is not the agreement, and the agreement is usually where the interesting silence lives. Five things are worth finding before you sign."
+          },
+          {
+            "p": "Whether your data trains the model, and whether that answer changes between the free tier, the paid tier and the enterprise tier of the same product. It commonly does."
+          },
+          {
+            "p": "Who owns the output, and what the vendor warrants about it. Many agreements assign you the output and warrant nothing about whether it infringes anything."
+          },
+          {
+            "p": "What happens when the model changes. The thing you validated in March may not be the thing answering in September, and most agreements reserve that right without notice."
+          },
+          {
+            "p": "Indemnity, and whether it is capped at the fees you paid. An indemnity capped at a monthly subscription is not risk transfer. It is a refund."
+          },
+          {
+            "p": "Whether you can audit, or at least get a straight answer in writing, when something goes wrong and a customer or a regulator is asking."
+          }
+        ]
+      },
+      {
+        "heading": "What should a business actually write down?",
+        "paras": [
+          {
+            "p": "Less than the vendors selling governance platforms will tell you, and more than nothing, which is where most companies are."
+          },
+          {
+            "p": "A usable policy fits on two pages and answers five questions. Which tools are approved. What information may never be put into one, named concretely rather than as a category. Who approves a new tool before anyone uses it. What has to be checked by a person before AI output goes to a customer, into a filing, or into a decision about an employee. And who gets told when it goes wrong."
+          },
+          {
+            "p": "The value is not in the document. It is in having made the decision once, in advance, rather than in the middle of an incident when the answer gets decided by whoever happens to be in the room."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "A free chatbot account with customer data in it, opened by a well-meaning employee, outside any agreement the company negotiated and outside any retention policy it has."
+          },
+          {
+            "p": "Buying an AI compliance program sized for a law that does not apply to you, while the actual exposure sits unread in a vendor agreement."
+          },
+          {
+            "p": "Assuming the vendor's indemnity covers you, without reading what it is capped at."
+          },
+          {
+            "p": "Treating a hiring tool as a technology purchase, so it never goes past IT and procurement and nobody with employment responsibility sees what it screens on."
+          },
+          {
+            "p": "Writing a policy, circulating it once, and never building any way to find out whether anyone follows it."
+          },
+          {
+            "p": "Waiting for 2027. Both statutes take effect then, and neither of them is what is likely to cause your first problem."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Works out which rules actually reach your company, and says so plainly."
+          },
+          {
+            "p": "Reads the agreements you already signed and tells you what they permit in the gaps, rather than what the sales page said."
+          },
+          {
+            "p": "Writes the policy to the size of the business, and builds the approval step into something people will actually do."
+          },
+          {
+            "p": "Looks at the AI already running in the company, which is almost always more than the executive team believes, and sorts it by what it touches rather than by what it costs."
+          },
+          {
+            "p": "Works through it with you when something goes wrong, when the question becomes not only what the policy said but what you can show about what you actually did."
+          }
+        ]
+      },
+      {
+        "heading": "About my practice",
+        "paras": [
+          {
+            "p": "I am an independent attorney in downtown Spokane, at 601 W. 1st Ave., Suite 1400, admitted in Washington and in Oregon. Alongside business, real estate, land use and civil litigation work, I advise companies on AI governance, technology and SaaS vendor agreements, and the policies and contracts that decide who carries the risk when an AI system gets something wrong. I serve as in-house counsel to a venture-backed AI and IoT manufacturing company, I build and run AI systems inside my own practice, and I have presented on AI governance at a Washington State Bar Association continuing legal education program. I represent clients throughout Washington."
+          }
+        ]
+      },
+      {
+        "heading": "If you want to talk",
+        "paras": [
+          {
+            "p": "The first conversation is short and mostly diagnostic: what your company is already using, what is written down, what your customers and insurers are starting to ask, and what you are being sold. That is usually enough to say whether what you need is a policy, a contract read, an inventory, or a decision."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, written in November 2026, not legal advice, and reading it does not create an attorney-client relationship. Chapter 168 takes effect January 1, 2027 and chapter 167 takes effect February 1, 2027. As of the date above neither had been construed by any court, and that may no longer be true when you read this. Laws change, and how they apply depends on the facts. Confirm the current law and get advice on your own situation before relying on any of this."
+          }
+        ]
+      }
+    ],
+    "words": 2940,
+    "minutes": 13,
+    "file": "36-ai-law-washington-business.docx",
+    "related": [
+      "ai-governance-for-law-firms",
+      "ai-and-your-lawyer-washington",
+      "employment-discrimination-washington-wlad"
+    ]
+  },
+  {
+    "slug": "company-ai-policy-washington",
+    "title": "Writing an AI Policy for Your Company: What It Needs to Say, and Why the Long Ones Get Ignored",
+    "titleTag": "Company AI Policy in Washington | Justin D. Leigh",
+    "practiceArea": "AI Governance and Risk",
+    "published": "2026-11-06",
+    "description": "What a working AI policy for a Washington business actually contains, who has to approve a new tool, which data rules matter, and why much of the real exposure sits in contracts you signed before anyone thought about AI.",
+    "lede": "Someone at your company is already using AI. Probably several people, probably on accounts you do not know about, probably with customer information pasted into them. That is not a discipline problem and it is usually not a security breach. It is what happens when a useful tool is free and nobody has said anything one way or the other. The question a policy answers is not whether to allow it, but who gets to decide, and what you can show about that decision later when a customer, an insurer, or opposing counsel asks you.",
+    "intro": [
+      "This is written for Washington business owners and the people who run their operations, not for lawyers. It is about the document itself: what goes in it, what stays out, who it binds, and why the long ones fail. I have written separately about which Washington AI laws actually reach an ordinary business, and the short answer there is that most of them do not reach you yet. That is exactly why this piece is not about statutes. The exposure that is live today comes from the agreements you have already signed and the obligations you already owe, not from anything that takes effect in 2027."
+    ],
+    "sections": [
+      {
+        "heading": "Do we actually need a written AI policy?",
+        "paras": [
+          {
+            "p": "Not every company needs a document, though a regulator or a customer contract may require one. If you have four employees and you make every decision yourself, you may not need a policy so much as a habit. But every company needs an answer to three questions, and the document is simply the cheapest way to hold the answer in a form you can hand to somebody."
+          },
+          {
+            "p": "The three questions are: which tools are people allowed to use, what information is allowed to go into them, and who decides when someone wants to use something new. A company that can answer those three in a conversation is in better shape than one with a fourteen-page policy nobody has read."
+          },
+          {
+            "p": "What has changed in the last year is who asks. Customer security questionnaires increasingly include AI questions. Some carriers have started asking at renewal. Larger customers are adding AI terms to contracts they send you, and some of those terms require you to represent that you have a policy. The document is increasingly a commercial prerequisite rather than an internal nicety, and that is often the reason a company finally writes one."
+          }
+        ]
+      },
+      {
+        "heading": "What does an AI policy actually need to say?",
+        "paras": [
+          {
+            "p": "A working policy is short and answers a handful of practical questions in language an ordinary employee can act on. It names what it covers. It lists the tools that are approved right now. It says what categories of information may and may not go into them. It names the route for getting something new approved, and the person at the end of that route. It says that a person remains accountable for anything the company sends out or relies on, regardless of what produced the draft. And it says what happens if someone ignores it."
+          },
+          {
+            "p": "The test is not whether the policy is thorough. The test is whether a new employee can read it in five minutes and know what to do on Monday morning when they want to summarize a customer call. If it does not answer that, it is a compliance artifact rather than a policy."
+          },
+          {
+            "sub": "What should stay out"
+          },
+          {
+            "p": "Resist the urge to put technical detail or vendor-specific instructions in the policy itself. Those change every few months, and every change forces a re-adoption and a re-acknowledgment. Keep the policy to the stable part and push the volatile part into a separate list."
+          }
+        ]
+      },
+      {
+        "heading": "Which tools is this policy even about?",
+        "paras": [
+          {
+            "p": "This sounds like a definitional footnote and it is actually the part that decides whether the policy works. If you define AI as any system that uses machine learning, your policy now covers the spam filter, the spellchecker, the fraud screening on your card terminal, and the recommendation engine in your shopping cart. Nobody can comply with that, so nobody tries."
+          },
+          {
+            "p": "A more usable line is narrower. The policy covers tools where an employee sends company information out to a system that generates a response, and tools that produce content or recommendations the company then relies on. That captures the general-purpose chatbots, the writing assistants, the meeting transcribers, the code assistants, and the industry-specific products built on top of them. It leaves out the plumbing nobody is making judgment calls about."
+          },
+          {
+            "sub": "The features inside software you already bought"
+          },
+          {
+            "p": "This is where most companies are wrong about their own footprint. You did not buy an AI tool, so you believe you do not have one. Meanwhile your CRM added a summarizer, your help desk added suggested replies, your video conferencing added an automatic notetaker, and your accounting package added anomaly detection. None of those went through a purchasing decision, because they arrived as updates to software you were already paying for."
+          },
+          {
+            "p": "Those features are frequently processing exactly the information you would have been most careful about if someone had asked you first. A policy that only addresses tools people go out and sign up for will miss them entirely. Say explicitly that the policy covers AI features turned on inside existing systems, and that enabling one is a decision, not a settings change."
+          }
+        ]
+      },
+      {
+        "heading": "Who decides whether a new tool gets used?",
+        "paras": [
+          {
+            "p": "Name a person. Not a committee, and not a department. A committee meets monthly, and an employee who needs an answer on Tuesday will not wait three weeks for one. They will use their personal account instead, and now the tool is in your business with none of the terms you would have negotiated and no record that it is there."
+          },
+          {
+            "p": "Speed is a governance control, not a convenience. If your approval route cannot produce an answer in a few days, the route will be bypassed, and the policy will be a document describing a company you do not have. Build the thing people will actually use."
+          },
+          {
+            "sub": "The three questions the approver asks"
+          },
+          {
+            "p": "What information goes into it. What does the vendor do with that information, specifically whether it is used to train models, how long it is retained, and who else can see it. And what is the consequence if the output is wrong, which is a different question for a tool drafting marketing copy than for one screening job applicants or flagging transactions."
+          },
+          {
+            "p": "Write the answer down. One short paragraph per tool, dated, saying what it is for, what may go into it, and who approved it. After a year you have an inventory that was built as a byproduct of working rather than as a project. That inventory is what you will reach for first when a customer, a regulator, or a plaintiff asks what you are running."
+          }
+        ]
+      },
+      {
+        "heading": "What should the policy say about company and customer data?",
+        "paras": [
+          {
+            "p": "Sort information into a small number of buckets and attach a rule to each. Most businesses need three or four. Information you have already published can generally go anywhere, unless a contract says otherwise. Internal operating information can go into approved tools. Customer information, personnel records, anything covered by a confidentiality obligation, and anything regulated should go only into tools that have been approved in writing for that specific purpose, and in many businesses should not leave the company at all."
+          },
+          {
+            "p": "Keep the categories concrete and name real examples from your own business. A policy that says employees must protect sensitive information has told them nothing. A policy that says customer lists, pricing, anything from a personnel file, and anything a client sent you under an NDA do not go into a general chatbot has told them what to do."
+          },
+          {
+            "sub": "The part that is genuinely urgent"
+          },
+          {
+            "p": "Here is the exposure most businesses have not considered, and it has nothing to do with AI law. You have probably promised somebody that their information stays in particular hands. It might be a confidentiality clause in a customer contract, a data processing agreement that controls which subprocessors may touch the data, a nondisclosure agreement from a deal, a government contract, or a professional obligation if you are in a licensed field."
+          },
+          {
+            "p": "Most of those promises were written before anyone was thinking about AI, and many of them are worded broadly enough to cover sending that information to an AI vendor. An employee pasting a customer file into a chatbot may be breaching a contract you signed three years ago. That is a live, present-day risk with a real counterparty who can enforce it, and it is usually closer to hand than a statute that has not taken effect yet. It is worth having someone read your top handful of customer agreements with this specific question in mind."
+          }
+        ]
+      },
+      {
+        "heading": "Does anyone have to check what the tool produces?",
+        "paras": [
+          {
+            "p": "Yes, and the policy should say who. The useful formulation is that the person who sends it, signs it, or acts on it owns it. What produced the draft does not change who is answerable for it. That single sentence does more work than a page about responsible use."
+          },
+          {
+            "p": "Then name the categories that require a check before anything moves. Anything that goes to a customer. Anything with a number in it that someone will rely on. Anything concerning an employee or an applicant. Anything that becomes a business record or goes into a filing. Anything that states a commitment, a price, or a date."
+          },
+          {
+            "p": "Verification has to be built into how the work moves, not stated as a value. An instruction to review AI output carefully tends to fade within weeks. A step the work cannot get past without someone signing off tends to hold. If the check only exists in the policy and not in the workflow, assume it is not happening."
+          }
+        ]
+      },
+      {
+        "heading": "Why do long AI policies get ignored?",
+        "paras": [
+          {
+            "p": "Because they are written to survive a review rather than to be used. A fourteen-page policy gets acknowledged once during onboarding, filed, and never opened again. It makes the company feel covered while changing nobody's behavior, which is the worst of both outcomes: you have the obligations the document created and none of the protection it was supposed to provide."
+          },
+          {
+            "p": "Split the document in two. The policy proper is two pages and holds the parts that do not change: scope, the data rules, the approval route, human accountability, consequences. The approved tools list is a separate page, dated, owned by the person who does approvals, and updated whenever something is added or dropped. Changing the list does not require re-adopting the policy, which means the list stays current, which means people trust it enough to check it."
+          },
+          {
+            "p": "Then set a date to revisit it. Not a vague commitment to review periodically. An actual date on an actual calendar, with a name next to it. Six months is about right in current conditions."
+          }
+        ]
+      },
+      {
+        "heading": "What if people are already doing it?",
+        "paras": [
+          {
+            "p": "They are. By the time a company gets around to writing a policy, the thing the policy was meant to prevent has usually already happened somewhere in the building, and often for a year. Writing the document as though you are starting from zero produces a policy aimed at a company that does not exist."
+          },
+          {
+            "p": "The more productive opening move is to ask, once, with no consequence attached. Tell people you are putting a policy together, that you want to know what is actually being used, and that nobody is in trouble for answering. You will learn more in a week than a technical audit turns up in a month, because most of this is running on personal accounts and browser tabs that no audit of company systems will ever see."
+          },
+          {
+            "p": "You will also usually find that some of it is genuinely good. People have solved real problems with these tools. A policy that starts from what is working and puts boundaries around it will be followed. A policy that arrives as a crackdown on something people have been quietly doing for a year will push it further out of view, which leaves you with the same exposure and less visibility than you had before."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "A policy copied from a template written for a company ten times your size, imposing approval steps you have no one to staff."
+          },
+          {
+            "p": "Defining AI so broadly that the policy covers the spam filter, which teaches everyone that the policy is not meant literally."
+          },
+          {
+            "p": "Addressing only the tools employees sign up for, while the AI features switched on inside your existing software process customer records untouched by any of it."
+          },
+          {
+            "p": "An approval route with no named person at the end of it, or one slow enough that going around it is the reasonable choice."
+          },
+          {
+            "p": "Confidential customer information in a general chatbot, in breach of a contract signed years before anyone had this conversation."
+          },
+          {
+            "p": "A policy adopted, acknowledged, filed, and never checked against what people are actually doing."
+          },
+          {
+            "p": "Treating the 2027 Washington statutes as the deadline. Many businesses fall outside them, while the obligations that can already be enforced against you are in force now: the ones in your contracts, and the consumer protection, privacy and employment rules that do not mention AI at all."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "Reads the agreements you have already signed and tells you what they permit, which is the question that decides most of this and the one a policy template cannot answer."
+          },
+          {
+            "p": "Writes the policy to the size of the business, in language your employees can follow, rather than to the size of the risk somebody is selling you."
+          },
+          {
+            "p": "Sets up the approval step so that it produces a decision quickly and leaves a record, because the record is what you will need later."
+          },
+          {
+            "p": "Works out what you can truthfully say when a customer questionnaire or an insurer asks whether you have a policy, which is a question with legal consequences for the answer."
+          },
+          {
+            "p": "Works through it with you when something goes wrong, when the question becomes not only what the policy said but what you can show about what you actually did."
+          }
+        ]
+      },
+      {
+        "heading": "About my practice",
+        "paras": [
+          {
+            "p": "I am an independent attorney in downtown Spokane, at 601 W. 1st Ave., Suite 1400, admitted in Washington and in Oregon. Alongside business, real estate, land use and civil litigation work, I advise companies on AI governance, technology and SaaS vendor agreements, and the policies and contracts that decide who carries the risk when an AI system gets something wrong. I build and run AI systems inside my own practice. I represent clients throughout Washington."
+          }
+        ]
+      },
+      {
+        "heading": "If you want to talk",
+        "paras": [
+          {
+            "p": "The first conversation is short and mostly diagnostic: what your company is already using, what is written down, what your customers and insurers have started asking, and what you are being sold. That is usually enough to say whether what you need is a policy, a contract read, an inventory, or a decision."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, written in November 2026. It is not legal advice, and reading it does not create an attorney-client relationship. Whether any of it applies to your company depends on your contracts, your industry, and facts this article does not know. Laws and obligations change. Get advice on your own situation before relying on any of this."
+          }
+        ]
+      }
+    ],
+    "words": 2546,
+    "minutes": 11,
+    "file": "37-company-ai-policy-washington.docx",
+    "related": [
+      "ai-law-washington-business",
+      "ai-governance-for-law-firms",
+      "washington-llc-formation-operating-agreements"
+    ]
   }
 ]
