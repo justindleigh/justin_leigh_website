@@ -14,21 +14,25 @@ const cases = [
   },
   {
     title: "Motorcycle Accidents",
+    href: "/blog/motorcycle-accident-washington",
     desc: "Riders are hurt badly when a driver fails to see them, and insurers often try to put the blame on the rider.",
     icon: icon("M5 18a3 3 0 100-6 3 3 0 000 6zM19 18a3 3 0 100-6 3 3 0 000 6zM5 15l4-7h5l3 7M9 8h-2"),
   },
   {
     title: "Bicycle Accidents",
+    href: "/blog/bicycle-accident-washington",
     desc: "Cyclists struck by cars, doored by parked vehicles or forced off the road by a careless driver.",
     icon: icon("M5 18a3 3 0 100-6 3 3 0 000 6zM19 18a3 3 0 100-6 3 3 0 000 6zM5 15l4-7h5l3 7M9 8h-2"),
   },
   {
     title: "Pedestrian Accidents",
+    href: "/blog/pedestrian-accident-washington",
     desc: "People on foot hit in crosswalks, parking lots and driveways by a driver who was not paying attention.",
     icon: icon("M12 7a3 3 0 100-6 3 3 0 000 6zM9 22l1-8-3-2 2-4h6l2 4-3 2 1 8"),
   },
   {
     title: "Injuries From DUI Crashes",
+    href: "/blog/drunk-driver-injury-washington",
     desc: "Crashes caused by a driver who was impaired by alcohol or drugs.",
     icon: icon("M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0zM12 9v4M12 17h.01"),
   },
@@ -39,11 +43,13 @@ const cases = [
   },
   {
     title: "Dog Bites",
+    href: "/blog/dog-bite-attack-washington",
     desc: "Injuries from a dog attack, whether on a sidewalk, in a park or on someone else's property.",
     icon: icon("M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"),
   },
   {
     title: "Slip and Fall",
+    href: "/blog/slip-and-fall-washington",
     desc: "Falls caused by hazards a property owner should have fixed or warned about, in stores, rentals and public places.",
     icon: icon("M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0zM12 9v4M12 17h.01"),
   },
@@ -79,6 +85,7 @@ const cases = [
   },
   {
     title: "Wrongful Death",
+    href: "/blog/wrongful-death-washington",
     desc: "Claims brought by a family after someone they love was killed through another person's negligence.",
     icon: icon("M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"),
   },
@@ -161,12 +168,22 @@ export default function PersonalInjuryPage() {
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-white mb-3">{s.title}</h3>
                 <p className="text-sm leading-relaxed text-white/50 group-hover:text-white/70 transition-colors">{s.desc}</p>
+                {s.href && (
+                  <Link to={s.href} className="inline-block mt-4 text-[12px] font-semibold tracking-wide text-gold hover:text-gold-light transition-colors">
+                    Read the article
+                  </Link>
+                )}
               </div>
             ))}
           </div>
           <p className="text-center text-white/50 text-sm max-w-2xl mx-auto mt-10 leading-relaxed">
             If you were hurt some other way because of someone else's carelessness, call anyway.
             Many injury claims do not fit neatly into a category.
+          </p>
+          <p className="text-center text-sm mt-4">
+            <Link to="/blog/personal-injury-claims-washington" className="text-gold hover:text-gold-light transition-colors">
+              How a personal injury claim works in Washington
+            </Link>
           </p>
         </div>
 
