@@ -9,6 +9,7 @@ const icon = (d) => (
 const cases = [
   {
     title: "Auto Accidents",
+    href: "/blog/car-accident-washington",
     desc: "Car and truck crashes on city streets and highways, including collisions with commercial vehicles.",
     icon: icon("M5 17h14M6 17l1.5-5h9L18 17M7 17v2M17 17v2M8 14h.01M16 14h.01"),
   },
@@ -38,6 +39,7 @@ const cases = [
   },
   {
     title: "Motorist Insurance Claims",
+    href: "/blog/underinsured-motorist-pip-claims-washington",
     desc: "Claims against the other driver's insurer, and claims under your own policy when the other driver had no insurance or not enough.",
     icon: icon("M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8zM14 2v6h6M16 13H8M16 17H8"),
   },
@@ -55,31 +57,37 @@ const cases = [
   },
   {
     title: "Assault and Battery",
+    href: "/blog/assault-battery-civil-lawsuit-washington",
     desc: "Civil claims for injuries caused by someone who attacked you, separate from any criminal case.",
     icon: icon("M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"),
   },
   {
     title: "Medical Malpractice",
+    href: "/blog/medical-malpractice-washington",
     desc: "Injuries caused when a doctor, hospital or other provider fell below the standard of care.",
     icon: icon("M22 12h-4l-3 9L9 3l-3 9H2"),
   },
   {
     title: "Product Liability",
+    href: "/blog/product-liability-washington",
     desc: "Injuries caused by a defective product, a dangerous design or missing warnings.",
     icon: icon("M21 16V8l-9-5-9 5v8l9 5 9-5zM3 8l9 5 9-5M12 13v8"),
   },
   {
     title: "Workers' Compensation",
+    href: "/blog/workers-compensation-third-party-claim-washington",
     desc: "Injuries on the job, including help with the claim and with disputes over benefits.",
     icon: icon("M2 18h20M4 18v-3a8 8 0 0116 0v3M12 7v4"),
   },
   {
     title: "Catastrophic Injuries",
+    href: "/blog/catastrophic-injury-washington",
     desc: "Injuries that change how someone lives and works, where the claim has to account for care and lost income for years to come.",
     icon: icon("M22 12h-4l-3 9L9 3l-3 9H2"),
   },
   {
     title: "Pain and Suffering",
+    href: "/blog/pain-and-suffering-damages-washington",
     desc: "Compensation for the pain, limits and loss of enjoyment an injury causes, on top of medical bills and lost wages.",
     icon: icon("M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"),
   },

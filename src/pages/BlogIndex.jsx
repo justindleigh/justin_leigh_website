@@ -23,6 +23,15 @@ const GROUPS = [
       "slip-and-fall-washington",
       "wrongful-death-washington",
       "dog-bite-attack-washington",
+      // Added 2026-11-11: the eight PI page cards that had no article.
+      "car-accident-washington",
+      "underinsured-motorist-pip-claims-washington",
+      "pain-and-suffering-damages-washington",
+      "catastrophic-injury-washington",
+      "medical-malpractice-washington",
+      "product-liability-washington",
+      "workers-compensation-third-party-claim-washington",
+      "assault-battery-civil-lawsuit-washington",
     ],
   },
   {
