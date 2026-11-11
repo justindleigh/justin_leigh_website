@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import useInView from "../hooks/useInView";
+import posts from "../data/posts.json";
 
 const highlights = [
   "Admitted in Washington and Oregon",
@@ -52,9 +54,6 @@ export default function About() {
                 className="w-full h-auto object-contain grayscale-[20%] relative z-[1]"
               />
               <div className="absolute top-4 left-4 right-0 bottom-0 border border-gold/20" />
-              <div className="absolute bottom-0 right-0 bg-black border border-gold/30 px-6 py-5 z-10">
-                <div className="font-serif text-2xl sm:text-3xl font-bold text-gold leading-none uppercase">Spokane, WA</div>
-              </div>
             </div>
           </div>
 
@@ -77,12 +76,30 @@ export default function About() {
               <p className="text-white/80 text-[15px] leading-relaxed">
                 Justin D. Leigh practices in downtown Spokane and is admitted in both
                 Washington and Oregon. He runs the firm alone, so the person who takes
-                your call is the person who handles your matter.
+                your call is the person who handles your matter, from the first meeting
+                to the closing or the verdict. You work directly with Justin, not a
+                paralegal or an associate.
               </p>
               <p className="text-white/80 text-[15px] leading-relaxed">
-                He handles real estate, business law, estate planning, personal injury,
-                and criminal defense. When you hire Justin, you work directly with
-                Justin, not a paralegal or an associate.
+                In court, he represents people hurt through someone else's carelessness:
+                car and motorcycle crashes, dog attacks, falls, medical errors and
+                wrongful death. He brings civil rights claims and claims against cities,
+                counties and the State, defends people sued for speaking out under
+                Washington's anti-SLAPP law, and collects judgments once they are won.
+                He also takes employment cases on the employee's side, landlord-tenant
+                disputes, family law and select criminal defense.
+              </p>
+              <p className="text-white/80 text-[15px] leading-relaxed">
+                Outside the courtroom, he handles purchases and sales of property, title
+                problems, easements and boundary disputes, seller-financed deals, short
+                plats and land use permits. He forms LLCs and writes their operating
+                agreements. For families, he writes wills and trusts, administers
+                probates and litigates estate disputes under TEDRA.
+              </p>
+              <p className="text-white/80 text-[15px] leading-relaxed">
+                He appears regularly in courts across Eastern and Central Washington,
+                including Spokane, Yakima, Benton, Franklin, Kittitas and Klickitat
+                counties, and in federal court.
               </p>
               <p className="text-white/80 text-[15px] leading-relaxed">
                 Justin also builds and runs the AI systems inside his own practice.
@@ -95,8 +112,16 @@ export default function About() {
               </p>
               <p className="text-white/80 text-[15px] leading-relaxed">
                 Justin is also a former brewery and winery owner. Alcohol beverage
-                licensing is a substantial part of the practice, and he has held those
-                licenses himself rather than only read about them.
+                licensing is a substantial part of the practice, from a first license
+                application to an LCB enforcement action or a federal TTB permit, and he
+                has held those licenses himself rather than only read about them.
+              </p>
+              <p className="text-white/80 text-[15px] leading-relaxed">
+                He has written{" "}
+                <Link to="/blog" className="text-gold hover:text-gold-light transition-colors">
+                  {posts.length} plain-English articles on Washington law
+                </Link>
+                , covering everything from dog bite liability to spite fences.
               </p>
             </div>
 
