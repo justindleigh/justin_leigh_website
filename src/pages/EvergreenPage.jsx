@@ -387,12 +387,39 @@ export default function EvergreenPage() {
                 and regulatory work, and the litigation that comes out of all three.
               </p>
               <p>
-                The research, drafting and review systems I use every day are ones I built. The
-                verification and supervision controls run automatically rather than depending on
-                anyone to remember them, which is the part most firms get wrong. I work from
-                WSBA Advisory Opinion 202505 and ABA Formal Opinion 512, not from a
-                vendor&rsquo;s brochure.
+                Day to day, that means property purchases and sales, title problems, easements,
+                boundary disputes, short plats and land use permits. For families I write wills
+                and trusts, administer probates and litigate estate disputes under TEDRA. For
+                businesses I form LLCs and handle alcohol beverage licensing, from a first
+                license application to an LCB enforcement action, drawing on my own experience
+                owning a brewery and a winery. In court I represent people in personal injury,
+                civil rights and government claims, and defend people sued for speaking out
+                under Washington&rsquo;s anti-SLAPP law, in courts across Eastern and Central
+                Washington and in federal court.
               </p>
+              <p>
+                I also build the software my firm runs on. I design it myself and develop it
+                with AI coding agents. It checks every citation in a filing against its source,
+                tracks the deadlines on every open matter, and takes a client from first inquiry
+                to signed engagement without anyone retyping a thing.
+              </p>
+              <p>
+                In 2026 I presented <em>AI Governance for Washington Lawyers</em>, a WSBA
+                continuing legal education program on using AI within the Rules of Professional
+                Conduct. My approach follows the leading ethics authorities on lawyers&rsquo; use
+                of AI, not a vendor&rsquo;s brochure.
+              </p>
+              <ul style={{ margin: "24px 0", paddingLeft: 0, listStyle: "none", display: "grid", gap: 10 }}>
+                {[
+                  "Presenter, WSBA CLE: AI Governance for Washington Lawyers (2026)",
+                  "Admitted in Washington and Oregon, and in federal court",
+                ].map((c) => (
+                  <li key={c} style={{ display: "flex", gap: 12, alignItems: "baseline" }}>
+                    <span style={{ width: 6, height: 6, background: "#005C5C", flexShrink: 0, transform: "translateY(-2px)" }} />
+                    <span>{c}</span>
+                  </li>
+                ))}
+              </ul>
               <p>
                 <a href="/">Visit the Law Office of Justin D. Leigh &rarr;</a>
               </p>
