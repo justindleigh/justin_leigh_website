@@ -27,6 +27,7 @@ const credentials = [
       "Spokane County Bar Association",
       "Washington State Association for Justice, EAGLE member",
       "Inland Empire Legal Aid",
+      "Washington Brewers Guild, Allied Member",
     ],
   },
 ];
