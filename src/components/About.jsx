@@ -7,6 +7,30 @@ const highlights = [
   "Former brewery and winery owner",
 ];
 
+const credentials = [
+  {
+    label: "Bar Admissions",
+    items: [
+      "Washington",
+      "Oregon",
+      "U.S. District Court, Eastern District of Washington",
+      "U.S. District Court, Western District of Washington",
+      "U.S. Court of Appeals for the Ninth Circuit",
+      "Supreme Court of the United States",
+    ],
+  },
+  {
+    label: "Professional Memberships",
+    items: [
+      "Washington State Bar Association",
+      "Oregon State Bar",
+      "Spokane County Bar Association",
+      "Washington State Association for Justice, EAGLE member",
+      "Inland Empire Legal Aid",
+    ],
+  },
+];
+
 export default function About() {
   const [ref, inView] = useInView();
 
@@ -94,6 +118,29 @@ export default function About() {
               ))}
             </div>
           </div>
+        </div>
+
+        <div
+          className={`mt-20 border-t border-gold/20 pt-14 grid md:grid-cols-2 gap-12 md:gap-16 transition-all duration-[900ms] ease-out ${
+            inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+          }`}
+          style={{ transitionDelay: inView ? "0.6s" : "0s" }}
+        >
+          {credentials.map((group) => (
+            <div key={group.label}>
+              <span className="text-[11px] font-semibold tracking-[4px] uppercase text-gold mb-6 block">
+                {group.label}
+              </span>
+              <ul className="space-y-3">
+                {group.items.map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-[15px] text-white/80 leading-snug">
+                    <span className="mt-[9px] w-1.5 h-1.5 bg-gold/70 flex-shrink-0" />
+                    <span style={{ textWrap: "pretty" }}>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </section>
