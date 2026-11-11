@@ -29,6 +29,7 @@ const PORT = 4399;
 
 const STATIC_ROUTES = [
   "/", "/contact", "/book", "/evergreen-legal-ai", "/alcohol-beverage-law",
+  "/personal-injury",
   "/blog", "/privacy", "/terms", "/accessibility",
 ];
 

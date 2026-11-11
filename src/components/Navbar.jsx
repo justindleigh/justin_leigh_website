@@ -6,6 +6,7 @@ const navLinks = [
   { label: "Practice Areas", href: "/#practice", section: "practice" },
   { label: "About", href: "/#about", section: "about" },
   { label: "Why Justin", href: "/#why", section: "why" },
+  { label: "Personal Injury", href: "/personal-injury" },
   { label: "Beverage Law", href: "/alcohol-beverage-law" },
   { label: "Articles", href: "/blog" },
   { label: "Contact", href: "/contact" },

@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import ContactPage from "./pages/ContactPage";
 import BookPage from "./pages/BookPage";
 import AlcoholBeveragePage from "./pages/AlcoholBeveragePage";
+import PersonalInjuryPage from "./pages/PersonalInjuryPage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
 import Accessibility from "./pages/Accessibility";
@@ -61,6 +62,7 @@ export default function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/book" element={<BookPage />} />
           <Route path="/alcohol-beverage-law" element={<AlcoholBeveragePage />} />
+          <Route path="/personal-injury" element={<PersonalInjuryPage />} />
           <Route path="/blog" element={<BlogIndex />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />

@@ -25,6 +25,11 @@ const META = {
     description:
       "Evergreen Legal AI helps lawyers and law firms adopt AI responsibly: integration, tool strategy, training, compliance, auditing, and risk. Offered by Justin D Leigh PLLC.",
   },
+  "/personal-injury": {
+    title: "Personal Injury Lawyer in Spokane, WA | Justin D. Leigh",
+    description:
+      "Spokane personal injury attorney serving Eastern and Central Washington: car, truck, motorcycle, bicycle and pedestrian crashes, dog bites, falls and wrongful death. Free consultation.",
+  },
   "/alcohol-beverage-law": {
     title: "Alcohol Beverage Law | Washington Liquor Licensing | Justin D. Leigh",
     description:

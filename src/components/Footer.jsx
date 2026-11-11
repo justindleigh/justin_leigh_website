@@ -30,6 +30,7 @@ export default function Footer() {
               <span className="text-[10px] font-semibold tracking-[2px] uppercase text-white/20 mb-1">Navigate</span>
               <a href="/#about" className="text-xs text-white/30 hover:text-gold/70 transition-colors">About</a>
               <Link to="/contact" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Contact</Link>
+              <Link to="/personal-injury" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Personal Injury</Link>
               <Link to="/alcohol-beverage-law" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Beverage Law</Link>
               <Link to="/blog" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Articles</Link>
               <Link to="/evergreen-legal-ai" className="text-xs text-white/30 hover:text-gold/70 transition-colors">Evergreen Legal AI</Link>
