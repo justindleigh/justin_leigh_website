@@ -53,13 +53,23 @@ export default function IntakePage() {
         consentText: row.out_consent_text || "",
         expiresAt: row.out_expires_at,
       });
+      // Answers are kept on her own device as she types, so closing the tab,
+      // a phone switching apps, or a reload does not wipe out her work.
+      try {
+        const saved = JSON.parse(localStorage.getItem("intake:" + token) || "null");
+        if (saved && typeof saved === "object") setAnswers(saved);
+      } catch { /* storage blocked: the form still works, it just cannot restore */ }
       setState("ready");
     })();
     return () => { dead = true; };
   }, [token]);
 
   function set(key, value) {
-    setAnswers((prev) => ({ ...prev, [key]: value }));
+    setAnswers((prev) => {
+      const next = { ...prev, [key]: value };
+      try { localStorage.setItem("intake:" + token, JSON.stringify(next)); } catch { /* ignore */ }
+      return next;
+    });
   }
 
   const missing = (form?.questions || [])
@@ -93,6 +103,7 @@ export default function IntakePage() {
     setBusy(false);
     if (error) { setProblem("That did not send. Please try once more, or call (509) 426-4415."); return; }
     if (data === false) { setState("gone"); return; }
+    try { localStorage.removeItem("intake:" + token); } catch { /* ignore */ }
     setState("done");
   }
 
