@@ -29,6 +29,43 @@ const DISPLAY = "'Cormorant Garamond', Georgia, serif";
 const BODY = "Manrope, Helvetica, Arial, sans-serif";
 const SCRIPT = "'Dancing Script', cursive";
 const OFFICE_PHONE = "(509) 426-4415";
+const FIRM = "Law Office of Justin D. Leigh";
+
+/**
+ * Who sent this. Justin, 2026-11-17: Signet may say "Powered by Evergreen
+ * Legal AI", but the page must assure the signer it is being sent by him and
+ * not by something else. A signing link is exactly what a phishing email
+ * imitates, so the panel names the attorney and the office and tells the
+ * reader the two checks that actually prove it: the address bar, and a call
+ * to a number they can look up independently.
+ */
+function SenderCard() {
+  return (
+    <section aria-label="Who sent this document"
+             style={{ background: "#fff", border: `1px solid ${SILVER}`,
+                      borderLeft: `4px solid ${NAVY}`, padding: "14px 16px",
+                      margin: "0 0 20px", fontSize: 13.5, lineHeight: 1.5 }}>
+      <div style={{ fontSize: 10.5, letterSpacing: "0.24em", textTransform: "uppercase",
+                    color: TEAL, fontWeight: 700, marginBottom: 4 }}>From</div>
+      <div style={{ fontFamily: DISPLAY, fontWeight: 600, color: NAVY, fontSize: 21,
+                    lineHeight: 1.2 }}>{FIRM}</div>
+      <div style={{ color: "#33414d" }}>
+        Justin D. Leigh, PLLC d/b/a {FIRM}
+      </div>
+      <div style={{ color: "#33414d" }}>
+        Justin D. Leigh, Attorney at Law · WSBA No. 55307
+      </div>
+      <div style={{ color: SLATE }}>
+        601 W. 1st Ave., Ste. 1400, Spokane, WA 99201 · {OFFICE_PHONE}
+      </div>
+      <p style={{ margin: "10px 0 0", color: "#33414d", fontSize: 13 }}>
+        This document was sent to you by Justin D. Leigh's law office. To confirm it,
+        check that your browser's address bar shows <strong>justindleigh.com</strong>. If
+        you were not expecting it, call the office before you sign.
+      </p>
+    </section>
+  );
+}
 
 async function sha256Hex(buf) {
   const digest = await crypto.subtle.digest("SHA-256", buf);
@@ -250,8 +287,9 @@ export default function SignetPage() {
                       justifyContent: "space-between", gap: 12, flexWrap: "wrap" }}>
           <img src="/brand/signet/logo/signet-horizontal-plain-reversed.svg" alt="Signet"
                style={{ height: 34, width: "auto" }} />
-          <div style={{ fontSize: 12, color: "#cfe3e6", textAlign: "right" }}>
-            Sent by <span style={{ color: "#fff", fontWeight: 600 }}>Law Office of Justin D. Leigh</span>
+          <div style={{ fontSize: 13, color: "#cfe3e6", textAlign: "right", lineHeight: 1.3 }}>
+            Sent by<br />
+            <span style={{ color: "#fff", fontWeight: 700, fontSize: 14.5 }}>{FIRM}</span>
           </div>
         </div>
       </header>
@@ -260,6 +298,7 @@ export default function SignetPage() {
         {inner}
       </main>
       <footer style={{ textAlign: "center", fontSize: 11.5, color: SLATE, padding: "0 16px 28px" }}>
+        {FIRM} · justindleigh.com<br />
         Signet · Secure Document Execution · <em>Powered by Evergreen Legal AI</em>
       </footer>
     </div>
@@ -317,7 +356,9 @@ export default function SignetPage() {
             the executed copy by email once everyone has signed.
           </p>
         )}
-        <p style={{ color: SLATE, fontSize: 14 }}>Signet document {doc.ref}</p>
+        <p style={{ color: SLATE, fontSize: 14 }}>
+          Signet document {doc.ref} · sent by {FIRM}, {OFFICE_PHONE}
+        </p>
       </div>
     );
 
@@ -325,6 +366,7 @@ export default function SignetPage() {
 
   return shell(
     <>
+      <SenderCard />
       <div style={{ fontSize: 11, letterSpacing: "0.32em", textTransform: "uppercase",
                     color: TEAL, fontWeight: 700 }}>Review and sign</div>
       {h1(doc.title)}
