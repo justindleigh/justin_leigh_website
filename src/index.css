@@ -87,6 +87,15 @@ html.light-mode .bg-black {
 html.light-mode .text-white {
   color: #1a1a1a;
 }
+html.light-mode .text-white\/90 {
+  color: rgba(26, 26, 26, 0.9);
+}
+html.light-mode .text-white\/85 {
+  color: rgba(26, 26, 26, 0.85);
+}
+html.light-mode .text-white\/75 {
+  color: rgba(26, 26, 26, 0.75);
+}
 html.light-mode .text-white\/80 {
   color: rgba(26, 26, 26, 0.8);
 }
