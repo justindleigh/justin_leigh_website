@@ -21,6 +21,10 @@
   ],
   "rewrites": [
     {
+      "source": "/signet/:token",
+      "destination": "/index.html"
+    },
+    {
       "source": "/sign/:token",
       "destination": "/index.html"
     },

@@ -19,6 +19,7 @@ import Terms from "./pages/Terms";
 import Accessibility from "./pages/Accessibility";
 import EvergreenPage from "./pages/EvergreenPage";
 import SignPage from "./pages/SignPage";
+import SignetPage from "./pages/SignetPage";
 import IntakePage from "./pages/IntakePage";
 import NotFound from "./pages/NotFound";
 
@@ -83,6 +84,9 @@ export default function App() {
             from the blog. The token is the credential; the page holds no table
             access of its own. */}
         <Route path="/sign/:token" element={<SignPage />} />
+        {/* Signet: any PDF the firm issues for signature. Same token model,
+            its own brand, outside FirmLayout for the same reason. */}
+        <Route path="/signet/:token" element={<SignetPage />} />
         <Route path="/intake/:token" element={<IntakePage />} />
 
         {/* /ai was the firm-branded version of this page. vercel.json 301s it,

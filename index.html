@@ -10,6 +10,12 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      // The signing and intake links carry a bearer token in the path. Sending
+      // that URL to Analytics would hand Google a working credential to a
+      // client's document, so those pages are never tracked.
+      if (/^\/(sign|signet|intake)\//.test(location.pathname)) {
+        window['ga-disable-G-6QB7N65Z8X'] = true;
+      }
       gtag('config', 'G-6QB7N65Z8X');
     </script>
 
