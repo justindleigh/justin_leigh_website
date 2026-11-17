@@ -214,6 +214,7 @@ export default function SignetPage() {
   const [bytes, setBytes] = useState(null);
   const [sha, setSha] = useState("");
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [consent, setConsent] = useState(false);
   const [intent, setIntent] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -242,6 +243,11 @@ export default function SignetPage() {
           return;
         }
         setDoc(d);
+        // Prefill the address on file, but never a placeholder: a link sent
+        // by text is issued without one.
+        if (d.signer_email && !/@example\.(com|org|net)$/i.test(d.signer_email)) {
+          setEmail(d.signer_email);
+        }
         setBytes(buf);
         setSha(h);
         setState("ready");
@@ -265,6 +271,7 @@ export default function SignetPage() {
         p_intent: intent,
         p_sha256: sha,
         p_user_agent: navigator.userAgent.slice(0, 400),
+        p_copy_email: email.trim(),
       });
       if (error) { setProblem("Something went wrong. Nothing was signed."); return; }
       const row = Array.isArray(data) ? data[0] : data;
@@ -277,7 +284,8 @@ export default function SignetPage() {
     }
   }
 
-  const canSign = doc?.your_turn && name.trim().length >= 2 && consent && intent && !busy;
+  const emailOk = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email.trim());
+  const canSign = doc?.your_turn && name.trim().length >= 2 && emailOk && consent && intent && !busy;
 
   const shell = (inner) => (
     <div className="signet" style={{ minHeight: "100vh", background: MIST, color: "#1b2733",
@@ -347,13 +355,13 @@ export default function SignetPage() {
           {result?.signed_at ? ` on ${new Date(result.signed_at).toLocaleString()}` : ""}.
         </p>
         {result?.all_signed ? (
-          <p>Everyone has now signed. You will receive the executed copy, with its certificate
-             of completion, by email.</p>
+          <p>Everyone has now signed. The executed copy, with its certificate of completion,
+             will be emailed to <strong>{email.trim()}</strong>.</p>
         ) : (
           <p style={{ borderLeft: `3px solid ${TEAL_MID}`, paddingLeft: 12 }}>
             This document is still waiting on
-            {result?.waiting_on ? ` ${result.waiting_on}` : " another signer"}. You will receive
-            the executed copy by email once everyone has signed.
+            {result?.waiting_on ? ` ${result.waiting_on}` : " another signer"}. Once everyone
+            has signed, the executed copy will be emailed to <strong>{email.trim()}</strong>.
           </p>
         )}
         <p style={{ color: SLATE, fontSize: 14 }}>
@@ -438,13 +446,36 @@ export default function SignetPage() {
           </div>
         )}
 
+        <label htmlFor="signet-email" style={{ display: "block", fontSize: 11.5,
+                        letterSpacing: "0.16em", textTransform: "uppercase", color: SLATE,
+                        margin: "20px 0 6px", fontWeight: 600 }}>
+          Where should we email your signed copy?
+        </label>
+        <input
+          id="signet-email"
+          type="email"
+          inputMode="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          autoComplete="email"
+          placeholder="you@example.com"
+          style={{ width: "100%", padding: "12px 14px", fontSize: 17, fontFamily: BODY,
+                   border: `1px solid ${SILVER}`, background: MIST, color: "#1b2733",
+                   boxSizing: "border-box" }}
+        />
+        <p style={{ fontSize: 12, color: SLATE, margin: "6px 0 0" }}>
+          Once everyone has signed, the executed document and its certificate are sent here.
+        </p>
+
         {problem && <p style={{ color: "#a01919", fontSize: 14, marginTop: 14 }}>{problem}</p>}
 
         {!canSign && !busy && doc.your_turn && (
           <p style={{ color: SLATE, fontSize: 13.5, marginTop: 14 }}>
             {!consent || !intent
-              ? "Tick both boxes above, and type your name, to sign."
-              : "Type your full name in the box above to sign."}
+              ? "Tick both boxes above, type your name and your email, to sign."
+              : name.trim().length < 2
+                ? "Type your full name in the box above to sign."
+                : "Enter the email address for your signed copy."}
           </p>
         )}
 
