@@ -7837,5 +7837,228 @@
       "personal-injury-claims-washington",
       "wrongful-death-washington"
     ]
+  },
+  {
+    "slug": "subpoena-response-washington",
+    "title": "I Got a Subpoena. Now What? Answering a Subpoena in Someone Else's Lawsuit in Washington",
+    "titleTag": "Subpoena Lawyer, Spokane WA | Justin D. Leigh",
+    "practiceArea": "Subpoena Response and Non-Party Discovery",
+    "published": "2026-11-16",
+    "description": "Served with a subpoena in a case you are not part of? The fourteen day objection window under CR 45, motions to quash, witness fees, business depositions, and out-of-state and federal subpoenas.",
+    "lede": "Someone handed you a document with a court caption on it, and your name is not in the caption. It asks for years of records, or it sets a date and a place for a deposition, or both. You may never have heard of the case. Either way the paper has a date on it, and the date is real.",
+    "intro": [
+      "A subpoena is a command, not a request. It directs the person named to give testimony, or to produce designated books, documents or tangible things in that person's possession, custody or control, or to permit inspection of premises, at a stated time and place. CR 45(a)(1)(C).",
+      "It also carries your rights with it. Every Washington superior court civil subpoena must set out the text of CR 45(c) and (d), the parts of the rule that protect the person receiving it. CR 45(a)(1)(D). Those are the paragraphs most people skip, and they are what this article is about."
+    ],
+    "sections": [
+      {
+        "heading": "Why did I get a subpoena if I am not in the lawsuit?",
+        "paras": [
+          {
+            "p": "Because a party thinks you have something the case needs. A party who wants to force someone outside the case to sit for a deposition must serve that person with a subpoena under CR 45. CR 30(b)(1)."
+          },
+          {
+            "p": "The signature may be a lawyer's rather than a judge's. An attorney of record of a party may issue and sign a subpoena. CR 45(a)(4)."
+          }
+        ]
+      },
+      {
+        "heading": "Is it asking for records, a deposition, or both?",
+        "paras": [
+          {
+            "p": "Look at which commands are checked. A command to produce documents may be joined with a command to appear at a deposition, or issued on its own. CR 45(a)(3)."
+          },
+          {
+            "p": "If it asks only for records, you do not have to appear in person at the place of production. CR 45(c)(2)(A). A records-only subpoena must also be served on every party at least five days before it is served on you, unless the parties agree or the court orders otherwise. CR 45(b)(2)."
+          },
+          {
+            "p": "A deposition subpoena asks for your testimony under oath. CR 30(c). It must state how the testimony will be recorded and whether you appear in person or remotely. CR 45(a)(2). If you are told to appear remotely and lack adequate access to the technology, you must notify the issuing officer in writing within 5 days of receiving the subpoena. CR 45(c)(3)."
+          }
+        ]
+      },
+      {
+        "heading": "How long do I have to object?",
+        "paras": [
+          {
+            "p": "For records and inspection, not long. You may serve a written objection on the party or attorney designated in the subpoena within 14 days after service, or before the compliance date if that comes sooner. CR 45(c)(2)(B)."
+          },
+          {
+            "p": "An objection changes the default. Once it is made, the requesting party may not inspect or copy the materials without an order from the court that issued the subpoena. It may move to compel, and any such order must protect a non-party from significant expense. CR 45(c)(2)(B)."
+          },
+          {
+            "p": "That written objection covers documents and inspection. It does not excuse you from appearing to testify. To challenge the testimony itself, the tools are a motion to quash or modify under CR 45(c)(4) or a motion for a protective order under CR 26(c). If a deposition subpoena also demands documents, the written objection still works for the documents."
+          }
+        ]
+      },
+      {
+        "heading": "When will a court quash or modify a subpoena?",
+        "paras": [
+          {
+            "p": "On timely motion, the issuing court shall quash or modify a subpoena that fails to allow reasonable time for compliance, fails to follow the witness-fee statute, or ignores the place limits described below. The same goes for one that requires disclosure of privileged or other protected matter where no exception or waiver applies, or that subjects a person to undue burden. CR 45(c)(4)(A)."
+          },
+          {
+            "p": "On a burden motion the court may instead deny relief on the condition that the requesting party advance the reasonable cost of production. CR 45(c)(4)(A)(iv). The rule says timely and gives no number of days. Treat the compliance date as the outside limit and file well before it."
+          },
+          {
+            "p": "Where a subpoena requires disclosure of a trade secret or other confidential research, development or commercial information, the court may quash or modify it. Or, if the requesting party shows a substantial need it cannot meet any other way and assures you will be reasonably paid, the court may order production only on specified conditions. CR 45(c)(4)(B)."
+          },
+          {
+            "p": "Behind all of this sits a duty on the other side. Whoever issues a subpoena shall take reasonable steps to avoid imposing undue burden or expense on you, and the court shall sanction a breach, with a sanction that may include lost earnings and a reasonable attorney's fee. CR 45(c)(1)."
+          }
+        ]
+      },
+      {
+        "heading": "Where can they make me go?",
+        "paras": [
+          {
+            "p": "For a deposition or a records subpoena, a Washington resident may be required to attend, produce or permit inspection only in the county where the person resides, is employed or transacts business in person, or at a place fixed by court order. A nonresident may be required to do so only in the county where served, within 40 miles of the place of service, or at a place the court fixes. CR 45(e)(2)."
+          },
+          {
+            "p": "A subpoena to testify at a trial or hearing is different. A witness can be compelled to attend court anywhere in the state, with fees and travel paid under RCW 5.56.010."
+          },
+          {
+            "p": "This is the one excuse the rule spells out. A non-party has adequate cause for not obeying a subpoena that requires compliance outside those limits. CR 45(g)."
+          }
+        ]
+      },
+      {
+        "heading": "What about privileged or confidential records?",
+        "paras": [
+          {
+            "p": "You can hold back privileged material, but you have to say so. The claim shall be made expressly, with a description of what was withheld sufficient to let the requesting party contest it. CR 45(d)(2)(A)."
+          },
+          {
+            "p": "A mistake can be pulled back. If privileged information goes out, you may notify the parties who received it. They must promptly return, sequester or destroy it and must not use it until the claim is resolved. You must preserve the information until then. CR 45(d)(2)(B)."
+          }
+        ]
+      },
+      {
+        "heading": "Do I get a witness fee?",
+        "paras": [
+          {
+            "p": "Yes, for attendance. A witness is paid for each day's attendance at the same daily and mileage rate as a juror. RCW 2.40.010. You can also demand your first day's fee and mileage in advance. Make that demand to the person serving the subpoena, at the time of service. RCW 2.40.020. CR 45 points to that statute for depositions and records subpoenas. CR 45(e)(1)."
+          },
+          {
+            "p": "In a court of record, the juror rate means a superior court juror's. RCW 2.40.010. For hearings and trials, CR 45 points instead to RCW 5.56.010, which ties compulsory attendance to payment or tender of those fees. CR 45(f)(1)."
+          },
+          {
+            "p": "Those statutes speak to attendance. The cost of gathering records is handled by the expense protections in CR 45(c)."
+          }
+        ]
+      },
+      {
+        "heading": "What if the subpoena is addressed to my business?",
+        "paras": [
+          {
+            "p": "Records are produced as they are kept in the usual course of business, or organized and labeled to match the categories in the demand. CR 45(d)(1)."
+          },
+          {
+            "p": "A subpoena may also name the organization itself as the deponent and describe the matters for examination. The organization then designates officers, directors, managing agents or other consenting persons to testify for it, and the subpoena must tell a non-party organization about that duty. CR 30(b)(6)."
+          },
+          {
+            "p": "The person you send does not testify from personal memory alone. Designees testify to matters known or reasonably available to the organization. CR 30(b)(6). In practice that means the witness has to be prepared on the listed topics."
+          }
+        ]
+      },
+      {
+        "heading": "What if it comes from a case in another state?",
+        "paras": [
+          {
+            "p": "Washington has adopted the Uniform Interstate Depositions and Discovery Act. RCW 5.51.900. A party submits the foreign subpoena to a clerk of court in the county where discovery is sought, and the clerk issues a Washington subpoena that incorporates its terms and lists all counsel of record. RCW 5.51.020."
+          },
+          {
+            "p": "From there it is served under CR 45, and CR 26 through 37 apply. RCW 5.51.030, 5.51.040. A motion to quash or modify, or for a protective order, goes to the court in the Washington county where discovery is to be conducted. RCW 5.51.050. Separate limits apply where the subpoena relates to protected health care services as defined in RCW 7.115.010. RCW 5.51.020(4)."
+          },
+          {
+            "p": "If the subpoena in your hand came from another state's court and never went through a Washington clerk, raise that before you respond."
+          }
+        ]
+      },
+      {
+        "heading": "What if it is a federal subpoena?",
+        "paras": [
+          {
+            "p": "Federal Rule 45 generally runs on a 100-mile limit measured from where you reside, are employed or regularly transact business in person. Fed. R. Civ. P. 45(c). A subpoena requiring attendance must come with the fee for one day and mileage, unless it issues on behalf of the United States. Fed. R. Civ. P. 45(b)(1)."
+          },
+          {
+            "p": "A written objection is due before the earlier of the compliance time or 14 days after service. Fed. R. Civ. P. 45(d)(2)(B). Motions to quash go to the court for the district where compliance is required, which may not be the court hearing the case. Fed. R. Civ. P. 45(d)(3)."
+          }
+        ]
+      },
+      {
+        "heading": "What happens if I ignore it?",
+        "paras": [
+          {
+            "p": "Failure by any person without adequate excuse to obey a subpoena served on that person may be deemed a contempt of the court from which it issued. CR 45(g)."
+          },
+          {
+            "p": "A witness subpoenaed to a hearing or trial faces more. If you were properly served and obliged to attend, and you fail to appear without any reasonable excuse, the party harmed can sue you for the damages. The failure is also treated as contempt of court. RCW 5.56.060, 5.56.061. The court can issue an attachment to bring the witness in. RCW 5.56.070."
+          }
+        ]
+      },
+      {
+        "heading": "Should I call the lawyer who sent it?",
+        "paras": [
+          {
+            "p": "Often that is the fastest way to a workable subpoena. The standard form lists the issuing officer's name, address and phone number. CR 45(h). That lawyer has a duty to avoid imposing undue burden or expense on you. CR 45(c)(1). Categories can be narrowed and dates can move."
+          },
+          {
+            "p": "Get any agreement in writing. Even a written agreement with the other side's lawyer is not a court order, and the rule's 14 days keeps running. The safe course is to serve your written objection on time and keep talking. The lawyer who sent the subpoena represents a party in the case, not you."
+          }
+        ]
+      },
+      {
+        "heading": "Where this goes wrong",
+        "paras": [
+          {
+            "p": "The subpoena sits on a desk. The objection window runs from service, and it closes sooner when the compliance date comes first. CR 45(c)(2)(B)."
+          },
+          {
+            "p": "The objection is a phone call. The rule calls for a written objection served on the party or attorney designated in the subpoena."
+          },
+          {
+            "p": "Documents are quietly left out. A privilege claim has to be made expressly, with a description. CR 45(d)(2)(A)."
+          },
+          {
+            "p": "The business sends whoever is free that day. A CR 30(b)(6) designee answers for what the organization knows or can reasonably find out."
+          },
+          {
+            "p": "The motion goes to the wrong court. For an out-of-state case it belongs in the Washington county where discovery is conducted. RCW 5.51.050."
+          },
+          {
+            "p": "An article from a website, this one included, gets read as a prediction about a particular subpoena."
+          }
+        ]
+      },
+      {
+        "heading": "What a lawyer does here",
+        "paras": [
+          {
+            "p": "The first job is reading the subpoena closely, starting with which court issued it and whether the place of compliance is within CR 45(e)(2). The second is the calendar."
+          },
+          {
+            "p": "Then comes the response. Sometimes a call that narrows the scope is enough. Sometimes it takes a written objection or a motion to quash, and the production itself has to be organized the way CR 45(d)(1) requires. For a business named under CR 30(b)(6), the work includes preparing the designee and attending the deposition with that witness."
+          }
+        ]
+      },
+      {
+        "heading": "If you have been served with a subpoena",
+        "paras": [
+          {
+            "p": "If you or your business has been served with a subpoena in a case you are not part of, my office offers a free initial consultation by appointment in downtown Spokane. Bring the subpoena, everything that came with it, and the date you were served, because the objection window is counted from service."
+          }
+        ]
+      },
+      {
+        "heading": "Disclaimer",
+        "paras": [
+          {
+            "p": "This article is general information about Washington law, not legal advice, and reading it does not create an attorney-client relationship. Law changes, and how it applies depends on facts specific to your situation. If you have a question about your own circumstances, speak with a lawyer."
+          }
+        ]
+      }
+    ],
+    "words": 2040,
+    "minutes": 9
   }
 ]
