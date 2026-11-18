@@ -102,7 +102,7 @@ function useHead() {
   }, []);
 }
 
-function PdfPages({ bytes, fields, signedName }) {
+function PdfPages({ bytes, fields, signedName, initials, values }) {
   const wrap = useRef(null);
   const [pages, setPages] = useState([]); // [{w, h}] in PDF points
   const [width, setWidth] = useState(0);
@@ -177,7 +177,21 @@ function PdfPages({ bytes, fields, signedName }) {
                     style={{ width: "100%", height: d.h * scale, display: "block" }}
                     aria-label={`Page ${i + 1} of ${pages.length}`} />
             {mine.map((f, k) => {
-              const isDate = f.kind === "date";
+              const kind = f.kind || "signature";
+              const boxH = (f.y1 - f.y0) * scale;
+              let shown = null;
+              if (kind === "signature" && signedName) shown = (
+                <span style={{ fontFamily: SCRIPT, color: NAVY, whiteSpace: "nowrap",
+                               fontSize: Math.max(10, boxH * 0.72), lineHeight: 1.05 }}>{signedName}</span>);
+              else if (kind === "initials" && initials) shown = (
+                <span style={{ fontFamily: SCRIPT, color: NAVY, whiteSpace: "nowrap",
+                               fontSize: Math.max(9, boxH * 0.95), lineHeight: 1 }}>{initials}</span>);
+              else if (kind === "text" && values?.[f.id]) shown = (
+                <span style={{ fontFamily: "'Times New Roman', Times, serif", color: NAVY,
+                               whiteSpace: "nowrap", fontSize: Math.max(8, boxH * 0.78),
+                               lineHeight: 1 }}>{values[f.id]}</span>);
+              const tag = kind === "date" ? "DATE" : kind === "initials" ? "INITIAL"
+                : kind === "text" ? (f.label || "FILL IN").toUpperCase() : "SIGN HERE";
               return (
                 <div key={k} style={{
                   position: "absolute", left: f.x0 * scale, top: f.y0 * scale,
@@ -185,15 +199,11 @@ function PdfPages({ bytes, fields, signedName }) {
                   border: `1.5px dashed ${TEAL_MID}`, background: "rgba(92,198,192,.16)",
                   display: "flex", alignItems: "flex-end", overflow: "hidden",
                   padding: "0 4px", boxSizing: "border-box" }}>
-                  {signedName && !isDate ? (
-                    <span style={{ fontFamily: SCRIPT, color: NAVY, whiteSpace: "nowrap",
-                                   fontSize: Math.max(10, (f.y1 - f.y0) * scale * 0.72),
-                                   lineHeight: 1.05 }}>{signedName}</span>
-                  ) : (
-                    <span style={{ fontFamily: BODY, fontSize: Math.max(8, Math.min(11, 9 * scale)),
-                                   color: TEAL, fontWeight: 700, letterSpacing: ".06em",
-                                   alignSelf: "center" }}>
-                      {isDate ? "DATE" : "SIGN HERE"}
+                  {shown || (
+                    <span style={{ fontFamily: BODY, color: TEAL, fontWeight: 700,
+                                   letterSpacing: ".04em", alignSelf: "center", whiteSpace: "nowrap",
+                                   fontSize: Math.max(6, Math.min(11, boxH * 0.62, 9 * scale)) }}>
+                      {tag}
                     </span>
                   )}
                 </div>
@@ -206,6 +216,12 @@ function PdfPages({ bytes, fields, signedName }) {
   );
 }
 
+const LABEL = { display: "block", fontSize: 11.5, letterSpacing: "0.16em", textTransform: "uppercase",
+                color: SLATE, margin: "20px 0 6px", fontWeight: 600 };
+const INPUT = { width: "100%", padding: "10px 12px", fontSize: 16, fontFamily: BODY,
+                border: `1px solid ${SILVER}`, background: MIST, color: "#1b2733",
+                boxSizing: "border-box" };
+
 export default function SignetPage() {
   useHead();
   const { token } = useParams();
@@ -215,6 +231,9 @@ export default function SignetPage() {
   const [sha, setSha] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [initials, setInitials] = useState("");
+  const [initialsTouched, setInitialsTouched] = useState(false);
+  const [values, setValues] = useState({});
   const [consent, setConsent] = useState(false);
   const [intent, setIntent] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -272,6 +291,8 @@ export default function SignetPage() {
         p_sha256: sha,
         p_user_agent: navigator.userAgent.slice(0, 400),
         p_copy_email: email.trim(),
+        ...(needInitials ? { p_initials: myInitials } : {}),
+        ...(textFields.length ? { p_values: filled } : {}),
       });
       if (error) { setProblem("Something went wrong. Nothing was signed."); return; }
       const row = Array.isArray(data) ? data[0] : data;
@@ -285,7 +306,24 @@ export default function SignetPage() {
   }
 
   const emailOk = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email.trim());
-  const canSign = doc?.your_turn && name.trim().length >= 2 && emailOk && consent && intent && !busy;
+  const myFields = doc?.fields || [];
+  const needInitials = myFields.some((f) => f.kind === "initials");
+  const autoInitials = name.trim().split(/\s+/).filter(Boolean)
+    .map((w) => w[0].toUpperCase()).join("").slice(0, 4);
+  const myInitials = (initialsTouched ? initials : autoInitials).trim();
+  const textFields = myFields.filter((f) => f.kind === "text");
+  // An "Email" blank in the document starts out as the copy address; the
+  // signer can change it.
+  const filled = {};
+  for (const f of textFields) {
+    const typed = values[f.id];
+    const v = typed !== undefined ? typed : (/e-?mail/i.test(f.label || "") ? email : "");
+    if (v.trim()) filled[f.id] = v.trim();
+  }
+  const missingText = textFields.filter((f) => !f.optional && !filled[f.id]);
+  const initialsOk = !needInitials || (myInitials.length >= 1 && myInitials.length <= 6);
+  const canSign = doc?.your_turn && name.trim().length >= 2 && emailOk && consent && intent
+    && initialsOk && missingText.length === 0 && !busy;
 
   const shell = (inner) => (
     <div className="signet" style={{ minHeight: "100vh", background: MIST, color: "#1b2733",
@@ -399,7 +437,8 @@ export default function SignetPage() {
         unclear, call <strong>{OFFICE_PHONE}</strong> before signing.
       </p>
 
-      <PdfPages bytes={bytes} fields={doc.fields} signedName={name.trim()} />
+      <PdfPages bytes={bytes} fields={doc.fields} signedName={name.trim()}
+                initials={needInitials ? myInitials : ""} values={filled} />
 
       <form onSubmit={submit} style={{ marginTop: 26, background: "#fff",
                                        border: `1px solid ${TEAL_MID}`, padding: "24px 22px" }}>
@@ -467,6 +506,44 @@ export default function SignetPage() {
           Once everyone has signed, the executed document and its certificate are sent here.
         </p>
 
+        {needInitials && (
+          <>
+            <label htmlFor="signet-initials" style={LABEL}>
+              Your initials, for the {myFields.filter((f) => f.kind === "initials").length} places
+              marked INITIAL
+            </label>
+            <input
+              id="signet-initials"
+              value={initialsTouched ? initials : autoInitials}
+              onChange={(e) => { setInitialsTouched(true); setInitials(e.target.value.slice(0, 6)); }}
+              placeholder="e.g. JDL"
+              style={{ ...INPUT, width: 140, fontSize: 18 }}
+            />
+          </>
+        )}
+
+        {textFields.length > 0 && (
+          <>
+            <div style={{ ...LABEL, marginTop: 22 }}>Fill in the blanks marked in the document</div>
+            {textFields.map((f) => (
+              <div key={f.id} style={{ marginBottom: 10 }}>
+                <label htmlFor={`signet-${f.id}`} style={{ display: "block", fontSize: 13.5,
+                                color: "#33414d", marginBottom: 4 }}>
+                  {f.label} <span style={{ color: SLATE }}>(page {f.page + 1}
+                  {f.optional ? ", optional" : ""})</span>
+                </label>
+                <input
+                  id={`signet-${f.id}`}
+                  value={values[f.id] !== undefined ? values[f.id]
+                         : (/e-?mail/i.test(f.label || "") ? email : "")}
+                  onChange={(e) => setValues((v) => ({ ...v, [f.id]: e.target.value.slice(0, 300) }))}
+                  style={INPUT}
+                />
+              </div>
+            ))}
+          </>
+        )}
+
         {problem && <p style={{ color: "#a01919", fontSize: 14, marginTop: 14 }}>{problem}</p>}
 
         {!canSign && !busy && doc.your_turn && (
@@ -475,7 +552,11 @@ export default function SignetPage() {
               ? "Tick both boxes above, type your name and your email, to sign."
               : name.trim().length < 2
                 ? "Type your full name in the box above to sign."
-                : "Enter the email address for your signed copy."}
+                : !emailOk
+                  ? "Enter the email address for your signed copy."
+                  : !initialsOk
+                    ? "Enter your initials."
+                    : `Fill in: ${missingText.map((f) => f.label).join(", ")}.`}
           </p>
         )}
 
